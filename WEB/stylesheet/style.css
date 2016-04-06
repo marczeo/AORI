@@ -1,0 +1,54 @@
+/*
+Error: Invalid CSS after "  width: 100%": expected ";", was ":"
+        on line 6 of sass/style.scss
+
+1: /*
+2:   HERO BANNER
+3: *\/
+4: .hero{
+5:   background:#585858;
+6:   width: 100%:
+7:   video{
+8:     opacity: 80%;
+9:   }
+10: }
+
+Backtrace:
+sass/style.scss:6
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/scss/parser.rb:1179:in `expected'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/scss/parser.rb:1115:in `expected'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/scss/parser.rb:1110:in `tok!'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/scss/parser.rb:775:in `block in try_declaration'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/scss/parser.rb:1155:in `call'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/scss/parser.rb:1155:in `rethrow'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/scss/parser.rb:780:in `try_declaration'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/scss/parser.rb:709:in `declaration_or_ruleset'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/scss/parser.rb:674:in `block_child'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/scss/parser.rb:666:in `block_contents'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/scss/parser.rb:655:in `block'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/scss/parser.rb:647:in `ruleset'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/scss/parser.rb:673:in `block_child'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/scss/parser.rb:663:in `block_contents'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/scss/parser.rb:123:in `stylesheet'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/scss/parser.rb:39:in `parse'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/engine.rb:403:in `_to_tree'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:471:in `on_file_changed'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/vendor/listen/lib/listen/adapter.rb:254:in `call'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"  width: 100%\": expected \";\", was \":\"\A         on line 6 of sass/style.scss\A \A 1: /*\A 2:   HERO BANNER\A 3: */\A 4: .hero{\A 5:   background:#585858;\A 6:   width: 100%:\A 7:   video{\A 8:     opacity: 80%;\A 9:   }\A 10: }"; }

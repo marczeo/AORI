@@ -1,0 +1,228 @@
+/*
+  HERO BANNER
+*/
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Medium-Italic.otf");
+  font-weight: 500;
+  font-style: italic; }
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Demi-Italic.otf");
+  font-weight: 600;
+  font-style: italic; }
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Light-Italic.otf");
+  font-weight: 300;
+  font-style: italic; }
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Bold-Italic.otf");
+  font-weight: 700;
+  font-style: italic; }
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Black-Italic.otf");
+  font-weight: 800;
+  font-style: italic; }
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Demi.otf");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Medium.otf");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Bold.otf");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: Aspira2;
+  src: url("fonts/Aspira-Italic-2.otf");
+  font-weight: 400;
+  font-style: italic; }
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Italic.otf");
+  font-weight: 400;
+  font-style: italic; }
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Regular.otf");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Light.otf");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Heavy.otf");
+  font-weight: 800;
+  font-style: normal; }
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Black.otf");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Thin.otf");
+  font-weight: 200;
+  font-style: normal; }
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Thin-Italic.otf");
+  font-weight: 200;
+  font-style: italic; }
+@font-face {
+  font-family: Prototype;
+  src: url("fonts/Prototype.ttf");
+  font-weight: 400;
+  font-style: normal; }
+nav {
+  background-color: #fff;
+  border: 1px solid #686868;
+  border-radius: 4px;
+  box-shadow: 0 2px 2px -1px rgba(28, 68, 153, 0.055);
+  color: #686868;
+  display: block;
+  margin: 8px 22px 8px 22px;
+  overflow: hidden;
+  width: 90%; }
+
+nav ul {
+  margin: 0;
+  padding: 0; }
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none; }
+
+nav > ul > li > a > .caret {
+  border-top: 4px solid #aaa;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  content: "";
+  display: inline-block;
+  height: 0;
+  width: 0;
+  vertical-align: middle; }
+
+nav > ul > li > a {
+  color: #686868;
+  display: block;
+  line-height: 56px;
+  padding: 0 24px;
+  text-decoration: none; }
+
+nav > ul > li:hover {
+  background-color: #1c4499; }
+
+nav > ul > li:hover > a {
+  color: white; }
+
+nav > ul > li:hover > a > .caret {
+  border-top-color: white; }
+
+nav > ul > li > div {
+  border-top: 0;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+  display: none;
+  margin: 0;
+  opacity: 0;
+  position: absolute;
+  width: 165px;
+  visibility: hidden; }
+
+nav > ul > li:hover > div {
+  display: block;
+  opacity: 1;
+  visibility: visible; }
+
+nav > ul > li > div ul > li {
+  display: block;
+  background-color: #686868; }
+
+nav > ul > li > div ul > li > a {
+  color: white;
+  display: block;
+  padding: 12px 24px;
+  text-decoration: none; }
+
+nav > ul > li > div ul > li:hover > a {
+  background-color: rgba(28, 68, 153, 0.1); }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16pt; }
+
+.quienes, .porque {
+  width: 100%;
+  max-width: 980px;
+  margin: 40px auto auto;
+  font-size: 3rem; }
+  .quienes p.title, .porque p.title {
+    font-family: Aspira;
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    text-transform: uppercase; }
+    .quienes p.title span, .porque p.title span {
+      font-weight: 700;
+      font-style: normal; }
+
+.quienes .circulo,
+.quienes .imagen {
+  float: left; }
+.quienes .circulo {
+  width: 28%;
+  margin: 1%;
+  border-radius: 50%;
+  background: #1c4499; }
+.quienes .imagen {
+  width: 70%; }
+  .quienes .imagen img {
+    width: 100%; }
+
+.hero {
+  width: 100%;
+  position: relative;
+  float: none; }
+  .hero svg {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%); }
+    .hero svg .st0 {
+      fill: #FFFFFF; }
+    .hero svg .st1 {
+      fill-rule: evenodd;
+      clip-rule: evenodd;
+      fill: #FFFFFF; }
+  .hero .color {
+    background: #585858;
+    position: absolute;
+    top: 0;
+    float: left;
+    opacity: .5;
+    width: 100%;
+    height: 100%; }
+
+video {
+  width: 100%;
+  opacity: 80%;
+  float: left;
+  top: 0; }
+
+/*# sourceMappingURL=style.css.map */
