@@ -160,40 +160,7 @@ nav > ul > li > div ul > li > a {
 nav > ul > li > div ul > li:hover > a {
   background-color: rgba(28, 68, 153, 0.1); }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-size: 16pt; }
-
-.porque,
-.quienes {
-  width: 100%;
-  max-width: 1100px;
-  margin: 40px auto auto;
-  font-size: 3rem; }
-  .porque p.title,
-  .quienes p.title {
-    font-family: Aspira;
-    text-align: center;
-    font-weight: 200;
-    font-style: italic;
-    text-transform: uppercase; }
-    .porque p.title span,
-    .quienes p.title span {
-      font-weight: 700;
-      font-style: normal; }
-
-.quienes .circulo,
-.quienes .imagen {
-  float: left; }
-.quienes .circulo {
-  width: 28%;
-  margin: 1%; }
-.quienes .imagen {
-  width: 70%; }
-  .quienes .imagen img {
-    width: 100%; }
-
+/*Hero banner con el video*/
 .hero {
   width: 100%;
   position: relative;
@@ -204,7 +171,7 @@ body {
     margin: auto;
     opacity: 80%;
     display: block; }
-  .hero svg {
+  .hero object {
     width: 40%;
     max-width: 440px;
     height: auto;
@@ -212,19 +179,126 @@ body {
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%); }
-    .hero svg .st0 {
-      fill: #FFFFFF; }
-    .hero svg .st1 {
-      fill-rule: evenodd;
-      clip-rule: evenodd;
-      fill: #FFFFFF; }
   .hero .color {
     background: #585858;
     position: absolute;
     top: 0;
     float: left;
-    opacity: .5;
+    opacity: 0.5;
     width: 100%;
     height: 100%; }
+
+.porque,
+.quienes {
+  width: 100%;
+  max-width: 1100px;
+  margin: 40px auto auto;
+  font-size: 5.7vw;
+  overflow: auto; }
+  .porque p.title,
+  .quienes p.title {
+    box-sizing: border-box;
+    font-family: Aspira;
+    font-weight: 200;
+    font-style: italic;
+    text-transform: uppercase;
+    padding: 10px; }
+    .porque p.title span,
+    .quienes p.title span {
+      font-weight: 700;
+      font-style: normal; }
+
+.quienes p.title {
+  text-align: center; }
+.quienes .circulo,
+.quienes .imagen {
+  float: left; }
+.quienes .circulo {
+  width: 100%;
+  padding: 5px 0;
+  border-bottom: solid 1px #686868;
+  border-top: solid 1px #686868;
+  float: none; }
+  @media screen and (min-width: 768px) {
+    .quienes .circulo {
+      width: 28%;
+      margin: 0 1%;
+      border: none;
+      float: left; } }
+  .quienes .circulo object {
+    display: none;
+    margin-top: 50%; }
+    @media screen and (min-width: 768px) {
+      .quienes .circulo object {
+        display: block; } }
+  .quienes .circulo .info {
+    box-sizing: border-box;
+    background: #1c4499;
+    color: white;
+    padding: 10px;
+    font-family: Aspira;
+    font-size: 1rem;
+    font-weight: 200;
+    display: block;
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .quienes .circulo .info {
+        display: none; } }
+.quienes .imagen {
+  width: 100%;
+  float: none; }
+  .quienes .imagen img {
+    width: 100%; }
+  @media screen and (min-width: 768px) {
+    .quienes .imagen {
+      float: right;
+      width: 70%; } }
+
+svg.circle_shape .st0 {
+  fill: #686868; }
+svg.circle_shape .st1 {
+  fill: #1c4499; }
+
+svg.logo_principal .st0 {
+  fill: white; }
+
+svg.piramide .st0 {
+  fill: none;
+  stroke: #1C4499;
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10; }
+svg.piramide .st1 {
+  opacity: 0.75;
+  fill: none;
+  stroke: #1C4499;
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10; }
+svg.piramide .st2 {
+  fill: #686868; }
+svg.piramide .st3 {
+  fill: none;
+  stroke: #686868;
+  stroke-miterlimit: 10; }
+svg.piramide .st4 {
+  font-family: 'Aspira';
+  font-weight: 600; }
+svg.piramide .st5 {
+  font-size: 9px; }
+svg.piramide .st6 {
+  font-family: 'Aspira';
+  font-weight: 200; }
+
+.porque object {
+  width: 95%;
+  margin: 0 2.5%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16pt; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,76 @@
+.porque,
+.quienes {
+    width: 100%;
+    max-width: $max_mediaquery;
+    margin: 40px auto auto;
+        font-size: 5.7vw;
+    overflow: auto;
+
+    p.title {
+        box-sizing: border-box;
+        font-family: Aspira;
+        font-weight: 200;
+        font-style: italic;
+        text-transform: uppercase;
+        padding: 10px;
+        span {
+            font-weight: 700;
+            font-style: normal;
+        }
+    }
+}
+.quienes {
+  p.title{
+    text-align: center;
+  }
+    .circulo,
+    .imagen {
+        float: left;
+    }
+    .circulo {
+        width: 100%;
+        padding: 5px 0;
+        border-bottom: solid 1px $gris_aori;
+        border-top: solid 1px $gris_aori;
+        float: none;
+        @media screen and (min-width: $ipad_mediaquery) {
+            width: 28%;
+            margin: 0 1%;
+            border: none;
+            float: left;
+        }
+        object{
+              display: none;
+              margin-top: 50%;
+          @media screen and (min-width: $ipad_mediaquery) {
+              display: block;
+          }
+        }
+        .info {
+            box-sizing: border-box;
+            background: $azul_aori;
+            color: white;
+            padding: 10px;
+            font-family: Aspira;
+            font-size: 1rem;
+            font-weight: 200;
+            display: block;
+            width: 100%;
+            @media screen and (min-width: $ipad_mediaquery) {
+                display: none;
+            }
+        }
+
+    }
+    .imagen {
+        width: 100%;
+        float: none;
+        img {
+            width: 100%;
+        }
+        @media screen and (min-width: $ipad_mediaquery){
+          float: right;
+          width: 70%;
+        }
+    }
+}
