@@ -1,0 +1,49 @@
+/*
+	Animacion para los pilares que entran de forma horizontal, se le aplica una translacion en el eje X apra dar este efecto
+	Junto con un cambio de opacidad, de igual forma para la vertical pero en el eje Y.
+	
+*/
+@-webkit-keyframes fadeHorizontal {
+    0% {transform: translateX(-150px);opacity: 0;}
+    100%  {opacity:1;}
+}
+
+@-webkit-keyframes fadeLineaHorizontal {
+    0% {transform: translateX(-150px);}
+    100%  {opacity:1;}
+}
+/*
+	Animacion para los pilares que caen de forma vertical
+	35% es cuando los pilares se vuelven visibles y comienzan a caer, decrementar este valor para que se vean antes 
+	e incrementar para que se vean despues
+	
+*/
+@-webkit-keyframes fadeVertical {
+    0% {transform: translateY(-250px);}
+	35% {opacity:0;}
+    100%  {opacity:0.75;}
+}
+
+@-webkit-keyframes fade {
+    100%  {opacity:1;}
+}
+
+@-moz-keyframes fadeHorizontal {
+    0% {transform: translateX(-150px);opacity: 0;}
+    100%  {opacity:1;}
+}
+
+@-moz-keyframes fadeLineaHorizontal {
+    0% {transform: translateX(-150px);}
+    100%  {opacity:1;}
+}
+
+@-moz-keyframes fadeVertical {
+    0% {transform: translateY(-150px);}
+	55% {opacity:0;}
+    100%  {opacity:0.75;}
+}
+
+@-moz-keyframes fade {
+    100%  {opacity:1;}
+}

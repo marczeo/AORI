@@ -12,34 +12,86 @@ svg.logo_principal {
     }
 }
 svg.piramide{
+	
+	
       .st0 {
           fill: none;
+		  
           stroke: #1C4499;
           stroke-width: 5;
           stroke-linecap: round;
           stroke-linejoin: round;
           stroke-miterlimit: 10;
+		  
+		  animation-name: fadeHorizontal;
+		  animation-duration: 2s;
+		  animation-delay: 0s;
+		  
       }
-      .st1 {
-          opacity: 0.75;
+      .st1,.st12,.st13,.st14 {
+         
           fill: none;
           stroke: #1C4499;
           stroke-width: 5;
           stroke-linecap: round;
           stroke-linejoin: round;
           stroke-miterlimit: 10;
+		  
+      }
+	  .st1 {
+          opacity: 0;
+		  animation-name: fadeVertical;
+		  animation-duration: 2s;
+		  animation-delay: 0s;
+		  animation-fill-mode: forwards;
+      }
+	  .st12 {
+          opacity: 0;
+		  animation-name: fadeVertical;
+		  animation-duration: 2s;
+		  animation-delay: 0.25s;
+		  animation-fill-mode: forwards;
+      }
+	  .st13 {
+          opacity: 0;
+		  animation-name: fadeVertical;
+		  animation-duration: 2s;
+		  animation-delay: 0.5s;
+		  animation-fill-mode: forwards;
+      }
+	  .st14 {
+          opacity: 0;
+		  animation-name: fadeVertical;
+		  animation-duration: 2s;
+		  animation-delay: 0.75s;
+		  animation-fill-mode: forwards;
       }
       .st2 {
+		  opacity: 0;
           fill: #686868;
+		  animation-name: fade;
+		  animation-duration: 1.5s;
+		  animation-delay: 1.5s;
+		  animation-fill-mode: forwards;
       }
       .st3 {
           fill: none;
           stroke: #686868;
           stroke-miterlimit: 10;
+		  opacity: 0;
+		  animation-name: fadeHorizontal;
+		  animation-duration: 2s;
+		  animation-delay: .5s;
+		  animation-fill-mode: forwards;
       }
       .st4 {
           font-family: 'Aspira';
           font-weight: 600;
+		  opacity: 0;
+		  animation-name: fadeHorizontal;
+		  animation-duration: 1s;
+		  animation-delay: 2s;
+		  animation-fill-mode: forwards;
       }
       .st5 {
           font-size: 9px;
@@ -47,5 +99,14 @@ svg.piramide{
       .st6 {
           font-family: 'Aspira';
           font-weight: 200;
+		  opacity: 0;
+		  animation-name: fadeHorizontal;
+		  animation-duration: 1s;
+		  animation-delay: 2s;
+		  animation-fill-mode: forwards;
       }
 }
+/*
+	Animacion para los pilares que entran de forma horizontal, se le aplica una translacion en el eje X apra dar este efecto
+	Junto con un cambio de opacidad, de igual forma para la vertical pero en el eje Y.
+*/
