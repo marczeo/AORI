@@ -1,85 +1,157 @@
-nav {
-  background-color: #fff;
-  border: 1px solid $gris_aori;
-  border-radius: 4px;
-  box-shadow: 0 2px 2px -1px rgba(28, 68, 153, 0.055);
-  color: $gris_aori;
-  display: block;
-  margin: 8px 22px 8px 22px;
-  overflow: hidden;
-  width: 90%;
+nav{
+   display:block;
+   background:$azul-aori;
+}
+nav a{
+   font-family: Aspira;
+   font-weight: 200;
+   font-style: italic;
+   text-transform: uppercase;
+}
+/*versión de escritorio*/
+.menu{
+   display:block;
 }
 
-nav ul {
+.menu li{
+   display: inline-block;
+   position: relative;
+   z-index:100;
+}
+
+.menu li a {
+   font-weight:600;
+   text-decoration:none;
+   padding:11px;
+   display:block;
+   color:#ffffff;
+
+   -webkit-transition: all 0.2s ease-in-out 0s;
+   -moz-transition: all 0.2s ease-in-out 0s;
+   -o-transition: all 0.2s ease-in-out 0s;
+   -ms-transition: all 0.2s ease-in-out 0s;
+   transition: all 0.2s ease-in-out 0s;
+}
+
+.menu li a:hover, .menu li:hover > a{
+   color:#ffffff;
+   background:$azul_alternativo_light;
+}
+
+/*Ocultar nivel 2 (submenu)*/
+.menu ul {
+   display: none;
    margin: 0;
    padding: 0;
- }
-
-nav ul li {
-  display: inline-block;
-  list-style-type: none;
+   width: 250px;
+   position: absolute;
+   top: 43px;
+   left: 0px;
+   background: #ffffff;
 }
 
-nav > ul > li > a > .caret {
-  border-top: 4px solid #aaa;
-  border-right: 4px solid transparent;
-  border-left: 4px solid transparent;
-  content: "";
-  display: inline-block;
-  height: 0;
-  width: 0;
-  vertical-align: middle;
+/* Mostrar segundo nivel */
+.menu li:hover > ul{
+   display: block;
 }
 
-nav > ul > li > a {
-  color: $gris_aori;
-  display: block;
-  line-height: 56px;
-  padding: 0 24px;
-  text-decoration: none;
+.menu ul li {
+   display:block;
+   float: none;
+   background:none;
+   margin:0;
+   padding:0;
 }
 
-nav > ul > li:hover {
-  background-color: $azul_aori;
+.menu ul li a {
+   font-size:12px;
+   font-weight:normal;
+   display:block;
+   color:$gris_alternativo;
+   border-left:3px solid #ffffff;
+   background:#ffffff;
 }
 
-nav > ul > li:hover > a {
-  color: white;
+.menu ul li a:hover, .menu ul li:hover > a{
+   background:#f0f0f0;
+   border-left:3px solid $azul-alternativo-light;
+   color:$gris_alternativo;
 }
 
-nav > ul > li:hover > a > .caret {
-  border-top-color: white;
+/*Nivel 3 igual que el 2, solo cambia posicion*/
+.menu ul ul {
+   left: 251px;
+	top: 0px;
 }
 
-nav > ul > li > div {
-  border-top: 0;
-  border-radius: 0 0 4px 4px;
-  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
-  display: none;
-  margin: 0;
-  opacity: 0;
-  position: absolute;
-  width: 165px;
-  visibility: hidden;
+/*Mobile*/
+.mobile-menu{
+   display:none;
+   width:100%;
+   padding:11px;
+   background:$azul-aori;
+   color:#ffffff;
+   text-transform:uppercase;
+   font-weight:600;
 }
-nav > ul > li:hover > div {
-  display: block;
-  opacity: 1;
-  visibility: visible;
-}
-
-nav > ul > li > div ul > li {
-  display: block;
-  background-color: $gris_aori;
+.mobile-menu:hover{
+   background:$azul-aori;
+   color:#ffffff;
+   text-decoration:none;
 }
 
-nav > ul > li > div ul > li > a {
-  color: white;
-  display: block;
-  padding: 12px 24px;
-  text-decoration: none;
-}
+@media (max-width: $ipad_mediaquery) {
+   object{
+      display: none;
+    }
 
-nav > ul > li > div ul > li:hover > a {
-  background-color: rgba( 28, 68, 153, 0.1);
-}
+   .menu{display:none;}
+
+
+   .mobile-menu{
+      display:block;
+      margin-top:100px;
+      a{
+         font-family: Aspira;
+         font-weight: 200;
+         font-style: italic;
+         text-transform: uppercase;
+         text-decoration: none;
+      }
+   }
+
+   nav{
+      margin:0;
+      background:none;
+   }
+
+   .menu li{
+      display:block;
+      margin:0;
+   }
+
+   .menu li a {
+      background:#ffffff;
+      color:$gris_alternativo;
+      border-top:1px solid #e0e0e0;
+      border-left:3px solid #ffffff;
+   }
+
+   .menu li a:hover, .menu li:hover > a{
+      background:#f0f0f0;
+      color:$gris-alternativo;
+      border-left:3px solid $azul_alternativo_light;
+   }
+
+   /*level 2 and 3 - make same width as all items*/
+   .menu ul {
+      display:block;
+      position:relative;
+      top:0;
+      left:0;
+      width:100%;
+   }
+
+   .menu ul ul {left:0;}
+
+}/*end media queries*/
