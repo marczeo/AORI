@@ -8,6 +8,11 @@
     100%  {opacity:1;}
 }
 
+@-webkit-keyframes fadeHorizontalInv {
+    0% {transform: translateX(150px);opacity: 0;}
+    100%  {opacity:1;}
+}
+
 @-webkit-keyframes fadeLineaHorizontal {
     0% {transform: translateX(-150px);}
     100%  {opacity:1;}
@@ -27,9 +32,15 @@
 @-webkit-keyframes fade {
     100%  {opacity:1;}
 }
+/*----------------------------*/
 
 @-moz-keyframes fadeHorizontal {
     0% {transform: translateX(-150px);opacity: 0;}
+    100%  {opacity:1;}
+}
+
+@-moz-keyframes fadeHorizontalInv {
+    0% {transform: translateX(150px);opacity: 0;}
     100%  {opacity:1;}
 }
 
@@ -46,4 +57,71 @@
 
 @-moz-keyframes fade {
     100%  {opacity:1;}
+}
+
+
+#Logo {
+  width: 150%;
+  height: 100%;
+  position: absolute;
+  top: 0; right: -25%; bottom: 0; left: -25%;
+  margin: auto;
+  display:block; 
+  stroke: #EEBE7B;
+  stroke-miterlimit: 5;
+}
+
+.Animate-Draw {
+  fill-opacity: 0;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration: 1;
+  
+  animation-name: DrawLine;
+  animation-duration: 4s;
+  animation-delay: 0;
+}
+
+
+#Draw-Frame { 
+  animation-delay: 2.5s;
+  animation-duration: 3.5s; 
+  stroke-dashArray: 1500;
+  stroke-dashoffset: 1500;
+}
+
+@-moz-keyframes DrawLine {
+  to { stroke-dashOffset: 0; }
+}
+@-webkit-keyframes DrawLine {
+  to { stroke-dashOffset: 0; }
+}
+
+@-ms-keyframes fadeHorizontal {
+    0% {transform: translateX(-150px);opacity: 0;}
+    100%  {opacity:1;}
+}
+
+@-ms-keyframes fadeHorizontalInv {
+    0% {transform: translateX(150px);opacity: 0;}
+    100%  {opacity:1;}
+}
+
+@-ms-keyframes fadeLineaHorizontal {
+    0% {transform: translateX(-150px);}
+    100%  {opacity:1;}
+}
+
+@-ms-keyframes fadeVertical {
+    0% {transform: translateY(-150px);}
+	55% {opacity:0;}
+    100%  {opacity:0.75;}
+}
+
+@-ms-keyframes fade {
+    100%  {opacity:1;}
+}
+
+@-ms-keyframes DrawLine {
+  to { stroke-dashOffset: 0; }
 }

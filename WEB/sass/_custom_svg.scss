@@ -17,21 +17,51 @@ svg.nuestra_mision {
     }
 }
 svg.piramide {
-    .st0 {
+    .st0,
+	.st0_1,
+	.st0_2,
+	.st0_3{
         fill: none;
         stroke: #1C4499;
         stroke-width: 5;
         stroke-linecap: round;
         stroke-linejoin: round;
         stroke-miterlimit: 10;
+        
+    }
+	/*aca iban las clases*/
+	.st0 {
+        opacity: 0;
         animation-name: fadeHorizontal;
-        animation-duration: 2s;
-        animation-delay: 0s;
+        animation-duration: 1s;
+        animation-delay: .0s;
+		animation-fill-mode: forwards;
+    }
+    .st0_1 {
+        opacity: 0;
+        animation-name: fadeHorizontal;
+        animation-duration: 1s;
+        animation-delay: 0.1s;
+		animation-fill-mode: forwards;
+    }
+    .st0_2 {
+        opacity: 0;
+        animation-name: fadeHorizontal;
+        animation-duration: 1s;
+        animation-delay: 0.2s;
+		animation-fill-mode: forwards;
+    }
+	.st0_3 {
+        opacity: 0;
+        animation-name: fadeHorizontalInv;
+        animation-duration: 1s;
+        animation-delay: 1.5s;
+		animation-fill-mode: forwards;
     }
     .st1,
-    .st12,
-    .st13,
-    .st14 {
+    .st1_2,
+    .st1_3,
+    .st1_4 {
         fill: none;
         stroke: #1C4499;
         stroke-width: 5;
@@ -42,29 +72,29 @@ svg.piramide {
     .st1 {
         opacity: 0;
         animation-name: fadeVertical;
-        animation-duration: 2s;
-        animation-delay: 0s;
+        animation-duration: 1s;
+        animation-delay: .4s;
         animation-fill-mode: forwards;
     }
-    .st12 {
+    .st1_2 {
         opacity: 0;
         animation-name: fadeVertical;
-        animation-duration: 2s;
-        animation-delay: 0.25s;
-        animation-fill-mode: forwards;
-    }
-    .st13 {
-        opacity: 0;
-        animation-name: fadeVertical;
-        animation-duration: 2s;
+        animation-duration: 1s;
         animation-delay: 0.5s;
         animation-fill-mode: forwards;
     }
-    .st14 {
+    .st1_3 {
         opacity: 0;
         animation-name: fadeVertical;
-        animation-duration: 2s;
-        animation-delay: 0.75s;
+        animation-duration: 1s;
+        animation-delay: 0.6s;
+        animation-fill-mode: forwards;
+    }
+    .st1_4 {
+        opacity: 0;
+        animation-name: fadeVertical;
+        animation-duration: 1s;
+        animation-delay: 0.7s;
         animation-fill-mode: forwards;
     }
     .st2 {
@@ -72,18 +102,18 @@ svg.piramide {
         fill: #686868;
         animation-name: fade;
         animation-duration: 1.5s;
-        animation-delay: 1.5s;
+        animation-delay: 2s;
         animation-fill-mode: forwards;
     }
     .st3 {
         fill: none;
         stroke: #686868;
         stroke-miterlimit: 10;
-        opacity: 0;
+        /*opacity: 0;
         animation-name: fadeHorizontal;
         animation-duration: 2s;
-        animation-delay: 0.5s;
-        animation-fill-mode: forwards;
+        animation-delay: 2.5s;
+        animation-fill-mode: forwards;*/
     }
     .st4 {
         font-family: 'Aspira';
@@ -91,7 +121,7 @@ svg.piramide {
         opacity: 0;
         animation-name: fadeHorizontal;
         animation-duration: 1s;
-        animation-delay: 2s;
+        animation-delay: 3.5s;
         animation-fill-mode: forwards;
     }
     .st5 {
@@ -103,10 +133,11 @@ svg.piramide {
         opacity: 0;
         animation-name: fadeHorizontal;
         animation-duration: 1s;
-        animation-delay: 2s;
+        animation-delay: 3.5s;
         animation-fill-mode: forwards;
     }
 }
+
 /*
 	Animacion para los pilares que entran de forma horizontal, se le aplica una translacion en el eje X apra dar este efecto
 	Junto con un cambio de opacidad, de igual forma para la vertical pero en el eje Y.
