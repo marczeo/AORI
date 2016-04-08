@@ -1,0 +1,99 @@
+<!DOCTYPE>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Contacto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+  <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+  <script src="js/contacto.js" charset="utf-8"></script>
+</head>
+<body>
+   <!--Contacto-->
+   <div>
+     <form method="post" name="contact-form">
+       <ul>
+         <li>
+           <h2>Contacto</h2>
+         </li>
+         <li>
+           <label for="contact-name">Nombre/Nombre comercial/Razón social: </label>
+           <input type="text" name="contact-name" placeholder="A.O.R.I">
+         </li>
+         <li>
+           <label for="contact-age">Edad/Antigüedad: </label>
+           <input type="number"  name="contact-age" placeholder="5">
+         </li>
+         <li>
+           <label for="contact-phone">Teléfono: </label>
+           <input type="tel" name="contact-phone">
+         </li>
+         <li>
+           <label for="email-contact">Correo electrónico: </label>
+           <input type="email" name="email-contact" placeholder="hola@aori.mx">
+         </li>
+         <li>
+           <dl class="contact-dropdown-services">
+             <dt>
+               <a href="#">
+                 <span>¿En qué servicios estás interesado? </span>
+               </a>
+             </dt>
+             <dd>
+               <div class="mutliSelect">
+                 <ul>
+                   <li>
+                     <input type="checkbox" value="1" />Desarrollo de Modelos de Negocio
+                   </li>
+                   <li>
+                     <input type="checkbox" value="2" />Desarrollo de Modelos de Franquicia, Licenciamiento o Sucursales
+                   </li>
+                   <li>
+                     <input type="checkbox" value="3" name="typeService[]" />Marketing Digital: Redes Sociales, Google Tools y HotSpot
+                   </li>
+                   <li>
+                     <input type="checkbox" value="4" name="typeService[]" />Diseño Gráfico y Maquetación Web
+                   </li>
+                   <li>
+                     <input type="checkbox" value="5" name="typeService[]" />Fotografía y Producción de Videos Comerciales
+                   </li>
+                   <li>
+                     <input type="checkbox" value="6" name="typeService[]" />Desarrollo y Creación de Aplicaciones (APPs)
+                   </li>
+                   <li>
+                     <input type="checkbox" value="7" name="typeService[]" />Contabilidad e Inteligencia Fiscal
+                   </li>
+                   <li>
+                     <input type="checkbox" value="8" name="typeService[]"/>Importación/Exportación y Colocación de Productos.
+                   </li>
+                   <li>
+                     <input type="checkbox" value="9" name="typeService[]" />Cursos y Diplomados para Emprendedores o PYMES
+                   </li>
+                   <li>
+                     <input type="checkbox" value="10" name="typeService[]" />Incubación y Financiamiento de Empresas
+                   </li>
+                </ul>
+              </div>
+            </dd>
+          </dl>
+         </li>
+         <li>
+           <label for="contact-description">Descripción del asunto: </label>
+           <textarea name="contact-description" cols="50"rows="6" placeholder="Opcional"></textarea>
+         </li>
+         <li>
+           <label>¿Cuando te gustaría contar con éste trabajo?</label>
+           <input type="date" placeholder="05/05/2016">
+         </li>
+         <li>
+           <span class="required">* Debe llenar todos los campos</span>
+         </li>
+         <li>
+           <button type="submit">Enviar</button>
+         </li>
+       </ul>
+     </form>
+   </div>
+   <!--Fin de contacto-->
+</body>
+</html>

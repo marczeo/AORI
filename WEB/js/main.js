@@ -6,6 +6,10 @@
     } else {
       $hero_video.height(620);
     }
+    //In
+    $(function(){
+      $("#navbar").load("navbar.html");
+    });
   });
   jQuery(window).resize(function() {
     if ($(this).width() < 1100) {
