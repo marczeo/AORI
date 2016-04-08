@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
     <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
     <script src="js/main.js" charset="utf-8"></script>
+    <script src="js/navbar.js" charset="utf-8"></script>
 </head>
 
 <body>
@@ -19,6 +20,39 @@
         </video>
     </div>
 
+    <a id="touch-menu" class="mobile-menu" href="#">#</a>
+    <!--Inicio de barra de navegación-->
+    <nav>
+        <ul class="menu">
+            <li>
+                <object type="image/svg+xml" data="Iconos/logo_principal.svg">Imágen de logo</object>
+                <a href="#">#AORI</a>
+            </li>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Nuestros servicios</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Desarrollo de Modelos de Negocio</a></li>
+                    <li><a href="#">Desarrollo de Modelos de Franquicia, Licenciamiento o Sucursales</a>
+                        <ul>
+                            <li><a href="#">Franquicia 1</a></li>
+                            <li><a href="#">Franquicia 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Diseño grafico y maquetacion web</a></li>
+                    <li><a href="#">Fotografia y produccion de videos comerciales</a></li>
+                    <li><a href="#">Desarrollo y creacion de aplicaciones (APPs)</a></li>
+                    <li><a href="#">Contabilidad e inteligencia fiscal</a></li>
+                    <li><a href="#">Importacion/Exportacion y colocación de productos</a></li>
+                    <li><a href="#">Cursos y diplomados para emprendedores o PYMES</a></li>
+                    <li><a href="#">Incubacion y financiamiento de empresas</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Unete al equipo</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <!--Fin navbar-->
     <div class="quienes">
         <p class="title">
             ¿Quiénes <span>somos?</span>
@@ -26,23 +60,42 @@
         <div class="imagen">
             <img src="images/3Monitos.png" alt="" />
         </div>
-        <div class="circulo">
-          <div class="info">
-            <p>
-              Somos una firma de consultoría empresarial enfocada a brindarle una solución integral a las PYMES Mexicanas a través de resultados económicamente sustentables. Seguimos un método de trabajo basado en nuestras siglas A.O.R.I, que significan: Análisis, Optimización, Resolución e Integración.
-            </p>
-          </div>
-          <object type="image/svg+xml" data="Iconos/circle.svg">Imágen de circulo</object>
-        </div>
 
+    </div>
+    <div class="circulo">
+        <div class="info">
+            <p>
+                Somos una firma de consultoría empresarial enfocada a brindarle una solución integral a las PYMES Mexicanas a través de resultados económicamente sustentables. Seguimos un método de trabajo basado en nuestras siglas A.O.R.I, que significan:<strong>Análisis, Optimización, Resolución e Integración.</strong>
+            </p>
+        </div>
     </div>
     <div class="porque">
         <p class="title">
-            ¿Porqué <br /><span>Arquitectura empresarial?</span>
+            ¿Porqué
+            <br /><span>Arquitectura empresarial?</span>
         </p>
+        <p class="descripcion">
+            La Arquitectura Empresarial es una metodología de mejora continua a mediano plazo basada en una visión integral, que permite mantener actualizada la estructura de información organizacional alineando procesos, datos, aplicaciones e infraestructura en
+            cuatro dimensiones: negocios, datos/información, aplicaciones y tecnología. Esta metodología nos permite enfocar los negocios hacia plataformas tecnológicas que permitan optimizar sus resultados mediante comercialización, marketing, administración/gestión
+            y operación.
+        </p>
+        <p class="descripcion">
 
+            Esto, en combinación con los métodos de análisis Canvas Business Model, Happy Canvas y 5 Fuerzas de Porter, nos permite diagnosticar cualquier Modelo de Negocio con claridad para así brindarle una solución a la medida de las necesidades del cliente.
+        </p>
         <object type="image/svg+xml" data="Iconos/piramide.svg">Imágen de circulo</object>
     </div>
+  <div class="mision">
+    <div class="mision-center">
+        <object type="image/svg+xml" data="Iconos/nuestra_mision.svg">Imágen de circulo</object>
+        <p class="title">
+            Nuestra <strong>misión</strong>
+        </p>
+        <p class="descripcion">
+          Nivelar las oportunidades de las PYMES ante las corporaciones o empresas extranjeras para que, a través de nuestro apoyo, reduzcan su riesgo, maximicen sus resultados, se vuelvan más competitivos y juntos logremos romper con la estadística del INEGI que indica que 8 de cada 10 empresas mexicanas cierran antes de los 2 años desde su apertura porque no logran consolidarse económicamente.
+        </p>
+    </div>
+  </div>
 </body>
 
 </html>

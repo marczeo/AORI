@@ -1,0 +1,35 @@
+.mision{
+  width: 100%;
+  background: $azul_aori;
+  .mision-center {
+      padding: 10px;
+      text-align: center;
+      box-sizing: border-box;
+      object,
+      p.title {
+          vertical-align: middle;
+          display: inline-block;
+      }
+      p.title {
+          font-family: Aspira;
+          font-weight: 200;
+          font-style: italic;
+          text-transform: uppercase;
+          color: white;
+          font-size: 5.7vw;
+          margin: 0;
+      }
+      p.descripcion{
+        width: 95%;
+        margin: 2.5%;
+        float: none;
+        font-family: Aspira;
+        color: white;
+      }
+      object {
+          width: 6%;
+          margin: 1% 0;
+      }
+  }
+
+}

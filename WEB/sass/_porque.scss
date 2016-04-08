@@ -1,4 +1,15 @@
 .porque{
+  p.descripcion{
+    width: 95%;
+    margin: 2.5%;
+    float: none;
+    font-family: Aspira;
+    @media screen and (min-width: $ipad_mediaquery) {
+        width: 48%;
+        margin: 0 1%;
+        float: left;
+    }
+  }
   object{
     width: 95%;
     margin: 0 2.5%;
