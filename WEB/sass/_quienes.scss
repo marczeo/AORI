@@ -1,6 +1,7 @@
 .mision-center,
 .porque,
-.quienes {
+.quienes,
+.valores {
     width: 100%;
     max-width: $max_mediaquery;
     margin: 20px auto;
@@ -20,7 +21,8 @@
         }
     }
 }
-.quienes {
+.quienes,
+.valores {
     p.title {
         text-align: center;
     }

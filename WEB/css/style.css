@@ -97,7 +97,7 @@ nav a {
   font-style: italic;
   text-transform: uppercase; }
 
-/*versión de escritorio*/
+/*versi├│n de escritorio*/
 .menu {
   display: block; }
 
@@ -255,14 +255,16 @@ nav a {
 
 .mision-center,
 .porque,
-.quienes {
+.quienes,
+.valores {
   width: 100%;
   max-width: 1100px;
   margin: 20px auto;
   overflow: auto; }
   .mision-center p.title,
   .porque p.title,
-  .quienes p.title {
+  .quienes p.title,
+  .valores p.title {
     margin: 0;
     font-size: 5.7vw;
     box-sizing: border-box;
@@ -273,17 +275,21 @@ nav a {
     padding: 10px; }
     .mision-center p.title span,
     .porque p.title span,
-    .quienes p.title span {
+    .quienes p.title span,
+    .valores p.title span {
       font-weight: 700;
       font-style: normal; }
 
-.quienes p.title {
+.quienes p.title,
+.valores p.title {
   text-align: center; }
-.quienes .imagen {
+.quienes .imagen,
+.valores .imagen {
   width: 50%;
   float: none;
   margin: 0 auto; }
-  .quienes .imagen img {
+  .quienes .imagen img,
+  .valores .imagen img {
     width: 100%; }
 
 .circulo,
@@ -320,84 +326,110 @@ svg.logo_principal .st0 {
 svg.nuestra_mision .st0 {
   fill: white; }
 
-svg.piramide .st0 {
-  fill: none;
-  stroke: #1C4499;
-  stroke-width: 5;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-miterlimit: 10;
-  animation-name: fadeHorizontal;
-  animation-duration: 2s;
-  animation-delay: 0s; }
-svg.piramide .st1,
-svg.piramide .st12,
-svg.piramide .st13,
-svg.piramide .st14 {
-  fill: none;
-  stroke: #1C4499;
-  stroke-width: 5;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-miterlimit: 10; }
-svg.piramide .st1 {
-  opacity: 0;
-  animation-name: fadeVertical;
-  animation-duration: 2s;
-  animation-delay: 0s;
-  animation-fill-mode: forwards; }
-svg.piramide .st12 {
-  opacity: 0;
-  animation-name: fadeVertical;
-  animation-duration: 2s;
-  animation-delay: 0.25s;
-  animation-fill-mode: forwards; }
-svg.piramide .st13 {
-  opacity: 0;
-  animation-name: fadeVertical;
-  animation-duration: 2s;
-  animation-delay: 0.5s;
-  animation-fill-mode: forwards; }
-svg.piramide .st14 {
-  opacity: 0;
-  animation-name: fadeVertical;
-  animation-duration: 2s;
-  animation-delay: 0.75s;
-  animation-fill-mode: forwards; }
-svg.piramide .st2 {
-  opacity: 0;
-  fill: #686868;
-  animation-name: fade;
-  animation-duration: 1.5s;
-  animation-delay: 1.5s;
-  animation-fill-mode: forwards; }
-svg.piramide .st3 {
-  fill: none;
-  stroke: #686868;
-  stroke-miterlimit: 10;
-  opacity: 0;
-  animation-name: fadeHorizontal;
-  animation-duration: 2s;
-  animation-delay: 0.5s;
-  animation-fill-mode: forwards; }
-svg.piramide .st4 {
-  font-family: 'Aspira';
-  font-weight: 600;
-  opacity: 0;
-  animation-name: fadeHorizontal;
-  animation-duration: 1s;
-  animation-delay: 2s;
-  animation-fill-mode: forwards; }
-svg.piramide .st5 {
-  font-size: 9px; }
-svg.piramide .st6 {
-  font-family: 'Aspira';
-  font-weight: 200;
-  opacity: 0;
-  animation-name: fadeHorizontal;
-  animation-duration: 1s;
-  animation-delay: 2s;
-  animation-fill-mode: forwards; }
+svg.piramide {
+  /*aca iban las clases*/ }
+  svg.piramide .st0,
+  svg.piramide .st0_1,
+  svg.piramide .st0_2,
+  svg.piramide .st0_3 {
+    fill: none;
+    stroke: #1C4499;
+    stroke-width: 5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10; }
+  svg.piramide .st0 {
+    opacity: 0;
+    animation-name: fadeHorizontal;
+    animation-duration: 1s;
+    animation-delay: .0s;
+    animation-fill-mode: forwards; }
+  svg.piramide .st0_1 {
+    opacity: 0;
+    animation-name: fadeHorizontal;
+    animation-duration: 1s;
+    animation-delay: 0.1s;
+    animation-fill-mode: forwards; }
+  svg.piramide .st0_2 {
+    opacity: 0;
+    animation-name: fadeHorizontal;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards; }
+  svg.piramide .st0_3 {
+    opacity: 0;
+    animation-name: fadeHorizontalInv;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards; }
+  svg.piramide .st1,
+  svg.piramide .st1_2,
+  svg.piramide .st1_3,
+  svg.piramide .st1_4 {
+    fill: none;
+    stroke: #1C4499;
+    stroke-width: 5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10; }
+  svg.piramide .st1 {
+    opacity: 0;
+    animation-name: fadeVertical;
+    animation-duration: 1s;
+    animation-delay: .4s;
+    animation-fill-mode: forwards; }
+  svg.piramide .st1_2 {
+    opacity: 0;
+    animation-name: fadeVertical;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards; }
+  svg.piramide .st1_3 {
+    opacity: 0;
+    animation-name: fadeVertical;
+    animation-duration: 1s;
+    animation-delay: 0.6s;
+    animation-fill-mode: forwards; }
+  svg.piramide .st1_4 {
+    opacity: 0;
+    animation-name: fadeVertical;
+    animation-duration: 1s;
+    animation-delay: 0.7s;
+    animation-fill-mode: forwards; }
+  svg.piramide .st2 {
+    opacity: 0;
+    fill: #686868;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards; }
+  svg.piramide .st3 {
+    fill: none;
+    stroke: #686868;
+    stroke-miterlimit: 10;
+    /*opacity: 0;
+    animation-name: fadeHorizontal;
+    animation-duration: 2s;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;*/ }
+  svg.piramide .st4 {
+    font-family: 'Aspira';
+    font-weight: 600;
+    opacity: 0;
+    animation-name: fadeHorizontal;
+    animation-duration: 1s;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards; }
+  svg.piramide .st5 {
+    font-size: 9px; }
+  svg.piramide .st6 {
+    font-family: 'Aspira';
+    font-weight: 200;
+    opacity: 0;
+    animation-name: fadeHorizontal;
+    animation-duration: 1s;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards; }
 
 /*
 	Animacion para los pilares que entran de forma horizontal, se le aplica una translacion en el eje X apra dar este efecto
@@ -428,6 +460,12 @@ svg.piramide .st6 {
     opacity: 0; }
   100% {
     opacity: 1; } }
+@-webkit-keyframes fadeHorizontalInv {
+  0% {
+    transform: translateX(150px);
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 @-webkit-keyframes fadeLineaHorizontal {
   0% {
     transform: translateX(-150px); }
@@ -449,9 +487,16 @@ svg.piramide .st6 {
 @-webkit-keyframes fade {
   100% {
     opacity: 1; } }
+/*----------------------------*/
 @-moz-keyframes fadeHorizontal {
   0% {
     transform: translateX(-150px);
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes fadeHorizontalInv {
+  0% {
+    transform: translateX(150px);
     opacity: 0; }
   100% {
     opacity: 1; } }
@@ -470,6 +515,70 @@ svg.piramide .st6 {
 @-moz-keyframes fade {
   100% {
     opacity: 1; } }
+#Logo {
+  width: 150%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: -25%;
+  bottom: 0;
+  left: -25%;
+  margin: auto;
+  display: block;
+  stroke: #EEBE7B;
+  stroke-miterlimit: 5; }
+
+.Animate-Draw {
+  fill-opacity: 0;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration: 1;
+  animation-name: DrawLine;
+  animation-duration: 4s;
+  animation-delay: 0; }
+
+#Draw-Frame {
+  animation-delay: 2.5s;
+  animation-duration: 3.5s;
+  stroke-dashArray: 1500;
+  stroke-dashoffset: 1500; }
+
+@-moz-keyframes DrawLine {
+  to {
+    stroke-dashOffset: 0; } }
+@-webkit-keyframes DrawLine {
+  to {
+    stroke-dashOffset: 0; } }
+@-ms-keyframes fadeHorizontal {
+  0% {
+    transform: translateX(-150px);
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-ms-keyframes fadeHorizontalInv {
+  0% {
+    transform: translateX(150px);
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-ms-keyframes fadeLineaHorizontal {
+  0% {
+    transform: translateX(-150px); }
+  100% {
+    opacity: 1; } }
+@-ms-keyframes fadeVertical {
+  0% {
+    transform: translateY(-150px); }
+  55% {
+    opacity: 0; }
+  100% {
+    opacity: 0.75; } }
+@-ms-keyframes fade {
+  100% {
+    opacity: 1; } }
+@-ms-keyframes DrawLine {
+  to {
+    stroke-dashOffset: 0; } }
 .mision {
   width: 100%;
   background: #1c4499; }
