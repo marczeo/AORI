@@ -3,30 +3,37 @@
 <svg class="piramide" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 575.9 334.5" xml:space="preserve">
 
     <polygon class="st0" points="388.5 269 412.3 269 405.3 244.4 395.6 244.4 156 244.4 146.3 244.4 139.2 269 163.1 269 "/>
-	<polygon class="st0" points="400.4 300 424.3 300 417.2 275.3 407.5 275.3 144.1 275.3 134.4 275.3 127.3 300 151.2 300 "/>
-	<polygon class="st0" points="419.4 307.3 132.2 307.3 122.5 307.3 115.4 332 139.3 332 412.3 332 436.2 332 429.1 307.3 "/>
-	<polygon class="st0" points="232 2.5 318.7 2.5 435.2 73 115.5 73 "/>
-	<rect x="154.3" y="78.9" class="st1" width="56" height="159.3"/>
-	<rect x="216.6" y="78.9" class="st12" width="56" height="159.3"/>
-	<rect x="278.9" y="78.9" class="st13" width="56" height="159.3"/>
-	<rect x="341.2" y="78.9" class="st14" width="56" height="159.3"/>
-	<circle class="st2" cx="281.7" cy="33.7" r="4.8"/>
-	<circle class="st3" cx="281.7" cy="33.7" r="6.8"/>
-	<line class="st3" x1="281.7" y1="33.7" x2="575.7" y2="33.7"/>
-	<line class="st3" x1="182.3" y1="110.3" x2="0" y2="110.3"/>
-	<line class="st3" x1="244.6" y1="185.8" x2="0" y2="185.8"/>
-	<line class="st3" x1="307.7" y1="130.3" x2="575.7" y2="130.3"/>
-	<line class="st3" x1="370" y1="205.8" x2="575.7" y2="205.8"/>
-	<line class="st3" x1="370" y1="287.7" x2="575.7" y2="287.7"/>
-	<circle class="st2" cx="182.3" cy="110.3" r="4.8"/>
-	<circle class="st3" cx="182.3" cy="110.3" r="6.8"/><circle class="st2" cx="244.6" cy="185.8" r="4.8"/>
-	<circle class="st3" cx="244.6" cy="185.8" r="6.8"/><circle class="st2" cx="307.7" cy="130.3" r="4.8"/>
-	<circle class="st3" cx="307.7" cy="130.3" r="6.8"/><circle class="st2" cx="370" cy="205.8" r="4.8"/>
-	<circle class="st3" cx="370" cy="205.8" r="6.8"/><circle class="st2" cx="182.3" cy="257.2" r="4.8"/>
-	<circle class="st3" cx="182.3" cy="257.2" r="6.8"/><circle class="st2" cx="182.3" cy="319.6" r="4.8"/>
-	<circle class="st3" cx="182.3" cy="319.6" r="6.8"/><circle class="st2" cx="370" cy="287.7" r="4.8"/>
-	<circle class="st3" cx="370" cy="287.7" r="6.8"/><line class="st3" x1="182.3" y1="257.2" x2="0" y2="257.2"/>
-	<line class="st3" x1="182.3" y1="319.6" x2="0" y2="319.6"/>
+    <polygon class="st0" points="400.4 300 424.3 300 417.2 275.3 407.5 275.3 144.1 275.3 134.4 275.3 127.3 300 151.2 300 "/>
+    <polygon class="st0" points="419.4 307.3 132.2 307.3 122.5 307.3 115.4 332 139.3 332 412.3 332 436.2 332 429.1 307.3 "/>
+    <polygon class="st0" points="232 2.5 318.7 2.5 435.2 73 115.5 73 "/>
+    <rect x="154.3" y="78.9" class="st1" width="56" height="159.3"/>
+    <rect x="216.6" y="78.9" class="st12" width="56" height="159.3"/>
+    <rect x="278.9" y="78.9" class="st13" width="56" height="159.3"/>
+    <rect x="341.2" y="78.9" class="st14" width="56" height="159.3"/>
+    <circle class="st2" cx="281.7" cy="33.7" r="4.8"/>
+    <circle class="st3" cx="281.7" cy="33.7" r="6.8"/>
+    <line class="st3" x1="281.7" y1="33.7" x2="575.7" y2="33.7"/>
+    <line class="st3" x1="182.3" y1="110.3" x2="0" y2="110.3"/>
+    <line class="st3" x1="244.6" y1="185.8" x2="0" y2="185.8"/>
+    <line class="st3" x1="307.7" y1="130.3" x2="575.7" y2="130.3"/>
+    <line class="st3" x1="370" y1="205.8" x2="575.7" y2="205.8"/>
+    <line class="st3" x1="370" y1="287.7" x2="575.7" y2="287.7"/>
+    <circle class="st2" cx="182.3" cy="110.3" r="4.8"/>
+    <circle class="st3" cx="182.3" cy="110.3" r="6.8"/>
+    <circle class="st2" cx="244.6" cy="185.8" r="4.8"/>
+    <circle class="st3" cx="244.6" cy="185.8" r="6.8"/>
+    <circle class="st2" cx="307.7" cy="130.3" r="4.8"/>
+    <circle class="st3" cx="307.7" cy="130.3" r="6.8"/>
+    <circle class="st2" cx="370" cy="205.8" r="4.8"/>
+    <circle class="st3" cx="370" cy="205.8" r="6.8"/>
+    <circle class="st2" cx="182.3" cy="257.2" r="4.8"/>
+    <circle class="st3" cx="182.3" cy="257.2" r="6.8"/>
+    <circle class="st2" cx="182.3" cy="319.6" r="4.8"/>
+    <circle class="st3" cx="182.3" cy="319.6" r="6.8"/>
+    <circle class="st2" cx="370" cy="287.7" r="4.8"/>
+    <circle class="st3" cx="370" cy="287.7" r="6.8"/>
+    <line class="st3" x1="182.3" y1="257.2" x2="0" y2="257.2"/>
+    <line class="st3" x1="182.3" y1="319.6" x2="0" y2="319.6"/>
     <text transform="matrix(1 0 0 1 450.0648 31.0483)">
         <tspan x="0" y="0" class="st4 st5">VISIÓN DE LA ARQUITECTURA</tspan>
         <tspan x="21.7" y="10.8" class="st6 st5">(Alineamiento Estratégico)</tspan>

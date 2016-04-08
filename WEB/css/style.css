@@ -97,7 +97,7 @@ nav a {
   font-style: italic;
   text-transform: uppercase; }
 
-/*versi├│n de escritorio*/
+/*versión de escritorio*/
 .menu {
   display: block; }
 
@@ -170,6 +170,7 @@ nav a {
   background: #1c4499;
   color: #ffffff;
   text-transform: uppercase;
+  box-sizing: border-box;
   font-weight: 600; }
 
 .mobile-menu:hover {
@@ -178,7 +179,7 @@ nav a {
   text-decoration: none; }
 
 @media (max-width: 768px) {
-  object {
+  nav ul.menu object {
     display: none; }
 
   .menu {
@@ -252,21 +253,25 @@ nav a {
     width: 100%;
     height: 100%; }
 
+.mision-center,
 .porque,
 .quienes {
   width: 100%;
   max-width: 1100px;
-  margin: 40px auto auto;
-  font-size: 5.7vw;
+  margin: 20px auto;
   overflow: auto; }
+  .mision-center p.title,
   .porque p.title,
   .quienes p.title {
+    margin: 0;
+    font-size: 5.7vw;
     box-sizing: border-box;
     font-family: Aspira;
     font-weight: 200;
     font-style: italic;
     text-transform: uppercase;
     padding: 10px; }
+    .mision-center p.title span,
     .porque p.title span,
     .quienes p.title span {
       font-weight: 700;
@@ -274,49 +279,35 @@ nav a {
 
 .quienes p.title {
   text-align: center; }
-.quienes .circulo,
 .quienes .imagen {
+  width: 50%;
+  float: none;
+  margin: 0 auto; }
+  .quienes .imagen img {
+    width: 100%; }
+
+.circulo,
+.imagen {
   float: left; }
-.quienes .circulo {
+
+.circulo {
   width: 100%;
-  padding: 5px 0;
-  border-bottom: solid 1px #686868;
-  border-top: solid 1px #686868;
-  float: none; }
-  @media screen and (min-width: 768px) {
-    .quienes .circulo {
-      width: 28%;
-      margin: 0 1%;
-      border: none;
-      float: left; } }
-  .quienes .circulo object {
-    display: none;
-    margin-top: 50%; }
-    @media screen and (min-width: 768px) {
-      .quienes .circulo object {
-        display: block; } }
-  .quienes .circulo .info {
+  padding: 10px;
+  float: none;
+  background: #1c4499;
+  box-sizing: border-box; }
+  .circulo .info {
     box-sizing: border-box;
-    background: #1c4499;
     color: white;
     padding: 10px;
     font-family: Aspira;
     font-size: 1rem;
     font-weight: 200;
     display: block;
-    width: 100%; }
-    @media screen and (min-width: 768px) {
-      .quienes .circulo .info {
-        display: none; } }
-.quienes .imagen {
-  width: 100%;
-  float: none; }
-  .quienes .imagen img {
-    width: 100%; }
-  @media screen and (min-width: 768px) {
-    .quienes .imagen {
-      float: right;
-      width: 70%; } }
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1100px;
+    text-align: center; }
 
 svg.circle_shape .st0 {
   fill: #686868; }
@@ -324,6 +315,9 @@ svg.circle_shape .st1 {
   fill: #1c4499; }
 
 svg.logo_principal .st0 {
+  fill: white; }
+
+svg.nuestra_mision .st0 {
   fill: white; }
 
 svg.piramide .st0 {
@@ -336,7 +330,10 @@ svg.piramide .st0 {
   animation-name: fadeHorizontal;
   animation-duration: 2s;
   animation-delay: 0s; }
-svg.piramide .st1, svg.piramide .st12, svg.piramide .st13, svg.piramide .st14 {
+svg.piramide .st1,
+svg.piramide .st12,
+svg.piramide .st13,
+svg.piramide .st14 {
   fill: none;
   stroke: #1C4499;
   stroke-width: 5;
@@ -381,7 +378,7 @@ svg.piramide .st3 {
   opacity: 0;
   animation-name: fadeHorizontal;
   animation-duration: 2s;
-  animation-delay: .5s;
+  animation-delay: 0.5s;
   animation-fill-mode: forwards; }
 svg.piramide .st4 {
   font-family: 'Aspira';
@@ -406,6 +403,16 @@ svg.piramide .st6 {
 	Animacion para los pilares que entran de forma horizontal, se le aplica una translacion en el eje X apra dar este efecto
 	Junto con un cambio de opacidad, de igual forma para la vertical pero en el eje Y.
 */
+.porque p.descripcion {
+  width: 95%;
+  margin: 2.5%;
+  float: none;
+  font-family: Aspira; }
+  @media screen and (min-width: 768px) {
+    .porque p.descripcion {
+      width: 48%;
+      margin: 0 1%;
+      float: left; } }
 .porque object {
   width: 95%;
   margin: 0 2.5%; }
@@ -463,9 +470,38 @@ svg.piramide .st6 {
 @-moz-keyframes fade {
   100% {
     opacity: 1; } }
+.mision {
+  width: 100%;
+  background: #1c4499; }
+  .mision .mision-center {
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box; }
+    .mision .mision-center object,
+    .mision .mision-center p.title {
+      vertical-align: middle;
+      display: inline-block; }
+    .mision .mision-center p.title {
+      font-family: Aspira;
+      font-weight: 200;
+      font-style: italic;
+      text-transform: uppercase;
+      color: white;
+      font-size: 5.7vw;
+      margin: 0; }
+    .mision .mision-center p.descripcion {
+      width: 95%;
+      margin: 2.5%;
+      float: none;
+      font-family: Aspira;
+      color: white; }
+    .mision .mision-center object {
+      width: 6%;
+      margin: 1% 0; }
+
 body {
   margin: 0;
   padding: 0;
-  font-size: 16pt; }
+  font-size: 16px; }
 
 /*# sourceMappingURL=style.css.map */

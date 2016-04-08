@@ -92,6 +92,7 @@ nav a{
    background:$azul-aori;
    color:#ffffff;
    text-transform:uppercase;
+   box-sizing: border-box;
    font-weight:600;
 }
 .mobile-menu:hover{
@@ -101,7 +102,7 @@ nav a{
 }
 
 @media (max-width: $ipad_mediaquery) {
-   object{
+   nav ul.menu object{
       display: none;
     }
 
