@@ -2,5 +2,9 @@
   .texto_valores{
     font-family: Aspira;
     text-align: center;
+    display: block;
+    @media screen and (min-width: $ipad_mediaquery){
+      display: none;
+    }
   }
 }

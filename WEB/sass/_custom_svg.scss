@@ -18,45 +18,44 @@ svg.nuestra_mision {
 }
 svg.piramide {
     .st0,
-	.st0_1,
-	.st0_2,
-	.st0_3{
+    .st0_1,
+    .st0_2,
+    .st0_3 {
         fill: none;
         stroke: #1C4499;
         stroke-width: 5;
         stroke-linecap: round;
         stroke-linejoin: round;
         stroke-miterlimit: 10;
-
     }
-	/*aca iban las clases*/
-	.st0 {
+    /*aca iban las clases*/
+    .st0 {
         opacity: 0;
         animation-name: fadeHorizontal;
         animation-duration: 1s;
-        animation-delay: .0s;
-		animation-fill-mode: forwards;
+        animation-delay: 0.0s;
+        animation-fill-mode: forwards;
     }
     .st0_1 {
         opacity: 0;
         animation-name: fadeHorizontal;
         animation-duration: 1s;
         animation-delay: 0.1s;
-		animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
     }
     .st0_2 {
         opacity: 0;
         animation-name: fadeHorizontal;
         animation-duration: 1s;
         animation-delay: 0.2s;
-		animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
     }
-	.st0_3 {
+    .st0_3 {
         opacity: 0;
         animation-name: fadeHorizontalInv;
         animation-duration: 1s;
         animation-delay: 1.5s;
-		animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
     }
     .st1,
     .st1_2,
@@ -73,7 +72,7 @@ svg.piramide {
         opacity: 0;
         animation-name: fadeVertical;
         animation-duration: 1s;
-        animation-delay: .4s;
+        animation-delay: 0.4s;
         animation-fill-mode: forwards;
     }
     .st1_2 {
@@ -137,32 +136,45 @@ svg.piramide {
         animation-fill-mode: forwards;
     }
 }
-svg.valores{
-      .st0 {
-          fill: #6F6B6A;
+svg.valores {
+    .st0,
+    .st1,
+    .st2,
+    .st3,
+    .st4,
+    .st5,
+    .st6 {
+      display: none;
+      @media screen and (min-width: $ipad_mediaquery){
+        display: block;
       }
-      .st1 {
-          fill: none;
-          stroke: #6F6B6A;
-          stroke-miterlimit: 10;
-      }
-      .st2 {
-          fill: none;
-      }
-      .st3 {
-          font-family: 'Aspira-Light';
-      }
-      .st4 {
-          font-size: 15.0821;
-      }
-      .st5 {
-          font-family: 'Aspira-Bold';
-      }
-      .st6 {
-          fill: #12100C;
-      }
+    }
+    .st0 {
+        fill: #6F6B6A;
+    }
+    .st1 {
+        fill: none;
+        stroke: #6F6B6A;
+        stroke-miterlimit: 10;
+    }
+    .st2 {
+        fill: none;
+    }
+    .st3 {
+        font-family: 'Aspira';
+        font-weight: 200;
+    }
+    .st4 {
+        font-size:.95rem;
+    }
+    .st5 {
+        font-family: 'Aspira';
+        font-weight: 700;
+    }
+    .st6 {
+        fill: #12100C;
+    }
 }
-
 /*
 	Animacion para los pilares que entran de forma horizontal, se le aplica una translacion en el eje X apra dar este efecto
 	Junto con un cambio de opacidad, de igual forma para la vertical pero en el eje Y.

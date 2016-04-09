@@ -1,29 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" width="800" height="602.5" viewBox="0 0 800 602.5" xml:space="preserve">
-    <style type="text/css">
-        .st0 {
-            fill: #6F6B6A;
-        }
-        .st1 {
-            fill: none;
-            stroke: #6F6B6A;
-            stroke-miterlimit: 10;
-        }
-        .st2 {
-            fill: none;
-        }
-        .st3 {
-            font-family: 'Aspira-Light';
-        }
-        .st4 {
-            font-size: 15.0821;
-        }
-        .st5 {
-            font-family: 'Aspira-Bold';
-        }
-        .st6 {
-            fill: #12100C;
-        }
-    </style>
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/css" media="screen" href="../css/style.css"?>
+<svg xmlns="http://www.w3.org/2000/svg" class="valores" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 602.5" xml:space="preserve">
+
 		<image width="1300" height="587" xlink:href="../images/valores.jpg" transform="matrix(0.6154 0 0 0.6154 0 148.7518)"/>
 		<circle class="st0" cx="438" cy="326" r="8"/>
 		<path class="st1" d="M449.4 326c0 6.3-5.1 11.4-11.4 11.4 -6.3 0-11.4-5.1-11.4-11.4 0-6.3 5.1-11.4 11.4-11.4C444.3 314.6 449.4 319.7 449.4 326z"/>

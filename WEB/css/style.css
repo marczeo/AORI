@@ -257,7 +257,8 @@ nav a {
 .porque,
 .quienes,
 .valores,
-.servicios {
+.servicios,
+.clientes {
   width: 100%;
   max-width: 1100px;
   margin: 20px auto;
@@ -266,7 +267,8 @@ nav a {
   .porque p.title,
   .quienes p.title,
   .valores p.title,
-  .servicios p.title {
+  .servicios p.title,
+  .clientes p.title {
     margin: 0;
     font-size: 5.7vw;
     box-sizing: border-box;
@@ -279,7 +281,8 @@ nav a {
     .porque p.title span,
     .quienes p.title span,
     .valores p.title span,
-    .servicios p.title span {
+    .servicios p.title span,
+    .clientes p.title span {
       font-weight: 700;
       font-style: normal; }
 
@@ -345,7 +348,7 @@ svg.piramide {
     opacity: 0;
     animation-name: fadeHorizontal;
     animation-duration: 1s;
-    animation-delay: .0s;
+    animation-delay: 0.0s;
     animation-fill-mode: forwards; }
   svg.piramide .st0_1 {
     opacity: 0;
@@ -379,7 +382,7 @@ svg.piramide {
     opacity: 0;
     animation-name: fadeVertical;
     animation-duration: 1s;
-    animation-delay: .4s;
+    animation-delay: 0.4s;
     animation-fill-mode: forwards; }
   svg.piramide .st1_2 {
     opacity: 0;
@@ -434,6 +437,23 @@ svg.piramide {
     animation-delay: 3.5s;
     animation-fill-mode: forwards; }
 
+svg.valores .st0,
+svg.valores .st1,
+svg.valores .st2,
+svg.valores .st3,
+svg.valores .st4,
+svg.valores .st5,
+svg.valores .st6 {
+  display: none; }
+  @media screen and (min-width: 768px) {
+    svg.valores .st0,
+    svg.valores .st1,
+    svg.valores .st2,
+    svg.valores .st3,
+    svg.valores .st4,
+    svg.valores .st5,
+    svg.valores .st6 {
+      display: block; } }
 svg.valores .st0 {
   fill: #6F6B6A; }
 svg.valores .st1 {
@@ -443,11 +463,13 @@ svg.valores .st1 {
 svg.valores .st2 {
   fill: none; }
 svg.valores .st3 {
-  font-family: 'Aspira-Light'; }
+  font-family: 'Aspira';
+  font-weight: 200; }
 svg.valores .st4 {
-  font-size: 15.0821; }
+  font-size: .95rem; }
 svg.valores .st5 {
-  font-family: 'Aspira-Bold'; }
+  font-family: 'Aspira';
+  font-weight: 700; }
 svg.valores .st6 {
   fill: #12100C; }
 
@@ -630,7 +652,11 @@ svg.valores .st6 {
 
 .valores .texto_valores {
   font-family: Aspira;
-  text-align: center; }
+  text-align: center;
+  display: block; }
+  @media screen and (min-width: 768px) {
+    .valores .texto_valores {
+      display: none; } }
 
 body {
   margin: 0;
