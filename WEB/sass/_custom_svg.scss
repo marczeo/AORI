@@ -27,7 +27,7 @@ svg.piramide {
         stroke-linecap: round;
         stroke-linejoin: round;
         stroke-miterlimit: 10;
-        
+
     }
 	/*aca iban las clases*/
 	.st0 {
@@ -136,6 +136,31 @@ svg.piramide {
         animation-delay: 3.5s;
         animation-fill-mode: forwards;
     }
+}
+svg.valores{
+      .st0 {
+          fill: #6F6B6A;
+      }
+      .st1 {
+          fill: none;
+          stroke: #6F6B6A;
+          stroke-miterlimit: 10;
+      }
+      .st2 {
+          fill: none;
+      }
+      .st3 {
+          font-family: 'Aspira-Light';
+      }
+      .st4 {
+          font-size: 15.0821;
+      }
+      .st5 {
+          font-family: 'Aspira-Bold';
+      }
+      .st6 {
+          fill: #12100C;
+      }
 }
 
 /*

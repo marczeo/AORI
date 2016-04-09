@@ -97,7 +97,7 @@ nav a {
   font-style: italic;
   text-transform: uppercase; }
 
-/*versi├│n de escritorio*/
+/*versión de escritorio*/
 .menu {
   display: block; }
 
@@ -256,7 +256,8 @@ nav a {
 .mision-center,
 .porque,
 .quienes,
-.valores {
+.valores,
+.servicios {
   width: 100%;
   max-width: 1100px;
   margin: 20px auto;
@@ -264,7 +265,8 @@ nav a {
   .mision-center p.title,
   .porque p.title,
   .quienes p.title,
-  .valores p.title {
+  .valores p.title,
+  .servicios p.title {
     margin: 0;
     font-size: 5.7vw;
     box-sizing: border-box;
@@ -276,7 +278,8 @@ nav a {
     .mision-center p.title span,
     .porque p.title span,
     .quienes p.title span,
-    .valores p.title span {
+    .valores p.title span,
+    .servicios p.title span {
       font-weight: 700;
       font-style: normal; }
 
@@ -430,6 +433,23 @@ svg.piramide {
     animation-duration: 1s;
     animation-delay: 3.5s;
     animation-fill-mode: forwards; }
+
+svg.valores .st0 {
+  fill: #6F6B6A; }
+svg.valores .st1 {
+  fill: none;
+  stroke: #6F6B6A;
+  stroke-miterlimit: 10; }
+svg.valores .st2 {
+  fill: none; }
+svg.valores .st3 {
+  font-family: 'Aspira-Light'; }
+svg.valores .st4 {
+  font-size: 15.0821; }
+svg.valores .st5 {
+  font-family: 'Aspira-Bold'; }
+svg.valores .st6 {
+  fill: #12100C; }
 
 /*
 	Animacion para los pilares que entran de forma horizontal, se le aplica una translacion en el eje X apra dar este efecto
@@ -607,6 +627,10 @@ svg.piramide {
     .mision .mision-center object {
       width: 6%;
       margin: 1% 0; }
+
+.valores .texto_valores {
+  font-family: Aspira;
+  text-align: center; }
 
 body {
   margin: 0;
