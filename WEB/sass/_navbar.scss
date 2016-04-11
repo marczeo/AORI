@@ -1,12 +1,21 @@
-nav{
-   display:block;
-   background:$azul-aori;
+.navbar ul.menu object{
+   margin-top: 10px;
+   margin-right: 0px;
+   width: 40%;
+   height: auto;
+   position: relative;
 }
-nav a{
+.navbar{
+   display:block;
+   background:#000;
+}
+.navbar a{
    font-family: Aspira;
    font-weight: 200;
-   font-style: italic;
+   font-style: normal;
+   font-size: 20px;
    text-transform: uppercase;
+   text-decoration: none;
 }
 /*versión de escritorio*/
 .menu{
@@ -35,7 +44,7 @@ nav a{
 
 .menu li a:hover, .menu li:hover > a{
    color:#ffffff;
-   background:$azul_alternativo_light;
+   background:$gris-aori;
 }
 
 /*Ocultar nivel 2 (submenu)*/
@@ -81,7 +90,7 @@ nav a{
 /*Nivel 3 igual que el 2, solo cambia posicion*/
 .menu ul ul {
    left: 251px;
-	top: 0px;
+   top: 0px;
 }
 
 /*Mobile*/
@@ -89,20 +98,20 @@ nav a{
    display:none;
    width:100%;
    padding:11px;
-   background:$azul-aori;
+   background:#000;
    color:#ffffff;
    text-transform:uppercase;
    box-sizing: border-box;
    font-weight:600;
 }
 .mobile-menu:hover{
-   background:$azul-aori;
+   background:#000;
    color:#ffffff;
    text-decoration:none;
 }
 
 @media (max-width: $ipad_mediaquery) {
-   nav ul.menu object{
+   .navbar ul.menu object{
       display: none;
     }
 
@@ -121,7 +130,7 @@ nav a{
       }
    }
 
-   nav{
+   .navbar{
       margin:0;
       background:none;
    }
@@ -141,7 +150,7 @@ nav a{
    .menu li a:hover, .menu li:hover > a{
       background:#f0f0f0;
       color:$gris-alternativo;
-      border-left:3px solid $azul_alternativo_light;
+      border-left:3px solid $gris-aori;
    }
 
    /*level 2 and 3 - make same width as all items*/

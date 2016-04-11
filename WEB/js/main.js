@@ -8,7 +8,7 @@
     } else {
       $hero_video.height(620);
     }
-    //In
+    //Incluir navbar
     $(function(){
       $("#navbar").load("navbar.html");
     });

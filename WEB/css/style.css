@@ -87,15 +87,24 @@
   src: url("fonts/Prototype.ttf");
   font-weight: 400;
   font-style: normal; }
-nav {
-  display: block;
-  background: #1c4499; }
+.navbar ul.menu object {
+  margin-top: 10px;
+  margin-right: 0px;
+  width: 40%;
+  height: auto;
+  position: relative; }
 
-nav a {
+.navbar {
+  display: block;
+  background: #000; }
+
+.navbar a {
   font-family: Aspira;
   font-weight: 200;
-  font-style: italic;
-  text-transform: uppercase; }
+  font-style: normal;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none; }
 
 /*versi├│n de escritorio*/
 .menu {
@@ -120,7 +129,7 @@ nav a {
 
 .menu li a:hover, .menu li:hover > a {
   color: #ffffff;
-  background: #9CA3DA; }
+  background: #686868; }
 
 /*Ocultar nivel 2 (submenu)*/
 .menu ul {
@@ -167,19 +176,19 @@ nav a {
   display: none;
   width: 100%;
   padding: 11px;
-  background: #1c4499;
+  background: #000;
   color: #ffffff;
   text-transform: uppercase;
   box-sizing: border-box;
   font-weight: 600; }
 
 .mobile-menu:hover {
-  background: #1c4499;
+  background: #000;
   color: #ffffff;
   text-decoration: none; }
 
 @media (max-width: 768px) {
-  nav ul.menu object {
+  .navbar ul.menu object {
     display: none; }
 
   .menu {
@@ -195,7 +204,7 @@ nav a {
       text-transform: uppercase;
       text-decoration: none; }
 
-  nav {
+  .navbar {
     margin: 0;
     background: none; }
 
@@ -212,7 +221,7 @@ nav a {
   .menu li a:hover, .menu li:hover > a {
     background: #f0f0f0;
     color: #797979;
-    border-left: 3px solid #9CA3DA; }
+    border-left: 3px solid #686868; }
 
   /*level 2 and 3 - make same width as all items*/
   .menu ul {
