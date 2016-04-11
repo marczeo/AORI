@@ -10,6 +10,7 @@ $(document).ready(function() {
 	//Fin slide
 
 	//Validacion formulario contacto
+	var regExTelefono = new RegExp("[0123456789 -]"); 
 	$("#contact-form").submit(function(e) {
 
     var url = "php/sendmail.php";
