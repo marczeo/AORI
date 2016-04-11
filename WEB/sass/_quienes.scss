@@ -1,7 +1,10 @@
 .mision-center,
 .porque,
 .quienes,
-.valores {
+.valores,
+.servicios,
+.clientes,
+.socios_com {
     width: 100%;
     max-width: $max_mediaquery;
     margin: 20px auto;
@@ -18,6 +21,9 @@
         span {
             font-weight: 700;
             font-style: normal;
+        }
+        @media screen and (min-width:$ipad_mediaquery){
+          font-size: 4.5vw;
         }
     }
 }

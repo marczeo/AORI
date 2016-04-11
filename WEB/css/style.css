@@ -97,7 +97,7 @@ nav a {
   font-style: italic;
   text-transform: uppercase; }
 
-/*versi├│n de escritorio*/
+/*versión de escritorio*/
 .menu {
   display: block; }
 
@@ -256,7 +256,10 @@ nav a {
 .mision-center,
 .porque,
 .quienes,
-.valores {
+.valores,
+.servicios,
+.clientes,
+.socios_com {
   width: 100%;
   max-width: 1100px;
   margin: 20px auto;
@@ -264,7 +267,10 @@ nav a {
   .mision-center p.title,
   .porque p.title,
   .quienes p.title,
-  .valores p.title {
+  .valores p.title,
+  .servicios p.title,
+  .clientes p.title,
+  .socios_com p.title {
     margin: 0;
     font-size: 5.7vw;
     box-sizing: border-box;
@@ -276,9 +282,21 @@ nav a {
     .mision-center p.title span,
     .porque p.title span,
     .quienes p.title span,
-    .valores p.title span {
+    .valores p.title span,
+    .servicios p.title span,
+    .clientes p.title span,
+    .socios_com p.title span {
       font-weight: 700;
       font-style: normal; }
+    @media screen and (min-width: 768px) {
+      .mision-center p.title,
+      .porque p.title,
+      .quienes p.title,
+      .valores p.title,
+      .servicios p.title,
+      .clientes p.title,
+      .socios_com p.title {
+        font-size: 4.5vw; } }
 
 .quienes p.title,
 .valores p.title {
@@ -342,7 +360,7 @@ svg.piramide {
     opacity: 0;
     animation-name: fadeHorizontal;
     animation-duration: 1s;
-    animation-delay: .0s;
+    animation-delay: 0.0s;
     animation-fill-mode: forwards; }
   svg.piramide .st0_1 {
     opacity: 0;
@@ -376,7 +394,7 @@ svg.piramide {
     opacity: 0;
     animation-name: fadeVertical;
     animation-duration: 1s;
-    animation-delay: .4s;
+    animation-delay: 0.4s;
     animation-fill-mode: forwards; }
   svg.piramide .st1_2 {
     opacity: 0;
@@ -430,6 +448,42 @@ svg.piramide {
     animation-duration: 1s;
     animation-delay: 3.5s;
     animation-fill-mode: forwards; }
+
+svg.valores .st0,
+svg.valores .st1,
+svg.valores .st2,
+svg.valores .st3,
+svg.valores .st4,
+svg.valores .st5,
+svg.valores .st6 {
+  display: none; }
+  @media screen and (min-width: 768px) {
+    svg.valores .st0,
+    svg.valores .st1,
+    svg.valores .st2,
+    svg.valores .st3,
+    svg.valores .st4,
+    svg.valores .st5,
+    svg.valores .st6 {
+      display: block; } }
+svg.valores .st0 {
+  fill: #6F6B6A; }
+svg.valores .st1 {
+  fill: none;
+  stroke: #6F6B6A;
+  stroke-miterlimit: 10; }
+svg.valores .st2 {
+  fill: none; }
+svg.valores .st3 {
+  font-family: 'Aspira';
+  font-weight: 200; }
+svg.valores .st4 {
+  font-size: .95rem; }
+svg.valores .st5 {
+  font-family: 'Aspira';
+  font-weight: 700; }
+svg.valores .st6 {
+  fill: #12100C; }
 
 /*
 	Animacion para los pilares que entran de forma horizontal, se le aplica una translacion en el eje X apra dar este efecto
@@ -607,6 +661,28 @@ svg.piramide {
     .mision .mision-center object {
       width: 6%;
       margin: 1% 0; }
+
+.valores .texto_valores {
+  font-family: Aspira;
+  text-align: center;
+  display: block; }
+  @media screen and (min-width: 768px) {
+    .valores .texto_valores {
+      display: none; } }
+
+.clientes .clientes_img {
+  width: 95%;
+  margin: 0 2.5%;
+  display: inline-block; }
+  .clientes .clientes_img img {
+    width: 10%;
+    margin: 1%;
+    vertical-align: middle; }
+
+.socios_com object {
+  width: 50%;
+  margin: 0 auto;
+  display: block; }
 
 body {
   margin: 0;
