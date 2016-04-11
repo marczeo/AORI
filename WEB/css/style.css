@@ -97,7 +97,7 @@ nav a {
   font-style: italic;
   text-transform: uppercase; }
 
-/*versión de escritorio*/
+/*versi├│n de escritorio*/
 .menu {
   display: block; }
 
@@ -683,6 +683,64 @@ svg.valores .st6 {
   width: 50%;
   margin: 0 auto;
   display: block; }
+
+.contact-dropdown-services dd,
+.contact-dropdown-services dt {
+  margin: 0px;
+  padding: 0px; }
+
+.contact-dropdown-services ul {
+  margin: -1px 0 0 0; }
+
+.contact-dropdown-services dd {
+  position: relative; }
+
+.contact-dropdown-services a,
+.contact-dropdown-services a:visited {
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+  font-size: 12px; }
+
+.contact-dropdown-services dt a {
+  background-color: #1c4499;
+  display: block;
+  padding: 8px 20px 5px 10px;
+  min-height: 25px;
+  line-height: 24px;
+  overflow: hidden;
+  border: 0;
+  width: 280px; }
+
+.contact-dropdown-services dt a span,
+.multiSel span {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 3px 2px 0; }
+
+.contact-dropdown-services dd ul {
+  background-color: #1c4499;
+  border: 0;
+  color: #fff;
+  display: none;
+  left: 0px;
+  padding: 2px 15px 2px 5px;
+  position: absolute;
+  top: 2px;
+  width: 300px;
+  list-style: none;
+  height: 100px;
+  overflow: auto; }
+
+.contact-dropdown-services span.value {
+  display: none; }
+
+.contact-dropdown-services dd ul li a {
+  padding: 5px;
+  display: block; }
+
+.contact-dropdown-services dd ul li a:hover {
+  background-color: #fff; }
 
 body {
   margin: 0;
