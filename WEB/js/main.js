@@ -1,4 +1,4 @@
- var aspect_ratio = 0.56;
+var aspect_ratio = 0.56;
   var $hero_video = $(".hero");
   $(document).ready(function() {
 	  
