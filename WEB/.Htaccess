@@ -1,6 +1,20 @@
-<IfModule mod_rewrite.c>
-#RewriteEngine on
-#RewriteCond %{REQUEST_FILENAME} !-d
-#RewriteCond %{REQUEST_FILENAME}.html-f
-#RewriteRule ^(.*)$ $1.html
+
+#Compresion
+<IfModule mod_filter.c>
+AddOutputFilterByType DEFLATE application/atom+xml application/javascript application/json application/rss+xml application/xhtml+xml application/xml image/svg+xml image/x-icon text/css text/html text/plain text/x-component text/xml
 </IfModule>
+
+Options All -Indexes
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(([^/]+/)*[^.]+)$ /$1.html [L]
+
+#Errores
+ErrorDocument 400 error.html
+ErrorDocument 401 error.html
+ErrorDocument 403 /AORI/WEB/error.html
+ErrorDocument 404 error.html
+ErrorDocument 500 error.html
