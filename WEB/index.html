@@ -1,5 +1,17 @@
 <!DOCTYPE html>
 <html>
+<!--
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AORI</title>
+    <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+    <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="javascript/modernizr/modernizr.2.6.2.js"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+    <script src="js/navbar.js" charset="utf-8"></script>
+</head>
+-->
 
 <head>
     <meta charset="utf-8">
@@ -22,14 +34,14 @@
         </video>
     </div>
 
-    <a id="touch-menu" class="mobile-menu" href="#">#</a>
-    <!--Inicio de barra de navegación-->
-    <nav>
+    <!--Barra de navegacion-->
+    <nav class="navbar">
+        <a id="touch-menu" class="mobile-menu" href="#"><i class="icon-reorder"></i>Menú</a>
+              <div class="menu_logo">
+                  <object type="image/svg+xml" data="Iconos/logo_nav.svg">Imágen de logo</object>
+                <!--<a href="#">#AORI</a>-->
+            </div>
         <ul class="menu">
-            <li>
-                <object type="image/svg+xml" data="Iconos/logo_principal.svg">Imágen de logo</object>
-                <a href="#">#AORI</a>
-            </li>
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Nuestros servicios</a>
                 <ul class="sub-menu">
@@ -49,12 +61,15 @@
                     <li><a href="#">Incubacion y financiamiento de empresas</a></li>
                 </ul>
             </li>
-            <li><a href="#">Unete al equipo</a></li>
+            <li><a href="#">únete al equipo</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Contacto</a></li>
+            <li><a href="#">MÉXICO</a></li>
+            <li><a href="#">U.S.A</a></li>
         </ul>
     </nav>
-    <!--Fin navbar-->
+    <!--Fin barra navegacion-->
+
     <div class="quienes">
         <p class="title">
             ¿Quiénes <span>somos?</span>
@@ -172,57 +187,58 @@
         <p class="title">
             algunos de <strong>nuestros clientes</strong>
         </p>
-      <div class="clientes_img">
-<img src="images/clientes/1.png" alt="" />
-<img src="images/clientes/2.png" alt="" />
-<img src="images/clientes/3.png" alt="" />
-<img src="images/clientes/4.png" alt="" />
-<img src="images/clientes/5.png" alt="" />
-<img src="images/clientes/6.png" alt="" />
-<img src="images/clientes/7.png" alt="" />
-<img src="images/clientes/8.png" alt="" />
-<img src="images/clientes/9.png" alt="" />
-<img src="images/clientes/10.png" alt="" />
-<img src="images/clientes/11.png" alt="" />
-<img src="images/clientes/12.png" alt="" />
-<img src="images/clientes/13.png" alt="" />
-<img src="images/clientes/14.png" alt="" />
-<img src="images/clientes/15.png" alt="" />
-<img src="images/clientes/16.png" alt="" />
-<img src="images/clientes/18.png" alt="" />
-<img src="images/clientes/19.png" alt="" />
-<img src="images/clientes/20.png" alt="" />
-<img src="images/clientes/21.png" alt="" />
-<img src="images/clientes/22.png" alt="" />
-<img src="images/clientes/23.png" alt="" />
-<img src="images/clientes/24.png" alt="" />
-<img src="images/clientes/25.png" alt="" />
-      </div>
+        <div class="clientes_img">
+            <img src="images/clientes/1.png" alt="" />
+            <img src="images/clientes/2.png" alt="" />
+            <img src="images/clientes/3.png" alt="" />
+            <img src="images/clientes/4.png" alt="" />
+            <img src="images/clientes/5.png" alt="" />
+            <img src="images/clientes/6.png" alt="" />
+            <img src="images/clientes/7.png" alt="" />
+            <img src="images/clientes/8.png" alt="" />
+            <img src="images/clientes/9.png" alt="" />
+            <img src="images/clientes/10.png" alt="" />
+            <img src="images/clientes/11.png" alt="" />
+            <img src="images/clientes/12.png" alt="" />
+            <img src="images/clientes/13.png" alt="" />
+            <img src="images/clientes/14.png" alt="" />
+            <img src="images/clientes/15.png" alt="" />
+            <img src="images/clientes/16.png" alt="" />
+            <img src="images/clientes/18.png" alt="" />
+            <img src="images/clientes/19.png" alt="" />
+            <img src="images/clientes/20.png" alt="" />
+            <img src="images/clientes/21.png" alt="" />
+            <img src="images/clientes/22.png" alt="" />
+            <img src="images/clientes/23.png" alt="" />
+            <img src="images/clientes/24.png" alt="" />
+            <img src="images/clientes/25.png" alt="" />
+        </div>
     </div>
     <div class="socios_com">
-      <p class="title">
-          Socios Comerciales
-      </p>
-      <object type="image/svg+xml" data="Iconos/3k.svg">Imágen de circulo</object>
+        <p class="title">
+            Socios Comerciales
+        </p>
+        <object type="image/svg+xml" data="Iconos/3k.svg">Imágen de circulo</object>
     </div>
 </body>
 <script type="text/javascript">
-// var dir = "images/clientes";
-// var fileextension = ".png";
-// $.ajax({
-//   //This will retrieve the contents of the folder if the folder is configured as 'browsable'
-//   url: dir,
-//   success: function (data) {
-//       //List all .png file names in the page
-//       $(data).find("a:contains(" + fileextension + ")").each(function () {
-//           var filename = this.href.replace(window.location.host, "").replace("http://", "").replace("/AORI/AORI/WEB", "");
-//           $(".clientes_img").append("<img src='" + dir + filename + "'>");
-//       });
-//       $(data).find("a:contains(" + '.jpg' + ")").each(function () {
-//           var filename = this.href.replace(window.location.host, "").replace("http://", "").replace("/AORI/AORI/WEB", "");
-//           $(".clientes_img").append("<img src='" + dir + filename + "'>");
-//       });
-//   }
-// });
+    // var dir = "images/clientes";
+    // var fileextension = ".png";
+    // $.ajax({
+    //   //This will retrieve the contents of the folder if the folder is configured as 'browsable'
+    //   url: dir,
+    //   success: function (data) {
+    //       //List all .png file names in the page
+    //       $(data).find("a:contains(" + fileextension + ")").each(function () {
+    //           var filename = this.href.replace(window.location.host, "").replace("http://", "").replace("/AORI/AORI/WEB", "");
+    //           $(".clientes_img").append("<img src='" + dir + filename + "'>");
+    //       });
+    //       $(data).find("a:contains(" + '.jpg' + ")").each(function () {
+    //           var filename = this.href.replace(window.location.host, "").replace("http://", "").replace("/AORI/AORI/WEB", "");
+    //           $(".clientes_img").append("<img src='" + dir + filename + "'>");
+    //       });
+    //   }
+    // });
 </script>
+
 </html>

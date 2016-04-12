@@ -1,4 +1,4 @@
- var aspect_ratio = 0.56;
+var aspect_ratio = 0.56;
   var $hero_video = $(".hero");
   $(document).ready(function() {
 	  
@@ -8,6 +8,10 @@
     } else {
       $hero_video.height(620);
     }
+    //Incluir navbar
+    $(function(){
+      $("#navbar").load("navbar.html");
+    });
   });
   jQuery(window).resize(function() {
     if ($(this).width() < 1100) {
