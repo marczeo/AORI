@@ -100,7 +100,7 @@
   text-transform: uppercase;
   text-decoration: none; }
 
-/*versi├│n de escritorio*/
+/*versión de escritorio*/
 .menu {
   display: block;
   margin: 0 0 0 10%; }
@@ -272,7 +272,7 @@ nav.navbar .menu_logo {
 .porque,
 .quienes,
 .valores,
-.servicios,
+.servicios_title,
 .clientes,
 .socios_com {
   width: 100%;
@@ -283,7 +283,7 @@ nav.navbar .menu_logo {
   .porque p.title,
   .quienes p.title,
   .valores p.title,
-  .servicios p.title,
+  .servicios_title p.title,
   .clientes p.title,
   .socios_com p.title {
     margin: 0;
@@ -298,7 +298,7 @@ nav.navbar .menu_logo {
     .porque p.title span,
     .quienes p.title span,
     .valores p.title span,
-    .servicios p.title span,
+    .servicios_title p.title span,
     .clientes p.title span,
     .socios_com p.title span {
       font-weight: 700;
@@ -308,7 +308,7 @@ nav.navbar .menu_logo {
       .porque p.title,
       .quienes p.title,
       .valores p.title,
-      .servicios p.title,
+      .servicios_title p.title,
       .clientes p.title,
       .socios_com p.title {
         font-size: 4.5vw; } }
@@ -875,6 +875,14 @@ svg.navegacion_logo .st3 {
 
 .contact-dropdown-services dd ul li a:hover {
   background-color: #fff; }
+
+.servicio {
+  width: 100%;
+  height: 300px; }
+  .servicio:nth-child(even) {
+    background: white; }
+  .servicio:nth-child(odd) {
+    background: rgba(104, 104, 104, 0.25); }
 
 body {
   margin: 0;

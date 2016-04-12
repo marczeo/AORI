@@ -1,0 +1,10 @@
+.servicio{
+  width: 100%;
+  height: 300px;
+  &:nth-child(even){
+    background: white;
+  }
+  &:nth-child(odd){
+    background: $gris_aori-25;
+  }
+}
