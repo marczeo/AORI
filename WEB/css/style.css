@@ -87,16 +87,10 @@
   src: url("fonts/Prototype.ttf");
   font-weight: 400;
   font-style: normal; }
-.navbar ul.menu object {
-  margin-top: 10px;
-  margin-right: 0px;
-  width: 40%;
-  height: auto;
-  position: relative; }
-
 .navbar {
   display: block;
-  background: #000; }
+  background: #000;
+  position: relative; }
 
 .navbar a {
   font-family: Aspira;
@@ -106,9 +100,10 @@
   text-transform: uppercase;
   text-decoration: none; }
 
-/*versi├│n de escritorio*/
+/*versión de escritorio*/
 .menu {
-  display: block; }
+  display: block;
+  margin: 0 0 0 10%; }
 
 .menu li {
   display: inline-block;
@@ -116,7 +111,7 @@
   z-index: 100; }
 
 .menu li a {
-  font-weight: 600;
+  font-weight: 200;
   text-decoration: none;
   padding: 11px;
   display: block;
@@ -127,7 +122,8 @@
   -ms-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s; }
 
-.menu li a:hover, .menu li:hover > a {
+.menu li a:hover,
+.menu li:hover > a {
   color: #ffffff;
   background: #686868; }
 
@@ -139,7 +135,7 @@
   width: 250px;
   position: absolute;
   top: 43px;
-  left: 0px;
+  left: 0;
   background: #ffffff; }
 
 /* Mostrar segundo nivel */
@@ -161,7 +157,8 @@
   border-left: 3px solid #ffffff;
   background: #ffffff; }
 
-.menu ul li a:hover, .menu ul li:hover > a {
+.menu ul li a:hover,
+.menu ul li:hover > a {
   background: #f0f0f0;
   border-left: 3px solid #9CA3DA;
   color: #797979; }
@@ -169,7 +166,7 @@
 /*Nivel 3 igual que el 2, solo cambia posicion*/
 .menu ul ul {
   left: 251px;
-  top: 0px; }
+  top: 0; }
 
 /*Mobile*/
 .mobile-menu {
@@ -218,7 +215,8 @@
     border-top: 1px solid #e0e0e0;
     border-left: 3px solid #ffffff; }
 
-  .menu li a:hover, .menu li:hover > a {
+  .menu li a:hover,
+  .menu li:hover > a {
     background: #f0f0f0;
     color: #797979;
     border-left: 3px solid #686868; }
@@ -234,6 +232,14 @@
   .menu ul ul {
     left: 0; } }
 /*end media queries*/
+nav.navbar .menu_logo {
+  position: absolute;
+  float: left;
+  margin: 0;
+  width: 14%;
+  max-width: 153px;
+  top: -1px; }
+
 /*Hero banner con el video*/
 .hero {
   width: 100%;
@@ -487,12 +493,22 @@ svg.valores .st3 {
   font-family: 'Aspira';
   font-weight: 200; }
 svg.valores .st4 {
-  font-size: .95rem; }
+  font-size: 0.95rem; }
 svg.valores .st5 {
   font-family: 'Aspira';
   font-weight: 700; }
 svg.valores .st6 {
   fill: #12100C; }
+
+svg.navegacion_logo .st0 {
+  fill: #FFFFFF; }
+svg.navegacion_logo .st1 {
+  fill: #211E1B; }
+svg.navegacion_logo .st2 {
+  fill: #453B36; }
+svg.navegacion_logo .st3 {
+  fill-rule: evenodd;
+  clip-rule: evenodd; }
 
 /*
 	Animacion para los pilares que entran de forma horizontal, se le aplica una translacion en el eje X apra dar este efecto

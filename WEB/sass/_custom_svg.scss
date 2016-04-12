@@ -144,10 +144,10 @@ svg.valores {
     .st4,
     .st5,
     .st6 {
-      display: none;
-      @media screen and (min-width: $ipad_mediaquery){
-        display: block;
-      }
+        display: none;
+        @media screen and (min-width: $ipad_mediaquery) {
+            display: block;
+        }
     }
     .st0 {
         fill: #6F6B6A;
@@ -165,7 +165,7 @@ svg.valores {
         font-weight: 200;
     }
     .st4 {
-        font-size:.95rem;
+        font-size: 0.95rem;
     }
     .st5 {
         font-family: 'Aspira';
@@ -173,6 +173,21 @@ svg.valores {
     }
     .st6 {
         fill: #12100C;
+    }
+}
+svg.navegacion_logo {
+    .st0 {
+        fill: #FFFFFF;
+    }
+    .st1 {
+        fill: #211E1B;
+    }
+    .st2 {
+        fill: #453B36;
+    }
+    .st3 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
     }
 }
 /*
