@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	$("#contact-error").hide();
 	//Combo con checkbox
 	$(".contact-dropdown-services dt a").on('click', function() {
 		$(".contact-dropdown-services dd ul").slideToggle('fast');
@@ -10,32 +11,39 @@ $(document).ready(function() {
 	//Fin slide
 
 	//Validacion formulario contacto
-	var regExTelefono = new RegExp("[0123456789 -]"); 
 	$("#contact-form").submit(function(e) {
 
-    var url = "php/sendmail.php";
+		var url = "php/sendmail.php";
 
-    $.ajax({
-           type: "POST",
-           url: url,
-           data: $("#contact-form").serialize(), // serializes the form's elements.
-           success: function(data)
-           {
-           		if(data=="true")
-           		{
-           			alert"Mensaje enviado con exito");
-				}
-				else
+		var regExTelefono = new RegExp("[0123456789 -]"); 
+		var telefono = document.getElementById("contact-phone").value;
+		if (telefono.match(regExTelefono) && telefono.length>=8){
+			$.ajax({
+				type: "POST",
+				url: url,
+				data: $("#contact-form").serialize(),
+				success: function(data)
 				{
-					alert("Debe llenar todos los campos");
+					if(data==true)
+           			{
+           				alert("Se envio ");
+					}
+					else
+					{
+						$("#contact-error").show();
+						document.getElementById("contact-error").innerHTML ="Completa todos los campos";
+						e.preventDefault();
+					}
 				}
-           }
-         });
-
-    e.preventDefault();
-});
-	//Fin de validacion
-
-
+         	});
+			
+		}
+		else{			
+			$("#contact-error").show();
+			document.getElementById("contact-error").innerHTML ="Error en el telefono";
+			e.preventDefault();
+		}
+	});
 	
 });
+
