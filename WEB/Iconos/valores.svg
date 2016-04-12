@@ -1,81 +1,81 @@
 <?xml version="1.0" standalone="no"?>
 <?xml-stylesheet type="text/css" media="screen" href="../css/style.css"?>
-<svg xmlns="http://www.w3.org/2000/svg" class="valores" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 602.5" xml:space="preserve">
+<svg xmlns="http://www.w3.org/2000/svg" class="valores animacion" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 602.5" xml:space="preserve">
 
 		<image width="1300" height="587" xlink:href="../images/valores.jpg" transform="matrix(0.6154 0 0 0.6154 0 148.7518)"/>
-		<circle class="st0" cx="438" cy="326" r="8"/>
-		<path class="st1" d="M449.4 326c0 6.3-5.1 11.4-11.4 11.4 -6.3 0-11.4-5.1-11.4-11.4 0-6.3 5.1-11.4 11.4-11.4C444.3 314.6 449.4 319.7 449.4 326z"/>
-		<circle class="st0" cx="88.2" cy="267.6" r="8"/>
-		<circle class="st1" cx="88.2" cy="267.6" r="11.4"/>
-		<polyline class="st1" points="88.2 267.6 88.2 119.8 336.8 119.8 "/>
-		<path class="st0" d="M254.7 267.6c-4.4 0-8-3.6-8-8 0-4.4 3.6-8 8-8 4.4 0 8 3.6 8 8C262.7 264 259.1 267.6 254.7 267.6z"/>
-		<circle class="st1" cx="254.7" cy="259.6" r="11.4"/>
-		<polyline class="st1" points="254.7 259.6 339.6 259.6 339.6 545.4 83.5 545.3 "/>
+		<circle class="st0 orden3" cx="438" cy="326" r="8"/>
+		<path id="Draw-Frame3" class="st1 Animate-Draw" d="M449.4 326c0 6.3-5.1 11.4-11.4 11.4 -6.3 0-11.4-5.1-11.4-11.4 0-6.3 5.1-11.4 11.4-11.4C444.3 314.6 449.4 319.7 449.4 326z"/>
+		<circle class="st0 orden1" cx="88.2" cy="267.6" r="8"/>
+		<circle id="Draw-Frame1" class="st1 Animate-Draw" cx="88.2" cy="267.6" r="11.4"/>
+		<polyline id="Draw-Frame1" class="st1 Animate-Draw" points="88.2 267.6 88.2 119.8 336.8 119.8 "/>
+		<path class="st0 orden2" d="M254.7 267.6c-4.4 0-8-3.6-8-8 0-4.4 3.6-8 8-8 4.4 0 8 3.6 8 8C262.7 264 259.1 267.6 254.7 267.6z"/>
+		<circle id="Draw-Frame2" class="st1 Animate-Draw" cx="254.7" cy="259.6" r="11.4"/>
+		<polyline id="Draw-Frame2" class="st1 Animate-Draw" points="254.7 259.6 339.6 259.6 339.6 545.4 83.5 545.3 "/>
 		<rect x="106.1" y="126.5" class="st2" width="228.5" height="49.2"/>
     <text transform="matrix(1 0 0 1 216.1761 137.4872)">
-        <tspan x="0" y="0" class="st0 st3 st4">Somos un
+        <tspan x="0" y="0" class="st0 st3 st4 orden1">Somos un
         </tspan>
-        <tspan x="71.3" y="0" class="st0 st5 st4">equipo
+        <tspan x="71.3" y="0" class="st0 st5 st4 orden1">equipo
         </tspan>
-        <tspan x="-107.6" y="18.1" class="st0 st5 st4">interdisciplinario
+        <tspan x="-107.6" y="18.1" class="st0 st5 st4 orden1">interdisciplinario
         </tspan>
-        <tspan x="10.3" y="18.1" class="st0 st3 st4">de expertos con
+        <tspan x="10.3" y="18.1" class="st0 st3 st4 orden1">de expertos con
         </tspan>
-        <tspan x="-85.9" y="36.2" class="st0 st3 st4">más de
+        <tspan x="-85.9" y="36.2" class="st0 st3 st4 orden1">más de
         </tspan>
-        <tspan x="-32.9" y="36.2" class="st0 st5 st4">15 años</tspan>
-        <tspan x="18.6" y="36.2" class="st0 st3 st4">
+        <tspan x="-32.9" y="36.2" class="st0 st5 st4 orden1">15 años</tspan>
+        <tspan x="18.6" y="36.2" class="st0 st3 st4 orden1">
             de trayectoria.</tspan>
     </text>
-		<path class="st0" d="M734.8 318c0 4.4-3.6 8-8 8 -4.4 0-8-3.6-8-8 0-4.4 3.6-8 8-8C731.2 309.9 734.8 313.5 734.8 318z"/>
-		<circle class="st1" cx="726.7" cy="318" r="11.4"/>
-		<polyline class="st1" points="726.7 318 726.7 119.8 478.7 119.8 "/>
+		<path class="st0 orden5" d="M734.8 318c0 4.4-3.6 8-8 8 -4.4 0-8-3.6-8-8 0-4.4 3.6-8 8-8C731.2 309.9 734.8 313.5 734.8 318z"/>
+		<circle id="Draw-Frame5" class="st1 Animate-Draw" cx="726.7" cy="318" r="11.4"/>
+		<polyline id="Draw-Frame5" class="st1 Animate-Draw" points="726.7 318 726.7 119.8 478.7 119.8 "/>
 		<rect x="476.7" y="126.5" class="st2" width="238.5" height="49.2"/>
     <text transform="matrix(1 0 0 1 504.2419 137.4872)">
-        <tspan x="0" y="0" class="st0 st5 st4">Garantizamos
+        <tspan x="0" y="0" class="st0 st5 st4 orden5">Garantizamos
         </tspan>
-        <tspan x="98.3" y="0" class="st0 st3 st4">el servicio que te
+        <tspan x="98.3" y="0" class="st0 st3 st4 orden5">el servicio que te
         </tspan>
-        <tspan x="-9.4" y="18.1" class="st0 st3 st4">damos desde
+        <tspan x="-9.4" y="18.1" class="st0 st3 st4 orden5">damos desde
         </tspan>
-        <tspan x="85.3" y="18.1" class="st0 st5 st4">todos sus ángulos.</tspan>
+        <tspan x="85.3" y="18.1" class="st0 st5 st4 orden5">todos sus ángulos.</tspan>
     </text>
-		<polyline class="st1" points="438 326 438 19.2 125.6 19.2 "/>
+		<polyline id="Draw-Frame3" class="st1 Animate-Draw" points="438 326 438 19.2 125.6 19.2 "/>
 		<rect x="137.4" y="26" class="st2" width="291.9" height="49.2"/>
     <text transform="matrix(1 0 0 1 150.1553 36.9306)">
-        <tspan x="0" y="0" class="st0 st3 st4">Nos caracterizamos por nuestra rendición
+        <tspan x="0" y="0" class="st0 st3 st4 orden3">Nos caracterizamos por nuestra rendición
         </tspan>
-        <tspan x="37" y="18.1" class="st0 st3 st4">de cuentas con
+        <tspan x="37" y="18.1" class="st0 st3 st4 orden3">de cuentas con
         </tspan>
-        <tspan x="143.4" y="18.1" class="st0 st5 st4">claridad
+        <tspan x="143.4" y="18.1" class="st0 st5 st4 orden3">claridad
         </tspan>
-        <tspan x="202" y="18.1" class="st0 st3 st4">y
+        <tspan x="202" y="18.1" class="st0 st3 st4 orden3">y
         </tspan>
-        <tspan x="213.7" y="18.1" class="st0 st5 st4">precisión</tspan>
-        <tspan x="275.7" y="18.1" class="st0 st3 st4">.</tspan>
+        <tspan x="213.7" y="18.1" class="st0 st5 st4 orden3">precisión</tspan>
+        <tspan x="275.7" y="18.1" class="st0 st3 st4 orden3">.</tspan>
     </text>
     <text transform="matrix(1 0 0 1 116.2698 563.0967)">
-        <tspan x="0" y="0" class="st0 st3 st4">Con la capacidad de ofrecerte las</tspan>
-        <tspan x="-27.9" y="18.1" class="st0 st5 st4">propuestas creativas de alto impacto</tspan>
-        <tspan x="144.1" y="36.2" class="st0 st3 st4">que buscas.</tspan>
+        <tspan x="0" y="0" class="st0 st3 st4 orden2">Con la capacidad de ofrecerte las</tspan>
+        <tspan x="-27.9" y="18.1" class="st0 st5 st4 orden2">propuestas creativas de alto impacto</tspan>
+        <tspan x="144.1" y="36.2" class="st0 st3 st4 orden2">que buscas.</tspan>
     </text>
-		<path class="st0" d="M596.6 372.5c-4.4 0-8.1-3.6-8.1-8 0-4.4 3.6-8 8.1-8 4.4 0 8 3.6 8 8C604.6 368.9 601 372.5 596.6 372.5z"/>
-		<circle class="st1" cx="596.6" cy="364.5" r="11.4"/>
-		<polyline class="st1" points="596.6 364.5 505.4 364.5 505.4 545.4 752.4 545.3 "/>
+		<path class="st0 orden4" d="M596.6 372.5c-4.4 0-8.1-3.6-8.1-8 0-4.4 3.6-8 8.1-8 4.4 0 8 3.6 8 8C604.6 368.9 601 372.5 596.6 372.5z"/>
+		<circle id="Draw-Frame4" class="st1 Animate-Draw" cx="596.6" cy="364.5" r="11.4"/>
+		<polyline id="Draw-Frame4" class="st1 Animate-Draw" points="596.6 364.5 505.4 364.5 505.4 545.4 752.4 545.3 "/>
     <text transform="matrix(1 0 0 1 526.9538 563.0967)">
-        <tspan x="0" y="0" class="st0 st3 st4">Cumpliendo nuestro compromiso</tspan>
-        <tspan x="41.7" y="18.1" class="st0 st3 st4">contigo en
+        <tspan x="0" y="0" class="st0 st3 st4 orden4">Cumpliendo nuestro compromiso</tspan>
+        <tspan x="41.7" y="18.1" class="st0 st3 st4 orden4">contigo en
         </tspan>
-        <tspan x="117.5" y="18.1" class="st0 st5 st4">tiempo
+        <tspan x="117.5" y="18.1" class="st0 st5 st4 orden4">tiempo
         </tspan>
-        <tspan x="169.1" y="18.1" class="st0 st3 st4">y
+        <tspan x="169.1" y="18.1" class="st0 st3 st4 orden4">y
         </tspan>
-        <tspan x="180.8" y="18.1" class="st0 st5 st4">forma</tspan>
-        <tspan x="221.7" y="18.1" class="st0 st3 st4">.</tspan>
+        <tspan x="180.8" y="18.1" class="st0 st5 st4 orden4">forma</tspan>
+        <tspan x="221.7" y="18.1" class="st0 st3 st4 orden4">.</tspan>
     </text>
-    <text transform="matrix(1 0 0 1 86.5446 113.3422)" class="st6 st5 st4">EXPERIENCIA</text>
-    <text transform="matrix(1 0 0 1 83.5127 537.3161)" class="st6 st5 st4">CREATIVIDAD</text>
-    <text transform="matrix(1 0 0 1 478.6688 113.3422)" class="st6 st5 st4">CONFIANZA</text>
-    <text transform="matrix(1 0 0 1 130.6148 12.7855)" class="st6 st5 st4">HONESTIDAD</text>
-    <text transform="matrix(1 0 0 1 514.4011 537.3161)" class="st6 st5 st4">PUNTUALIDAD</text>
+    <text transform="matrix(1 0 0 1 86.5446 113.3422)" class="st6 st5 st4 orden1">EXPERIENCIA</text>
+    <text transform="matrix(1 0 0 1 83.5127 537.3161)" class="st6 st5 st4 orden2">CREATIVIDAD</text>
+    <text transform="matrix(1 0 0 1 478.6688 113.3422)" class="st6 st5 st4 orden5">CONFIANZA</text>
+    <text transform="matrix(1 0 0 1 130.6148 12.7855)" class="st6 st5 st4 orden3">HONESTIDAD</text>
+    <text transform="matrix(1 0 0 1 514.4011 537.3161)" class="st6 st5 st4 orden4">PUNTUALIDAD</text>
 </svg>

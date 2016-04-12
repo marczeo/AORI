@@ -60,17 +60,6 @@
 }
 
 
-#Logo {
-  width: 150%;
-  height: 100%;
-  position: absolute;
-  top: 0; right: -25%; bottom: 0; left: -25%;
-  margin: auto;
-  display:block; 
-  stroke: #EEBE7B;
-  stroke-miterlimit: 5;
-}
-
 .Animate-Draw {
   fill-opacity: 0;
   animation-timing-function: ease-in-out;
@@ -82,14 +71,54 @@
   animation-delay: 0;
 }
 
-
-#Draw-Frame { 
-  animation-delay: 2.5s;
-  animation-duration: 3.5s; 
+#Draw-Frame1 { 
+  animation-delay: $initial_time;
+  animation-duration: $interval_time; 
   stroke-dashArray: 1500;
   stroke-dashoffset: 1500;
 }
-
+#Draw-Frame2 { 
+  animation-delay: $initial_time + $aditional_time;
+  animation-duration: $interval_time; 
+  stroke-dashArray: 1500;
+  stroke-dashoffset: 1500;
+}
+#Draw-Frame3 { 
+  animation-delay: $initial_time + ($aditional_time*2);
+  animation-duration: $interval_time; 
+  stroke-dashArray: 1500;
+  stroke-dashoffset: 1500;
+}
+#Draw-Frame4 { 
+  animation-delay: $initial_time + ($aditional_time * 3);
+  animation-duration: $interval_time; 
+  stroke-dashArray: 1500;
+  stroke-dashoffset: 1500;
+}
+#Draw-Frame5 { 
+  animation-delay: $initial_time + ($aditional_time * 4);
+  animation-duration: $interval_time; 
+  stroke-dashArray: 1500;
+  stroke-dashoffset: 1500;
+}
+#Draw-Frame6 { 
+  animation-delay: $initial_time + ($aditional_time * 5);
+  animation-duration: $interval_time; 
+  stroke-dashArray: 1500;
+  stroke-dashoffset: 1500;
+}
+#Draw-Frame7 { 
+  animation-delay: $initial_time +($aditional_time * 6);
+  animation-duration: $interval_time; 
+  stroke-dashArray: 1500;
+  stroke-dashoffset: 1500;
+}
+#Draw-Frame8 { 
+  animation-delay: $initial_time + ($aditional_time * 7);
+  animation-duration: $interval_time;  
+  stroke-dashArray: 1500;
+  stroke-dashoffset: 1500;
+}
 @-moz-keyframes DrawLine {
   to { stroke-dashOffset: 0; }
 }

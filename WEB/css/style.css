@@ -429,12 +429,55 @@ svg.piramide {
     animation-duration: 1s;
     animation-delay: 0.7s;
     animation-fill-mode: forwards; }
-  svg.piramide .st2 {
-    opacity: 0;
+  svg.piramide .st2_0,
+  svg.piramide .st2_1,
+  svg.piramide .st2_2,
+  svg.piramide .st2_3,
+  svg.piramide .st2_4,
+  svg.piramide .st2_5,
+  svg.piramide .st2_6,
+  svg.piramide .st2_7 {
     fill: #686868;
+    opacity: 0; }
+  svg.piramide .st2_0 {
     animation-name: fade;
     animation-duration: 1.5s;
-    animation-delay: 2s;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards; }
+  svg.piramide .st2_1 {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    animation-delay: 4.5s;
+    animation-fill-mode: forwards; }
+  svg.piramide .st2_2 {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    animation-delay: 5.5s;
+    animation-fill-mode: forwards; }
+  svg.piramide .st2_3 {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    animation-delay: 6.5s;
+    animation-fill-mode: forwards; }
+  svg.piramide .st2_4 {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    animation-delay: 7.5s;
+    animation-fill-mode: forwards; }
+  svg.piramide .st2_5 {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    animation-delay: 8.5s;
+    animation-fill-mode: forwards; }
+  svg.piramide .st2_6 {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    animation-delay: 9.5s;
+    animation-fill-mode: forwards; }
+  svg.piramide .st2_7 {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    animation-delay: 10.5s;
     animation-fill-mode: forwards; }
   svg.piramide .st3 {
     fill: none;
@@ -448,21 +491,13 @@ svg.piramide {
   svg.piramide .st4 {
     font-family: 'Aspira';
     font-weight: 600;
-    opacity: 0;
-    animation-name: fadeHorizontal;
-    animation-duration: 1s;
-    animation-delay: 3.5s;
-    animation-fill-mode: forwards; }
+    opacity: 0; }
   svg.piramide .st5 {
     font-size: 9px; }
   svg.piramide .st6 {
     font-family: 'Aspira';
     font-weight: 200;
-    opacity: 0;
-    animation-name: fadeHorizontal;
-    animation-duration: 1s;
-    animation-delay: 3.5s;
-    animation-fill-mode: forwards; }
+    opacity: 0; }
 
 svg.valores .st0,
 svg.valores .st1,
@@ -482,7 +517,8 @@ svg.valores .st6 {
     svg.valores .st6 {
       display: block; } }
 svg.valores .st0 {
-  fill: #6F6B6A; }
+  fill: #6F6B6A;
+  opacity: 0; }
 svg.valores .st1 {
   fill: none;
   stroke: #6F6B6A;
@@ -493,12 +529,15 @@ svg.valores .st3 {
   font-family: 'Aspira';
   font-weight: 200; }
 svg.valores .st4 {
-  font-size: 0.95rem; }
+  font-size: 0.95rem;
+  opacity: 0; }
 svg.valores .st5 {
   font-family: 'Aspira';
-  font-weight: 700; }
+  font-weight: 700;
+  opacity: 0; }
 svg.valores .st6 {
-  fill: #12100C; }
+  fill: #12100C;
+  opacity: 0; }
 
 svg.navegacion_logo .st0 {
   fill: #FFFFFF; }
@@ -509,6 +548,47 @@ svg.navegacion_logo .st2 {
 svg.navegacion_logo .st3 {
   fill-rule: evenodd;
   clip-rule: evenodd; }
+
+.animacion .orden1 {
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-delay: 2.5s;
+  animation-fill-mode: forwards; }
+.animacion .orden2 {
+  animation-name: fade;
+  animation-duration: 1.5s;
+  animation-delay: 3.5s;
+  animation-fill-mode: forwards; }
+.animacion .orden3 {
+  animation-name: fade;
+  animation-duration: 1s;
+  animation-delay: 4.5s;
+  animation-fill-mode: forwards; }
+.animacion .orden4 {
+  animation-name: fade;
+  animation-duration: 1s;
+  animation-delay: 5.5s;
+  animation-fill-mode: forwards; }
+.animacion .orden5 {
+  animation-name: fade;
+  animation-duration: 1s;
+  animation-delay: 6.5s;
+  animation-fill-mode: forwards; }
+.animacion .orden6 {
+  animation-name: fade;
+  animation-duration: 1s;
+  animation-delay: 7.5s;
+  animation-fill-mode: forwards; }
+.animacion .orden7 {
+  animation-name: fade;
+  animation-duration: 1s;
+  animation-delay: 8.5s;
+  animation-fill-mode: forwards; }
+.animacion .orden8 {
+  animation-name: fade;
+  animation-duration: 1s;
+  animation-delay: 9.5s;
+  animation-fill-mode: forwards; }
 
 /*
 	Animacion para los pilares que entran de forma horizontal, se le aplica una translacion en el eje X apra dar este efecto
@@ -594,19 +674,6 @@ svg.navegacion_logo .st3 {
 @-moz-keyframes fade {
   100% {
     opacity: 1; } }
-#Logo {
-  width: 150%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  right: -25%;
-  bottom: 0;
-  left: -25%;
-  margin: auto;
-  display: block;
-  stroke: #EEBE7B;
-  stroke-miterlimit: 5; }
-
 .Animate-Draw {
   fill-opacity: 0;
   animation-timing-function: ease-in-out;
@@ -616,9 +683,51 @@ svg.navegacion_logo .st3 {
   animation-duration: 4s;
   animation-delay: 0; }
 
-#Draw-Frame {
+#Draw-Frame1 {
   animation-delay: 2.5s;
-  animation-duration: 3.5s;
+  animation-duration: 1.5s;
+  stroke-dashArray: 1500;
+  stroke-dashoffset: 1500; }
+
+#Draw-Frame2 {
+  animation-delay: 3.5s;
+  animation-duration: 1.5s;
+  stroke-dashArray: 1500;
+  stroke-dashoffset: 1500; }
+
+#Draw-Frame3 {
+  animation-delay: 4.5s;
+  animation-duration: 1.5s;
+  stroke-dashArray: 1500;
+  stroke-dashoffset: 1500; }
+
+#Draw-Frame4 {
+  animation-delay: 5.5s;
+  animation-duration: 1.5s;
+  stroke-dashArray: 1500;
+  stroke-dashoffset: 1500; }
+
+#Draw-Frame5 {
+  animation-delay: 6.5s;
+  animation-duration: 1.5s;
+  stroke-dashArray: 1500;
+  stroke-dashoffset: 1500; }
+
+#Draw-Frame6 {
+  animation-delay: 7.5s;
+  animation-duration: 1.5s;
+  stroke-dashArray: 1500;
+  stroke-dashoffset: 1500; }
+
+#Draw-Frame7 {
+  animation-delay: 8.5s;
+  animation-duration: 1.5s;
+  stroke-dashArray: 1500;
+  stroke-dashoffset: 1500; }
+
+#Draw-Frame8 {
+  animation-delay: 9.5s;
+  animation-duration: 1.5s;
   stroke-dashArray: 1500;
   stroke-dashoffset: 1500; }
 
