@@ -900,6 +900,92 @@ svg.grafico_marketing .st29 {
 svg.grafico_marketing .st30 {
   fill: #EDEDED; }
 
+svg.grafico_apps .st0 {
+  font-family: 'Aspira';
+  font-weight: 200;
+  font-style: italic; }
+svg.grafico_apps .st1 {
+  font-size: 44.6317px; }
+svg.grafico_apps .st2 {
+  font-family: 'Aspira';
+  font-weight: 700; }
+svg.grafico_apps .st3 {
+  font-family: 'Aspira';
+  font-weight: 200; }
+svg.grafico_apps .st4 {
+  font-size: 11.3px; }
+svg.grafico_apps .st5 {
+  font-size: 28.3696px; }
+svg.grafico_apps .st6 {
+  fill: none;
+  stroke: #000000;
+  stroke-miterlimit: 10; }
+svg.grafico_apps .st7 {
+  fill: #1D4697; }
+svg.grafico_apps .st8 {
+  opacity: 0.4; }
+svg.grafico_apps .st9 {
+  opacity: 0.1; }
+svg.grafico_apps .st10 {
+  opacity: 0.75;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #005CFF; }
+svg.grafico_apps .st11 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #DCE4E8; }
+svg.grafico_apps .st12 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #2D2D2D; }
+svg.grafico_apps .st13 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #B7BFC7; }
+svg.grafico_apps .st14 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #EDEDED; }
+svg.grafico_apps .st15 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #1D4498; }
+svg.grafico_apps .st16 {
+  fill: #FFD6A9; }
+svg.grafico_apps .st17 {
+  fill: #FCF4D0; }
+svg.grafico_apps .st18 {
+  fill: #F1F2F2; }
+svg.grafico_apps .st19 {
+  fill: #BBBDBF; }
+svg.grafico_apps .st20 {
+  fill: #B7BFC7; }
+svg.grafico_apps .st21 {
+  fill: #2D2D2D; }
+svg.grafico_apps .st22 {
+  fill: #FFFFFF; }
+svg.grafico_apps .st23 {
+  fill: #1D4498; }
+svg.grafico_apps .st24 {
+  opacity: 0.75; }
+svg.grafico_apps .st25 {
+  opacity: 0.4;
+  fill: #005CFF; }
+svg.grafico_apps .st26 {
+  fill: #DCE4E8; }
+svg.grafico_apps .st27 {
+  fill: #F7F9F8; }
+svg.grafico_apps .st28 {
+  opacity: 0.3;
+  fill: #B7BFC7; }
+svg.grafico_apps .st29 {
+  opacity: 0.75;
+  fill: #005CFF; }
+svg.grafico_apps .st30 {
+  opacity: 0.1;
+  fill: #DCE4E8; }
+
 /*
 	Animacion para los pilares que entran de forma horizontal, se le aplica una translacion en el eje X apra dar este efecto
 	Junto con un cambio de opacidad, de igual forma para la vertical pero en el eje Y.
