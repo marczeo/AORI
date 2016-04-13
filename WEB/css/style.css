@@ -590,6 +590,60 @@ svg.navegacion_logo .st3 {
   animation-delay: 9.5s;
   animation-fill-mode: forwards; }
 
+svg.grafico_modelos .st0 {
+  font-family: 'Aspira';
+  font-style: italic;
+  font-weight: 200; }
+svg.grafico_modelos .st1 {
+  font-size: 44.6317px; }
+svg.grafico_modelos .st2 {
+  font-family: 'Aspira';
+  font-weight: 700; }
+svg.grafico_modelos .st3 {
+  font-family: 'Aspira';
+  font-weight: 200; }
+svg.grafico_modelos .st4 {
+  font-size: 11.3px; }
+svg.grafico_modelos .st5 {
+  font-size: 28.3696px; }
+svg.grafico_modelos .st6 {
+  fill: none;
+  stroke: #000000;
+  stroke-miterlimit: 10; }
+svg.grafico_modelos .st7 {
+  fill: #F7F9F8; }
+svg.grafico_modelos .st8 {
+  fill: #B7BFC7; }
+svg.grafico_modelos .st9 {
+  fill: #DCE4E8; }
+svg.grafico_modelos .st10 {
+  opacity: 0.75;
+  fill: #005CFF; }
+svg.grafico_modelos .st11 {
+  fill: #2D2D2D; }
+svg.grafico_modelos .st12 {
+  fill: #464E5C; }
+svg.grafico_modelos .st13 {
+  fill: #1D4498; }
+svg.grafico_modelos .st14 {
+  opacity: 0.3;
+  fill: #DCE4E8; }
+svg.grafico_modelos .st15 {
+  filter: url(#Adobe_OpacityMaskFilter); }
+svg.grafico_modelos .st16 {
+  fill: #FFFFFF; }
+svg.grafico_modelos .st17 {
+  mask: url("#SVGID_1_"); }
+svg.grafico_modelos .st18 {
+  opacity: 0.3;
+  fill: #B7BFC7; }
+svg.grafico_modelos .st19 {
+  filter: url(#Adobe_OpacityMaskFilter_1_); }
+svg.grafico_modelos .st20 {
+  mask: url("#SVGID_2_"); }
+svg.grafico_modelos .st21 {
+  fill: #163A7A; }
+
 /*
 	Animacion para los pilares que entran de forma horizontal, se le aplica una translacion en el eje X apra dar este efecto
 	Junto con un cambio de opacidad, de igual forma para la vertical pero en el eje Y.
@@ -877,12 +931,17 @@ svg.navegacion_logo .st3 {
   background-color: #fff; }
 
 .servicio {
-  width: 100%;
-  height: 300px; }
-  .servicio:nth-child(even) {
-    background: white; }
+  width: 100%; }
   .servicio:nth-child(odd) {
+    background: white; }
+  .servicio:nth-child(even) {
     background: rgba(104, 104, 104, 0.25); }
+
+.serv_modelos object {
+  width: 100%;
+  max-width: 1100px;
+  display: block;
+  margin: auto; }
 
 body {
   margin: 0;

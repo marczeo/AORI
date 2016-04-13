@@ -97,69 +97,64 @@ svg.piramide {
         animation-fill-mode: forwards;
     }
     .st2_0,
-	.st2_1,
-	.st2_2,
-	.st2_3,
-	.st2_4,
-	.st2_5,
-	.st2_6,
-	.st2_7 {
-        
+    .st2_1,
+    .st2_2,
+    .st2_3,
+    .st2_4,
+    .st2_5,
+    .st2_6,
+    .st2_7 {
         fill: #686868;
-		opacity: 0;
+        opacity: 0;
     }
-	.st2_0{
-		
+    .st2_0 {
         animation-name: fade;
         animation-duration: $interval_time;
         animation-delay: $initial_time + ($aditional_time);
         animation-fill-mode: forwards;
-	}
-	.st2_1{
-		animation-name: fade;
+    }
+    .st2_1 {
+        animation-name: fade;
         animation-duration: $interval_time;
         animation-delay: $initial_time + ($aditional_time*2);
         animation-fill-mode: forwards;
-	}
-	.st2_2{
-		
+    }
+    .st2_2 {
         animation-name: fade;
         animation-duration: $interval_time;
         animation-delay: $initial_time + ($aditional_time*3);
         animation-fill-mode: forwards;
-	}
-	.st2_3{
-		animation-name: fade;
+    }
+    .st2_3 {
+        animation-name: fade;
         animation-duration: $interval_time;
         animation-delay: $initial_time + ($aditional_time*4);
         animation-fill-mode: forwards;
-	}
-	.st2_4{
-		
+    }
+    .st2_4 {
         animation-name: fade;
         animation-duration: $interval_time;
-       animation-delay: $initial_time + ($aditional_time*5);
+        animation-delay: $initial_time + ($aditional_time*5);
         animation-fill-mode: forwards;
-	}
-	.st2_5{
-		animation-name: fade;
+    }
+    .st2_5 {
+        animation-name: fade;
         animation-duration: $interval_time;
         animation-delay: $initial_time + ($aditional_time*6);
         animation-fill-mode: forwards;
-	}
-	.st2_6{
-		
+    }
+    .st2_6 {
         animation-name: fade;
         animation-duration: $interval_time;
         animation-delay: $initial_time + ($aditional_time*7);
         animation-fill-mode: forwards;
-	}
-	.st2_7{
-		animation-name: fade;
+    }
+    .st2_7 {
+        animation-name: fade;
         animation-duration: $interval_time;
         animation-delay: $initial_time + ($aditional_time*8);
         animation-fill-mode: forwards;
-	}
+    }
     .st3 {
         fill: none;
         stroke: #686868;
@@ -174,7 +169,6 @@ svg.piramide {
         font-family: 'Aspira';
         font-weight: 600;
         opacity: 0;
-        
     }
     .st5 {
         font-size: 9px;
@@ -185,8 +179,6 @@ svg.piramide {
         opacity: 0;
     }
 }
-
-
 svg.valores {
     .st0,
     .st1,
@@ -199,11 +191,10 @@ svg.valores {
         @media screen and (min-width: $ipad_mediaquery) {
             display: block;
         }
-		
     }
     .st0 {
         fill: #6F6B6A;
-		opacity: 0;
+        opacity: 0;
     }
     .st1 {
         fill: none;
@@ -216,22 +207,20 @@ svg.valores {
     .st3 {
         font-family: 'Aspira';
         font-weight: 200;
-		
     }
     .st4 {
         font-size: 0.95rem;
-		opacity : 0;
+        opacity: 0;
     }
     .st5 {
         font-family: 'Aspira';
         font-weight: 700;
-		opacity : 0;
+        opacity: 0;
     }
     .st6 {
         fill: #12100C;
-		opacity : 0;
+        opacity: 0;
     }
-	
 }
 svg.navegacion_logo {
     .st0 {
@@ -248,57 +237,132 @@ svg.navegacion_logo {
         clip-rule: evenodd;
     }
 }
-
-.animacion{
-	
-	.orden1{
-		animation-name: fade;
-		animation-duration: $interval_time;
+.animacion {
+    .orden1 {
+        animation-name: fade;
+        animation-duration: $interval_time;
         animation-delay: $interval_time + ($aditional_time);
         animation-fill-mode: forwards;
-	}
-	.orden2{
-		animation-name: fade;
-		animation-duration: $interval_time;
+    }
+    .orden2 {
+        animation-name: fade;
+        animation-duration: $interval_time;
         animation-delay: $interval_time + ($aditional_time*2);
         animation-fill-mode: forwards;
-	}
-	.orden3{
-	animation-name: fade;
-		animation-duration: $aditional_time;
+    }
+    .orden3 {
+        animation-name: fade;
+        animation-duration: $aditional_time;
         animation-delay: $interval_time + ($aditional_time*3);
         animation-fill-mode: forwards;
-	}
-	.orden4{
-		animation-name: fade;
-		animation-duration: $aditional_time;
+    }
+    .orden4 {
+        animation-name: fade;
+        animation-duration: $aditional_time;
         animation-delay: $interval_time + ($aditional_time*4);
         animation-fill-mode: forwards;
-	}
-	.orden5{
-		animation-name: fade;
-		animation-duration: $aditional_time;
+    }
+    .orden5 {
+        animation-name: fade;
+        animation-duration: $aditional_time;
         animation-delay: $interval_time + ($aditional_time*5);
         animation-fill-mode: forwards;
-	}
-	.orden6{
-	animation-name: fade;
-		animation-duration: $aditional_time;
+    }
+    .orden6 {
+        animation-name: fade;
+        animation-duration: $aditional_time;
         animation-delay: $interval_time + ($aditional_time*6);
         animation-fill-mode: forwards;
-	}
-	.orden7{
-		animation-name: fade;
-		animation-duration: $aditional_time;
+    }
+    .orden7 {
+        animation-name: fade;
+        animation-duration: $aditional_time;
         animation-delay: $interval_time + ($aditional_time*7);
         animation-fill-mode: forwards;
-	}
-	.orden8{
-		animation-name: fade;
-		animation-duration: $aditional_time;
+    }
+    .orden8 {
+        animation-name: fade;
+        animation-duration: $aditional_time;
         animation-delay: $interval_time + ($aditional_time*8);
         animation-fill-mode: forwards;
-	}
+    }
+}
+svg.grafico_modelos {
+    .st0 {
+        font-family: 'Aspira';
+        font-style: italic;
+        font-weight: 200;
+    }
+    .st1 {
+        font-size: 44.6317px;
+    }
+    .st2 {
+        font-family: 'Aspira';
+        font-weight: 700;
+    }
+    .st3 {
+        font-family: 'Aspira';
+        font-weight: 200;
+    }
+    .st4 {
+        font-size: 11.3px;
+    }
+    .st5 {
+        font-size: 28.3696px;
+    }
+    .st6 {
+        fill: none;
+        stroke: #000000;
+        stroke-miterlimit: 10;
+    }
+    .st7 {
+        fill: #F7F9F8;
+    }
+    .st8 {
+        fill: #B7BFC7;
+    }
+    .st9 {
+        fill: #DCE4E8;
+    }
+    .st10 {
+        opacity: 0.75;
+        fill: #005CFF;
+    }
+    .st11 {
+        fill: #2D2D2D;
+    }
+    .st12 {
+        fill: #464E5C;
+    }
+    .st13 {
+        fill: #1D4498;
+    }
+    .st14 {
+        opacity: 0.3;
+        fill: #DCE4E8;
+    }
+    .st15 {
+        filter:url(#Adobe_OpacityMaskFilter);
+    }
+    .st16 {
+        fill: #FFFFFF;
+    }
+    .st17 {
+        mask: url("#SVGID_1_");
+    }
+    .st18 {
+        opacity: 0.3;
+        fill: #B7BFC7;
+    }
+    .st19 {
+        filter:url(#Adobe_OpacityMaskFilter_1_);
+    }
+    .st20 {
+        mask: url("#SVGID_2_");
+    }
+    .st21 {
+        fill: #163A7A;
+    }
 }
 /*
 	Animacion para los pilares que entran de forma horizontal, se le aplica una translacion en el eje X apra dar este efecto
