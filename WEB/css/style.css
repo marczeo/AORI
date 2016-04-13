@@ -100,7 +100,7 @@
   text-transform: uppercase;
   text-decoration: none; }
 
-/*versión de escritorio*/
+/*versi├│n de escritorio*/
 .menu {
   display: block;
   margin: 0 0 0 10%; }
@@ -1405,6 +1405,45 @@ svg.grafico_inteligencia .st35 {
   stroke-dashArray: 1500;
   stroke-dashoffset: 1500; }
 
+#Logo {
+  width: 150%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: -25%;
+  bottom: 0;
+  left: -25%;
+  margin: auto;
+  display: block;
+  fill: #aa7f3d;
+  fill: url("#MyGradient");
+  stroke: #EEBE7B;
+  stroke-miterlimit: 5; }
+
+#Draw-Mark {
+  stroke-dashArray: 1100;
+  stroke-dashoffset: 1100; }
+
+#Draw-Frame {
+  animation-delay: .5s, 3.5s, 3.5s;
+  animation-duration: 3.5s, 1s, 1s;
+  stroke-dashArray: 1500;
+  stroke-dashoffset: 1500; }
+
+#Draw-Text {
+  animation-delay: 2s, 3.5s, 3.5s;
+  animation-duration: 2s, 1s, 1s;
+  stroke-dashArray: 300;
+  stroke-dashoffset: 300; }
+
+@keyframes FadeStroke {
+  to {
+    stroke-opacity: 0; } }
+@keyframes FillIn {
+  from {
+    fill-opacity: 0; }
+  to {
+    fill-opacity: 1; } }
 @-moz-keyframes DrawLine {
   to {
     stroke-dashOffset: 0; } }
