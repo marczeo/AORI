@@ -1,12 +1,12 @@
 <?php
 
-$todoBien=true;
+$todoBien="true";
 
 //Validacion de formulario
 
 //Fin de validacion
 
-if($todoBien)
+if($todoBien=="true")
 {
 
 $destinatario=$_POST['email-contact'];
