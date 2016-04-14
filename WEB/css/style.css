@@ -1498,63 +1498,67 @@ svg.grafico_inteligencia .st35 {
     width: 20%;
     margin: 2%; }
 
-.contact-dropdown-services dd,
-.contact-dropdown-services dt {
-  margin: 0px;
-  padding: 0px; }
-
-.contact-dropdown-services ul {
-  margin: -1px 0 0 0; }
-
-.contact-dropdown-services dd {
-  position: relative; }
-
-.contact-dropdown-services a,
-.contact-dropdown-services a:visited {
-  color: #fff;
-  text-decoration: none;
-  outline: none;
-  font-size: 12px; }
-
-.contact-dropdown-services dt a {
-  background-color: #1c4499;
-  display: block;
-  padding: 8px 20px 5px 10px;
-  min-height: 25px;
-  line-height: 24px;
-  overflow: hidden;
-  border: 0;
-  width: 280px; }
-
-.contact-dropdown-services dt a span,
-.multiSel span {
-  cursor: pointer;
-  display: inline-block;
-  padding: 0 3px 2px 0; }
-
-.contact-dropdown-services dd ul {
-  background-color: #1c4499;
-  border: 0;
-  color: #fff;
-  display: none;
-  left: 0px;
-  padding: 2px 15px 2px 5px;
-  position: absolute;
-  top: 2px;
-  width: 300px;
-  list-style: none;
-  height: 100px;
-  overflow: auto; }
-
-.contact-dropdown-services span.value {
-  display: none; }
-
-.contact-dropdown-services dd ul li a {
-  padding: 5px;
-  display: block; }
-
-.contact-dropdown-services dd ul li a:hover {
-  background-color: #fff; }
+.contacto {
+  width: 38%;
+  margin: 1%; }
+  .contacto ul {
+    list-style-type: none; }
+  .contacto input,
+  .contacto textarea {
+    background: rgba(104, 104, 104, 0.25); }
+  .contacto .contact-dropdown-services dt a,
+  .contacto input,
+  .contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 0;
+    box-sizing: border-box; }
+  .contacto .contact-dropdown-services dd,
+  .contacto .contact-dropdown-services dt {
+    margin: 0;
+    padding: 0; }
+  .contacto .contact-dropdown-services ul {
+    margin: -1px 0 0; }
+  .contacto .contact-dropdown-services dd {
+    position: relative; }
+    .contacto .contact-dropdown-services dd ul {
+      background-color: #1c4499;
+      border: 0;
+      color: #fff;
+      display: none;
+      left: 0;
+      padding: 2px 15px 2px 5px;
+      position: absolute;
+      top: 2px;
+      width: 300px;
+      list-style: none;
+      height: 100px;
+      overflow: auto; }
+      .contacto .contact-dropdown-services dd ul li a {
+        padding: 5px;
+        display: block; }
+        .contacto .contact-dropdown-services dd ul li a:hover {
+          background-color: #fff; }
+  .contacto .contact-dropdown-services dt a {
+    background-color: #1c4499;
+    display: block;
+    padding: 8px 20px 5px 10px;
+    min-height: 25px;
+    line-height: 24px;
+    overflow: hidden; }
+    .contacto .contact-dropdown-services dt a .multiSel span,
+    .contacto .contact-dropdown-services dt a span {
+      cursor: pointer;
+      display: inline-block;
+      padding: 0 3px 2px 0; }
+  .contacto .contact-dropdown-services a, .contacto .contact-dropdown-services a:visited {
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    font-size: 12px; }
+  .contacto .contact-dropdown-services span.value {
+    display: none; }
 
 .servicio {
   width: 100%; }
