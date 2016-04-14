@@ -1,19 +1,23 @@
 .clientes {
-  .clientes_img{
-    width: 95%;
-    margin: 0 2.5%;
-    display: inline-block;
-    img{
-      width: 16.3%;
-      display: inline-block;
-      vertical-align: middle;
-      transition: .5s;
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-      &:hover{
-        -webkit-filter: none;
-        filter: none;
-      }
+    .clientes_img {
+        width: 95%;
+        margin: 0 2.5%;
+        display: inline-block;
+        text-align: center;
+        img {
+            width: 30%;
+            display: inline-block;
+            vertical-align: middle;
+            transition: 0.5s;
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+            @media screen and (min-width: $ipad_mediaquery) {
+                width: 16.3%;
+            }
+            &:hover {
+                -webkit-filter: none;
+                filter: none;
+            }
+        }
     }
-  }
 }

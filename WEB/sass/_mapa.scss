@@ -1,0 +1,39 @@
+.mapas {
+    width: 98%;
+    margin: auto;
+    display: block;
+    font-family: 'Aspira';
+    @media screen and (min-width: $ipad_mediaquery) {
+        width: 48%;
+        margin: 1%;
+        display: inline-block;
+    }
+    #gmap_canvas,
+    .mapas_desc {
+        margin: 0;
+    }
+    #gmap_canvas {
+        width: 100%;
+        height: 440px;
+    }
+    .mapas_desc {
+        font-size: 0.8rem;
+        color: #2c3e50;
+        width: 100%;
+        cursor: pointer;
+        .something {
+            text-transform: uppercase;
+            padding: 1px 10px;
+            i {
+                color: $azul-aori;
+            }
+            .title {
+                font-weight: 700;
+            }
+            .direccion,
+            .telefono {
+                font-weight: 200;
+            }
+        }
+    }
+}

@@ -1,6 +1,16 @@
-.socios_com{
-object {
-    width: 30%;
-    display: block;
-}
+.socios_com {
+    object {
+        width: 30%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .socios_pequeno {
+      display: inline-block;
+      width: 65%;
+        img {
+          display: inline-block;
+          width:20%;
+          margin: 2%;
+        }
+    }
 }

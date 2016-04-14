@@ -107,7 +107,7 @@
   text-transform: uppercase;
   text-decoration: none; }
 
-/*versi├│n de escritorio*/
+/*versión de escritorio*/
 .menu {
   display: block;
   margin: 0 0 0 10%; }
@@ -1470,21 +1470,33 @@ svg.grafico_inteligencia .st35 {
 .clientes .clientes_img {
   width: 95%;
   margin: 0 2.5%;
-  display: inline-block; }
+  display: inline-block;
+  text-align: center; }
   .clientes .clientes_img img {
-    width: 16.3%;
+    width: 30%;
     display: inline-block;
     vertical-align: middle;
-    transition: .5s;
+    transition: 0.5s;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%); }
+    @media screen and (min-width: 768px) {
+      .clientes .clientes_img img {
+        width: 16.3%; } }
     .clientes .clientes_img img:hover {
       -webkit-filter: none;
       filter: none; }
 
 .socios_com object {
   width: 30%;
-  display: block; }
+  display: inline-block;
+  vertical-align: top; }
+.socios_com .socios_pequeno {
+  display: inline-block;
+  width: 65%; }
+  .socios_com .socios_pequeno img {
+    display: inline-block;
+    width: 20%;
+    margin: 2%; }
 
 .contact-dropdown-services dd,
 .contact-dropdown-services dt {
@@ -1569,7 +1581,7 @@ svg.grafico_inteligencia .st35 {
       left: 0; }
     .nosotros .nosotros_img .integrante {
       width: 200px;
-      height: 280px;
+      height: 200px;
       display: inline-block;
       margin: 13px;
       overflow: hidden;
@@ -1593,6 +1605,38 @@ svg.grafico_inteligencia .st35 {
         transition: all 1s ease-in-out; }
       .nosotros .nosotros_img .integrante:hover .integrante_descripcion {
         top: 0; }
+
+.mapas {
+  width: 98%;
+  margin: auto;
+  display: block;
+  font-family: 'Aspira'; }
+  @media screen and (min-width: 768px) {
+    .mapas {
+      width: 48%;
+      margin: 1%;
+      display: inline-block; } }
+  .mapas #gmap_canvas,
+  .mapas .mapas_desc {
+    margin: 0; }
+  .mapas #gmap_canvas {
+    width: 100%;
+    height: 440px; }
+  .mapas .mapas_desc {
+    font-size: 0.8rem;
+    color: #2c3e50;
+    width: 100%;
+    cursor: pointer; }
+    .mapas .mapas_desc .something {
+      text-transform: uppercase;
+      padding: 1px 10px; }
+      .mapas .mapas_desc .something i {
+        color: #1c4499; }
+      .mapas .mapas_desc .something .title {
+        font-weight: 700; }
+      .mapas .mapas_desc .something .direccion,
+      .mapas .mapas_desc .something .telefono {
+        font-weight: 200; }
 
 body {
   margin: 0;
