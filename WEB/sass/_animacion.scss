@@ -70,7 +70,12 @@
   animation-duration: 4s;
   animation-delay: 0;
 }
-
+#phone { 
+  }
+svg:hover #phone,#phone:hover { 
+opacity: .65;
+fill: white;
+  }
 #Draw-Frame1 { 
   animation-delay: $initial_time;
   animation-duration: $interval_time; 

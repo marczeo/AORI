@@ -2,7 +2,9 @@
 <?xml-stylesheet type="text/css" media="screen" href="../css/style.css"?>
 <svg
    class="grafico_modelos"  xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1100 486" xml:space="preserve">
+<style type="text/css">
 
+</style>
     <font horiz-adv-x="3333">
         <font-face font-family="Aspira-Light" units-per-em="3333" underline-position="-394" underline-thickness="167"/>
         <missing-glyph horiz-adv-x="2148" d="M258,0l1632,0l0,2355l-1632,0M421,320l0,1715l555,-857M519,168l555,858l555,-858M1074,1329l-555,858l1110,0M1726,320l-554,858l554,857z"/>
@@ -64,10 +66,14 @@
         <tspan x="0" y="107.1" class="st2 st1">DE NEGOCIO</tspan>
     </text>
     <text transform="matrix(1 0 0 1 80.0006 311)" class="st3 st4">Lleva tu negocio a la dirección correcta, detecta su alcance real.</text>
-    <text transform="matrix(1 0 0 1 97.3745 362.6562)" class="st3 st5">LEER MÁS</text>
-    <rect x="80.7" y="334.3" class="st6" width="162.3" height="38.3"/>
+    <a>
+	<text transform="matrix(1 0 0 1 97.3745 362.6562)" class="st3 st5">LEER MÁS</text>
+	</a>
+	
+    <rect id="phone" x="80.7" y="334.3" class="st6" width="162.3" height="38.3"/>
+	
     <rect x="558.8" y="107.7" transform="matrix(0.2806 0.9598 -0.9598 0.2806 739.0632 -533.765)" class="st7" width="333.5" height="236.9"/>
-    <rect x="720" y="141.8" transform="matrix(0.9598 -0.2806 0.2806 0.9598 -10.4137 219.9036)" class="st8" width="85.5" height="9"/>
+    <rect x="720" y="141.8" transform="matrix(0.9598 -0.2806 0.2806 0.9598 -10.4137 219.9036)" class="st8  btn btn-1" width="85.5" height="9"/>
     <rect x="724.3" y="156.2" transform="matrix(0.9598 -0.2806 0.2806 0.9598 -14.2854 221.6552)" class="st9" width="85.5" height="9"/>
     <rect x="728.5" y="170.6" transform="matrix(0.9598 -0.2805 0.2805 0.9598 -18.1574 223.3916)" class="st9" width="85.5" height="9"/>
     <rect x="732.7" y="185" transform="matrix(0.9598 -0.2805 0.2805 0.9598 -22.0276 225.1553)" class="st9" width="85.5" height="9"/>

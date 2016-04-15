@@ -1459,6 +1459,10 @@ svg.grafico_importacion .st44 {
   animation-duration: 4s;
   animation-delay: 0; }
 
+svg:hover #phone, #phone:hover {
+  opacity: .65;
+  fill: white; }
+
 #Draw-Frame1 {
   animation-delay: 2.5s;
   animation-duration: 1.5s;

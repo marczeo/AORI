@@ -11,7 +11,7 @@
         <tspan x="29.8" y="214.2" class="st2 st1">O SUCURSALES</tspan>
     </text>
     <text transform="matrix(1 0 0 1 874.4466 407.5306)" class="st3 st4">LEER MÁS</text>
-    <rect x="858.4" y="378.2" class="st5" width="162.3" height="38.3"/>
+    <rect id="phone" x="858.4" y="378.2" class="st5" width="162.3" height="38.3"/>
     <text transform="matrix(1 0 0 1 680.3521 355.4985)" class="st3 st6">Crece con certidumbre, sea con sucursales o vendiendo franquicias.</text>
     <defs>
         <filter filterUnits="userSpaceOnUse" x="14.7" y="-73.1" width="607.3" height="630.7">

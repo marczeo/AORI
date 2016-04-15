@@ -24,7 +24,7 @@
         <text transform="matrix(1 0 0 1 97.3745 350.6487)" class="st3 st5">
       LEER MÁS
     </text>
-        <rect x="80.7" y="322.3" class="st6" width="162.3" height="38.3"/>
+        <rect id="phone" x="80.7" y="322.3" class="st6" width="162.3" height="38.3"/>
     </g>
     <g id="graficos">
         <g class="st7">

@@ -10,7 +10,7 @@
     </text>
     <text transform="matrix(1 0 0 1 80.0006 309.9994)" class="st3 st4">Dirígete a tu consumidor con resultados de venta o posicionamiento.</text>
     <text transform="matrix(1 0 0 1 97.3745 362.6562)" class="st3 st5">LEER MÁS</text>
-    <rect x="80.7" y="334.3" class="st6" width="162.3" height="38.3"/>
+    <rect id="phone" x="80.7" y="334.3" class="st6" width="162.3" height="38.3"/>
     <defs>
         <filter filterUnits="userSpaceOnUse" x="560" y="32.3" width="500.1" height="398.6">
             <feColorMatrix type="matrix" values="1"/>
