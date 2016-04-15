@@ -1,47 +1,4 @@
-.mision-center,
-.porque,
-.quienes,
-.valores,
-.servicios_title,
-.clientes,
-.socios_com {
-    width: 100%;
-    max-width: $max_mediaquery;
-    margin: 20px auto;
-    overflow: auto;
-    p.title {
-        margin: 0;
-        font-size: 5.7vw;
-        box-sizing: border-box;
-        font-family: Aspira;
-        font-weight: 200;
-        font-style: italic;
-        text-transform: uppercase;
-        padding: 10px;
-        span {
-            font-weight: 700;
-            font-style: normal;
-        }
-        @media screen and (min-width:$ipad_mediaquery){
-          font-size: 4.5vw;
-        }
-    }
-}
-.quienes,
-.valores {
-    p.title {
-        text-align: center;
-    }
 
-    .imagen {
-        width: 50%;
-        float: none;
-        margin: 0 auto;
-        img {
-            width: 100%;
-        }
-    }
-}
 .circulo,
 .imagen {
     float: left;

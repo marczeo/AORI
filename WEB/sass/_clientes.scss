@@ -4,9 +4,16 @@
     margin: 0 2.5%;
     display: inline-block;
     img{
-      width: 10%;
-      margin: 1%;
+      width: 16.3%;
+      display: inline-block;
       vertical-align: middle;
+      transition: .5s;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+      &:hover{
+        -webkit-filter: none;
+        filter: none;
+      }
     }
   }
 }
