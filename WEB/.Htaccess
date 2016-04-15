@@ -10,7 +10,8 @@ RewriteEngine On
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(([^/]+/)*[^.]+)$ /$1.html [L]
+RewriteRule ^inicio$ /AORI/WEB/index.html
+RewriteRule ^(([^/]+/)*[^.]+)$ /AORI/WEB/$1.html [L]
 
 #Errores
 ErrorDocument 400 error.html
