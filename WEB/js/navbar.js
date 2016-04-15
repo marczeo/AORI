@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	var touch 	= $('#touch-menu');
 	var menu 	= $('.menu');
-
+	var nav = $(".navbar");    
 	$(touch).on('click', function(e) {
 		e.preventDefault();
 		menu.slideToggle();
@@ -13,4 +13,13 @@ $(document).ready(function(){
 			menu.removeAttr('style');
 		}
 	});	
+
+	
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 615) {
+            nav.addClass("f-navbar");            
+        } else {
+            nav.removeClass("f-navbar");
+        }
+    });
 });
