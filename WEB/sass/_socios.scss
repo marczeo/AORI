@@ -1,16 +1,22 @@
 .socios_com {
+    .socios_iconos {
+        width: 98%;
+        display: inline-block;
+        text-align: center;
+    }
     object {
-        width: 30%;
+        width: 25%;
         display: inline-block;
         vertical-align: top;
     }
     .socios_pequeno {
-      display: inline-block;
-      width: 65%;
+        display: inline-block;
+        width: 71%;
+        vertical-align: middle;
         img {
-          display: inline-block;
-          width:20%;
-          margin: 2%;
+            display: inline-block;
+            width: 24%;
+            margin: 0;
         }
     }
 }

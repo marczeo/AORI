@@ -1,8 +1,20 @@
+.ubicacion {
+    max-width: 1100px;
+    display: block;
+}
 .contacto {
-    width: 38%;
-    margin: 1%;
+    width: 100%;
+    margin: 10px 0;
+    font-family: 'Aspira';
+    display: inline-block;
+    vertical-align: top;
+    @media screen and (min-width: $ipad_mediaquery) {
+        width: 45%;
+        margin: 1%;
+    }
     ul {
         list-style-type: none;
+        padding: 0;
     }
     input,
     textarea {
@@ -75,6 +87,18 @@
         }
         span.value {
             display: none;
+        }
+    }
+    button {
+        padding: 10px 20px;
+        background: $azul_aori;
+        border: none;
+        color: white;
+        float: right;
+        text-align: center;
+        width: 100%;
+        @media screen and (min-width: $ipad_mediaquery){
+          width: auto;
         }
     }
 }

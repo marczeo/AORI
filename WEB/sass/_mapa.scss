@@ -10,13 +10,20 @@
     }
     #gmap_canvas,
     .mapas_desc {
-        margin: 0;
+        margin: 0 0 20px 0;
+        p{
+          margin: 8px 0;
+        }
     }
     #gmap_canvas {
         width: 100%;
         height: 440px;
+        @media screen and (min-width: $ipad_mediaquery){
+          height: 260px;
+        }
     }
     .mapas_desc {
+      text-align: left;
         font-size: 0.8rem;
         color: #2c3e50;
         width: 100%;
@@ -27,7 +34,7 @@
             i {
                 color: $azul-aori;
             }
-            .title {
+            .nombre {
                 font-weight: 700;
             }
             .direccion,

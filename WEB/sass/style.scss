@@ -29,7 +29,8 @@ body {
 .quienes,
 .servicios_title,
 .socios_com,
-.valores {
+.valores,
+.ubicacion {
     width: 100%;
     max-width: $max_mediaquery;
     margin: 20px auto;
@@ -43,6 +44,9 @@ body {
         font-style: italic;
         text-transform: uppercase;
         padding: 10px;
+        strong{
+          font-style: normal;
+        }
         span {
             font-weight: 700;
             font-style: normal;
@@ -56,7 +60,8 @@ body {
 .quienes,
 .socios_com,
 .valores,
-.clientes {
+.clientes,
+.ubicacion{
     p.title {
         text-align: center;
     }

@@ -1486,23 +1486,40 @@ svg.grafico_inteligencia .st35 {
       -webkit-filter: none;
       filter: none; }
 
+.socios_com .socios_iconos {
+  width: 98%;
+  display: inline-block;
+  text-align: center; }
 .socios_com object {
-  width: 30%;
+  width: 25%;
   display: inline-block;
   vertical-align: top; }
 .socios_com .socios_pequeno {
   display: inline-block;
-  width: 65%; }
+  width: 71%;
+  vertical-align: middle; }
   .socios_com .socios_pequeno img {
     display: inline-block;
-    width: 20%;
-    margin: 2%; }
+    width: 24%;
+    margin: 0; }
+
+.ubicacion {
+  max-width: 1100px;
+  display: block; }
 
 .contacto {
-  width: 38%;
-  margin: 1%; }
+  width: 100%;
+  margin: 10px 0;
+  font-family: 'Aspira';
+  display: inline-block;
+  vertical-align: top; }
+  @media screen and (min-width: 768px) {
+    .contacto {
+      width: 45%;
+      margin: 1%; } }
   .contacto ul {
-    list-style-type: none; }
+    list-style-type: none;
+    padding: 0; }
   .contacto input,
   .contacto textarea {
     background: rgba(104, 104, 104, 0.25); }
@@ -1559,6 +1576,17 @@ svg.grafico_inteligencia .st35 {
     font-size: 12px; }
   .contacto .contact-dropdown-services span.value {
     display: none; }
+  .contacto button {
+    padding: 10px 20px;
+    background: #1c4499;
+    border: none;
+    color: white;
+    float: right;
+    text-align: center;
+    width: 100%; }
+    @media screen and (min-width: 768px) {
+      .contacto button {
+        width: auto; } }
 
 .servicio {
   width: 100%; }
@@ -1622,11 +1650,18 @@ svg.grafico_inteligencia .st35 {
       display: inline-block; } }
   .mapas #gmap_canvas,
   .mapas .mapas_desc {
-    margin: 0; }
+    margin: 0 0 20px 0; }
+    .mapas #gmap_canvas p,
+    .mapas .mapas_desc p {
+      margin: 8px 0; }
   .mapas #gmap_canvas {
     width: 100%;
     height: 440px; }
+    @media screen and (min-width: 768px) {
+      .mapas #gmap_canvas {
+        height: 260px; } }
   .mapas .mapas_desc {
+    text-align: left;
     font-size: 0.8rem;
     color: #2c3e50;
     width: 100%;
@@ -1636,7 +1671,7 @@ svg.grafico_inteligencia .st35 {
       padding: 1px 10px; }
       .mapas .mapas_desc .something i {
         color: #1c4499; }
-      .mapas .mapas_desc .something .title {
+      .mapas .mapas_desc .something .nombre {
         font-weight: 700; }
       .mapas .mapas_desc .something .direccion,
       .mapas .mapas_desc .something .telefono {
@@ -1654,7 +1689,8 @@ body {
 .quienes,
 .servicios_title,
 .socios_com,
-.valores {
+.valores,
+.ubicacion {
   width: 100%;
   max-width: 1100px;
   margin: 20px auto;
@@ -1666,7 +1702,8 @@ body {
   .quienes p.title,
   .servicios_title p.title,
   .socios_com p.title,
-  .valores p.title {
+  .valores p.title,
+  .ubicacion p.title {
     margin: 0;
     font-size: 5.7vw;
     box-sizing: border-box;
@@ -1675,6 +1712,16 @@ body {
     font-style: italic;
     text-transform: uppercase;
     padding: 10px; }
+    .clientes p.title strong,
+    .mision-center p.title strong,
+    .nosotros p.title strong,
+    .porque p.title strong,
+    .quienes p.title strong,
+    .servicios_title p.title strong,
+    .socios_com p.title strong,
+    .valores p.title strong,
+    .ubicacion p.title strong {
+      font-style: normal; }
     .clientes p.title span,
     .mision-center p.title span,
     .nosotros p.title span,
@@ -1682,7 +1729,8 @@ body {
     .quienes p.title span,
     .servicios_title p.title span,
     .socios_com p.title span,
-    .valores p.title span {
+    .valores p.title span,
+    .ubicacion p.title span {
       font-weight: 700;
       font-style: normal; }
     @media screen and (min-width: 768px) {
@@ -1693,14 +1741,16 @@ body {
       .quienes p.title,
       .servicios_title p.title,
       .socios_com p.title,
-      .valores p.title {
+      .valores p.title,
+      .ubicacion p.title {
         font-size: 4.5vw; } }
 
 .nosotros p.title,
 .quienes p.title,
 .socios_com p.title,
 .valores p.title,
-.clientes p.title {
+.clientes p.title,
+.ubicacion p.title {
   text-align: center; }
 
 .quienes .imagen,
