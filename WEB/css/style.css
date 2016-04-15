@@ -110,7 +110,8 @@
 /*versión de escritorio*/
 .menu {
   display: block;
-  margin: 0 0 0 10%; }
+  text-align: right;
+  margin: 0 7% 0 10%; }
 
 .menu li {
   display: inline-block;
