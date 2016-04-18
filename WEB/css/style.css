@@ -1475,6 +1475,10 @@ a.svg:after {
   bottom: 0;
   left: 0; }
 
+a.svg:hover {
+  opacity: .85;
+  fill: white; }
+
 #Draw-Frame1 {
   animation-delay: 2.5s;
   animation-duration: 1.5s;

@@ -16,7 +16,7 @@ return false;
     });*/
 	$page_elements = $('.svg');
 	$($page_elements).each(function() {
-			alert($(this).attr('id'));
+			//alert($(this).attr('id'));
 			$( "."+$(this).attr('id') ).load( $(this).attr('id') + ".html" );
         });
     $('.svg').click(function() {
