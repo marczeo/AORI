@@ -2,9 +2,6 @@
 <?xml-stylesheet type="text/css" media="screen" href="../css/style.css"?>
 <svg
    class="grafico_modelos"  xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1100 486" xml:space="preserve">
-<style type="text/css">
-
-</style>
     <font horiz-adv-x="3333">
         <font-face font-family="Aspira-Light" units-per-em="3333" underline-position="-394" underline-thickness="167"/>
         <missing-glyph horiz-adv-x="2148" d="M258,0l1632,0l0,2355l-1632,0M421,320l0,1715l555,-857M519,168l555,858l555,-858M1074,1329l-555,858l1110,0M1726,320l-554,858l554,857z"/>
@@ -66,9 +63,9 @@
         <tspan x="0" y="107.1" class="st2 st1">DE NEGOCIO</tspan>
     </text>
     <text transform="matrix(1 0 0 1 80.0006 311)" class="st3 st4">Lleva tu negocio a la dirección correcta, detecta su alcance real.</text>
-    <a>
+    
 	<text transform="matrix(1 0 0 1 97.3745 362.6562)" class="st3 st5">LEER MÁS</text>
-	</a>
+
 	
     <rect id="phone" x="80.7" y="334.3" class="st6" width="162.3" height="38.3"/>
 	

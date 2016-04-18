@@ -72,10 +72,24 @@
 }
 #phone { 
   }
-svg:hover #phone,#phone:hover { 
+#phone:hover { 
 opacity: .65;
 fill: white;
   }
+
+a.svg {
+ position: relative;
+ display: block; 
+}
+a.svg:after {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left:0;
+}
+
 #Draw-Frame1 { 
   animation-delay: $initial_time;
   animation-duration: $interval_time; 
