@@ -14,7 +14,7 @@
   /*Controla la longitud de la previsualización del texto y lo limita a 20 palabras*/
   add_action( 'wp_enqueue_scripts', 'masonry_enqueue_scripts' );
     function new_excerpt_length($length) {
-  	return 20;
+  	return 10;
   }
   add_filter('excerpt_length', 'new_excerpt_length');;
 ?>

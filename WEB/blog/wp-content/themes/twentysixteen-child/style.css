@@ -11,16 +11,42 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-sixteen-child
 */
-.grid{
 
-}
 .grid .grid-item,
-.grid .grid-sizer{
-  width: 30%;
-  margin: 10px;
+.grid .grid-sizer {
+    width: 30%;
+    margin: 10px;
 }
-.grid article{
-  position: relative;
-  top: 0;
-  left: 0;
+.grid article .overlay {
+    top: 0;
+    left: 0;
+    display: block;
+    position: relative;
+}
+.grid article .overlay:hover .post-thumbnail {
+    opacity: 0;
+}
+.grid article .overlay:hover .entry-title {
+    display: block;
+}
+#main .grid .entry-content,
+#main .grid .entry-footer {
+    width: 100%;
+}
+.grid article h2.entry-title {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-family: 'Aspira';
+    font-size: 32px;
+    width: 100%;
+}
+.grid article .post-thumbnail {
+    width: 100%;
+    margin: 0;
+    transition: 1s;
+}
+.grid article h2.entry-title {
+    display: none;
 }
