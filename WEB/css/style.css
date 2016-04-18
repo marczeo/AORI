@@ -107,7 +107,7 @@
   text-transform: uppercase;
   text-decoration: none; }
 
-/*versión de escritorio*/
+/*versi├│n de escritorio*/
 .menu {
   display: block;
   text-align: right;
@@ -1459,9 +1459,21 @@ svg.grafico_importacion .st44 {
   animation-duration: 4s;
   animation-delay: 0; }
 
-svg:hover #phone, #phone:hover {
+#phone:hover {
   opacity: .65;
   fill: white; }
+
+a.svg {
+  position: relative;
+  display: block; }
+
+a.svg:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
 
 #Draw-Frame1 {
   animation-delay: 2.5s;
@@ -1835,6 +1847,10 @@ svg:hover #phone, #phone:hover {
       .mapas .mapas_desc .something .direccion,
       .mapas .mapas_desc .something .telefono {
         font-weight: 200; }
+
+svg:hover #phone, #phone:hover {
+  opacity: .65;
+  fill: white; }
 
 body {
   margin: 0;

@@ -5,6 +5,7 @@ window.onload = function() {
     $window.on('scroll', check_if_in_view);
     $window.on('scroll resize', check_if_in_view);
     $window.trigger('scroll');
+	document.getElementById('MyDIV').setAttribute("style", "width:" + $('#graph').width() + "px" + "height:" + $('#graph').height() + "px");
     //alert("yey");
 }
 
@@ -13,7 +14,7 @@ function check_if_in_view() {
     var window_height = $window.height();
     var window_top_position = $window.scrollTop();
     var window_bottom_position = (window_top_position + window_height);
-
+	
     $.each($animation_elements, function() {
         //alert("llegue a la funcion");
         var $element = $(this);
@@ -32,17 +33,30 @@ function check_if_in_view() {
             $element.display = "inline";
             //$( ".inner" ).append( "<object class="'piramid'" type="'image/svg+xml" data="Iconos/piramide.svg'">Imágen de circulo</object>" );
             //alert("la veo");
-        } else if (Math.abs((element_top_position - window_bottom_position)) <= 5 || Math.abs((element_bottom_position - window_top_position)) <= 5) {
+        } else if (Math.abs((element_top_position - window_bottom_position)) <= 50 || Math.abs((element_bottom_position - window_top_position)) <= 50) {
             //alert("ya no la veo");
             /*alert("element_bottom_position = " + element_bottom_position + "\n element_top_position = " + element_top_position + "\n window_bottom_position = "
             + window_bottom_position + "\n window_top_position = " + window_top_position);*/
             $element.removeClass('test');
+			 //newone = $element.clone(true);
+			 //el.
             //$element.display = "none";
-            var new_url = 'Iconos/piramide.svg';
-            $('#graph').attr('data', new_url);
-            document.getElementById('MyDIV').setAttribute("style", "width:" + $('#graph').width() + "px" + "height:" + $('#graph').height() + "px");
-            $('#graph').load(new_url);
+            //var new_url = 'Iconos/piramide.svg';
+            //$element.attr('data', new_url);
+			//alert("Entré");
+			el  = $(this);
+			newone = el.clone(true),
+			el.before(newone);
+			
+			var count = $('.prueba').length;
+			//alert(count);
+			//if(count > 1){
+				$("." + el.attr("class") + ":last").remove();
+			//}
+			$animation_elements = $('.prueba');
+		  
 
         }
     });
+	
 }
