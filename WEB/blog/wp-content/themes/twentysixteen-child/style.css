@@ -11,3 +11,16 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-sixteen-child
 */
+.grid{
+
+}
+.grid .grid-item,
+.grid .grid-sizer{
+  width: 30%;
+  margin: 10px;
+}
+.grid article{
+  position: relative;
+  top: 0;
+  left: 0;
+}
