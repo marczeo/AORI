@@ -101,7 +101,8 @@ function init_map() {
     map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
     marker = new google.maps.Marker({
         map: map,
-        position: new google.maps.LatLng(20.7018007, -103.3808581)
+        position: new google.maps.LatLng(20.7018007, -103.3808581),
+		icon: 'images/icono2.png'
     });
     infowindow = new google.maps.InfoWindow({
         content: '<strong>Aori Headquarters</strong><br>Guadalajara,Jalisco<br>'
@@ -109,7 +110,8 @@ function init_map() {
 
     marker2 = new google.maps.Marker({
         map: map,
-        position: new google.maps.LatLng(20.6814282, -103.3821035)
+        position: new google.maps.LatLng(20.6814282, -103.3821035),
+		icon: 'images/icono2.png'
     });
     infowindow2 = new google.maps.InfoWindow({
         content: '<strong>Aori Oficinas Comerciales</strong><br>Guadalajara,Jalisco<br>'
@@ -117,7 +119,8 @@ function init_map() {
 
     marker3 = new google.maps.Marker({
         map: map,
-        position: new google.maps.LatLng(23.095497, -103.6113519)
+        position: new google.maps.LatLng(23.095497, -103.6113519),
+		icon: 'images/icono2.png'
     });
     infowindow3 = new google.maps.InfoWindow({
         content: '<strong>Aori Zacatecas</strong><br>Próximamente<br>'
