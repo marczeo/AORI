@@ -113,15 +113,18 @@
     }
     .mobile-menu {
         display: block;
+        text-align: right;
         /*margin-top: 100px;*/
-        a {
-            font-family: Aspira;
-            font-weight: 200;
-            font-style: italic;
-            text-transform: uppercase;
-            text-decoration: none;
-        }
+        
     }
+    .mobile-menu a{
+        font-family: Aspira;
+        font-weight: 200;
+        font-style: italic;
+        text-transform: uppercase;
+        text-decoration: none;
+        
+        }
     .navbar {
         margin: 0;
         background: none;
