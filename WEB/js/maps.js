@@ -1,7 +1,16 @@
 window.onload = function() {
-    init_map();
+    //alert ($('.animated').attr('id'));
+    $window = $(window);
+    $animation_elements = $('.prueba');
+    $window.on('scroll', check_if_in_view);
+    $window.on('scroll resize', check_if_in_view);
+    $window.trigger('scroll');
+	document.getElementById('MyDIV').setAttribute("style", "width:" + $('#graph').width() + "px" + "height:" + $('#graph').height() + "px");
+    //alert("yey");
+	//alert("Entre a funcion");
     $('.something').click(function() {
         //alert($(this).attr("name"));
+		//alert($(this).attr("name"));
         if ($(this).attr("name") == "headquarters") {
             map.setZoom(16);
             map.setCenter(new google.maps.LatLng(20.7018007, -103.3808581));
@@ -18,9 +27,11 @@ window.onload = function() {
         }
 
     });
+	init_map();
 };
 
 function init_map() {
+	
     var styles = [{
     "featureType": "administrative",
     "elementType": "labels.text.fill",
@@ -125,6 +136,7 @@ function init_map() {
         infowindow3.open(map, marker3);
     });
     infowindow3.open(map, marker3);
+	
 }
 google.maps.event.addDomListener(window, 'load', init_map);
 

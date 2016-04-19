@@ -1,13 +1,4 @@
-window.onload = function() {
-    //alert ($('.animated').attr('id'));
-    $window = $(window);
-    $animation_elements = $('.prueba');
-    $window.on('scroll', check_if_in_view);
-    $window.on('scroll resize', check_if_in_view);
-    $window.trigger('scroll');
-	document.getElementById('MyDIV').setAttribute("style", "width:" + $('#graph').width() + "px" + "height:" + $('#graph').height() + "px");
-    //alert("yey");
-}
+
 
 function check_if_in_view() {
     //alert("entre a nueva funcion");
