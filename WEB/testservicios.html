@@ -17,10 +17,17 @@
     <script src="js/scroll.js" charset="utf-8"></script>
     <script src="js/parallax.min.js" charset="utf-8"></script>
     <script src="js/servicios.js" charset="utf-8"></script>
+    <style media="screen">
+        .servicio_desc {
+            display: none;
+            height: 500px;
+            overflow: auto;
+            padding: 10px;
+        }
+    </style>
 </head>
 
 <body>
-
     <a name="servicios"></a>
     <div class="# servicios">
         <div class="servicios_title">
@@ -28,70 +35,60 @@
                 ¿Qué <strong>servicios</strong> ofrecemos?
             </p>
         </div>
+        <!-- modelos de negocio-->
         <div class="# servicio serv_modelos">
-            <!-- modelos de negocio-->
             <a class="svg" id="modelos_Negocio">
                 <object type="image/svg+xml" data="Iconos/modelos.svg">Imágen de circulo</object>
             </a>
-            <div class="modelos_Negocio" style="display: none;">
-            </div>
+            <div class="modelos_Negocio servicio_desc"></div>
         </div>
+        <!-- franquicias o sucursales-->
         <div class="# servicio serv_franquicia">
-            <!-- franquicias o sucursales-->
             <a class="svg" id="modelos_Franquicia">
                 <object class="objeto" type="image/svg+xml" data="Iconos/franquicia.svg">Imágen de circulo</object>
             </a>
-            <div class="modelos_Franquicia" style="display: none;">
-            </div>
+            <div class="modelos_Franquicia servicio_desc"></div>
         </div>
+        <!-- redes sociales-->
         <div class="# servicio serv_redes">
-            <!-- redes sociales-->
             <a class="svg" id="marketing_BTL">
                 <object type="image/svg+xml" data="Iconos/marketing.svg">Imágen de circulo</object>
             </a>
-            <div class="marketing_BTL" style="display: none;">
-            </div>
+            <div class="marketing_BTL servicio_desc"></div>
         </div>
+        <!-- apps-->
         <div class="# servicio serv_apps">
             <a class="svg" id="app_VR">
                 <object type="image/svg+xml" data="Iconos/apps.svg">Imágen de circulo</object>
             </a>
-            <!-- apps-->
-            <div class="app_VR" style="display: none;">
-            </div>
+            <div class="app_VR servicio_desc"></div>
         </div>
+        <!-- web design-->
         <div class="# servicio serv_web">
             <a class="svg" id="diseno_Web">
                 <object type="image/svg+xml" data="Iconos/diseno.svg">Imágen de circulo</object>
             </a>
-            <!-- web design-->
-            <div class="diseno_Web" style="display: none;">
-            </div>
+            <div class="diseno_Web servicio_desc"></div>
         </div>
+        <!-- inteligencia fiscal-->
         <div class="# servicio serv_inteligencia">
             <a class="svg" id="inteligencia_Fiscal">
                 <object type="image/svg+xml" data="Iconos/inteligencia.svg">Imágen de circulo</object>
             </a>
-            <!-- inteligencia fiscal-->
-            <div class="inteligencia_Fiscal" style="display: none;">
-            </div>
+            <div class="inteligencia_Fiscal servicio_desc"></div>
         </div>
+        <!-- Importacion/Exportacion-->
         <div class="# servicio serv_impoexpo">
             <a class="svg" id="colocacion_Productos">
                 <object type="image/svg+xml" data="Iconos/importacion.svg">Imágen de circulo</object>
             </a>
-            <!-- Importacion/Exportacion-->
-            <div class="colocacion_Productos" style="display: none;">
-            </div>
+            <div class="colocacion_Productos servicio_desc"></div>
         </div>
-        <div class="# servicio serv_cursos">
-            <!-- Cursos y diplomados-->
-        </div>
-        <div class="# servicio serv_incubacion">
-            <!-- Incubacion y financiamiento-->
-        </div>
+        <!-- Cursos y diplomados-->
+        <div class="# servicio serv_cursos"></div>
+        <!-- Incubacion y financiamiento-->
+        <div class="# servicio serv_incubacion"></div>
     </div>
-
 </body>
 
 </html>
