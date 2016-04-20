@@ -1,5 +1,3 @@
-
-
 function check_if_in_view() {
     //alert("entre a nueva funcion");
     var window_height = $window.height();
@@ -24,11 +22,8 @@ function check_if_in_view() {
             $element.display = "inline";
             //$( ".inner" ).append( "<object class="'piramid'" type="'image/svg+xml" data="Iconos/piramide.svg'">Imágen de circulo</object>" );
             //alert("la veo");
-        } else if (Math.abs((element_top_position - window_bottom_position)) <= 50 || Math.abs((element_bottom_position - window_top_position)) <= 50) {
-            //alert("ya no la veo");
-            /*alert("element_bottom_position = " + element_bottom_position + "\n element_top_position = " + element_top_position + "\n window_bottom_position = "
-            + window_bottom_position + "\n window_top_position = " + window_top_position);*/
-            $element.removeClass('test');
+        } else if (Math.abs((element_top_position - window_bottom_position)) <= 40 || Math.abs((element_bottom_position - window_top_position)) <= 40) {
+            
 			 //newone = $element.clone(true);
 			 //el.
             //$element.display = "none";
@@ -36,15 +31,27 @@ function check_if_in_view() {
             //$element.attr('data', new_url);
 			//alert("Entré");
 			el  = $(this);
+			//alert("attr: "+el.attr("id"))
 			newone = el.clone(true),
 			el.before(newone);
 			
-			var count = $('.prueba').length;
+			var count = $('.prueba'+el.attr("id")).length;
+			//alert(('.prueba'+el.attr("id")));
 			//alert(count);
-			//if(count > 1){
-				$("." + el.attr("class") + ":last").remove();
-			//}
-			$animation_elements = $('.prueba');
+			//alert(count);
+			if(count > 1){
+				//alert("entre");
+				//alert(("#"+el.attr("id")+"[class=" + el.attr("class") + ":last]"));
+			//$("#"+el.attr("id")+"[class=" + el.attr("class") + "]:last").remove();
+				//alert("Lo quite?");
+			//$("." + el.attr("class")+l.attr("id") + ":last[id="+el.attr("id")+"]").remove();
+			//$('#'+el.attr("id")+'').remove("prueba:last");
+			//$("." + el.attr("class") + ":last").remove();
+			//alert(("." + el.attr("class")+el.attr("id") + ":last"));
+			//alert(("." + el.attr("class") + ":last"));
+			$(".prueba"+el.attr("id") + ":last").remove();
+			}
+			//$animation_elements = $('.prueba');
 		  
 
         }

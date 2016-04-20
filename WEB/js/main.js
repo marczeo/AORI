@@ -1,3 +1,49 @@
+  window.onload = function() {
+	  //alert ($('.animated').attr('id'));
+	  
+    $page_elements = $('.svg');
+    $page_elements.each(function() {
+        $("." + $(this).attr('id')).load($(this).attr('id') + ".html");
+    });
+	
+    $('.servicio').click(function(event) {
+		$(".servicio_desc").not($(event.target).attr('id')).slideUp("fast");
+        $("." + $(event.target).attr('id')).slideToggle("fast");
+		return false;
+    });
+	
+    $window = $(window);
+	$animation_elements = $("*[class^='prueba']");
+	//$("div[class^='apple-']")
+    //$animation_elements = $('.prueba');
+    $window.on('scroll', check_if_in_view);
+    $window.on('scroll resize', check_if_in_view);
+    $window.trigger('scroll');
+	//document.getElementById('MyDIV').setAttribute("style", "width:" + $('#graph').width() + "px" + "height:" + $('#graph').height() + "px");
+    
+	//alert("Entre a funcion");
+    $('.something').click(function() {
+        //alert($(this).attr("name"));
+		//alert($(this).attr("name"));
+        if ($(this).attr("name") == "headquarters") {
+            map.setZoom(16);
+            map.setCenter(new google.maps.LatLng(20.7018007, -103.3808581));
+        }
+        if ($(this).attr("name") == "comerciales") {
+
+            map.setZoom(16);
+            map.setCenter(new google.maps.LatLng(20.6814282, -103.3821035));
+        }
+        if ($(this).attr("name") == "zacatecas") {
+            //alert($(this).attr("name"));
+            map.setZoom(8);
+            map.setCenter(new google.maps.LatLng(23.095497, -103.6113519));
+        }
+
+    });
+	init_map();
+};
+  
   var aspect_ratio = 0.56;
   var $hero_video = $(".hero");
   $(document).ready(function() {
