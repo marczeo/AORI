@@ -215,6 +215,11 @@
     margin: 0;
     background: none; }
 
+  .element {
+    overflow: scroll;
+    height: 250px;
+    background: #ffffff; }
+
   .menu li {
     display: block;
     margin: 0; }
