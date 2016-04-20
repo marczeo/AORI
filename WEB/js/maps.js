@@ -1,35 +1,3 @@
-window.onload = function() {
-    //alert ($('.animated').attr('id'));
-    $window = $(window);
-    $animation_elements = $('.prueba');
-    $window.on('scroll', check_if_in_view);
-    $window.on('scroll resize', check_if_in_view);
-    $window.trigger('scroll');
-	document.getElementById('MyDIV').setAttribute("style", "width:" + $('#graph').width() + "px" + "height:" + $('#graph').height() + "px");
-    //alert("yey");
-	//alert("Entre a funcion");
-    $('.something').click(function() {
-        //alert($(this).attr("name"));
-		//alert($(this).attr("name"));
-        if ($(this).attr("name") == "headquarters") {
-            map.setZoom(16);
-            map.setCenter(new google.maps.LatLng(20.7018007, -103.3808581));
-        }
-        if ($(this).attr("name") == "comerciales") {
-
-            map.setZoom(16);
-            map.setCenter(new google.maps.LatLng(20.6814282, -103.3821035));
-        }
-        if ($(this).attr("name") == "zacatecas") {
-            //alert($(this).attr("name"));
-            map.setZoom(8);
-            map.setCenter(new google.maps.LatLng(23.095497, -103.6113519));
-        }
-
-    });
-	init_map();
-};
-
 function init_map() {
 	
     var styles = [{
