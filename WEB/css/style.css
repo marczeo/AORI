@@ -107,7 +107,7 @@
   text-transform: uppercase;
   text-decoration: none; }
 
-/*versi├│n de escritorio*/
+/*versión de escritorio*/
 .menu {
   display: block;
   text-align: right;
@@ -262,7 +262,6 @@ nav.navbar .menu_logo {
   float: none; }
   .hero video {
     width: 100%;
-    max-width: 1100px;
     margin: auto;
     opacity: 80%;
     display: block; }
@@ -303,7 +302,7 @@ nav.navbar .menu_logo {
     display: block;
     margin: 0 auto;
     width: 100%;
-    max-width: 1100px;
+    max-width: 1150px;
     text-align: center; }
 
 svg.circle_shape .st0 {
@@ -1617,10 +1616,10 @@ a.svg:hover {
     text-align: center;
     box-sizing: border-box; }
     .mision .mision-center object,
-    .mision .mision-center p.title {
+    .mision .mision-center .mision-title {
       vertical-align: middle;
       display: inline-block; }
-    .mision .mision-center p.title {
+    .mision .mision-center .mision-title {
       font-family: Aspira;
       font-weight: 200;
       font-style: italic;
@@ -1795,7 +1794,7 @@ a.svg:hover {
       left: 0; }
     .nosotros .nosotros_img .integrante {
       width: 200px;
-      height: 200px;
+      height: 280px;
       display: inline-block;
       margin: 13px;
       overflow: hidden;
@@ -1878,66 +1877,44 @@ body {
 .valores,
 .ubicacion {
   width: 100%;
-  max-width: 1100px;
+  max-width: 1150px;
   margin: 20px auto;
   overflow: auto; }
-  .clientes p.title,
-  .mision-center p.title,
-  .nosotros p.title,
-  .porque p.title,
-  .quienes p.title,
-  .servicios_title p.title,
-  .socios_com p.title,
-  .valores p.title,
-  .ubicacion p.title {
-    margin: 25px 0;
-    font-size: 5.7vw;
-    box-sizing: border-box;
-    font-family: Aspira;
-    font-weight: 200;
-    font-style: italic;
-    text-transform: uppercase;
-    padding: 10px; }
-    .clientes p.title strong,
-    .mision-center p.title strong,
-    .nosotros p.title strong,
-    .porque p.title strong,
-    .quienes p.title strong,
-    .servicios_title p.title strong,
-    .socios_com p.title strong,
-    .valores p.title strong,
-    .ubicacion p.title strong {
-      font-style: normal; }
-    .clientes p.title span,
-    .mision-center p.title span,
-    .nosotros p.title span,
-    .porque p.title span,
-    .quienes p.title span,
-    .servicios_title p.title span,
-    .socios_com p.title span,
-    .valores p.title span,
-    .ubicacion p.title span {
-      font-weight: 700;
-      font-style: normal; }
-    @media screen and (min-width: 768px) {
-      .clientes p.title,
-      .mision-center p.title,
-      .nosotros p.title,
-      .porque p.title,
-      .quienes p.title,
-      .servicios_title p.title,
-      .socios_com p.title,
-      .valores p.title,
-      .ubicacion p.title {
-        font-size: 4.5vw; } }
 
-.nosotros p.title,
-.quienes p.title,
-.socios_com p.title,
-.valores p.title,
-.clientes p.title,
-.ubicacion p.title {
+p.title {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5.7vw;
+  box-sizing: border-box;
+  font-family: Aspira;
+  font-weight: 200;
+  font-style: italic;
+  text-transform: uppercase;
+  width: 100%;
+  max-width: 1150px;
+  color: white; }
+  p.title strong {
+    font-style: normal; }
+  p.title span {
+    font-weight: 700;
+    font-style: normal; }
+  @media screen and (min-width: 768px) {
+    p.title {
+      font-size: 4.5vw; } }
+  @media screen and (min-width: 1150px) {
+    p.title {
+      font-size: 3.5rem; } }
+
+p.title.center {
   text-align: center; }
+
+div.title-container {
+  width: 100%;
+  background: black;
+  position: relative; }
 
 .quienes .imagen,
 .valores .imagen {
