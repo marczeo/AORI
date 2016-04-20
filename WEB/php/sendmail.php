@@ -10,7 +10,7 @@ if($todoBien=="true")
 {
 
 $destinatario=$_POST['email-contact'];
-$asunto = "Gracias por contactrnos";
+$asunto = "Gracias por contactarnos";
 $cuerpo = 'Mensaje (contenido) del e-mail';
 
 //para el envío en formato HTML 
@@ -19,7 +19,7 @@ $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
 
 //dirección del remitente
 $headers .= "From: AORI <sistemas@aori.mx>\r\n";
-$headers .= "Reply-To: hola@aori.mx\r\n";
+$headers .= "Reply-To: sistemas@aori.mx\r\n";
 
 //ruta del mensaje desde origen a destino
 $headers .= "Return-path: sistemas@aori.mx\r\n";
@@ -27,7 +27,7 @@ $headers .= "Return-path: sistemas@aori.mx\r\n";
 //direcciones que recibirán copia oculta
 $headers .= "Bcc: sistemas@aori.mx\r\n";
 
-//mail($destinatario,$asunto,$cuerpo,$headers);
+mail($destinatario,$asunto,$cuerpo,$headers);
 }
 echo $todoBien;
  ?>
