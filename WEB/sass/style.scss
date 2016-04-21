@@ -18,10 +18,9 @@
 @import "nosotros";
 @import "mapa";
 @import "hover";
-
 body {
-    margin: 0;
-    padding: 0;
+    margin   : 0;
+    padding  : 0;
     font-size: 16px;
 }
 .clientes,
@@ -31,56 +30,83 @@ body {
 .quienes,
 .servicios_title,
 .socios_com,
-.valores,
-.ubicacion {
-    width: 100%;
+.ubicacion,
+.valores {
+    width    : 100%;
     max-width: $max_mediaquery;
-    margin: 20px auto;
-    overflow: auto;
+    margin   : 20px auto;
+    overflow : auto;
 }
 p.title {
-    margin: 0;position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%,-50%);
-    font-size: 5.7vw;
-    box-sizing: border-box;
-    font-family: Aspira;
-    font-weight: 200;
-    font-style: italic;
+    margin        : 0;
+    position      : absolute;
+    top           : 50%;
+    left          : 50%;
+    transform     : translate(-50%,-50%);
+    font-size     : 5.7vw;
+    box-sizing    : border-box;
+    font-family   : Aspira;
+    font-weight   : 200;
+    font-style    : italic;
     text-transform: uppercase;
-    width: 100%;
-    max-width: $max_mediaquery;
-
-    color: white;
-    strong{
-      font-style: normal;
+    width         : 100%;
+    max-width     : $max_mediaquery;
+    color         : white;
+    strong {
+        font-style: normal;
     }
     span {
         font-weight: 700;
-        font-style: normal;
+        font-style : normal;
     }
     @media screen and (min-width:$ipad_mediaquery) {
         font-size: 4.5vw;
     }
     @media screen and (min-width: $max_mediaquery) {
-      font-size: 3.5rem;
+        font-size: 3.5rem;
     }
 }
-
+p.title.telefono {
+    font-size: 1.5rem;
+    span.title-social {
+        font-weight: 200;
+        font-size  : 1.2rem;
+        i {
+            font-size: 1rem;
+        }
+    }
+    @media screen and (min-width:$ipad_mediaquery) {
+          font-size: 3.1vw;
+          span.title-social {
+              font-weight: 200;
+              font-size  : 2.5vw;
+              i {
+                  font-size: 2vw;
+              }
+          }
+      }
+      @media screen and (min-width: $max_mediaquery) {
+          font-size: 2.1rem;
+      }
+}
 p.title.center {
     text-align: center;
 }
-div.title-container{
-  width: 100%;
-  background: black;
-  position: relative;
+div.title-container {
+    width     : 100%;
+    background: black;
+    position  : relative;
+    margin    : 50px 0;
+    padding: 10px 0;
+    @media screen and (min-width: $ipad_mediaquery){
+      padding: 0;
+    }
 }
 .quienes,
 .valores {
     .imagen {
-        width: 50%;
-        float: none;
+        width : 50%;
+        float : none;
         margin: 0 auto;
         img {
             width: 100%;

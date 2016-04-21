@@ -2244,8 +2244,8 @@ body {
 .quienes,
 .servicios_title,
 .socios_com,
-.valores,
-.ubicacion {
+.ubicacion,
+.valores {
   width: 100%;
   max-width: 1150px;
   margin: 20px auto;
@@ -2278,13 +2278,37 @@ p.title {
     p.title {
       font-size: 3.5rem; } }
 
+p.title.telefono {
+  font-size: 1.5rem; }
+  p.title.telefono span.title-social {
+    font-weight: 200;
+    font-size: 1.2rem; }
+    p.title.telefono span.title-social i {
+      font-size: 1rem; }
+  @media screen and (min-width: 768px) {
+    p.title.telefono {
+      font-size: 3.1vw; }
+      p.title.telefono span.title-social {
+        font-weight: 200;
+        font-size: 2.5vw; }
+        p.title.telefono span.title-social i {
+          font-size: 2vw; } }
+  @media screen and (min-width: 1150px) {
+    p.title.telefono {
+      font-size: 2.1rem; } }
+
 p.title.center {
   text-align: center; }
 
 div.title-container {
   width: 100%;
   background: black;
-  position: relative; }
+  position: relative;
+  margin: 50px 0;
+  padding: 10px 0; }
+  @media screen and (min-width: 768px) {
+    div.title-container {
+      padding: 0; } }
 
 .quienes .imagen,
 .valores .imagen {
