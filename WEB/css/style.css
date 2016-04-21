@@ -549,8 +549,8 @@ svg.navegacion_logo .st3 {
 
 svg.grafico_modelos .st0 {
   font-family: 'Aspira';
-  font-style: italic;
-  font-weight: 200; }
+  font-weight: 200;
+  font-style: italic; }
 svg.grafico_modelos .st1 {
   font-size: 44.6317px; }
 svg.grafico_modelos .st2 {
@@ -562,11 +562,11 @@ svg.grafico_modelos .st3 {
 svg.grafico_modelos .st4 {
   font-size: 11.3px; }
 svg.grafico_modelos .st5 {
-  font-size: 28.3696px; }
-svg.grafico_modelos .st6 {
-  fill: none;
-  stroke: #000000;
+  fill: #EBEBEB;
+  stroke: #020202;
   stroke-miterlimit: 10; }
+svg.grafico_modelos .st6 {
+  font-size: 12px; }
 svg.grafico_modelos .st7 {
   fill: #F7F9F8; }
 svg.grafico_modelos .st8 {
@@ -586,19 +586,9 @@ svg.grafico_modelos .st14 {
   opacity: 0.3;
   fill: #DCE4E8; }
 svg.grafico_modelos .st15 {
-  filter: url(#Adobe_OpacityMaskFilter); }
-svg.grafico_modelos .st16 {
-  fill: #FFFFFF; }
-svg.grafico_modelos .st17 {
-  mask: url("#SVGID_1_"); }
-svg.grafico_modelos .st18 {
   opacity: 0.3;
   fill: #B7BFC7; }
-svg.grafico_modelos .st19 {
-  filter: url(#Adobe_OpacityMaskFilter_1_); }
-svg.grafico_modelos .st20 {
-  mask: url("#SVGID_2_"); }
-svg.grafico_modelos .st21 {
+svg.grafico_modelos .st16 {
   fill: #163A7A; }
 
 svg.grafico_franquicia .st0 {
