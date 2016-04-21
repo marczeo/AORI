@@ -1,5 +1,6 @@
 <?xml version="1.0" standalone="no"?>
 <?xml-stylesheet type="text/css" media="screen" href="../css/style.css"?>
+
 <svg
    class="grafico_modelos"
     xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1100 486" xml:space="preserve">
@@ -10,8 +11,9 @@
         <tspan x="0" y="107.1" class="st2 st1">DE NEGOCIO</tspan>
     </text>
     <text transform="matrix(1 0 0 1 80.0005 311)" class="st3 st4">Lleva tu negocio a la dirección correcta, detecta su alcance real.</text>
-    <rect x="80.9" y="341.6" class="st5" width="71.2" height="19.2"/>
-    <text transform="matrix(1 0 0 1 88.7866 355.1954)" class="st3 st6">LEER MÁS</text>
+     
+	<rect id="phone" onclick="window.parent.slide_Servicios('modelos_Negocio');" x="80.9" y="341.6" class="st5" width="71.2" height="19.2"/>
+   <text  transform="matrix(1 0 0 1 88.7866 355.1954)" class="st3 st6">LEER MÁS</text>
     <rect x="558.8" y="107.7" transform="matrix(0.2806 0.9598 -0.9598 0.2806 739.0632 -533.765)" class="st7" width="333.5" height="236.9"/>
     <rect x="720" y="141.8" transform="matrix(0.9598 -0.2806 0.2806 0.9598 -10.4137 219.9036)" class="st8" width="85.5" height="9"/>
     <rect x="724.3" y="156.2" transform="matrix(0.9598 -0.2806 0.2806 0.9598 -14.2854 221.6552)" class="st9" width="85.5" height="9"/>
