@@ -21,79 +21,79 @@ svg.piramide {
     .st0_1,
     .st0_2,
     .st0_3 {
-        fill: none;
-        stroke: #1C4499;
-        stroke-width: 5;
-        stroke-linecap: round;
-        stroke-linejoin: round;
+        fill             : none;
+        stroke           : #1C4499;
+        stroke-width     : 5;
+        stroke-linecap   : round;
+        stroke-linejoin  : round;
         stroke-miterlimit: 10;
     }
     /*aca iban las clases*/
     .st0 {
-        opacity: 0;
-        animation-name: fadeHorizontal;
-        animation-duration: 1s;
-        animation-delay: 0.0s;
+        opacity            : 0;
+        animation-name     : fadeHorizontal;
+        animation-duration : 1s;
+        animation-delay    : 0.0s;
         animation-fill-mode: forwards;
     }
     .st0_1 {
-        opacity: 0;
-        animation-name: fadeHorizontal;
-        animation-duration: 1s;
-        animation-delay: 0.1s;
+        opacity            : 0;
+        animation-name     : fadeHorizontal;
+        animation-duration : 1s;
+        animation-delay    : 0.1s;
         animation-fill-mode: forwards;
     }
     .st0_2 {
-        opacity: 0;
-        animation-name: fadeHorizontal;
-        animation-duration: 1s;
-        animation-delay: 0.2s;
+        opacity            : 0;
+        animation-name     : fadeHorizontal;
+        animation-duration : 1s;
+        animation-delay    : 0.2s;
         animation-fill-mode: forwards;
     }
     .st0_3 {
-        opacity: 0;
-        animation-name: fadeHorizontalInv;
-        animation-duration: 1s;
-        animation-delay: 1.5s;
+        opacity            : 0;
+        animation-name     : fadeHorizontalInv;
+        animation-duration : 1s;
+        animation-delay    : 1.5s;
         animation-fill-mode: forwards;
     }
     .st1,
     .st1_2,
     .st1_3,
     .st1_4 {
-        fill: none;
-        stroke: #1C4499;
-        stroke-width: 5;
-        stroke-linecap: round;
-        stroke-linejoin: round;
+        fill             : none;
+        stroke           : #1C4499;
+        stroke-width     : 5;
+        stroke-linecap   : round;
+        stroke-linejoin  : round;
         stroke-miterlimit: 10;
     }
     .st1 {
-        opacity: 0;
-        animation-name: fadeVertical;
-        animation-duration: 1s;
-        animation-delay: 0.4s;
+        opacity            : 0;
+        animation-name     : fadeVertical;
+        animation-duration : 1s;
+        animation-delay    : 0.4s;
         animation-fill-mode: forwards;
     }
     .st1_2 {
-        opacity: 0;
-        animation-name: fadeVertical;
-        animation-duration: 1s;
-        animation-delay: 0.5s;
+        opacity            : 0;
+        animation-name     : fadeVertical;
+        animation-duration : 1s;
+        animation-delay    : 0.5s;
         animation-fill-mode: forwards;
     }
     .st1_3 {
-        opacity: 0;
-        animation-name: fadeVertical;
-        animation-duration: 1s;
-        animation-delay: 0.6s;
+        opacity            : 0;
+        animation-name     : fadeVertical;
+        animation-duration : 1s;
+        animation-delay    : 0.6s;
         animation-fill-mode: forwards;
     }
     .st1_4 {
-        opacity: 0;
-        animation-name: fadeVertical;
-        animation-duration: 1s;
-        animation-delay: 0.7s;
+        opacity            : 0;
+        animation-name     : fadeVertical;
+        animation-duration : 1s;
+        animation-delay    : 0.7s;
         animation-fill-mode: forwards;
     }
     .st2_0,
@@ -104,60 +104,60 @@ svg.piramide {
     .st2_5,
     .st2_6,
     .st2_7 {
-        fill: #686868;
+        fill   : #686868;
         opacity: 0;
     }
     .st2_0 {
-        animation-name: fade;
-        animation-duration: $interval_time;
-        animation-delay: $initial_time + ($aditional_time);
+        animation-name     : fade;
+        animation-duration : $interval_time;
+        animation-delay    : $initial_time + ($aditional_time);
         animation-fill-mode: forwards;
     }
     .st2_1 {
-        animation-name: fade;
-        animation-duration: $interval_time;
-        animation-delay: $initial_time + ($aditional_time*2);
+        animation-name     : fade;
+        animation-duration : $interval_time;
+        animation-delay    : $initial_time + ($aditional_time*2);
         animation-fill-mode: forwards;
     }
     .st2_2 {
-        animation-name: fade;
-        animation-duration: $interval_time;
-        animation-delay: $initial_time + ($aditional_time*3);
+        animation-name     : fade;
+        animation-duration : $interval_time;
+        animation-delay    : $initial_time + ($aditional_time*3);
         animation-fill-mode: forwards;
     }
     .st2_3 {
-        animation-name: fade;
-        animation-duration: $interval_time;
-        animation-delay: $initial_time + ($aditional_time*4);
+        animation-name     : fade;
+        animation-duration : $interval_time;
+        animation-delay    : $initial_time + ($aditional_time*4);
         animation-fill-mode: forwards;
     }
     .st2_4 {
-        animation-name: fade;
-        animation-duration: $interval_time;
-        animation-delay: $initial_time + ($aditional_time*5);
+        animation-name     : fade;
+        animation-duration : $interval_time;
+        animation-delay    : $initial_time + ($aditional_time*5);
         animation-fill-mode: forwards;
     }
     .st2_5 {
-        animation-name: fade;
-        animation-duration: $interval_time;
-        animation-delay: $initial_time + ($aditional_time*6);
+        animation-name     : fade;
+        animation-duration : $interval_time;
+        animation-delay    : $initial_time + ($aditional_time*6);
         animation-fill-mode: forwards;
     }
     .st2_6 {
-        animation-name: fade;
-        animation-duration: $interval_time;
-        animation-delay: $initial_time + ($aditional_time*7);
+        animation-name     : fade;
+        animation-duration : $interval_time;
+        animation-delay    : $initial_time + ($aditional_time*7);
         animation-fill-mode: forwards;
     }
     .st2_7 {
-        animation-name: fade;
-        animation-duration: $interval_time;
-        animation-delay: $initial_time + ($aditional_time*8);
+        animation-name     : fade;
+        animation-duration : $interval_time;
+        animation-delay    : $initial_time + ($aditional_time*8);
         animation-fill-mode: forwards;
     }
     .st3 {
-        fill: none;
-        stroke: #686868;
+        fill             : none;
+        stroke           : #686868;
         stroke-miterlimit: 10;
         /*opacity: 0;
         animation-name: fadeHorizontal;
@@ -168,7 +168,7 @@ svg.piramide {
     .st4 {
         font-family: 'Aspira';
         font-weight: 600;
-        opacity: 0;
+        opacity    : 0;
     }
     .st5 {
         font-size: 9px;
@@ -176,7 +176,7 @@ svg.piramide {
     .st6 {
         font-family: 'Aspira';
         font-weight: 200;
-        opacity: 0;
+        opacity    : 0;
     }
 }
 svg.valores {
@@ -193,12 +193,12 @@ svg.valores {
         }
     }
     .st0 {
-        fill: #6F6B6A;
+        fill   : #6F6B6A;
         opacity: 0;
     }
     .st1 {
-        fill: none;
-        stroke: #6F6B6A;
+        fill             : none;
+        stroke           : #6F6B6A;
         stroke-miterlimit: 10;
     }
     .st2 {
@@ -210,15 +210,15 @@ svg.valores {
     }
     .st4 {
         font-size: 0.95rem;
-        opacity: 0;
+        opacity  : 0;
     }
     .st5 {
         font-family: 'Aspira';
         font-weight: 700;
-        opacity: 0;
+        opacity    : 0;
     }
     .st6 {
-        fill: #12100C;
+        fill   : #12100C;
         opacity: 0;
     }
 }
@@ -239,51 +239,51 @@ svg.navegacion_logo {
 }
 .animacion {
     .orden1 {
-        animation-name: fade;
-        animation-duration: $interval_time;
-        animation-delay: $interval_time + ($aditional_time);
+        animation-name     : fade;
+        animation-duration : $interval_time;
+        animation-delay    : $interval_time + ($aditional_time);
         animation-fill-mode: forwards;
     }
     .orden2 {
-        animation-name: fade;
-        animation-duration: $interval_time;
-        animation-delay: $interval_time + ($aditional_time*2);
+        animation-name     : fade;
+        animation-duration : $interval_time;
+        animation-delay    : $interval_time + ($aditional_time*2);
         animation-fill-mode: forwards;
     }
     .orden3 {
-        animation-name: fade;
-        animation-duration: $aditional_time;
-        animation-delay: $interval_time + ($aditional_time*3);
+        animation-name     : fade;
+        animation-duration : $aditional_time;
+        animation-delay    : $interval_time + ($aditional_time*3);
         animation-fill-mode: forwards;
     }
     .orden4 {
-        animation-name: fade;
-        animation-duration: $aditional_time;
-        animation-delay: $interval_time + ($aditional_time*4);
+        animation-name     : fade;
+        animation-duration : $aditional_time;
+        animation-delay    : $interval_time + ($aditional_time*4);
         animation-fill-mode: forwards;
     }
     .orden5 {
-        animation-name: fade;
-        animation-duration: $aditional_time;
-        animation-delay: $interval_time + ($aditional_time*5);
+        animation-name     : fade;
+        animation-duration : $aditional_time;
+        animation-delay    : $interval_time + ($aditional_time*5);
         animation-fill-mode: forwards;
     }
     .orden6 {
-        animation-name: fade;
-        animation-duration: $aditional_time;
-        animation-delay: $interval_time + ($aditional_time*6);
+        animation-name     : fade;
+        animation-duration : $aditional_time;
+        animation-delay    : $interval_time + ($aditional_time*6);
         animation-fill-mode: forwards;
     }
     .orden7 {
-        animation-name: fade;
-        animation-duration: $aditional_time;
-        animation-delay: $interval_time + ($aditional_time*7);
+        animation-name     : fade;
+        animation-duration : $aditional_time;
+        animation-delay    : $interval_time + ($aditional_time*7);
         animation-fill-mode: forwards;
     }
     .orden8 {
-        animation-name: fade;
-        animation-duration: $aditional_time;
-        animation-delay: $interval_time + ($aditional_time*8);
+        animation-name     : fade;
+        animation-duration : $aditional_time;
+        animation-delay    : $interval_time + ($aditional_time*8);
         animation-fill-mode: forwards;
     }
 }
@@ -291,7 +291,7 @@ svg.grafico_modelos {
     .st0 {
         font-family: 'Aspira';
         font-weight: 200;
-        font-style: italic;
+        font-style : italic;
     }
     .st1 {
         font-size: 44.6317px;
@@ -308,8 +308,8 @@ svg.grafico_modelos {
         font-size: 11.3px;
     }
     .st5 {
-        fill: #EBEBEB;
-        stroke: #020202;
+        fill             : #EBEBEB;
+        stroke           : #020202;
         stroke-miterlimit: 10;
     }
     .st6 {
@@ -326,7 +326,7 @@ svg.grafico_modelos {
     }
     .st10 {
         opacity: 0.75;
-        fill: #005CFF;
+        fill   : #005CFF;
     }
     .st11 {
         fill: #2D2D2D;
@@ -339,11 +339,11 @@ svg.grafico_modelos {
     }
     .st14 {
         opacity: 0.3;
-        fill: #DCE4E8;
+        fill   : #DCE4E8;
     }
     .st15 {
         opacity: 0.3;
-        fill: #B7BFC7;
+        fill   : #B7BFC7;
     }
     .st16 {
         fill: #163A7A;
@@ -353,7 +353,7 @@ svg.grafico_franquicia {
     .st0 {
         font-family: 'Aspira';
         font-weight: 200;
-        font-style: italic;
+        font-style : italic;
     }
     .st1 {
         font-size: 44.6317px;
@@ -367,318 +367,303 @@ svg.grafico_franquicia {
         font-weight: 200;
     }
     .st4 {
-        font-size: 28.3696px;
+        font-size: 11.3px;
     }
     .st5 {
-        fill: none;
-        stroke: #000000;
+        fill             : #EBEBEB;
+        stroke           : #020202;
         stroke-miterlimit: 10;
     }
     .st6 {
-        font-size: 11.3px;
+        font-size: 12px;
     }
     .st7 {
-        filter:url(#Adobe_OpacityMaskFilter);
+        opacity: 0.2;
     }
     .st8 {
-        fill: #FFFFFF;
-        stroke: #000000;
-        stroke-miterlimit: 10;
+        fill: #1D4498;
     }
     .st9 {
-        mask: url("#SVGID_1_");
+        opacity: 0.7;
+        fill   : #1D4498;
     }
     .st10 {
-        opacity: 0.2;
+        fill: #FFFFFF;
     }
     .st11 {
-        fill: #1D4498;
+        fill             : none;
+        stroke           : #E76A3E;
+        stroke-width     : 2.8514;
+        stroke-miterlimit: 10;
     }
     .st12 {
-        opacity: 0.7;
-        fill: #1D4498;
-    }
-    .st13 {
-        fill: #FFFFFF;
-    }
-    .st14 {
-        fill: none;
-        stroke: #E76A3E;
-        stroke-width: 2.8514;
-        stroke-miterlimit: 10;
-    }
-    .st15 {
         fill: #A5A3A9;
     }
-    .st16 {
+    .st13 {
         fill: #39343A;
     }
-    .st17 {
+    .st14 {
         fill: #7ECDCE;
     }
-    .st18 {
-        fill: none;
-        stroke: #FFFFFF;
-        stroke-width: 3.2901;
+    .st15 {
+        fill             : none;
+        stroke           : #FFFFFF;
+        stroke-width     : 3.2901;
         stroke-miterlimit: 10;
     }
-    .st19 {
+    .st16 {
         opacity: 0.2;
-        fill: #FFFFFF;
+        fill   : #FFFFFF;
     }
-    .st20 {
-        fill: none;
-        stroke: #FFFFFF;
-        stroke-width: 2.4128;
+    .st17 {
+        fill             : none;
+        stroke           : #FFFFFF;
+        stroke-width     : 2.4128;
         stroke-miterlimit: 10;
     }
-    .st21 {
+    .st18 {
         fill: #E0DFE5;
     }
-    .st22 {
+    .st19 {
         fill: #E76A3E;
     }
-    .st23 {
+    .st20 {
         opacity: 0.1;
-        fill: #FFFFFF;
+        fill   : #FFFFFF;
+    }
+    .st21 {
+        fill             : none;
+        stroke           : #E76A3E;
+        stroke-width     : 2.0759;
+        stroke-miterlimit: 10;
+    }
+    .st22 {
+        fill             : none;
+        stroke           : #FFFFFF;
+        stroke-width     : 2.3953;
+        stroke-miterlimit: 10;
+    }
+    .st23 {
+        fill             : none;
+        stroke           : #FFFFFF;
+        stroke-width     : 1.7566;
+        stroke-miterlimit: 10;
     }
     .st24 {
-        fill: none;
-        stroke: #E76A3E;
-        stroke-width: 2.0759;
+        fill             : none;
+        stroke           : #E76A3E;
+        stroke-width     : 1.5406;
         stroke-miterlimit: 10;
     }
     .st25 {
-        fill: none;
-        stroke: #FFFFFF;
-        stroke-width: 2.3953;
+        fill             : none;
+        stroke           : #FFFFFF;
+        stroke-width     : 1.7777;
         stroke-miterlimit: 10;
     }
     .st26 {
-        fill: none;
-        stroke: #FFFFFF;
-        stroke-width: 1.7566;
+        fill             : none;
+        stroke           : #FFFFFF;
+        stroke-width     : 1.3036;
         stroke-miterlimit: 10;
     }
     .st27 {
-        fill: none;
-        stroke: #E76A3E;
-        stroke-width: 1.5406;
+        fill             : none;
+        stroke           : #E76A3E;
+        stroke-width     : 0.9973;
         stroke-miterlimit: 10;
     }
     .st28 {
-        fill: none;
-        stroke: #FFFFFF;
-        stroke-width: 1.7777;
+        fill             : none;
+        stroke           : #FFFFFF;
+        stroke-width     : 1.1508;
         stroke-miterlimit: 10;
     }
     .st29 {
-        fill: none;
-        stroke: #FFFFFF;
-        stroke-width: 1.3036;
+        fill             : none;
+        stroke           : #FFFFFF;
+        stroke-width     : 0.8439;
         stroke-miterlimit: 10;
     }
     .st30 {
-        fill: none;
-        stroke: #E76A3E;
-        stroke-width: 0.9973;
+        fill             : none;
+        stroke           : #E76A3E;
+        stroke-width     : 0.8118;
         stroke-miterlimit: 10;
     }
     .st31 {
-        fill: none;
-        stroke: #FFFFFF;
-        stroke-width: 1.1508;
+        fill             : none;
+        stroke           : #FFFFFF;
+        stroke-width     : 0.9367;
         stroke-miterlimit: 10;
     }
     .st32 {
-        fill: none;
-        stroke: #FFFFFF;
-        stroke-width: 0.8439;
+        fill             : none;
+        stroke           : #FFFFFF;
+        stroke-width     : 0.6869;
         stroke-miterlimit: 10;
     }
     .st33 {
-        fill: none;
-        stroke: #E76A3E;
-        stroke-width: 0.8118;
+        fill             : none;
+        stroke           : #E76A3E;
+        stroke-width     : 2.6415;
         stroke-miterlimit: 10;
     }
     .st34 {
-        fill: none;
-        stroke: #FFFFFF;
-        stroke-width: 0.9367;
+        fill             : none;
+        stroke           : #FFFFFF;
+        stroke-width     : 3.0479;
         stroke-miterlimit: 10;
     }
     .st35 {
-        fill: none;
-        stroke: #FFFFFF;
-        stroke-width: 0.6869;
+        fill             : none;
+        stroke           : #FFFFFF;
+        stroke-width     : 2.2351;
         stroke-miterlimit: 10;
     }
     .st36 {
-        fill: none;
-        stroke: #E76A3E;
-        stroke-width: 2.6415;
-        stroke-miterlimit: 10;
-    }
-    .st37 {
-        fill: none;
-        stroke: #FFFFFF;
-        stroke-width: 3.0479;
-        stroke-miterlimit: 10;
-    }
-    .st38 {
-        fill: none;
-        stroke: #FFFFFF;
-        stroke-width: 2.2351;
-        stroke-miterlimit: 10;
-    }
-    .st39 {
         fill: #009245;
     }
-    .st40 {
+    .st37 {
         fill: #4D4D4D;
     }
-    .st41 {
+    .st38 {
         fill: #29ABE2;
     }
-    .st42 {
+    .st39 {
         fill: #A3DBFF;
     }
-    .st43 {
+    .st40 {
         fill: #58595B;
     }
 }
 svg.grafico_marketing {
     .st0 {
-        font-family: 'Aspira';
-        font-weight: 200;
-        font-style: italic;
+        display: none;
     }
     .st1 {
-        font-size: 44.6317px;
+        display: inline;
+        fill   : #EBEBEB;
     }
     .st2 {
         font-family: 'Aspira';
-        font-weight: 700;
+        font-weight: 200;
+        font-style : italic;
     }
     .st3 {
+        font-size: 44.6317px;
+    }
+    .st4 {
+        font-family: 'Aspira';
+        font-weight: 700;
+    }
+    .st5 {
         font-family: 'Aspira';
         font-weight: 200;
     }
-    .st4 {
+    .st6 {
         font-size: 11.3px;
     }
-    .st5 {
-        font-size: 28.3696px;
-    }
-    .st6 {
-        fill: none;
-        stroke: #000000;
-        stroke-miterlimit: 10;
-    }
     .st7 {
-        filter:url(#Adobe_OpacityMaskFilter);
+        fill             : #EBEBEB;
+        stroke           : #020202;
+        stroke-miterlimit: 10;
     }
     .st8 {
-        fill: #FFFFFF;
-        stroke: #000000;
-        stroke-miterlimit: 10;
+        font-size: 12px;
     }
     .st9 {
-        mask: url("#SVGID_1_");
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #163A7A;
     }
     .st10 {
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #163A7A;
+        fill     : #FFFFFF;
     }
     .st11 {
+        opacity  : 0.75;
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #FFFFFF;
+        fill     : #005CFF;
     }
     .st12 {
-        opacity: 0.75;
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #005CFF;
+        fill     : #00454D;
     }
     .st13 {
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #00454D;
+        fill     : #EDEDED;
     }
     .st14 {
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #EDEDED;
+        fill     : #1A1A1A;
     }
     .st15 {
+        opacity  : 0.23;
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #1A1A1A;
+        fill     : #FFFFFF;
     }
     .st16 {
-        opacity: 0.23;
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #FFFFFF;
+        fill     : #12B5B5;
     }
     .st17 {
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #12B5B5;
+        fill     : #1D4498;
     }
     .st18 {
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #1D4498;
+        fill     : #636363;
     }
     .st19 {
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #636363;
+        fill     : #FC0D31;
     }
     .st20 {
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #FC0D31;
+        fill     : #F2F2F2;
     }
     .st21 {
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #F2F2F2;
+        fill     : #2D2D2D;
     }
     .st22 {
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #2D2D2D;
+        fill     : #CFCFBF;
     }
     .st23 {
-        fill-rule: evenodd;
-        clip-rule: evenodd;
-        fill: #CFCFBF;
-    }
-    .st24 {
         opacity: 0.75;
     }
-    .st25 {
+    .st24 {
         fill: #005CFF;
     }
-    .st26 {
+    .st25 {
         fill-rule: evenodd;
         clip-rule: evenodd;
     }
-    .st27 {
+    .st26 {
         opacity: 0.4;
     }
-    .st28 {
+    .st27 {
         fill: #B7BFC7;
     }
-    .st29 {
+    .st28 {
         fill: #1D4498;
     }
-    .st30 {
+    .st29 {
         fill: #EDEDED;
     }
 }
@@ -686,7 +671,7 @@ svg.grafico_apps {
     .st0 {
         font-family: 'Aspira';
         font-weight: 200;
-        font-style: italic;
+        font-style : italic;
     }
     .st1 {
         font-size: 44.6317px;
@@ -706,8 +691,8 @@ svg.grafico_apps {
         font-size: 28.3696px;
     }
     .st6 {
-        fill: none;
-        stroke: #000000;
+        fill             : none;
+        stroke           : #000000;
         stroke-miterlimit: 10;
     }
     .st7 {
@@ -720,35 +705,35 @@ svg.grafico_apps {
         opacity: 0.1;
     }
     .st10 {
-        opacity: 0.75;
+        opacity  : 0.75;
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #005CFF;
+        fill     : #005CFF;
     }
     .st11 {
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #DCE4E8;
+        fill     : #DCE4E8;
     }
     .st12 {
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #2D2D2D;
+        fill     : #2D2D2D;
     }
     .st13 {
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #B7BFC7;
+        fill     : #B7BFC7;
     }
     .st14 {
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #EDEDED;
+        fill     : #EDEDED;
     }
     .st15 {
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #1D4498;
+        fill     : #1D4498;
     }
     .st16 {
         fill: #FFD6A9;
@@ -779,7 +764,7 @@ svg.grafico_apps {
     }
     .st25 {
         opacity: 0.4;
-        fill: #005CFF;
+        fill   : #005CFF;
     }
     .st26 {
         fill: #DCE4E8;
@@ -789,22 +774,22 @@ svg.grafico_apps {
     }
     .st28 {
         opacity: 0.3;
-        fill: #B7BFC7;
+        fill   : #B7BFC7;
     }
     .st29 {
         opacity: 0.75;
-        fill: #005CFF;
+        fill   : #005CFF;
     }
     .st30 {
         opacity: 0.1;
-        fill: #DCE4E8;
+        fill   : #DCE4E8;
     }
 }
 svg.grafico_diseno {
     .st0 {
         font-family: 'Aspira';
         font-weight: 200;
-        font-style: italic;
+        font-style : italic;
     }
     .st1 {
         font-size: 44.6317px;
@@ -824,8 +809,8 @@ svg.grafico_diseno {
         font-size: 28.3696px;
     }
     .st6 {
-        fill: none;
-        stroke: #000000;
+        fill             : none;
+        stroke           : #000000;
         stroke-miterlimit: 10;
     }
     .st7 {
@@ -1049,18 +1034,18 @@ svg.grafico_diseno {
     }
     .st80 {
         opacity: 0.5;
-        fill: #FFFFFF;
+        fill   : #FFFFFF;
     }
     .st81 {
         fill: #7A7A7A;
     }
     .st82 {
         opacity: 0.2;
-        fill: #2D2D2D;
+        fill   : #2D2D2D;
     }
     .st83 {
         opacity: 4.000000e-02;
-        fill: #FFFFFF;
+        fill   : #FFFFFF;
     }
 }
 svg.grafico_inteligencia {
@@ -1092,8 +1077,8 @@ svg.grafico_inteligencia {
         filter:url(#Adobe_OpacityMaskFilter);
     }
     .st1 {
-        fill: #FFFFFF;
-        stroke: #000000;
+        fill             : #FFFFFF;
+        stroke           : #000000;
         stroke-miterlimit: 10;
     }
     .st2 {
@@ -1109,7 +1094,7 @@ svg.grafico_inteligencia {
     .st5 {
         font-family: 'Aspira';
         font-weight: 200;
-        font-style: italic;
+        font-style : italic;
     }
     .st6 {
         font-family: 'Aspira';
@@ -1122,8 +1107,8 @@ svg.grafico_inteligencia {
         font-size: 28.3696px;
     }
     .st9 {
-        fill: none;
-        stroke: #000000;
+        fill             : none;
+        stroke           : #000000;
         stroke-miterlimit: 10;
     }
     .st10 {
@@ -1191,7 +1176,7 @@ svg.grafico_inteligencia {
     }
     .st31 {
         opacity: 0.6;
-        fill: #DCE4E8;
+        fill   : #DCE4E8;
     }
     .st32 {
         fill: #2D2D2D;
@@ -1201,11 +1186,11 @@ svg.grafico_inteligencia {
     }
     .st34 {
         opacity: 0.75;
-        fill: #005CFF;
+        fill   : #005CFF;
     }
     .st35 {
         opacity: 0.3;
-        fill: #DCE4E8;
+        fill   : #DCE4E8;
     }
 }
 svg.grafico_importacion {
@@ -1214,7 +1199,7 @@ svg.grafico_importacion {
     }
     .st1 {
         display: inline;
-        fill: #EBEBEB;
+        fill   : #EBEBEB;
     }
     .st2 {
         font-family: 'Aspira';
@@ -1226,7 +1211,7 @@ svg.grafico_importacion {
     .st4 {
         font-family: 'Aspira';
         font-weight: 200;
-        font-style: italic;
+        font-style : italic;
     }
     .st5 {
         font-family: 'Aspira';
@@ -1239,47 +1224,47 @@ svg.grafico_importacion {
         font-size: 28.3696px;
     }
     .st8 {
-        fill: none;
-        stroke: #000000;
+        fill             : none;
+        stroke           : #000000;
         stroke-miterlimit: 10;
     }
     .st9 {
         opacity: 0.2;
-        fill: #005CFF;
+        fill   : #005CFF;
     }
     .st10 {
-        fill: none;
-        stroke: #005CFF;
-        stroke-width: 0.8756;
+        fill             : none;
+        stroke           : #005CFF;
+        stroke-width     : 0.8756;
         stroke-miterlimit: 10;
     }
     .st11 {
-        fill: none;
-        stroke: #005CFF;
-        stroke-width: 0.8756;
+        fill             : none;
+        stroke           : #005CFF;
+        stroke-width     : 0.8756;
         stroke-miterlimit: 10;
-        stroke-dasharray: 10.2028,10.2028;
+        stroke-dasharray : 10.2028,10.2028;
     }
     .st12 {
-        fill: none;
-        stroke: #005CFF;
-        stroke-width: 0.8756;
+        fill             : none;
+        stroke           : #005CFF;
+        stroke-width     : 0.8756;
         stroke-miterlimit: 10;
-        stroke-dasharray: 9.4741,9.4741;
+        stroke-dasharray : 9.4741,9.4741;
     }
     .st13 {
-        fill: none;
-        stroke: #005CFF;
-        stroke-width: 0.8756;
+        fill             : none;
+        stroke           : #005CFF;
+        stroke-width     : 0.8756;
         stroke-miterlimit: 10;
-        stroke-dasharray: 9.474,9.474;
+        stroke-dasharray : 9.474,9.474;
     }
     .st14 {
-        fill: none;
-        stroke: #005CFF;
-        stroke-width: 0.8756;
+        fill             : none;
+        stroke           : #005CFF;
+        stroke-width     : 0.8756;
         stroke-miterlimit: 10;
-        stroke-dasharray: 10.174,10.174;
+        stroke-dasharray : 10.174,10.174;
     }
     .st15 {
         fill: #AD947E;
@@ -1297,67 +1282,67 @@ svg.grafico_importacion {
         fill: #CEB4A3;
     }
     .st20 {
-        fill: none;
-        stroke: #005CFF;
-        stroke-width: 0.8756;
+        fill             : none;
+        stroke           : #005CFF;
+        stroke-width     : 0.8756;
         stroke-miterlimit: 10;
-        stroke-dasharray: 10.0288;
+        stroke-dasharray : 10.0288;
     }
     .st21 {
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #EBEBEB;
+        fill     : #EBEBEB;
     }
     .st22 {
-        opacity: 0.8;
+        opacity  : 0.8;
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #2D2D2D;
+        fill     : #2D2D2D;
     }
     .st23 {
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #E4E5E5;
+        fill     : #E4E5E5;
     }
     .st24 {
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #CBCBCB;
+        fill     : #CBCBCB;
     }
     .st25 {
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #B2B2B2;
+        fill     : #B2B2B2;
     }
     .st26 {
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #989898;
+        fill     : #989898;
     }
     .st27 {
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #005CFF;
+        fill     : #005CFF;
     }
     .st28 {
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #2C547E;
+        fill     : #2C547E;
     }
     .st29 {
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #808080;
+        fill     : #808080;
     }
     .st30 {
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #163A7A;
+        fill     : #163A7A;
     }
     .st31 {
         fill-rule: evenodd;
         clip-rule: evenodd;
-        fill: #1D4498;
+        fill     : #1D4498;
     }
     .st32 {
         fill: #005CFF;
@@ -1393,15 +1378,15 @@ svg.grafico_importacion {
         opacity: 0.1;
     }
     .st43 {
-        fill: none;
-        stroke: #FFFFFF;
-        stroke-width: 0.6193;
+        fill             : none;
+        stroke           : #FFFFFF;
+        stroke-width     : 0.6193;
         stroke-miterlimit: 10;
     }
     .st44 {
-        fill: none;
-        stroke: #FFFFFF;
-        stroke-width: 0.3841;
+        fill             : none;
+        stroke           : #FFFFFF;
+        stroke-width     : 0.3841;
         stroke-miterlimit: 10;
     }
 }

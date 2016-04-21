@@ -5,11 +5,14 @@
           $("." + $(this).attr('id')).load($(this).attr('id') + ".html");
       });
 
-      $('.servicio').click(function(event) {
-          $(".servicio_desc").not($(event.target).attr('id')).slideUp("fast");
-          $("." + $(event.target).attr('id')).slideToggle("fast");
+     /* $('#phone').click(function(event) {
+        //  $(".servicio_desc").not($(event.target).attr('id')).slideUp("fast");
+         // $("." + $(event.target).attr('id')).slideToggle("fast");
+		 alert($(event.target).attr('name'));
+		 $(".servicio_desc").not($(event.target).attr('name')).slideUp("fast");
+          $("." + $(event.target).attr('name')).slideToggle("fast");
           return false;
-      });
+      });*/
 
       $window = $(window);
       $animation_elements = $("*[class^='prueba']");
@@ -78,4 +81,10 @@
           window.location.hash = hash;
       }
 
+  }
+  
+  function slide_Servicios(servicio)
+  {
+	  $(".servicio_desc").not(servicio).slideUp("fast");
+       $("." + servicio).slideToggle("fast");
   }

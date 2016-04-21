@@ -2,8 +2,10 @@ $(document).ready(function(){
 	var touch 	= $('#touch-menu');
 	var menu 	= $('.menu');
 	var nav = $(".navbar");    
+	var ele = $(".element");
 	$(touch).on('click', function(e) {
 		e.preventDefault();
+		ele.slideToggle();
 		menu.slideToggle();
 	});
 

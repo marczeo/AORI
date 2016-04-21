@@ -107,7 +107,7 @@
   text-transform: uppercase;
   text-decoration: none; }
 
-/*versión de escritorio*/
+/*versi├│n de escritorio*/
 .menu {
   display: block;
   text-align: right;
@@ -193,6 +193,12 @@
   text-decoration: none; }
 
 @media (max-width: 768px) {
+  .element {
+    display: none;
+    top: 0;
+    height: 250px;
+    overflow: scroll; }
+
   .navbar ul.menu object {
     display: none; }
 
@@ -214,11 +220,6 @@
   .navbar {
     margin: 0;
     background: none; }
-
-  .element {
-    overflow: scroll;
-    height: 250px;
-    background: #ffffff; }
 
   .menu li {
     display: block;
@@ -604,247 +605,236 @@ svg.grafico_franquicia .st3 {
   font-family: 'Aspira';
   font-weight: 200; }
 svg.grafico_franquicia .st4 {
-  font-size: 28.3696px; }
+  font-size: 11.3px; }
 svg.grafico_franquicia .st5 {
-  fill: none;
-  stroke: #000000;
+  fill: #EBEBEB;
+  stroke: #020202;
   stroke-miterlimit: 10; }
 svg.grafico_franquicia .st6 {
-  font-size: 11.3px; }
+  font-size: 12px; }
 svg.grafico_franquicia .st7 {
-  filter: url(#Adobe_OpacityMaskFilter); }
-svg.grafico_franquicia .st8 {
-  fill: #FFFFFF;
-  stroke: #000000;
-  stroke-miterlimit: 10; }
-svg.grafico_franquicia .st9 {
-  mask: url("#SVGID_1_"); }
-svg.grafico_franquicia .st10 {
   opacity: 0.2; }
-svg.grafico_franquicia .st11 {
+svg.grafico_franquicia .st8 {
   fill: #1D4498; }
-svg.grafico_franquicia .st12 {
+svg.grafico_franquicia .st9 {
   opacity: 0.7;
   fill: #1D4498; }
-svg.grafico_franquicia .st13 {
+svg.grafico_franquicia .st10 {
   fill: #FFFFFF; }
-svg.grafico_franquicia .st14 {
+svg.grafico_franquicia .st11 {
   fill: none;
   stroke: #E76A3E;
   stroke-width: 2.8514;
   stroke-miterlimit: 10; }
-svg.grafico_franquicia .st15 {
+svg.grafico_franquicia .st12 {
   fill: #A5A3A9; }
-svg.grafico_franquicia .st16 {
+svg.grafico_franquicia .st13 {
   fill: #39343A; }
-svg.grafico_franquicia .st17 {
+svg.grafico_franquicia .st14 {
   fill: #7ECDCE; }
-svg.grafico_franquicia .st18 {
+svg.grafico_franquicia .st15 {
   fill: none;
   stroke: #FFFFFF;
   stroke-width: 3.2901;
   stroke-miterlimit: 10; }
-svg.grafico_franquicia .st19 {
+svg.grafico_franquicia .st16 {
   opacity: 0.2;
   fill: #FFFFFF; }
-svg.grafico_franquicia .st20 {
+svg.grafico_franquicia .st17 {
   fill: none;
   stroke: #FFFFFF;
   stroke-width: 2.4128;
   stroke-miterlimit: 10; }
-svg.grafico_franquicia .st21 {
+svg.grafico_franquicia .st18 {
   fill: #E0DFE5; }
-svg.grafico_franquicia .st22 {
+svg.grafico_franquicia .st19 {
   fill: #E76A3E; }
-svg.grafico_franquicia .st23 {
+svg.grafico_franquicia .st20 {
   opacity: 0.1;
   fill: #FFFFFF; }
-svg.grafico_franquicia .st24 {
+svg.grafico_franquicia .st21 {
   fill: none;
   stroke: #E76A3E;
   stroke-width: 2.0759;
   stroke-miterlimit: 10; }
-svg.grafico_franquicia .st25 {
+svg.grafico_franquicia .st22 {
   fill: none;
   stroke: #FFFFFF;
   stroke-width: 2.3953;
   stroke-miterlimit: 10; }
-svg.grafico_franquicia .st26 {
+svg.grafico_franquicia .st23 {
   fill: none;
   stroke: #FFFFFF;
   stroke-width: 1.7566;
   stroke-miterlimit: 10; }
-svg.grafico_franquicia .st27 {
+svg.grafico_franquicia .st24 {
   fill: none;
   stroke: #E76A3E;
   stroke-width: 1.5406;
   stroke-miterlimit: 10; }
-svg.grafico_franquicia .st28 {
+svg.grafico_franquicia .st25 {
   fill: none;
   stroke: #FFFFFF;
   stroke-width: 1.7777;
   stroke-miterlimit: 10; }
-svg.grafico_franquicia .st29 {
+svg.grafico_franquicia .st26 {
   fill: none;
   stroke: #FFFFFF;
   stroke-width: 1.3036;
   stroke-miterlimit: 10; }
-svg.grafico_franquicia .st30 {
+svg.grafico_franquicia .st27 {
   fill: none;
   stroke: #E76A3E;
   stroke-width: 0.9973;
   stroke-miterlimit: 10; }
-svg.grafico_franquicia .st31 {
+svg.grafico_franquicia .st28 {
   fill: none;
   stroke: #FFFFFF;
   stroke-width: 1.1508;
   stroke-miterlimit: 10; }
-svg.grafico_franquicia .st32 {
+svg.grafico_franquicia .st29 {
   fill: none;
   stroke: #FFFFFF;
   stroke-width: 0.8439;
   stroke-miterlimit: 10; }
-svg.grafico_franquicia .st33 {
+svg.grafico_franquicia .st30 {
   fill: none;
   stroke: #E76A3E;
   stroke-width: 0.8118;
   stroke-miterlimit: 10; }
-svg.grafico_franquicia .st34 {
+svg.grafico_franquicia .st31 {
   fill: none;
   stroke: #FFFFFF;
   stroke-width: 0.9367;
   stroke-miterlimit: 10; }
-svg.grafico_franquicia .st35 {
+svg.grafico_franquicia .st32 {
   fill: none;
   stroke: #FFFFFF;
   stroke-width: 0.6869;
   stroke-miterlimit: 10; }
-svg.grafico_franquicia .st36 {
+svg.grafico_franquicia .st33 {
   fill: none;
   stroke: #E76A3E;
   stroke-width: 2.6415;
   stroke-miterlimit: 10; }
-svg.grafico_franquicia .st37 {
+svg.grafico_franquicia .st34 {
   fill: none;
   stroke: #FFFFFF;
   stroke-width: 3.0479;
   stroke-miterlimit: 10; }
-svg.grafico_franquicia .st38 {
+svg.grafico_franquicia .st35 {
   fill: none;
   stroke: #FFFFFF;
   stroke-width: 2.2351;
   stroke-miterlimit: 10; }
-svg.grafico_franquicia .st39 {
+svg.grafico_franquicia .st36 {
   fill: #009245; }
-svg.grafico_franquicia .st40 {
+svg.grafico_franquicia .st37 {
   fill: #4D4D4D; }
-svg.grafico_franquicia .st41 {
+svg.grafico_franquicia .st38 {
   fill: #29ABE2; }
-svg.grafico_franquicia .st42 {
+svg.grafico_franquicia .st39 {
   fill: #A3DBFF; }
-svg.grafico_franquicia .st43 {
+svg.grafico_franquicia .st40 {
   fill: #58595B; }
 
 svg.grafico_marketing .st0 {
+  display: none; }
+svg.grafico_marketing .st1 {
+  display: inline;
+  fill: #EBEBEB; }
+svg.grafico_marketing .st2 {
   font-family: 'Aspira';
   font-weight: 200;
   font-style: italic; }
-svg.grafico_marketing .st1 {
+svg.grafico_marketing .st3 {
   font-size: 44.6317px; }
-svg.grafico_marketing .st2 {
+svg.grafico_marketing .st4 {
   font-family: 'Aspira';
   font-weight: 700; }
-svg.grafico_marketing .st3 {
+svg.grafico_marketing .st5 {
   font-family: 'Aspira';
   font-weight: 200; }
-svg.grafico_marketing .st4 {
-  font-size: 11.3px; }
-svg.grafico_marketing .st5 {
-  font-size: 28.3696px; }
 svg.grafico_marketing .st6 {
-  fill: none;
-  stroke: #000000;
-  stroke-miterlimit: 10; }
+  font-size: 11.3px; }
 svg.grafico_marketing .st7 {
-  filter: url(#Adobe_OpacityMaskFilter); }
-svg.grafico_marketing .st8 {
-  fill: #FFFFFF;
-  stroke: #000000;
+  fill: #EBEBEB;
+  stroke: #020202;
   stroke-miterlimit: 10; }
+svg.grafico_marketing .st8 {
+  font-size: 12px; }
 svg.grafico_marketing .st9 {
-  mask: url("#SVGID_1_"); }
-svg.grafico_marketing .st10 {
   fill-rule: evenodd;
   clip-rule: evenodd;
   fill: #163A7A; }
-svg.grafico_marketing .st11 {
+svg.grafico_marketing .st10 {
   fill-rule: evenodd;
   clip-rule: evenodd;
   fill: #FFFFFF; }
-svg.grafico_marketing .st12 {
+svg.grafico_marketing .st11 {
   opacity: 0.75;
   fill-rule: evenodd;
   clip-rule: evenodd;
   fill: #005CFF; }
-svg.grafico_marketing .st13 {
+svg.grafico_marketing .st12 {
   fill-rule: evenodd;
   clip-rule: evenodd;
   fill: #00454D; }
-svg.grafico_marketing .st14 {
+svg.grafico_marketing .st13 {
   fill-rule: evenodd;
   clip-rule: evenodd;
   fill: #EDEDED; }
-svg.grafico_marketing .st15 {
+svg.grafico_marketing .st14 {
   fill-rule: evenodd;
   clip-rule: evenodd;
   fill: #1A1A1A; }
-svg.grafico_marketing .st16 {
+svg.grafico_marketing .st15 {
   opacity: 0.23;
   fill-rule: evenodd;
   clip-rule: evenodd;
   fill: #FFFFFF; }
-svg.grafico_marketing .st17 {
+svg.grafico_marketing .st16 {
   fill-rule: evenodd;
   clip-rule: evenodd;
   fill: #12B5B5; }
+svg.grafico_marketing .st17 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #1D4498; }
 svg.grafico_marketing .st18 {
   fill-rule: evenodd;
   clip-rule: evenodd;
-  fill: #1D4498; }
+  fill: #636363; }
 svg.grafico_marketing .st19 {
   fill-rule: evenodd;
   clip-rule: evenodd;
-  fill: #636363; }
+  fill: #FC0D31; }
 svg.grafico_marketing .st20 {
   fill-rule: evenodd;
   clip-rule: evenodd;
-  fill: #FC0D31; }
+  fill: #F2F2F2; }
 svg.grafico_marketing .st21 {
   fill-rule: evenodd;
   clip-rule: evenodd;
-  fill: #F2F2F2; }
+  fill: #2D2D2D; }
 svg.grafico_marketing .st22 {
   fill-rule: evenodd;
   clip-rule: evenodd;
-  fill: #2D2D2D; }
-svg.grafico_marketing .st23 {
-  fill-rule: evenodd;
-  clip-rule: evenodd;
   fill: #CFCFBF; }
-svg.grafico_marketing .st24 {
+svg.grafico_marketing .st23 {
   opacity: 0.75; }
-svg.grafico_marketing .st25 {
+svg.grafico_marketing .st24 {
   fill: #005CFF; }
-svg.grafico_marketing .st26 {
+svg.grafico_marketing .st25 {
   fill-rule: evenodd;
   clip-rule: evenodd; }
-svg.grafico_marketing .st27 {
+svg.grafico_marketing .st26 {
   opacity: 0.4; }
-svg.grafico_marketing .st28 {
+svg.grafico_marketing .st27 {
   fill: #B7BFC7; }
-svg.grafico_marketing .st29 {
+svg.grafico_marketing .st28 {
   fill: #1D4498; }
-svg.grafico_marketing .st30 {
+svg.grafico_marketing .st29 {
   fill: #EDEDED; }
 
 svg.grafico_apps .st0 {
@@ -1455,26 +1445,6 @@ svg.grafico_importacion .st44 {
   animation-duration: 4s;
   animation-delay: 0; }
 
-#phone:hover {
-  opacity: .65;
-  fill: white; }
-
-a.svg {
-  position: relative;
-  display: block; }
-
-a.svg:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0; }
-
-a.svg:hover {
-  opacity: .85;
-  fill: white; }
-
 #Draw-Frame1 {
   animation-delay: 2.5s;
   animation-duration: 1.5s;
@@ -1854,7 +1824,7 @@ a.svg:hover {
       .mapas .mapas_desc .something .telefono {
         font-weight: 200; }
 
-svg:hover #phone, #phone:hover {
+#phone:hover {
   opacity: .65;
   fill: white; }
 
