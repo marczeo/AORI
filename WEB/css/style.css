@@ -949,11 +949,11 @@ svg.grafico_diseno .st3 {
 svg.grafico_diseno .st4 {
   font-size: 11.3px; }
 svg.grafico_diseno .st5 {
-  font-size: 28.3696px; }
-svg.grafico_diseno .st6 {
-  fill: none;
-  stroke: #000000;
+  fill: #EBEBEB;
+  stroke: #020202;
   stroke-miterlimit: 10; }
+svg.grafico_diseno .st6 {
+  font-size: 12px; }
 svg.grafico_diseno .st7 {
   opacity: 0.1; }
 svg.grafico_diseno .st8 {
