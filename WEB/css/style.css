@@ -107,7 +107,7 @@
   text-transform: uppercase;
   text-decoration: none; }
 
-/*versi├│n de escritorio*/
+/*versión de escritorio*/
 .menu {
   display: block;
   text-align: right;
@@ -1640,6 +1640,10 @@ svg.grafico_importacion .st44 {
   @media screen and (min-width: 768px) {
     .valores .texto_valores {
       display: none; } }
+.valores p.valores-title {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 500; }
 
 .clientes .clientes_img {
   width: 95%;
