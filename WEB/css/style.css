@@ -850,24 +850,24 @@ svg.grafico_marketing .st29 {
 
 svg.grafico_apps .st0 {
   font-family: 'Aspira';
-  font-weight: 200;
-  font-style: italic; }
+  font-weight: 700; }
 svg.grafico_apps .st1 {
   font-size: 44.6317px; }
 svg.grafico_apps .st2 {
   font-family: 'Aspira';
-  font-weight: 700; }
+  font-weight: 200;
+  font-style: italic; }
 svg.grafico_apps .st3 {
   font-family: 'Aspira';
   font-weight: 200; }
 svg.grafico_apps .st4 {
   font-size: 11.3px; }
 svg.grafico_apps .st5 {
-  font-size: 28.3696px; }
-svg.grafico_apps .st6 {
-  fill: none;
-  stroke: #000000;
+  fill: #FFFFFF;
+  stroke: #020202;
   stroke-miterlimit: 10; }
+svg.grafico_apps .st6 {
+  font-size: 12px; }
 svg.grafico_apps .st7 {
   fill: #1D4697; }
 svg.grafico_apps .st8 {

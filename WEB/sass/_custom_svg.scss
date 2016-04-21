@@ -670,15 +670,15 @@ svg.grafico_marketing {
 svg.grafico_apps {
     .st0 {
         font-family: 'Aspira';
-        font-weight: 200;
-        font-style : italic;
+        font-weight: 700;
     }
     .st1 {
         font-size: 44.6317px;
     }
     .st2 {
         font-family: 'Aspira';
-        font-weight: 700;
+        font-weight: 200;
+        font-style : italic;
     }
     .st3 {
         font-family: 'Aspira';
@@ -688,12 +688,12 @@ svg.grafico_apps {
         font-size: 11.3px;
     }
     .st5 {
-        font-size: 28.3696px;
+        fill             : #FFFFFF;
+        stroke           : #020202;
+        stroke-miterlimit: 10;
     }
     .st6 {
-        fill             : none;
-        stroke           : #000000;
-        stroke-miterlimit: 10;
+        font-size: 12px;
     }
     .st7 {
         fill: #1D4697;
