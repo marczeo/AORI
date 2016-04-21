@@ -1205,151 +1205,146 @@ svg.grafico_inteligencia .st32 {
   fill: #DCE4E8; }
 
 svg.grafico_importacion .st0 {
-  display: none; }
-svg.grafico_importacion .st1 {
-  display: inline;
-  fill: #EBEBEB; }
-svg.grafico_importacion .st2 {
   font-family: 'Aspira';
   font-weight: 700; }
-svg.grafico_importacion .st3 {
+svg.grafico_importacion .st1 {
   font-size: 44.6317px; }
-svg.grafico_importacion .st4 {
+svg.grafico_importacion .st2 {
   font-family: 'Aspira';
   font-weight: 200;
   font-style: italic; }
-svg.grafico_importacion .st5 {
+svg.grafico_importacion .st3 {
   font-family: 'Aspira';
   font-weight: 200; }
-svg.grafico_importacion .st6 {
+svg.grafico_importacion .st4 {
   font-size: 14.0072px; }
-svg.grafico_importacion .st7 {
-  font-size: 28.3696px; }
-svg.grafico_importacion .st8 {
-  fill: none;
-  stroke: #000000;
+svg.grafico_importacion .st5 {
+  fill: #EBEBEB;
+  stroke: #020202;
   stroke-miterlimit: 10; }
-svg.grafico_importacion .st9 {
+svg.grafico_importacion .st6 {
+  font-size: 12px; }
+svg.grafico_importacion .st7 {
   opacity: 0.2;
   fill: #005CFF; }
-svg.grafico_importacion .st10 {
+svg.grafico_importacion .st8 {
   fill: none;
   stroke: #005CFF;
   stroke-width: 0.8756;
   stroke-miterlimit: 10; }
-svg.grafico_importacion .st11 {
+svg.grafico_importacion .st9 {
   fill: none;
   stroke: #005CFF;
   stroke-width: 0.8756;
   stroke-miterlimit: 10;
   stroke-dasharray: 10.2028,10.2028; }
-svg.grafico_importacion .st12 {
+svg.grafico_importacion .st10 {
   fill: none;
   stroke: #005CFF;
   stroke-width: 0.8756;
   stroke-miterlimit: 10;
   stroke-dasharray: 9.4741,9.4741; }
-svg.grafico_importacion .st13 {
+svg.grafico_importacion .st11 {
   fill: none;
   stroke: #005CFF;
   stroke-width: 0.8756;
   stroke-miterlimit: 10;
   stroke-dasharray: 9.474,9.474; }
-svg.grafico_importacion .st14 {
+svg.grafico_importacion .st12 {
   fill: none;
   stroke: #005CFF;
   stroke-width: 0.8756;
   stroke-miterlimit: 10;
   stroke-dasharray: 10.174,10.174; }
-svg.grafico_importacion .st15 {
+svg.grafico_importacion .st13 {
   fill: #AD947E; }
-svg.grafico_importacion .st16 {
+svg.grafico_importacion .st14 {
   fill: #D7B99F; }
-svg.grafico_importacion .st17 {
+svg.grafico_importacion .st15 {
   fill: #E4D1B3; }
-svg.grafico_importacion .st18 {
+svg.grafico_importacion .st16 {
   fill: #987869; }
-svg.grafico_importacion .st19 {
+svg.grafico_importacion .st17 {
   fill: #CEB4A3; }
-svg.grafico_importacion .st20 {
+svg.grafico_importacion .st18 {
   fill: none;
   stroke: #005CFF;
   stroke-width: 0.8756;
   stroke-miterlimit: 10;
   stroke-dasharray: 10.0288; }
-svg.grafico_importacion .st21 {
+svg.grafico_importacion .st19 {
   fill-rule: evenodd;
   clip-rule: evenodd;
   fill: #EBEBEB; }
-svg.grafico_importacion .st22 {
+svg.grafico_importacion .st20 {
   opacity: 0.8;
   fill-rule: evenodd;
   clip-rule: evenodd;
   fill: #2D2D2D; }
-svg.grafico_importacion .st23 {
+svg.grafico_importacion .st21 {
   fill-rule: evenodd;
   clip-rule: evenodd;
   fill: #E4E5E5; }
-svg.grafico_importacion .st24 {
+svg.grafico_importacion .st22 {
   fill-rule: evenodd;
   clip-rule: evenodd;
   fill: #CBCBCB; }
-svg.grafico_importacion .st25 {
+svg.grafico_importacion .st23 {
   fill-rule: evenodd;
   clip-rule: evenodd;
   fill: #B2B2B2; }
+svg.grafico_importacion .st24 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #989898; }
+svg.grafico_importacion .st25 {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: #005CFF; }
 svg.grafico_importacion .st26 {
   fill-rule: evenodd;
   clip-rule: evenodd;
-  fill: #989898; }
+  fill: #2C547E; }
 svg.grafico_importacion .st27 {
   fill-rule: evenodd;
   clip-rule: evenodd;
-  fill: #005CFF; }
+  fill: #808080; }
 svg.grafico_importacion .st28 {
   fill-rule: evenodd;
   clip-rule: evenodd;
-  fill: #2C547E; }
+  fill: #163A7A; }
 svg.grafico_importacion .st29 {
   fill-rule: evenodd;
   clip-rule: evenodd;
-  fill: #808080; }
+  fill: #1D4498; }
 svg.grafico_importacion .st30 {
-  fill-rule: evenodd;
-  clip-rule: evenodd;
-  fill: #163A7A; }
+  fill: #005CFF; }
 svg.grafico_importacion .st31 {
-  fill-rule: evenodd;
-  clip-rule: evenodd;
   fill: #1D4498; }
 svg.grafico_importacion .st32 {
-  fill: #005CFF; }
-svg.grafico_importacion .st33 {
-  fill: #1D4498; }
-svg.grafico_importacion .st34 {
   fill: #163A7A; }
-svg.grafico_importacion .st35 {
+svg.grafico_importacion .st33 {
   fill: #CBCBCB; }
-svg.grafico_importacion .st36 {
+svg.grafico_importacion .st34 {
   fill: #989898; }
-svg.grafico_importacion .st37 {
+svg.grafico_importacion .st35 {
   fill: #FCFCFC; }
-svg.grafico_importacion .st38 {
+svg.grafico_importacion .st36 {
   fill: #2D2D2D; }
-svg.grafico_importacion .st39 {
+svg.grafico_importacion .st37 {
   opacity: 0.2; }
-svg.grafico_importacion .st40 {
+svg.grafico_importacion .st38 {
   fill: #B7BFC7; }
-svg.grafico_importacion .st41 {
+svg.grafico_importacion .st39 {
   fill: #DCE4E8; }
-svg.grafico_importacion .st42 {
+svg.grafico_importacion .st40 {
   opacity: 0.1; }
-svg.grafico_importacion .st43 {
+svg.grafico_importacion .st41 {
   fill: none;
   stroke: #FFFFFF;
   stroke-width: 0.6193;
   stroke-miterlimit: 10; }
-svg.grafico_importacion .st44 {
+svg.grafico_importacion .st42 {
   fill: none;
   stroke: #FFFFFF;
   stroke-width: 0.3841;
