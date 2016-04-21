@@ -194,6 +194,7 @@
 
 @media (max-width: 768px) {
   .element {
+    display: none;
     top: 0;
     height: 250px;
     overflow: scroll; }
