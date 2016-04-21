@@ -130,6 +130,13 @@
   -ms-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s; }
 
+.menu li img {
+  width: 30px;
+  height: 20px; }
+
+.menu li span {
+  display: none; }
+
 .menu li a:hover,
 .menu li:hover > a {
   color: #ffffff;
@@ -244,6 +251,10 @@
     top: 0;
     left: 0;
     width: 100%; }
+
+  .menu li span {
+    display: inline-block;
+    padding-right: 5px; }
 
   .menu ul ul {
     left: 0; } }
@@ -1524,10 +1535,29 @@ svg.grafico_importacion .st44 {
   stroke-dashArray: 300;
   stroke-dashoffset: 300; }
 
-@keyframes FadeStroke {
+@-moz-keyframes FadeStroke {
   to {
     stroke-opacity: 0; } }
-@keyframes FillIn {
+@-webkit-keyframes FillIn {
+  from {
+    fill-opacity: 0; }
+  to {
+    fill-opacity: 1; } }
+@-ms-keyframes FadeStroke {
+  to {
+    stroke-opacity: 0; } }
+@-ms-keyframes FillIn {
+  from {
+    fill-opacity: 0; }
+  to {
+    fill-opacity: 1; } }
+@-ms-keyframes FadeStroke {
+  to {
+    stroke-opacity: 0; } }
+@-webkit-keyframes FadeStroke {
+  to {
+    stroke-opacity: 0; } }
+@-moz-keyframes FillIn {
   from {
     fill-opacity: 0; }
   to {

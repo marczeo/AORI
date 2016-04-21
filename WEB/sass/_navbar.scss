@@ -11,6 +11,7 @@
     background: #000;
     position: relative;
 }
+
 .navbar a {
     font-family: Aspira;
     font-weight: 200;
@@ -42,6 +43,13 @@
     -o-transition: all 0.2s ease-in-out 0s;
     -ms-transition: all 0.2s ease-in-out 0s;
     transition: all 0.2s ease-in-out 0s;
+}
+.menu li img{
+    width: 30px;
+    height: 20px;
+}
+.menu li span{
+    display: none;
 }
 .menu li a:hover,
 .menu li:hover > a {
@@ -159,6 +167,10 @@
         top: 0;
         left: 0;
         width: 100%;
+    }
+    .menu li span{
+        display: inline-block;
+        padding-right: 5px;
     }
     .menu ul ul {
         left: 0;
