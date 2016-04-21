@@ -1535,10 +1535,29 @@ svg.grafico_importacion .st44 {
   stroke-dashArray: 300;
   stroke-dashoffset: 300; }
 
-@keyframes FadeStroke {
+@-moz-keyframes FadeStroke {
   to {
     stroke-opacity: 0; } }
-@keyframes FillIn {
+@-webkit-keyframes FillIn {
+  from {
+    fill-opacity: 0; }
+  to {
+    fill-opacity: 1; } }
+@-ms-keyframes FadeStroke {
+  to {
+    stroke-opacity: 0; } }
+@-ms-keyframes FillIn {
+  from {
+    fill-opacity: 0; }
+  to {
+    fill-opacity: 1; } }
+@-ms-keyframes FadeStroke {
+  to {
+    stroke-opacity: 0; } }
+@-webkit-keyframes FadeStroke {
+  to {
+    stroke-opacity: 0; } }
+@-moz-keyframes FillIn {
   from {
     fill-opacity: 0; }
   to {
