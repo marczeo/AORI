@@ -1627,6 +1627,12 @@ a.svg:hover {
       color: white;
       font-size: 5.7vw;
       margin: 0; }
+      @media screen and (min-width: 768px) {
+        .mision .mision-center .mision-title {
+          font-size: 4.5vw; } }
+      @media screen and (min-width: 1150px) {
+        .mision .mision-center .mision-title {
+          font-size: 3.5rem; } }
     .mision .mision-center p.descripcion {
       width: 95%;
       margin: 2.5%;

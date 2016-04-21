@@ -18,6 +18,12 @@
           color: white;
           font-size: 5.7vw;
           margin: 0;
+          @media screen and (min-width:$ipad_mediaquery) {
+              font-size: 4.5vw;
+          }
+          @media screen and (min-width: $max_mediaquery) {
+            font-size: 3.5rem;
+          }
       }
       p.descripcion{
         width: 95%;
