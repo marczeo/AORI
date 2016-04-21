@@ -1372,6 +1372,516 @@ svg.grafico_importacion {
         stroke-miterlimit: 10;
     }
 }
+svg.grafico_cursos {
+    .st0 {
+        font-family: 'Aspira';
+        font-weight: 700;
+    }
+    .st1 {
+        font-size: 44.6317px;
+    }
+    .st2 {
+        font-family: 'Aspira';
+        font-weight: 200;
+        font-style : italic;
+    }
+    .st3 {
+        font-family: 'Aspira';
+        font-weight: 200;
+    }
+    .st4 {
+        font-size: 11.3px;
+    }
+    .st5 {
+        fill             : #FFFFFF;
+        stroke           : #020202;
+        stroke-miterlimit: 10;
+    }
+    .st6 {
+        font-size: 12px;
+    }
+    .st7 {
+        opacity: 0.1;
+    }
+    .st8 {
+        fill: #1D4498;
+    }
+    .st9 {
+        fill: #FFFFFF;
+    }
+    .st10 {
+        fill: #B7BFC7;
+    }
+    .st11 {
+        fill: #1A1A1A;
+    }
+    .st12 {
+        opacity: 0.4;
+        fill   : #DCE4E8;
+    }
+    .st13 {
+        fill: #2D2D2D;
+    }
+    .st14 {
+        opacity: 0.4;
+    }
+    .st15 {
+        fill: #8D8F90;
+    }
+    .st16 {
+        fill: #343535;
+    }
+    .st17 {
+        fill: #163A7A;
+    }
+    .st18 {
+        fill: #005CFF;
+    }
+    .st19 {
+        fill: #C9CBCD;
+    }
+    .st20 {
+        opacity: 0.2;
+        fill   : #2D2D2D;
+    }
+    .st21 {
+        opacity: 0.8;
+        fill   : #2D2D2D;
+    }
+    .st22 {
+        fill: #DCE4E8;
+    }
+    .st23 {
+        fill: #9FA58C;
+    }
+    .st24 {
+        fill: #FFA800;
+    }
+    .st25 {
+        fill: url("#SVGID_1_");
+    }
+    .st26 {
+        fill: #515150;
+    }
+    .st27 {
+        opacity: 0.2;
+        fill   : #DCE4E8;
+    }
+    .st28 {
+        opacity: 0.4;
+        fill   : #1D4498;
+    }
+    .st29 {
+        opacity: 0.8;
+        fill   : #163A7A;
+    }
+    .st30 {
+        opacity: 0.8;
+    }
+    .st31 {
+        clip-path: url("#SVGID_3_");
+    }
+    .st32 {
+        opacity: 0.2;
+    }
+    .st33 {
+        clip-path: url("#SVGID_5_");
+    }
+    .st34 {
+        opacity: 0.25;
+    }
+    .st35 {
+        clip-path: url("#SVGID_7_");
+    }
+    .st36 {
+        clip-path: url("#SVGID_9_");
+        fill     : #FFFFFF;
+    }
+    .st37 {
+        clip-path: url("#SVGID_11_");
+        fill     : #FFFFFF;
+    }
+    .st38 {
+        clip-path: url("#SVGID_13_");
+        fill     : #FFFFFF;
+    }
+    .st39 {
+        clip-path: url("#SVGID_15_");
+        fill     : #FFFFFF;
+    }
+    .st40 {
+        clip-path: url("#SVGID_17_");
+        fill     : #FFFFFF;
+    }
+    .st41 {
+        clip-path: url("#SVGID_19_");
+        fill     : #FFFFFF;
+    }
+    .st42 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #FAFBFB;
+    }
+    .st43 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #FDFEFE;
+    }
+    .st44 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #FEFEFE;
+    }
+    .st45 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #F3F3F3;
+    }
+    .st46 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #F3F4F4;
+    }
+    .st47 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #EAEAEA;
+    }
+    .st48 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #EDC73D;
+    }
+    .st49 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #E91C1D;
+    }
+    .st50 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #D0D5D6;
+    }
+    .st51 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #D0D4D5;
+    }
+    .st52 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #E0E0E0;
+    }
+    .st53 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #E6E6E6;
+    }
+    .st54 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #E8E8E8;
+    }
+    .st55 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #12243C;
+    }
+    .st56 {
+        fill: #D99C6B;
+    }
+    .st57 {
+        fill: #E2A97B;
+    }
+    .st58 {
+        fill: #DEA06D;
+    }
+    .st59 {
+        fill: #FFB32B;
+    }
+    .st60 {
+        fill: #F7F9F8;
+    }
+    .st61 {
+        opacity: 0.75;
+        fill   : #005CFF;
+    }
+    .st62 {
+        fill: #464E5C;
+    }
+    .st63 {
+        fill: #FFC06C;
+    }
+    .st64 {
+        fill: #5E4C37;
+    }
+    .st65 {
+        fill: #F489A7;
+    }
+    .st66 {
+        fill: #F4C94E;
+    }
+    .st67 {
+        fill: #FFF083;
+    }
+    .st68 {
+        fill: #EDE5D1;
+    }
+    .st69 {
+        fill: #E6E6E6;
+    }
+    .st70 {
+        fill: #CCCCCC;
+    }
+    .st71 {
+        fill: #B3B3B3;
+    }
+    .st72 {
+        fill: #F9FDFF;
+    }
+    .st73 {
+        opacity  : 0.4;
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #DCE4E8;
+    }
+    .st74 {
+        clip-path: url("#SVGID_21_");
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #B7BFC7;
+    }
+    .st75 {
+        clip-path: url("#SVGID_23_");
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #B7BFC7;
+    }
+    .st76 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #FFFFFF;
+    }
+    .st77 {
+        opacity  : 0.4;
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #B7BFC7;
+    }
+    .st78 {
+        clip-path: url("#SVGID_25_");
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #B7BFC7;
+    }
+    .st79 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #F7D800;
+    }
+    .st80 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #1D4498;
+    }
+    .st81 {
+        fill: #F2C700;
+    }
+    .st82 {
+        fill: #F7D600;
+    }
+    .st83 {
+        opacity: 0.4;
+        fill   : #B7BFC7;
+    }
+    .st84 {
+        opacity: 0.2;
+        fill   : #B7BFC7;
+    }
+    .st85 {
+        fill: #F3531D;
+    }
+    .st86 {
+        fill: #E81C23;
+    }
+    .st87 {
+        fill: #F2C300;
+    }
+    .st88 {
+        fill: #F7D800;
+    }
+}
+svg.grafico_incubacion {
+    .st0 {
+        fill             : #EBEBEB;
+        stroke           : #020202;
+        stroke-miterlimit: 10;
+    }
+    .st1 {
+        font-family: 'Aspira';
+        font-weight: 700;
+    }
+    .st2 {
+        font-size: 44.6317px;
+    }
+    .st3 {
+        font-family: 'Aspira';
+        font-weight: 200;
+        font-style: italic;
+    }
+    .st4 {
+        font-family: 'Aspira';
+        font-weight: 200;
+    }
+    .st5 {
+        font-size: 14.0072px;
+    }
+    .st6 {
+        font-size: 12px;
+    }
+    .st7 {
+        opacity: 0.1;
+    }
+    .st8 {
+        fill: #009245;
+    }
+    .st9 {
+        fill: #29ABE2;
+    }
+    .st10 {
+        fill: #A3DBFF;
+    }
+    .st11 {
+        fill: #1D4498;
+    }
+    .st12 {
+        fill: #2D2D2D;
+    }
+    .st13 {
+        fill: #005CFF;
+    }
+    .st14 {
+        fill             : none;
+        stroke           : #005CFF;
+        stroke-width     : 0.7634;
+        stroke-miterlimit: 10;
+        stroke-dasharray : 8.7432;
+    }
+    .st15 {
+        fill             : none;
+        stroke           : #005CFF;
+        stroke-width     : 0.552;
+        stroke-miterlimit: 10;
+        stroke-dasharray : 6.3227;
+    }
+    .st16 {
+        fill             : none;
+        stroke           : #005CFF;
+        stroke-width     : 0.9978;
+        stroke-miterlimit: 10;
+        stroke-dasharray : 11.4288;
+    }
+    .st17 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #163A7A;
+    }
+    .st18 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #FFFFFF;
+    }
+    .st19 {
+        opacity: 0.7;
+    }
+    .st20 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #B7BFC7;
+    }
+    .st21 {
+        opacity  : 0.5;
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #163A7A;
+    }
+    .st22 {
+        opacity: 0.5;
+    }
+    .st23 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #1D4498;
+    }
+    .st24 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #F7D800;
+    }
+    .st25 {
+        fill-rule        : evenodd;
+        clip-rule        : evenodd;
+        fill             : none;
+        stroke           : #F7D800;
+        stroke-width     : 2.2308;
+        stroke-linecap   : round;
+        stroke-linejoin  : round;
+        stroke-miterlimit: 10;
+    }
+    .st26 {
+        opacity: 0.2;
+    }
+    .st27 {
+        fill-rule        : evenodd;
+        clip-rule        : evenodd;
+        fill             : none;
+        stroke           : #F7D800;
+        stroke-width     : 3.2365;
+        stroke-linecap   : round;
+        stroke-linejoin  : round;
+        stroke-miterlimit: 10;
+    }
+    .st28 {
+        fill-rule        : evenodd;
+        clip-rule        : evenodd;
+        fill             : none;
+        stroke           : #F7D800;
+        stroke-width     : 1.4867;
+        stroke-linecap   : round;
+        stroke-linejoin  : round;
+        stroke-miterlimit: 10;
+    }
+    .st29 {
+        fill-rule        : evenodd;
+        clip-rule        : evenodd;
+        fill             : none;
+        stroke           : #F7D800;
+        stroke-width     : 1.2545;
+        stroke-linecap   : round;
+        stroke-linejoin  : round;
+        stroke-miterlimit: 10;
+    }
+    .st30 {
+        fill: #1C660C;
+    }
+    .st31 {
+        fill: #2A910D;
+    }
+    .st32 {
+        fill: #2BA50E;
+    }
+    .st33 {
+        fill: #874C10;
+    }
+    .st34 {
+        fill: #F8D6A5;
+    }
+    .st35 {
+        fill-rule: evenodd;
+        clip-rule: evenodd;
+        fill     : #A0D6CF;
+    }
+}
 /*
 	Animacion para los pilares que entran de forma horizontal, se le aplica una translacion en el eje X apra dar este efecto
 	Junto con un cambio de opacidad, de igual forma para la vertical pero en el eje Y.
