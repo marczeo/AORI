@@ -1,14 +1,11 @@
   window.onload = function() {
-     
       $page_elements = $('.subtemas').children("div");
-      
       $page_elements.each(function() {
-          
-          $("#" +$(this).attr('name') +"_" + $(this).attr('id')).load($(this).parent().attr('name') + ".html " + "."+$(this).attr('id'));
-          alert( "#" +$(this).attr('name') +"_" + $(this).attr('id')+"->" +$(this).parent().attr('name') + ".html " + "."+$(this).attr('id'));
+          $("#" + $(this).attr('name') + "_" + $(this).attr('id')).load($(this).parent().attr('name') + ".html " + "." + $(this).attr('id'));
+          //alert("#" + $(this).attr('name') + "_" + $(this).attr('id') + "->" + $(this).parent().attr('name') + ".html " + "." + $(this).attr('id'));
       });
 
-     /* $('#phone').click(function(event) {
+      /* $('#phone').click(function(event) {
         //  $(".servicio_desc").not($(event.target).attr('id')).slideUp("fast");
          // $("." + $(event.target).attr('id')).slideToggle("fast");
 		 alert($(event.target).attr('name'));
@@ -56,10 +53,9 @@
       $hero_video.height($hero_video.width() * aspect_ratio);
       if ($(window).width() < 1150) {
           $(".title-container").height($(".title-container").width() * title_aspect_ratio);
-      }else{
-        $(".title-container").height(227);
+      } else {
+          $(".title-container").height(227);
       }
-
       //Incluir navbar
       $(function() {
           $("#navbar").load("navbar.html");
@@ -69,9 +65,9 @@
   $(window).resize(function() {
       $hero_video.height($hero_video.width() * aspect_ratio);
       if ($(this).width() < 1150) {
-        $(".title-container").height($(".title-container").width() * title_aspect_ratio);
-      }else{
-        $(".title-container").height(227);
+          $(".title-container").height($(".title-container").width() * title_aspect_ratio);
+      } else {
+          $(".title-container").height(227);
       }
   });
 
@@ -85,26 +81,21 @@
       }
 
   }
-  
-  function slide_Servicios(servicio)
-  {
-      if($('#'+servicio).is(':visible'))
-          {
-             $("#" + servicio).slideUp("fast");
-          }
-      else{
-	       $(".servicio_desc").not(servicio).slideUp("fast");
-            $("#" + servicio).slideToggle("fast");
+
+  function slide_Servicios(servicio) {
+      if ($('#' + servicio).is(':visible')) {
+          $("#" + servicio).slideUp("fast");
+      } else {
+          $(".servicio_desc").not(servicio).slideUp("fast");
+          $("#" + servicio).slideToggle("fast");
       }
   }
-function slide_Subservicios(servicio)
-  {
-      if($('#'+servicio).is(':visible'))
-          {
-             $("#" + servicio).slideUp("fast");
-          }
-      else{
-	       $(".subtemas").not(servicio).slideUp("fast");
-            $("#" + servicio).slideToggle("fast");
+
+  function slide_Subservicios(servicio) {
+      if ($('#' + servicio).is(':visible')) {
+          $("#" + servicio).slideUp("fast");
+      } else {
+          $(".subtemas").not(servicio).slideUp("fast");
+          $("#" + servicio).slideToggle("fast");
       }
   }

@@ -2154,6 +2154,12 @@ svg.grafico_incubacion .st35 {
     display: block;
     margin: auto; }
 
+.servicio_desc {
+  display: none;
+  height: 350px;
+  overflow: auto;
+  padding: 10px; }
+
 .nosotros {
   font-family: 'Aspira'; }
   .nosotros .nosotros_img {
