@@ -107,7 +107,7 @@
   text-transform: uppercase;
   text-decoration: none; }
 
-/*versi├│n de escritorio*/
+/*versión de escritorio*/
 .menu {
   display: block;
   text-align: right;
@@ -316,6 +316,9 @@ nav.navbar .menu_logo {
     width: 100%;
     max-width: 1150px;
     text-align: center; }
+
+svg {
+  color: black; }
 
 svg.circle_shape .st0 {
   fill: #686868; }
@@ -2235,8 +2238,9 @@ svg.grafico_incubacion .st35 {
         font-weight: 200; }
 
 #phone:hover {
-  opacity: .85;
-  fill: rgba(104, 104, 104, 0.5); }
+  fill: white; }
+  #phone:hover rect {
+    fill: #686868; }
 
 body {
   margin: 0;
