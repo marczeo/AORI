@@ -2186,6 +2186,12 @@ svg.grafico_incubacion .st35 {
         -moz-transition: all 1s ease-in-out;
         -o-transition: all 1s ease-in-out;
         transition: all 1s ease-in-out; }
+        .nosotros .nosotros_img .integrante .integrante_descripcion p.quote {
+          margin-top: 50px;
+          text-transform: none;
+          color: #686868;
+          font-style: italic;
+          font-weight: 200; }
       .nosotros .nosotros_img .integrante:hover .integrante_descripcion {
         top: 0; }
 
