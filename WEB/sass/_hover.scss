@@ -1,6 +1,7 @@
-#phone { 
-  }
-#phone:hover { 
-opacity: .85;
-fill: $gris_aori-50;
-  }
+#phone {}
+#phone:hover {
+    fill:white;
+    rect{
+      fill:$gris_aori;
+    }
+}
