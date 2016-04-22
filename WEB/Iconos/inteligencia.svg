@@ -14,8 +14,10 @@
                 <tspan x="0" y="0" class="st3 st4">Encuentra la estrategia fiscal que tanto necesitas, recupera tu flujo de</tspan>
                 <tspan x="173" y="13.6" class="st3 st4">efectivo y aumenta tu rentabilidad.</tspan>
             </text>
+             <g id="phone" style="cursor: pointer;" onclick="window.parent.slide_Servicios('inteligencia_Fiscal');">
             <rect x="948.9" y="344.6" class="st5" width="71.2" height="19.2"/>
             <text transform="matrix(1 0 0 1 956.7461 358.1973)" class="st3 st6">LEER MÁS</text>
+            </g>   
         </g>
         <g id="graficos">
             <g class="st7">

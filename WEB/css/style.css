@@ -2235,8 +2235,8 @@ svg.grafico_incubacion .st35 {
         font-weight: 200; }
 
 #phone:hover {
-  opacity: .65;
-  fill: white; }
+  opacity: .85;
+  fill: rgba(104, 104, 104, 0.5); }
 
 body {
   margin: 0;

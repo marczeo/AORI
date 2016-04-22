@@ -2,8 +2,11 @@
 <?xml-stylesheet type="text/css" media="screen" href="../css/style.css"?>
 <svg
     class="grafico_incubacion" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1100 486" xml:space="preserve">
-
-    <rect x="80.9" y="351.6" class="st0" width="71.2" height="19.2"/>
+    
+     <g id="phone" style="cursor: pointer;" onclick="window.parent.slide_Servicios('incubacion_Empresas');">
+        <rect x="80.9" y="351.6" class="st0" width="71.2" height="19.2"/>
+         <text transform="matrix(1 0 0 1 88.7866 365.2017)" class="st4 st6">LEER MÁS</text>
+    </g>
     <text transform="matrix(1 0 0 1 76.6147 143.2051)">
         <tspan x="0" y="0" class="st1 st2">INCUBACIÓN</tspan>
         <tspan x="0" y="53.6" class="st1 st2">Y FINANCIAMIENTO</tspan>
@@ -14,7 +17,7 @@
         <tspan x="0" y="16.8" class="st4 st5">negocio que requiere de apoyo para proyectarse exitosamente,</tspan>
         <tspan x="0" y="33.6" class="st4 st5">haz llegado al lugar indicado.</tspan>
     </text>
-    <text transform="matrix(1 0 0 1 88.7866 365.2017)" class="st4 st6">LEER MÁS</text>
+    
     <g class="st7">
         <circle class="st8" cx="852.3" cy="212.5" r="22.4"/>
         <path class="st9" d="M847 190.3c-12.3 2.9-19.9 15.3-17 27.6 2.9 12.3 15.3 19.9 27.6 17 12.3-2.9 19.9-15.3 17-27.6C871.7 195 859.4 187.4 847 190.3zM857.4 233.9c-11.8 2.8-23.5-4.4-26.3-16.2 -2.8-11.8 4.5-23.6 16.2-26.4 11.8-2.8 23.6 4.5 26.4 16.2C876.4 219.3 869.2 231.1 857.4 233.9z"/>
