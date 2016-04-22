@@ -11,7 +11,7 @@
         <tspan x="29.8" y="214.2" class="st2 st1">O SUCURSALES</tspan>
     </text>
     <text transform="matrix(1 0 0 1 680.3521 369.5068)" class="st3 st4">Crece con certidumbre, sea con sucursales o vendiendo franquicias.</text>
-     <g id="phone" style="cursor: pointer;" onclick="window.parent.slide_Servicios('modelos_Franquicia');">
+     <g id="phone" style="cursor: pointer;" onclick="window.parent.slide_Subservicios('Franquicia');">
     <rect x="948.9" y="390.7" class="st5" width="71.2" height="19.2"/>
     <text transform="matrix(1 0 0 1 956.7461 404.2263)" class="st3 st6">LEER MÁS</text>
     </g>

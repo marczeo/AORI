@@ -4,8 +4,8 @@
       
       $page_elements.each(function() {
           
-          $("#" +$(this).parent().attr('id') +"_" + $(this).attr('id')).load($(this).parent().attr('name') + ".html " + "."+$(this).attr('id'));
-          
+          $("#" +$(this).attr('name') +"_" + $(this).attr('id')).load($(this).parent().attr('name') + ".html " + "."+$(this).attr('id'));
+          alert( "#" +$(this).attr('name') +"_" + $(this).attr('id')+"->" +$(this).parent().attr('name') + ".html " + "."+$(this).attr('id'));
       });
 
      /* $('#phone').click(function(event) {
