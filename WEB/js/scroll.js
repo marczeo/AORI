@@ -3,7 +3,7 @@ function check_if_in_view() {
     var window_height = $window.height();
     var window_top_position = $window.scrollTop();
     var window_bottom_position = (window_top_position + window_height);
-	
+
     $.each($animation_elements, function() {
         //alert("llegue a la funcion");
         var $element = $(this);
@@ -23,7 +23,7 @@ function check_if_in_view() {
             //$( ".inner" ).append( "<object class="'piramid'" type="'image/svg+xml" data="Iconos/piramide.svg'">Imágen de circulo</object>" );
             //alert("la veo");
         } else if (Math.abs((element_top_position - window_bottom_position)) <= 40 || Math.abs((element_bottom_position - window_top_position)) <= 40) {
-            
+
 			 //newone = $element.clone(true);
 			 //el.
             //$element.display = "none";
@@ -34,7 +34,7 @@ function check_if_in_view() {
 			//alert("attr: "+el.attr("id"))
 			newone = el.clone(true),
 			el.before(newone);
-			
+
 			var count = $('.prueba'+el.attr("id")).length;
 			//alert(('.prueba'+el.attr("id")));
 			//alert(count);
@@ -52,9 +52,9 @@ function check_if_in_view() {
 			$(".prueba"+el.attr("id") + ":last").remove();
 			}
 			//$animation_elements = $('.prueba');
-		  
+
 
         }
     });
-	
+
 }

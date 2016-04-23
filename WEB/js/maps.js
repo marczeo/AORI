@@ -1,64 +1,64 @@
 function init_map() {
-	
+
     var styles = [{
-    "featureType": "administrative",
-    "elementType": "labels.text.fill",
-    "stylers": [{
-        "color": "#444444"
-    }]
-}, {
-    "featureType": "landscape",
-    "elementType": "all",
-    "stylers": [{
-        "color": "#f2f2f2"
-    }]
-}, {
-    "featureType": "poi",
-    "elementType": "all",
-    "stylers": [{
-        "visibility": "off"
-    }]
-}, {
-    "featureType": "poi",
-    "elementType": "labels.text",
-    "stylers": [{
-        "visibility": "off"
-    }]
-}, {
-    "featureType": "road",
-    "elementType": "all",
-    "stylers": [{
-        "saturation": -100
+        "featureType": "administrative",
+        "elementType": "labels.text.fill",
+        "stylers": [{
+            "color": "#444444"
+        }]
     }, {
-        "lightness": 45
-    }]
-}, {
-    "featureType": "road.highway",
-    "elementType": "all",
-    "stylers": [{
-        "visibility": "simplified"
-    }]
-}, {
-    "featureType": "road.arterial",
-    "elementType": "labels.icon",
-    "stylers": [{
-        "visibility": "off"
-    }]
-}, {
-    "featureType": "transit",
-    "elementType": "all",
-    "stylers": [{
-        "visibility": "off"
-    }]
-}, {
-    "featureType": "water",
-    "elementType": "all",
-    "stylers": [{
-        "color": "#dbdbdb"
+        "featureType": "landscape",
+        "elementType": "all",
+        "stylers": [{
+            "color": "#f2f2f2"
+        }]
     }, {
-        "visibility": "on"
-    }]
-}];
+        "featureType": "poi",
+        "elementType": "all",
+        "stylers": [{
+            "visibility": "off"
+        }]
+    }, {
+        "featureType": "poi",
+        "elementType": "labels.text",
+        "stylers": [{
+            "visibility": "off"
+        }]
+    }, {
+        "featureType": "road",
+        "elementType": "all",
+        "stylers": [{
+            "saturation": -100
+        }, {
+            "lightness": 45
+        }]
+    }, {
+        "featureType": "road.highway",
+        "elementType": "all",
+        "stylers": [{
+            "visibility": "simplified"
+        }]
+    }, {
+        "featureType": "road.arterial",
+        "elementType": "labels.icon",
+        "stylers": [{
+            "visibility": "off"
+        }]
+    }, {
+        "featureType": "transit",
+        "elementType": "all",
+        "stylers": [{
+            "visibility": "off"
+        }]
+    }, {
+        "featureType": "water",
+        "elementType": "all",
+        "stylers": [{
+            "color": "#dbdbdb"
+        }, {
+            "visibility": "on"
+        }]
+    }];
     var myOptions = {
         zoom: 6,
         scrollwheel: false,
@@ -70,7 +70,7 @@ function init_map() {
     marker = new google.maps.Marker({
         map: map,
         position: new google.maps.LatLng(20.7018007, -103.3808581),
-		icon: 'images/icono2.png'
+        icon: 'images/icono2.png'
     });
     infowindow = new google.maps.InfoWindow({
         content: '<strong>Aori Headquarters</strong><br>Guadalajara,Jalisco<br>'
@@ -79,7 +79,7 @@ function init_map() {
     marker2 = new google.maps.Marker({
         map: map,
         position: new google.maps.LatLng(20.6814282, -103.3821035),
-		icon: 'images/icono2.png'
+        icon: 'images/icono2.png'
     });
     infowindow2 = new google.maps.InfoWindow({
         content: '<strong>Aori Oficinas Comerciales</strong><br>Guadalajara,Jalisco<br>'
@@ -88,7 +88,7 @@ function init_map() {
     marker3 = new google.maps.Marker({
         map: map,
         position: new google.maps.LatLng(23.095497, -103.6113519),
-		icon: 'images/icono2.png'
+        icon: 'images/icono2.png'
     });
     infowindow3 = new google.maps.InfoWindow({
         content: '<strong>Aori Zacatecas</strong><br>Próximamente<br>'
@@ -107,10 +107,9 @@ function init_map() {
         infowindow3.open(map, marker3);
     });
     infowindow3.open(map, marker3);
-	
+
 }
 google.maps.event.addDomListener(window, 'load', init_map);
-
 function showInfo(something) {
     //alert(marker.getPosition());
 }

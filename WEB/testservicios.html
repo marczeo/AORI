@@ -17,8 +17,17 @@
         <script src="js/scroll.js" charset="utf-8"></script>
         <script src="js/parallax.min.js" charset="utf-8"></script>
         <style media="screen">
-
+            [class="modelos"] {
+                float: left;
+            }
         </style>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('.modelos').click(function() {
+                    slide_Servicios($(this).children('.servicio_desc').attr('id'));
+                });
+            });
+        </script>
     </head>
 
     <body>
@@ -30,28 +39,28 @@
                 </a>
             </div>
             <div class="subtemas" id="modelos" name="modelos_Negocio" style="display:none;">
-                <div id="optimizacion" name="modelos"> <img src="images/test_servicios.png" alt="" onclick="slide_Servicios('modelos_optimizacion')" />
+                <div id="optimizacion" class="modelos"> <img src="images/test_servicios.png" />
                     <div class="servicio_desc" id="modelos_optimizacion"> </div>
                 </div>
-                <div id="manuales" name="modelos"><img src="images/test_servicios.png" alt="" onclick="slide_Servicios('modelos_manuales')" />
+                <div id="manuales" class="modelos"><img src="images/test_servicios.png" />
                     <div class="servicio_desc" id="modelos_manuales"> </div>
                 </div>
-                <div id="coaching" name="modelos"><img src="images/test_servicios.png" alt="" onclick="slide_Servicios('modelos_manuales')" />
+                <div id="coaching" class="modelos"><img src="images/test_servicios.png" />
                     <div class="servicio_desc" id="modelos_manuales"> </div>
                 </div>
-                <div id="estandarizacion" name="modelos"><img src="images/test_servicios.png" alt="" onclick="slide_Servicios('modelos_estandarizacion')" />
+                <div id="estandarizacion" class="modelos"><img src="images/test_servicios.png" />
                     <div class="servicio_desc" id="modelos_estandarizacion"> </div>
                 </div>
-                <div id="menus" name="modelos"><img src="images/test_servicios.png" alt="" onclick="slide_Servicios('modelos_menus')" />
+                <div id="menus" class="modelos"><img src="images/test_servicios.png" />
                     <div class="servicio_desc" id="modelos_menus"> </div>
                 </div>
-                <div id="costos" name="modelos"><img src="images/test_servicios.png" alt="" onclick="slide_Servicios('modelos_costos')" />
+                <div id="costos" class="modelos"><img src="images/test_servicios.png" />
                     <div class="servicio_desc" id="modelos_costos"> </div>
                 </div>
-                <div id="business" name="modelos"><img src="images/test_servicios.png" alt="" onclick="slide_Servicios('modelos_business')" />
+                <div id="business" class="modelos"><img src="images/test_servicios.png" />
                     <div class="servicio_desc" id="modelos_business"> </div>
                 </div>
-                <div id="incubacion" name="modelos"><img src="images/test_servicios.png" alt="" onclick="slide_Servicios('modelos_incubacion')" />
+                <div id="incubacion" class="modelos"><img src="images/test_servicios.png" />
                     <div class="servicio_desc" id="modelos_incubacion"> </div>
                 </div>
             </div>
@@ -62,13 +71,13 @@
             </div>
             <div class="subtemas" id="Franquicia" name="modelos_Franquicia" style="display:none;">
                 <!-- franquicias o sucursales-->
-                <div id="estandarizacion_franquicia" name="modelos"> <img src="images/test_servicios.png" alt="" onclick="slide_Servicios('modelos_estandarizacion_franquicia')" />
+                <div id="estandarizacion_franquicia" class="modelos"> <img src="images/test_servicios.png" />
                     <div class="servicio_desc" id="modelos_estandarizacion_franquicia"> </div>
                 </div>
-                <div id="elaboracion" name="modelos"><img src="images/test_servicios.png" alt="" onclick="slide_Servicios('modelos_elaboracion')" />
+                <div id="elaboracion" class="modelos"><img src="images/test_servicios.png" />
                     <div class="servicio_desc" id="modelos_elaboracion"> </div>
                 </div>
-                <div id="implementacion" name="modelos"><img src="images/test_servicios.png" alt="" onclick="slide_Servicios('modelos_implementacion')" />
+                <div id="implementacion" class="modelos"><img src="images/test_servicios.png" />
                     <div class="servicio_desc" id="modelos_implementacion"> </div>
                 </div>
             </div>
