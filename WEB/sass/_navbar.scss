@@ -54,7 +54,7 @@
 .menu li a:hover,
 .menu li:hover > a {
     color: #ffffff;
-    background: $gris2_aori_100;
+    background: $gris1_aori_100;
 }
 /*Ocultar nivel 2 (submenu)*/
 .menu ul {
@@ -82,13 +82,13 @@
     font-size: 12px;
     font-weight: normal;
     display: block;
-    color: $gris3_aori_100;
+    color: $gris1_aori_100;
     border-left: 3px solid #ffffff;
     background: #ffffff;
 }
 .menu ul li a:hover,
 .menu ul li:hover > a {
-    background: #f0f0f0;
+    background: #gris1_aori_100;
     border-left: 3px solid $azul3_aori_50;
     color: $gris3_aori_100;
 }

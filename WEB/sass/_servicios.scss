@@ -19,3 +19,9 @@
     overflow: auto;
     padding : 10px;
 }
+#phone:hover {
+    fill: $gris3_aori_100;
+    rect {
+        fill: $gris1_aori_100;
+    }
+}

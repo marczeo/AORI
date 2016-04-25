@@ -152,7 +152,7 @@
 .menu li a:hover,
 .menu li:hover > a {
   color: #ffffff;
-  background: #b7bfc7; }
+  background: #2d2d2d; }
 
 /*Ocultar nivel 2 (submenu)*/
 .menu ul {
@@ -180,13 +180,13 @@
   font-size: 12px;
   font-weight: normal;
   display: block;
-  color: #dce4e8;
+  color: #2d2d2d;
   border-left: 3px solid #ffffff;
   background: #ffffff; }
 
 .menu ul li a:hover,
 .menu ul li:hover > a {
-  background: #f0f0f0;
+  background: #gris1_aori_100;
   border-left: 3px solid rgba(0, 92, 255, 0.5);
   color: #dce4e8; }
 
@@ -2172,6 +2172,11 @@ svg.grafico_incubacion .st35 {
   overflow: auto;
   padding: 10px; }
 
+#phone:hover {
+  fill: #dce4e8; }
+  #phone:hover rect {
+    fill: #2d2d2d; }
+
 .nosotros {
   font-family: 'Aspira'; }
   .nosotros .nosotros_img {
@@ -2254,11 +2259,6 @@ svg.grafico_incubacion .st35 {
       .mapas .mapas_desc .something .direccion,
       .mapas .mapas_desc .something .telefono {
         font-weight: 200; }
-
-#phone:hover {
-  fill: white; }
-  #phone:hover rect {
-    fill: #b7bfc7; }
 
 body {
   margin: 0;
