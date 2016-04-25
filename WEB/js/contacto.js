@@ -38,18 +38,13 @@ $(document).ready(function() {
 		$(".contact-dropdown-services dd ul").hide();
 	});
 	//Fin slide
-
-
+	
 	//Validacion formulario contacto
 	$("#contact-form").submit(function(e) {
 		var ret=true;
-		
-
 		var url = "php/sendmail.php";
-
 		var regExTelefono = new RegExp("[0123456789 -]"); 
 		var telefono = document.getElementById("contact-phone").value;
-
 		var validacion= valida();
 		if (validacion==""){
 			$.ajax({
@@ -76,8 +71,6 @@ $(document).ready(function() {
 		else{
 			$("#contact-error").show();
 			document.getElementById("contact-error").innerHTML =validacion;
-			
-			
 		}
 		return false;
 	});
