@@ -1,38 +1,38 @@
 .ubicacion {
     max-width: 1100px;
-    display: block;
+    display  : block;
 }
 .contacto {
-    width: 100%;
-    margin: 10px 0;
-    font-family: 'Aspira';
-    display: inline-block;
+    width         : 100%;
+    margin        : 10px 0;
+    font-family   : 'Aspira';
+    display       : inline-block;
     vertical-align: top;
     @media screen and (min-width: $ipad_mediaquery) {
-        width: 45%;
+        width : 45%;
         margin: 1%;
     }
     ul {
         list-style-type: none;
-        padding: 0;
+        padding        : 0;
     }
     input,
     textarea {
-        background: $gris_aori-25;
+        background: $gris3_aori_100;
     }
     .contact-dropdown-services dt a,
     input,
     textarea {
-        width: 100%;
-        padding: 10px;
-        margin: 10px 0;
-        border: 0;
+        width     : 100%;
+        padding   : 10px;
+        margin    : 10px 0;
+        border    : 0;
         box-sizing: border-box;
     }
     .contact-dropdown-services {
         dd,
         dt {
-            margin: 0;
+            margin : 0;
             padding: 0;
         }
         ul {
@@ -41,18 +41,18 @@
         dd {
             position: relative;
             ul {
-                background-color: $azul_aori;
-                border: 0;
-                color: #fff;
-                display: none;
-                left: 0;
-                padding: 2px 15px 2px 5px;
-                position: absolute;
-                top: 2px;
-                width: 97%;
-                list-style: none;
-                height: 100px;
-                overflow: auto;
+                background-color: $azul2_aori_100;
+                border          : 0;
+                color           : #fff;
+                display         : none;
+                left            : 0;
+                padding         : 2px 15px 2px 5px;
+                position        : absolute;
+                top             : 2px;
+                width           : 97%;
+                list-style      : none;
+                height          : 100px;
+                overflow        : auto;
                 li a {
                     padding: 5px;
                     display: block;
@@ -61,21 +61,21 @@
                     }
                 }
             }
-            input{
-                width:10%;
+            input {
+                width     : 10%;
                 box-sizing: border-box;
             }
         }
         dt a {
-            background-color: $azul_aori;
-            display: block;
-            padding: 8px 20px 5px 10px;
-            min-height: 25px;
-            line-height: 24px;
-            overflow: hidden;
+            background-color: $azul2_aori_100;
+            display         : block;
+            padding         : 8px 20px 5px 10px;
+            min-height      : 25px;
+            line-height     : 24px;
+            overflow        : hidden;
             .mutliSelect span,
             span {
-                cursor: pointer;
+                cursor : pointer;
                 display: inline-block;
                 padding: 0 3px 2px 0;
             }
@@ -83,10 +83,10 @@
         a {
             &,
             &:visited {
-                color: #fff;
+                color          : #fff;
                 text-decoration: none;
-                outline: none;
-                font-size: 12px;
+                outline        : none;
+                font-size      : 12px;
             }
         }
         span.value {
@@ -94,15 +94,15 @@
         }
     }
     button {
-        padding: 10px 20px;
-        background: $azul_aori;
-        border: none;
-        color: white;
-        float: right;
+        padding   : 10px 20px;
+        background: $azul2_aori_100;
+        border    : none;
+        color     : white;
+        float     : right;
         text-align: center;
-        width: 100%;
-        @media screen and (min-width: $ipad_mediaquery){
-          width: auto;
+        width     : 100%;
+        @media screen and (min-width: $ipad_mediaquery) {
+            width: auto;
         }
     }
 }

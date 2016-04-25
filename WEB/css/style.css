@@ -2,6 +2,18 @@
 /*
   HERO BANNER
 */
+/*
+    **AZULES**
+*/
+/* Primer Azul */
+/* Segundo Azul */
+/* Tercer Azul */
+/*
+  **GRISES**
+*/
+/* Primer Gris */
+/* Segundo Gris */
+/* Tercer Gris */
 @font-face {
   font-family: Aspira;
   src: url("fonts/Aspira-Medium-Italic.otf");
@@ -107,7 +119,7 @@
   text-transform: uppercase;
   text-decoration: none; }
 
-/*versi├│n de escritorio*/
+/*versión de escritorio*/
 .menu {
   display: block;
   text-align: right;
@@ -140,7 +152,7 @@
 .menu li a:hover,
 .menu li:hover > a {
   color: #ffffff;
-  background: #686868; }
+  background: #b7bfc7; }
 
 /*Ocultar nivel 2 (submenu)*/
 .menu ul {
@@ -168,15 +180,15 @@
   font-size: 12px;
   font-weight: normal;
   display: block;
-  color: #797979;
+  color: #dce4e8;
   border-left: 3px solid #ffffff;
   background: #ffffff; }
 
 .menu ul li a:hover,
 .menu ul li:hover > a {
   background: #f0f0f0;
-  border-left: 3px solid #9CA3DA;
-  color: #797979; }
+  border-left: 3px solid rgba(0, 92, 255, 0.5);
+  color: #dce4e8; }
 
 /*Nivel 3 igual que el 2, solo cambia posicion*/
 .menu ul ul {
@@ -234,15 +246,15 @@
 
   .menu li a {
     background: #ffffff;
-    color: #797979;
+    color: #dce4e8;
     border-top: 1px solid #e0e0e0;
     border-left: 3px solid #ffffff; }
 
   .menu li a:hover,
   .menu li:hover > a {
     background: #f0f0f0;
-    color: #797979;
-    border-left: 3px solid #686868; }
+    color: gris3_aori_100;
+    border-left: 3px solid #b7bfc7; }
 
   /*level 2 and 3 - make same width as all items*/
   .menu ul {
@@ -302,7 +314,7 @@ nav.navbar .menu_logo {
   width: 100%;
   padding: 10px;
   float: none;
-  background: #1c4499;
+  background: #1d4498;
   box-sizing: border-box; }
   .circulo .info {
     box-sizing: border-box;
@@ -321,9 +333,9 @@ svg {
   color: black; }
 
 svg.circle_shape .st0 {
-  fill: #686868; }
+  fill: #b7bfc7; }
 svg.circle_shape .st1 {
-  fill: #1c4499; }
+  fill: #1d4498; }
 
 svg.logo_principal .st0 {
   fill: white; }
@@ -1973,7 +1985,7 @@ svg.grafico_incubacion .st35 {
     stroke-dashOffset: 0; } }
 .mision {
   width: 100%;
-  background: #1c4499; }
+  background: #1d4498; }
   .mision .mision-center {
     padding: 10px;
     text-align: center;
@@ -2073,7 +2085,7 @@ svg.grafico_incubacion .st35 {
     padding: 0; }
   .contacto input,
   .contacto textarea {
-    background: rgba(104, 104, 104, 0.25); }
+    background: #dce4e8; }
   .contacto .contact-dropdown-services dt a,
   .contacto input,
   .contacto textarea {
@@ -2091,7 +2103,7 @@ svg.grafico_incubacion .st35 {
   .contacto .contact-dropdown-services dd {
     position: relative; }
     .contacto .contact-dropdown-services dd ul {
-      background-color: #1c4499;
+      background-color: #1d4498;
       border: 0;
       color: #fff;
       display: none;
@@ -2112,7 +2124,7 @@ svg.grafico_incubacion .st35 {
       width: 10%;
       box-sizing: border-box; }
   .contacto .contact-dropdown-services dt a {
-    background-color: #1c4499;
+    background-color: #1d4498;
     display: block;
     padding: 8px 20px 5px 10px;
     min-height: 25px;
@@ -2132,7 +2144,7 @@ svg.grafico_incubacion .st35 {
     display: none; }
   .contacto button {
     padding: 10px 20px;
-    background: #1c4499;
+    background: #1d4498;
     border: none;
     color: white;
     float: right;
@@ -2147,7 +2159,7 @@ svg.grafico_incubacion .st35 {
   .servicio:nth-child(odd) {
     background: white; }
   .servicio:nth-child(even) {
-    background: rgba(104, 104, 104, 0.25); }
+    background: rgba(183, 191, 199, 0.25); }
   .servicio object {
     width: 100%;
     max-width: 1100px;
@@ -2186,7 +2198,7 @@ svg.grafico_incubacion .st35 {
         width: 100%;
         box-sizing: border-box;
         text-align: center;
-        font-size: .9rem;
+        font-size: 0.9rem;
         text-transform: uppercase;
         font-weight: 700;
         height: 100%;
@@ -2198,7 +2210,7 @@ svg.grafico_incubacion .st35 {
         .nosotros .nosotros_img .integrante .integrante_descripcion p.quote {
           margin-top: 50px;
           text-transform: none;
-          color: #686868;
+          color: rgba(183, 191, 199, 0.25);
           font-style: italic;
           font-weight: 200; }
       .nosotros .nosotros_img .integrante:hover .integrante_descripcion {
@@ -2216,7 +2228,7 @@ svg.grafico_incubacion .st35 {
       display: inline-block; } }
   .mapas #gmap_canvas,
   .mapas .mapas_desc {
-    margin: 0 0 20px 0; }
+    margin: 0 0 20px; }
     .mapas #gmap_canvas p,
     .mapas .mapas_desc p {
       margin: 8px 0; }
@@ -2236,7 +2248,7 @@ svg.grafico_incubacion .st35 {
       text-transform: uppercase;
       padding: 1px 10px; }
       .mapas .mapas_desc .something i {
-        color: #1c4499; }
+        color: #1d4498; }
       .mapas .mapas_desc .something .nombre {
         font-weight: 700; }
       .mapas .mapas_desc .something .direccion,
@@ -2246,7 +2258,7 @@ svg.grafico_incubacion .st35 {
 #phone:hover {
   fill: white; }
   #phone:hover rect {
-    fill: #686868; }
+    fill: #b7bfc7; }
 
 body {
   margin: 0;

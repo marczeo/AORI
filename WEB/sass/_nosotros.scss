@@ -1,45 +1,45 @@
 .nosotros {
-  font-family: 'Aspira';
+    font-family: 'Aspira';
     .nosotros_img {
-        display: inline-block;
+        display   : inline-block;
         text-align: center;
         img {
-            width: 100%;
-            margin: 0;
+            width   : 100%;
+            margin  : 0;
             position: absolute;
-            top: 0;
-            left: 0;
+            top     : 0;
+            left    : 0;
         }
         .integrante {
-            width: 200px;
-            height: 280px;
-            display: inline-block;
-            margin: 13px;
+            width   : 200px;
+            height  : 280px;
+            display : inline-block;
+            margin  : 13px;
             overflow: hidden;
             position: relative;
             .integrante_descripcion {
-                position: absolute;
-                top: 200px;
-                left: 0;
-                background: white;
-                width: 100%;
-                box-sizing: border-box;
-                text-align: center;
-                font-size: .9rem;
-                text-transform: uppercase;
-                font-weight: 700;
-                height: 100%;
-                padding: 10px;
+                position          : absolute;
+                top               : 200px;
+                left              : 0;
+                background        : white;
+                width             : 100%;
+                box-sizing        : border-box;
+                text-align        : center;
+                font-size         : 0.9rem;
+                text-transform    : uppercase;
+                font-weight       : 700;
+                height            : 100%;
+                padding           : 10px;
                 -webkit-transition: all 1s ease-in-out;
-                -moz-transition: all 1s ease-in-out;
-                -o-transition: all 1s ease-in-out;
-                transition: all 1s ease-in-out;
-                p.quote{
-                  margin-top: 50px;
-                  text-transform: none;
-                  color: $gris_aori;
-                  font-style: italic;
-                  font-weight: 200;
+                -moz-transition   : all 1s ease-in-out;
+                -o-transition     : all 1s ease-in-out;
+                transition        : all 1s ease-in-out;
+                p.quote {
+                    margin-top    : 50px;
+                    text-transform: none;
+                    color         : $gris2_aori_25;
+                    font-style    : italic;
+                    font-weight   : 200;
                 }
             }
             &:hover {
