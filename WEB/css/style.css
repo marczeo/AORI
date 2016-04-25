@@ -204,7 +204,7 @@
     display: none;
     top: 0;
     height: 250px;
-    overflow: scroll; }
+    overflow-y: scroll; }
 
   .navbar ul.menu object {
     display: none; }
