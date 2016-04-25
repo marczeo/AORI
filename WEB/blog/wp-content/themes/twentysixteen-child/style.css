@@ -11,6 +11,109 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-sixteen-child
 */
+
+@import url("/css/style.css");
+#archive-container #archive-content .entry-title{
+  text-transform: uppercase;
+}
+#archive-container #archive-content ul, ul ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#archive-container #archive-content h2 {
+    background-color: #616975;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(114, 122, 134)),to(rgb(80, 88, 100)));
+    background-image: -webkit-linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+    background-image: -moz-linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+    background-image: -o-linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+    background-image: -ms-linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+    background-image: linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+    border-bottom: 1px solid #33373d;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #878e98;
+    -moz-box-shadow: inset 0px 1px 0px 0px #878e98;
+    box-shadow: inset 0px 1px 0px 0px #878e98;
+    width: 100%;
+    height: 7%;
+    line-height: 2.75em;
+    text-indent: 2.75em;
+    display: block;
+    position: relative;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 0px 1px 0px rgba(0,0,0,.5);
+}
+.post-mes > li > a {
+  background: #fff;
+  border-bottom: 1px solid #efeff0;
+  width: 100%;
+  height: 2.75em;
+  line-height: 2.75em;
+  text-indent: 2.75em;
+  display: block;
+  position: relative;
+  font-size: 1em;
+  font-weight: 400;
+  color: #878d95;
+  text-transform: uppercase;
+}
+
+.post-mes li:last-child a {
+    border-bottom: 1px solid #33373d;
+}
+
+.post-mes > li a:before {
+    content: '▶';
+    font-size: 20px;
+    color: #bcbcbf;
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    top: 0;
+    left: -1.7em;
+}
+
+/*Publicaciones por categoria*/
+.post-categoria > li {
+  background: #fff;
+  border-bottom: 1px solid #efeff0;
+  width: 100%;
+  font-size: 1em;
+  font-weight: 400;
+  color: #878d95;
+  text-transform: uppercase;
+}
+.post-categoria ul > li > a {
+    font-size: 0.857em; 
+    display: inline-block;
+    right: 1em;
+    top: 50%; 
+    background: #fff;
+    line-height: 1em;
+    height: 1em;
+    padding: .4em .7em;
+    margin: -.9em 0 0 0; 
+    color: #878d95;
+    text-indent: 0;
+    text-align: center;
+    text-shadow: 0px 0px 0px rgba(255,255,255,.01));
+}
+.post-categoria > li > ul li a:before {
+    content: '▶';
+    font-size: 16px;
+    color: #bcbcbf;
+    width: 1em;
+    height: 1em;
+    top: 0;
+    left: -2.7em;
+}
+
+.widget-area{
+  display: none;
+}
+
+
 .grid{
   width: 98%;
   margin: 0 auto;
@@ -61,6 +164,25 @@
   .grid article .overlay:hover .entry-title {
       display: block;
   }
+  .widget-area{
+    display: block;
+    position: fixed;
+    right: 40px;
+    top: 80px;
+    height: 100%;
+    overflow-y: scroll;
+  }
+}
+@media screen and (max-width: 915px) {
+  .widget-area{
+    display: none;
+    position: fixed;
+    right: 40px;
+    top: 80px;
+    height: 100%;
+    overflow-y: scroll;
+  }
+
 }
 @media screen and (min-width: 1100px) {
   .grid .grid-item,

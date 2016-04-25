@@ -30,7 +30,7 @@ msgstr "Editar<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "Continuar leyendo<span class=\"screen-reader-text\"> \"%s\"</span>"
 
-#: inc/customizer.php:283
+#: inc/customizer.php:246
 msgid "Red"
 msgstr "Rojo"
 
@@ -50,7 +50,7 @@ msgctxt "placeholder"
 msgid "Search &hellip;"
 msgstr "Buscar &hellip;"
 
-#: searchform.php:13
+#: searchform.php:13 searchform.php:14
 msgctxt "label"
 msgid "Search for:"
 msgstr "Buscar por:"
@@ -63,7 +63,7 @@ msgstr "Pie de Página Principal"
 msgid "Footer Social Links Menu"
 msgstr "Pie de Página Menú de Enlaces Sociales"
 
-#: functions.php:158
+#: functions.php:144
 msgid "Add widgets here to appear in your sidebar."
 msgstr "Añade aquí los widgets para que aparezca en la barra lateral."
 
@@ -149,39 +149,39 @@ msgctxt "Used before post author name."
 msgid "Author"
 msgstr "Autor"
 
-#: inc/customizer.php:293
+#: inc/customizer.php:256
 msgid "Yellow"
 msgstr "Amarillo"
 
-#: inc/customizer.php:273
+#: inc/customizer.php:236
 msgid "Gray"
 msgstr "Gris"
 
-#: inc/customizer.php:263
+#: inc/customizer.php:226
 msgid "Dark"
 msgstr "Oscuro"
 
-#: inc/customizer.php:184
+#: inc/customizer.php:171
 msgid "Secondary Text Color"
 msgstr "Color Secundario de Texto"
 
-#: inc/customizer.php:253
+#: inc/customizer.php:216
 msgid "Default"
 msgstr "Por defecto"
 
-#: inc/customizer.php:172
+#: inc/customizer.php:159
 msgid "Main Text Color"
 msgstr "Color Principal del Texto"
 
-#: inc/customizer.php:145
+#: inc/customizer.php:132
 msgid "Page Background Color"
 msgstr "Color de Fondo"
 
-#: inc/customizer.php:160
+#: inc/customizer.php:147
 msgid "Link Color"
 msgstr "Color de link"
 
-#: inc/customizer.php:130
+#: inc/customizer.php:117
 msgid "Base Color Scheme"
 msgstr "Esquema de color básico"
 
@@ -212,7 +212,7 @@ msgstr "Imagen siguiente"
 msgid "Previous Image"
 msgstr "Imagen anterior"
 
-#: header.php:47
+#: header.php:45
 msgid "Menu"
 msgstr "Menú"
 
@@ -220,18 +220,18 @@ msgstr "Menú"
 msgid "Skip to content"
 msgstr "Ir al contenido"
 
-#: functions.php:285
+#: functions.php:271
 msgid "collapse child menu"
 msgstr "plegar menú inferior"
 
-#: functions.php:284
+#: functions.php:270
 msgid "expand child menu"
 msgstr "expande el menú inferior"
 
 #. translators: If there are characters in your language that are not supported
 #. by Montserrat, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:208
+#: functions.php:194
 msgctxt "Montserrat font: on or off"
 msgid "on"
 msgstr "activado"
@@ -239,40 +239,40 @@ msgstr "activado"
 #. translators: If there are characters in your language that are not supported
 #. by Merriweather, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:203
+#: functions.php:189
 msgctxt "Merriweather font: on or off"
 msgid "on"
 msgstr "activado"
 
-#: functions.php:176
+#: functions.php:162
 msgid "Content Bottom 2"
 msgstr "Contenido Inferior 2"
 
-#: functions.php:168 functions.php:178
+#: functions.php:154 functions.php:164
 msgid "Appears at the bottom of the content on posts and pages."
 msgstr "Aparece en la parte interior del contenido en entradas y páginas"
 
-#: functions.php:166
+#: functions.php:152
 msgid "Content Bottom 1"
 msgstr "Contenido Inferior 1"
 
 #. translators: If there are characters in your language that are not supported
 #. by Inconsolata, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:213
+#: functions.php:199
 msgctxt "Inconsolata font: on or off"
 msgid "on"
 msgstr "activa"
 
-#: functions.php:156
+#: functions.php:142
 msgid "Sidebar"
 msgstr "Barra lateral"
 
-#: functions.php:89 header.php:62
+#: functions.php:78 header.php:60
 msgid "Social Links Menu"
 msgstr "Menú de enlaces sociales"
 
-#: functions.php:88 header.php:51
+#: functions.php:77 header.php:49
 msgid "Primary Menu"
 msgstr "Menú Primario"
 
@@ -322,7 +322,7 @@ msgstr "el equipo WordPress"
 msgid "https://wordpress.org/themes/twentysixteen/"
 msgstr "https://wordpress.org/themes/twentysixteen/"
 
-#. #-#-#-#-#  twentysixteen.pot (Twenty Sixteen 1.2)  #-#-#-#-#
+#. #-#-#-#-#  twentysixteen.pot (Twenty Sixteen 1.1)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:51
 msgid "https://wordpress.org/"
