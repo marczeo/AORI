@@ -10,12 +10,12 @@ RewriteEngine On
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^inicio$ /AORI/WEB/index.html
-RewriteRule ^(([^/]+/)*[^.]+)$ /AORI/WEB/$1.html [L]
+RewriteRule ^inicio$ index.html
+RewriteRule ^(([^/]+/)*[^.]+)$ $1.html [L]
 
 #Errores
 ErrorDocument 400 error.html
 ErrorDocument 401 error.html
-ErrorDocument 403 /AORI/WEB/error.html
+ErrorDocument 403 error.html
 ErrorDocument 404 error.html
 ErrorDocument 500 error.html
