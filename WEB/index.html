@@ -8,7 +8,6 @@
         <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
         <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
         <script src="js/jquery-2.2.3.min.js" charset="utf-8"></script>
-        <script type="text/javascript" src="js/modernizr/modernizr-2.6.2.js"></script>
         <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
         <script src="js/main.js" charset="utf-8"></script>
         <script src="js/navbar.js" charset="utf-8"></script>
@@ -385,6 +384,19 @@
                 </form>
             </div>
         </div>
+
+        <script type="text/javascript">
+function downloadJSAtOnload() {
+var element = document.createElement("script");
+element.src = "js/modernizr/modernizr-2.6.2.js";
+document.body.appendChild(element);
+}
+if (window.addEventListener)
+window.addEventListener("load", downloadJSAtOnload, false);
+else if (window.attachEvent)
+window.attachEvent("onload", downloadJSAtOnload);
+else window.onload = downloadJSAtOnload;
+</script>
     </body>
 
 </html>
