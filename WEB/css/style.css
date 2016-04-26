@@ -2177,6 +2177,9 @@ svg.grafico_incubacion .st35 {
   #phone:hover rect {
     fill: #2d2d2d; }
 
+#modelos {
+  display: none; }
+
 .modelos {
   float: left;
   width: 48%;
