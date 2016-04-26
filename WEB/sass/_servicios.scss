@@ -25,3 +25,41 @@
         fill: $gris1_aori_100;
     }
 }
+.modelos {
+    float : left;
+    width : 48%;
+    margin: 1%;
+    &:nth-child(odd) {
+        .titulo_subtema {
+            border-right: solid 30px $azul2_aori_100;
+            text-align  : right;
+        }
+    }
+    &:nth-child(even) {
+        .titulo_subtema {
+            border-left: solid 30px $azul2_aori_100;
+            text-align : left;
+        }
+    }
+}
+.titulo_subtema {
+    font-family   : 'Aspira';
+    padding       : 1px;
+    box-sizing    : border-box;
+    font-size     : 1.6rem;
+    text-transform: uppercase;
+    background    : $gris1_aori_25;
+    width         : 100%;
+    p {
+        padding: 10px 25px;
+        margin : 0;
+    }
+    button {
+        padding       : 5px 10px;
+        border        : solid 1px $gris1_aori_100;
+        background    : transparent;
+        text-transform: uppercase;
+        font-family   : 'Aspira';
+        margin        : 10px 25px;
+    }
+}

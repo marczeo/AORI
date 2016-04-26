@@ -2177,6 +2177,36 @@ svg.grafico_incubacion .st35 {
   #phone:hover rect {
     fill: #2d2d2d; }
 
+.modelos {
+  float: left;
+  width: 48%;
+  margin: 1%; }
+  .modelos:nth-child(odd) .titulo_subtema {
+    border-right: solid 30px #1d4498;
+    text-align: right; }
+  .modelos:nth-child(even) .titulo_subtema {
+    border-left: solid 30px #1d4498;
+    text-align: left; }
+
+.titulo_subtema {
+  font-family: 'Aspira';
+  padding: 1px;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  background: rgba(45, 45, 45, 0.1);
+  width: 100%; }
+  .titulo_subtema p {
+    padding: 10px 25px;
+    margin: 0; }
+  .titulo_subtema button {
+    padding: 5px 10px;
+    border: solid 1px #2d2d2d;
+    background: transparent;
+    text-transform: uppercase;
+    font-family: 'Aspira';
+    margin: 10px 25px; }
+
 .nosotros {
   font-family: 'Aspira'; }
   .nosotros .nosotros_img {
