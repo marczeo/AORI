@@ -10,7 +10,7 @@
             <tspan x="0" y="107.1" class="st4 st3">GOOGLE TOOLS Y PR</tspan>
         </text>
         <text transform="matrix(1 0 0 1 80.0005 309.999)" class="st5 st6">Dirígete a tu consumidor con resultados de venta o posicionamiento.</text>
-     <g id="phone" style="cursor: pointer;" onclick="window.parent.slide_Servicios('marketing_BTL');">
+     <g id="phone" style="cursor: pointer;" onclick="window.parent.slide_Subservicios('BTL');">
         <rect x="80.9" y="331.6" class="st7" width="71.2" height="19.2"/>
         <text transform="matrix(1 0 0 1 88.7866 345.1891)" class="st5 st8">LEER MÁS</text>
     </g>

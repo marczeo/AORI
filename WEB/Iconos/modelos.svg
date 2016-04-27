@@ -15,7 +15,7 @@
 	<rect x="80.9" y="341.6" class="st5" width="71.2" height="19.2"/>
    <text  transform="matrix(1 0 0 1 88.7866 355.1954)" class="st3 st6">LEER MÁS</text>
 	
-     <g id="phone" onclick="window.parent.slide_Subservicios('modelos');">
+     <g id="phone" style="cursor: pointer;" onclick="window.parent.slide_Subservicios('modelos');">
 	<rect  x="80.9" y="341.6" class="st5" width="71.2" height="19.2"/>
    <text  transform="matrix(1 0 0 1 88.7866 355.1954)" class="st3 st6">LEER MÁS</text>
    </g> 
