@@ -23,11 +23,19 @@ $(document).ready(function() {
     /*
      **SERVICIOS**
      */
+     /*Click dentro de franquicia que tiene un infografico*/
+    $('#Franquicia .modelos').click(function() {
+        if ($('.infographic').is(':visible')) {
+            $('.infographic').hide();
+        } else {
+            $('.infographic').show();
+        }
+    });
     $('.modelos').click(function() {
         if ($(this).children('.servicio_desc').is(':visible')) {
             $('.modelos').show();
             $('.modelos button').html('Leer Más');
-                        $(this).children('.servicio_desc').slideUp('fast');
+            $(this).children('.servicio_desc').slideUp('fast');
         } else {
             $('.modelos').not(this).hide();
             $('.modelos button').html('Leer Menos');

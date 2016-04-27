@@ -27,10 +27,10 @@
         fill: $gris1_aori_100;
     }
 }
-#disenoWeb,
-#appVR,
 #BTL,
 #Franquicia,
+#appVR,
+#disenoWeb,
 #modelos {
     display: none;
 }
@@ -46,10 +46,9 @@
         font-size     : 1.6rem;
         text-transform: uppercase;
     }
-    ul
-    {
+    ul {
         list-style-position: inside;
-         float: right;
+        float              : right;
     }
     p {
         padding: 10px 25px;
@@ -85,19 +84,17 @@
             text-transform: uppercase;
         }
     }
-    .grid{
-
+    .grid {
         img {
-                max-width: 45%;
-                display: inline-block;
-                 margin: 10px;
+            max-width: 45%;
+            display  : inline-block;
+            margin   : 10px;
         }
     }
-    .grid2{
-
+    .grid2 {
         img {
-                max-width: 30%;
-                display: inline-block;
+            max-width: 30%;
+            display  : inline-block;
         }
     }
     .brackets:after,
@@ -117,17 +114,21 @@
         border-right: none;
         left        : 0;
     }
+
+    .googleImg{
+      width: 20%;
+      display: inline-block;
+      vertical-align: middle;
+    }
 }
-.infographic
-{
+.infographic {
     min-height : 160px;
     width      : 48%;
     margin     : 1%;
     font-family: 'Aspira';
     padding    : 1px;
     box-sizing : border-box;
-    float: right;
-
+    float      : right;
     .brackets:after,
     .brackets:before {
         border  : 2px solid black;
@@ -144,7 +145,7 @@
         p {
             font-size     : 1.3rem;
             text-transform: uppercase;
-            text-align: center;
+            text-align    : center;
         }
     }
     .brackets:after {
