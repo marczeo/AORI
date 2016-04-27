@@ -13,6 +13,95 @@
 */
 
 @import url("/css/style.css");
+@font-face {
+  font-family: Aspira;
+  src: url("css/fonts/Aspira-Medium-Italic.otf");
+  font-weight: 500;
+  font-style: italic; }
+@font-face {
+  font-family: Aspira;
+  src: url("css/fonts/Aspira-Demi-Italic.otf");
+  font-weight: 600;
+  font-style: italic; }
+@font-face {
+  font-family: Aspira;
+  src: url("css/fonts/Aspira-Light-Italic.otf");
+  font-weight: 300;
+  font-style: italic; }
+@font-face {
+  font-family: Aspira;
+  src: url("css/fonts/Aspira-Bold-Italic.otf");
+  font-weight: 700;
+  font-style: italic; }
+@font-face {
+  font-family: Aspira;
+  src: url("css/fonts/Aspira-Black-Italic.otf");
+  font-weight: 800;
+  font-style: italic; }
+@font-face {
+  font-family: Aspira;
+  src: url("css/fonts/Aspira-Demi.otf");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: Aspira;
+  src: url("css/fonts/Aspira-Medium.otf");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: Aspira;
+  src: url("css/fonts/Aspira-Bold.otf");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: Aspira2;
+  src: url("css/fonts/Aspira-Italic-2.otf");
+  font-weight: 400;
+  font-style: italic; }
+@font-face {
+  font-family: Aspira;
+  src: url("css/fonts/Aspira-Italic.otf");
+  font-weight: 400;
+  font-style: italic; }
+@font-face {
+  font-family: Aspira;
+  src: url("css/fonts/Aspira-Regular.otf");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: Aspira;
+  src: url("css/fonts/Aspira-Light.otf");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: Aspira;
+  src: url("css/fonts/Aspira-Heavy.otf");
+  font-weight: 800;
+  font-style: normal; }
+@font-face {
+  font-family: Aspira;
+  src: url("css/fonts/Aspira-Black.otf");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: Aspira;
+  src: url("css/fonts/Aspira-Thin.otf");
+  font-weight: 200;
+  font-style: normal; }
+@font-face {
+  font-family: Aspira;
+  src: url("css/fonts/Aspira-Thin-Italic.otf");
+  font-weight: 200;
+  font-style: italic; }
+@font-face {
+  font-family: Prototype;
+  src: url("css/fonts/Prototype.ttf");
+  font-weight: 400;
+  font-style: normal; }
+
+body{
+   font-family: 'Aspira';
+}
 #archive-container #archive-content .entry-title{
   text-transform: uppercase;
 }
@@ -108,12 +197,18 @@
     top: 0;
     left: -2.7em;
 }
-
 .widget-area{
   display: none;
 }
+.entry-content p a{ 
+  color: rgba(22, 58, 122, 1);
+  box-shadow: 0 0px 0 0 currentColor;
+}
 
 
+.more-link{
+  font-style: italic;
+}
 .grid{
   width: 98%;
   margin: 0 auto;
@@ -141,7 +236,7 @@
     transform: translateY(-50%);
     text-align: center;
     font-family: 'Aspira';
-    font-size: 32px;
+    font-size: 18px;
     width: 100%;
 }
 .grid article .post-thumbnail {
@@ -169,8 +264,8 @@
     position: fixed;
     right: 40px;
     top: 80px;
-    height: 100%;
-    overflow-y: scroll;
+    height: 80%;
+    overflow-y:scroll; 
   }
 }
 @media screen and (max-width: 915px) {
@@ -179,8 +274,8 @@
     position: fixed;
     right: 40px;
     top: 80px;
-    height: 100%;
-    overflow-y: scroll;
+    height: 80%;
+    overflow-y:scroll;
   }
 
 }

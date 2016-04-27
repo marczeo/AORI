@@ -17,12 +17,7 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-	<link rel="stylesheet"
-            href="/fontawesome/css/font-awesome.min.css"
-            media="screen"
-            title="no title"
-            charset="utf-8">
-	<script src="/js/jquery-2.2.3.min.js" charset="utf-8"></script>
+	
 	<?php endif; ?>
 	<?php wp_head(); ?>
 </head>
@@ -31,19 +26,7 @@
 <div id="page" class="site">
 	<div class="site-inner">
 		<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentysixteen' ); ?></a>
-		<script type="text/javascript">
-			jQuery(document).ready(function(){
-				var touch 	= jQuery('#touch-menu');
-				var menu 	= jQuery('.menu');
-				var ele = jQuery(".element");
-				jQuery(touch).on('click', function(e) {
-					e.preventDefault();
-					ele.slideToggle();
-					menu.slideToggle();
-				});
-				
-			});
-		</script>
+		
 		<div id="navbar">
 			<nav class="navbar f-navbar">
 				<a id="touch-menu" class="mobile-menu" href="#">Menú <i class="fa fa-bars"></i></a>
@@ -124,7 +107,8 @@
 				<?php endif; ?>
 			</div><!-- .site-header-main -->
 
-			<a href="archivo">ARCHIVO</a>
+			<!--ENLACE AL ARCHIVO-->
+			<!--<a href="archivo">ARCHIVO</a>-->
 			<?php if ( get_header_image() ) : ?>
 				<?php
 					/**
