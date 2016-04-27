@@ -3,6 +3,7 @@ var aspect_ratio = 0.56;
 var title_aspect_ratio = 0.2;
 var $hero_video = $(".hero");
 var $window = $(window);
+var $servicios_flag = 0;
 /*
   Cosas a cargar cuando la pagina esta lista
   para elementos que no se necesitan cargar antes de llamar la función.
@@ -19,6 +20,20 @@ $(document).ready(function() {
         $("#navbar").load("navbar.html");
     });
     loadPage();
+    /*
+     **SERVICIOS**
+     */
+    $('.modelos').click(function() {
+        if ($(this).children('.servicio_desc').is(':visible')) {
+            $('.modelos').show();
+            $('.modelos button').html('Leer Más');
+                        $(this).children('.servicio_desc').slideUp('fast');
+        } else {
+            $('.modelos').not(this).hide();
+            $('.modelos button').html('Leer Menos');
+            $(this).children('.servicio_desc').slideDown('fast');
+        }
+    });
 });
 
 /*
@@ -71,14 +86,14 @@ function loadPage() {
     }
 }
 
-function slide_Servicios(servicio) {
-    if ($('#' + servicio).is(':visible')) {
-        $("#" + servicio).slideUp("fast");
-    } else {
-        $(".servicio_desc").not(servicio).slideUp("fast");
-        $("#" + servicio).slideToggle("fast");
-    }
-}
+// function slide_Servicios(servicio) {
+//     if ($('#' + servicio).is(':visible')) {
+//         $("#" + servicio).slideUp("fast");
+//     } else {
+//         $(".servicio_desc").not(servicio).slideUp("fast");
+//         $("#" + servicio).slideToggle("fast");
+//     }
+// }
 
 function slide_Subservicios(servicio) {
     if ($('#' + servicio).is(':visible')) {

@@ -15,9 +15,11 @@
 }
 .servicio_desc {
     display : none;
-    height  : 350px;
     overflow: auto;
     padding : 10px;
+    img {
+        margin: 5px 0;
+    }
 }
 #phone:hover {
     fill: $gris3_aori_100;
@@ -25,37 +27,28 @@
         fill: $gris1_aori_100;
     }
 }
-#modelos{
-  display:none;
+#Franquicia,
+#modelos {
+    display: none;
 }
 .modelos {
-    float : left;
-    width : 48%;
-    margin: 1%;
-    &:nth-child(odd) {
-        .titulo_subtema {
-            border-right: solid 30px $azul2_aori_100;
-            text-align  : right;
-        }
+    min-height : 160px;
+    width      : 48%;
+    margin     : 1%;
+    font-family: 'Aspira';
+    padding    : 1px;
+    background : $gris1_aori_25;
+    box-sizing : border-box;
+    .titulo_subtema > p {
+        font-size     : 1.6rem;
+        text-transform: uppercase;
     }
-    &:nth-child(even) {
-        .titulo_subtema {
-            border-left: solid 30px $azul2_aori_100;
-            text-align : left;
-        }
-    }
-}
-.titulo_subtema {
-    font-family   : 'Aspira';
-    padding       : 1px;
-    box-sizing    : border-box;
-    font-size     : 1.6rem;
-    text-transform: uppercase;
-    background    : $gris1_aori_25;
-    width         : 100%;
     p {
         padding: 10px 25px;
         margin : 0;
+    }
+    img {
+        max-width: 100%;
     }
     button {
         padding       : 5px 10px;
@@ -64,5 +57,41 @@
         text-transform: uppercase;
         font-family   : 'Aspira';
         margin        : 10px 25px;
+    }
+    &:nth-child(odd) {
+        border-right: solid 30px $azul2_aori_100;
+        text-align  : right;
+        float       : left;
+    }
+    &:nth-child(even) {
+        border-left: solid 30px $azul2_aori_100;
+        text-align : left;
+        float      : right;
+    }
+    .brackets {
+        padding : 5px;
+        position: relative;
+        display : inline-block;
+        p {
+            font-size     : 1.3rem;
+            text-transform: uppercase;
+        }
+    }
+    .brackets:after,
+    .brackets:before {
+        border  : 2px solid black;
+        bottom  : 0;
+        content : '';
+        position: absolute;
+        top     : 0;
+        width   : 10%;
+    }
+    .brackets:after {
+        border-left: none;
+        right      : 0;
+    }
+    .brackets:before {
+        border-right: none;
+        left        : 0;
     }
 }
