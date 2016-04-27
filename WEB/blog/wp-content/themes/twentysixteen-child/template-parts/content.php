@@ -70,6 +70,18 @@ jQuery(document).ready(function (){
     gutter: 10,
     percentPosition: true
   });
+    //
+     jQuery('.grid-item article').addClass('not-loaded');
+    jQuery('.grid-item article.not-loaded').lazyload({
+        effect: 'fadeIn',
+        load: function() {
+            // Disable trigger on this image
+            jQuery(this).removeClass("not-loaded");
+            $$grid.masonry('reload');
+        }
+    });
+    //
+  jQuery('.grid-item article.not-loaded').trigger('scroll');
 });
 
 });
