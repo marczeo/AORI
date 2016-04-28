@@ -40,8 +40,11 @@
                 <br /><span>Arquitectura empresarial?</span> </p>
         </div>
         <div class="porque">
-            <p class="descripcion"> La Arquitectura Empresarial es una metodología de mejora continua a mediano plazo basada en una visión integral, que permite mantener actualizada la estructura de información organizacional alineando procesos, datos, aplicaciones e infraestructura en cuatro dimensiones: negocios, datos/información, aplicaciones y tecnología. Esta metodología nos permite enfocar los negocios hacia plataformas tecnológicas que permitan optimizar sus resultados mediante comercialización, marketing, administración/gestión y operación. </p>
-            <p class="descripcion"> Esto, en combinación con los métodos de análisis Canvas Business Model, Happy Canvas y 5 Fuerzas de Porter, nos permite diagnosticar cualquier Modelo de Negocio con claridad para así brindarle una solución a la medida de las necesidades del cliente. </p>
+            <p class="descripcion"> La Arquitectura Empresarial es una metodología de mejora continua a mediano plazo basada en una visión integral, que permite mantener actualizada la estructura de información organizacional alineando procesos, datos, aplicaciones e infraestructura
+                en cuatro dimensiones: negocios, datos/información, aplicaciones y tecnología. Esta metodología nos permite enfocar los negocios hacia plataformas tecnológicas que permitan optimizar sus resultados mediante comercialización, marketing,
+                administración/gestión y operación. </p>
+            <p class="descripcion"> Esto, en combinación con los métodos de análisis Canvas Business Model, Happy Canvas y 5 Fuerzas de Porter, nos permite diagnosticar cualquier Modelo de Negocio con claridad para así brindarle una solución a la medida de las necesidades del
+                cliente. </p>
             <div class="prueba1" id="1">
                 <object class="objeto" id="graph" type="image/svg+xml" data="Iconos/piramide.svg">Imágen de circulo</object>
             </div>
@@ -50,7 +53,8 @@
             <div class="mision-center">
                 <object type="image/svg+xml" data="Iconos/nuestra_mision.svg">Imágen de circulo</object>
                 <p class="mision-title"> Nuestra <strong>misión</strong> </p>
-                <p class="descripcion"> Nivelar las oportunidades de las PYMES ante las corporaciones o empresas extranjeras para que, a través de nuestro apoyo, reduzcan su riesgo, maximicen sus resultados, se vuelvan más competitivos y juntos logremos romper con la estadística del INEGI que indica que 8 de cada 10 empresas mexicanas cierran antes de los 2 años desde su apertura porque no logran consolidarse económicamente. </p>
+                <p class="descripcion"> Nivelar las oportunidades de las PYMES ante las corporaciones o empresas extranjeras para que, a través de nuestro apoyo, reduzcan su riesgo, maximicen sus resultados, se vuelvan más competitivos y juntos logremos romper con la estadística
+                    del INEGI que indica que 8 de cada 10 empresas mexicanas cierran antes de los 2 años desde su apertura porque no logran consolidarse económicamente. </p>
             </div>
         </div>
         <div class="title-container">
@@ -79,44 +83,504 @@
         <div class="title-container">
             <p class="title center"> ¿Qué <strong>servicios</strong> ofrecemos? </p>
         </div>
-        <div class="# servicios">
-            <div class="servicios_title"> </div>
+        <div class="# servicios" id="servicios">
+
+            <!--
+                        **MODELOS DE NEGOCIO**
+                      -->
             <div class="# servicio serv_modelos">
-                <!-- modelos de negocio-->
-                <object type="image/svg+xml" data="Iconos/modelos.svg">Imágen de circulo</object>
+                <a class="svg" id="modelos_Negocio">
+                    <object type="image/svg+xml" data="Iconos/modelos.svg">Imágen de circulo</object>
+                </a>
             </div>
+            <div class="subtemas" id="modelos" name="modelos_Negocio">
+                <div id="optimizacion" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+                            <strong>Optimización de procesos
+                                      </br>administrativos,
+                                  </strong>
+                            </br>
+                            <i>Operativos y Comerciales</i>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_optimizacion"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+                <div id="manuales" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+                            <i>Elaboración de
+                              </br>
+                          </i>
+                            <strong>manuales de operación</strong>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_manuales"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+                <div id="coaching" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+                            <strong>Coaching comercial</strong>
+                            <i></br>y "head-hunting"</i>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_coaching"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+                <div id="estandarizacion" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+                            <strong>Estandarización</br></strong>
+                            </br>
+                            <i>De procesos</i>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_estandarizacion"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+                <div id="menus" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+                            <i>Optimización de</i>
+                            </br>
+                            <strong>menú y proveedores</strong>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_menus"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+                <div id="costos" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+                            <i>Optimización de</i>
+                            </br>
+                            <strong>costos e ingresos</strong>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_costos"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+                <div id="business" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+                            <i>elaboración de</i>
+                            </br>
+                            <strong>business plan</br>y modelos financieros</strong>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_business"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+                <div id="incubacion" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+                            <strong>Incubación de negocios</br></strong><i>desde cero</i>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_incubacion"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+            </div>
+            <!--
+                       **MODELOS DE FRANQUICIA**
+                      -->
             <div class="# servicio serv_franquicia">
+                <a class="svg" id="modelos_Franquicia">
+                    <object class="objeto" type="image/svg+xml" data="Iconos/franquicia.svg">Imágen de circulo</object>
+                </a>
+            </div>
+            <div class="subtemas" id="Franquicia" name="modelos_Franquicia">
                 <!-- franquicias o sucursales-->
-                <object type="image/svg+xml" data="Iconos/franquicia.svg">Imágen de circulo</object>
+                <div id="estandarizacion_franquicia" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+                            <strong>Estandarización general</strong>
+                            </br>
+                            <i>de modelos de negocio</i>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_estandarizacion_franquicia"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+                <div id="elaboracion" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+                            <i>elaboración de</i>
+                            </br>
+                            <strong>manual de franquicia y</br>circular oferta de franquicia</strong>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_elaboracion"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+                <div id="implementacion" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+                            <i>implementación de</i>
+                            </br>
+                            <strong>manuales de operación y</br>auditorías de estandarización</strong>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_implementacion"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+                <div class="infographic">
+                    <div class="brackets">
+                        <img src="images/servicios/franquicia/6.png" alt="" />
+                        <p>
+                            8 DE CADA 10 EMPRESAS QUE SON FRANQUICIADAS O ESTANDARIZADAS CRUZAN LA BARRERA DE LOS 5 AÑOS,CONSOLIDANDOSE COMO CADENAS O GRANDES EMPRESAS.
+                        </p>
+                        En nuestro portafolio de inversion podrás encontrar desde franquicias y negocios de bajo riesgo y alta rentabilidad.En nuestro despacho nos encargamos de incluir al portafolio únicamente proyectos que hayan sido elaborados por nosotros, o que cuenten
+                        con una factibilidad financiera probada y hayan sido estudiados para asegurar que son negocios de bajo riesgo, alto impacto comercial y con un TIR del 12% mensual en adelante.De esta forma les damos a nuestros inversionistas un
+                        abanico de excelentes oportunidades que, según su perfil, podrán selecccionar con nuestro completo asesoramiento.
+                    </div>
+                </div>
             </div>
+            <!--
+                       **REDES SOCIALES**
+                        -->
             <div class="# servicio serv_redes">
-                <!-- redes sociales-->
-                <object type="image/svg+xml" data="Iconos/marketing.svg">Imágen de circulo</object>
+                <a class="svg" id="marketing_BTL">
+                    <object type="image/svg+xml" data="Iconos/marketing.svg">Imágen de circulo</object>
+                </a>
             </div>
+            <div class="subtemas" id="BTL" name="marketing_BTL">
+                <!-- franquicias o sucursales-->
+                <div id="marketing" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+                            <strong>marketing btl, redes sociales,</strong>
+                            </br>
+                            <i>pr y estudios de mercado</i>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_marketing"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+                <div id="hotspots" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+                            <strong>Hotspots</strong>
+                            </br>
+                            <i>méxico</i>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_hotspots"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+            </div>
+            <!-- apps-->
             <div class="# servicio serv_apps">
-                <object type="image/svg+xml" data="Iconos/apps.svg">Imágen de circulo</object>
-                <!-- apps-->
+                <a class="svg" id="app_VR">
+                    <object type="image/svg+xml" data="Iconos/apps.svg">Imágen de circulo</object>
+                </a>
             </div>
+            <div class="subtemas" id="appVR" name="app_VR">
+                <!-- franquicias o sucursales-->
+                <div id="development" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+                            <strong>App</strong>
+                            <i>development</i>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_development"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+                <div id="RA" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+                            <i>aplicaciones con</i>
+                            </br>
+                            <strong>realidad aumentada</strong>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_RA"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+            </div>
+            <!-- web design-->
             <div class="# servicio serv_web">
-                <object type="image/svg+xml" data="Iconos/diseno.svg">Imágen de circulo</object>
-                <!-- web design-->
+                <a class="svg" id="diseno_Web">
+                    <object type="image/svg+xml" data="Iconos/diseno.svg">Imágen de circulo</object>
+                </a>
             </div>
+            <div class="subtemas" id="disenoWeb" name="diseno_Web">
+                <div id="diseno" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+                            <i>Diseño Gráfico <br></i> <strong>Y maquetación Web</strong>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_diseno"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+                <div id="SEO" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+                            <i>Search Engine </br></i>
+                            <strong>Optimization</strong>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_SEO"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+                <div id="lenguajes" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+
+                            <strong>Programación <br>y Maquetación web</strong>
+                            <i></br>HTML5, CSS, JS, PHP, etc.</i>
+
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_lenguajes"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+                <div id="blogs" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+
+                            <strong>implementación de blogs</br></strong>
+                            <i>y herramientas de<br>
+                                          búsqueda dinámica</i>
+
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_blogs"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+                <div id="catalogos" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+
+                            <strong>programación de </br>
+                                      catálogos en línea</strong>
+                            <i>y activación</br>
+                                          de gestores de pago</i>
+
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_catalogos"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+                <div id="presentaciones" class="modelos">
+                    <div class="titulo_subtema">
+
+                        <p>
+                            <strong>presentaciones</strong>
+                            </br>
+                            <i>corporativas</i>
+                        </p>
+
+                    </div>
+                    <div class="servicio_desc" id="modelos_presentaciones"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+                <div id="identidad" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+
+                            <i>desarrollo de </i>
+                            </br>
+
+                            <strong>identidad corporativa</strong>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_identidad"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+
+                <div id="papeleria" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+                            <strong>papelería</strong>
+                            </br>
+                            <i>corporativa</i>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_papeleria"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+                <div id="corporativa" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+
+                            <i>manual de</br></i>
+                            <strong>identidad corporativa</strong>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_corporativa"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+                <div id="menus_web" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+
+                            <i>diseño gráfico</i>
+                            <strong>de menús</strong>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_menus_web"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+                <div id="packing" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+                            <strong>packaging</strong>
+                            </br>
+                            <i>y etiquetado</i>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_packing"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+                <div id="branding" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+                            <strong>brading</strong>
+                            </br>
+                            <i>corporativo</i>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_branding"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+                <div id="senalizacion" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+                            <strong>señalización</strong>
+                            </br>
+                            <i>personalizada</i>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_senalizacion"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+                <div id="flyer" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+                            <strong>flyers</strong>
+                            </br>
+                            <i>publicitarios</i>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_flyer"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+                <div id="infograficos" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+                            <strong>infográficos</strong>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_infograficos"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+                <div id="fotografia" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+                            <strong>fotografía</strong>
+                            </br>
+                            <i>profesional</i>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_fotografia"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+
+            </div>
+
+
+
+
+            <!-- inteligencia fiscal-->
             <div class="# servicio serv_inteligencia">
-                <object type="image/svg+xml" data="Iconos/inteligencia.svg">Imágen de circulo</object>
-                <!-- inteligencia fiscal-->
+                <a class="svg" id="inteligencia_Fiscal">
+                    <object type="image/svg+xml" data="Iconos/inteligencia.svg">Imágen de circulo</object>
+                </a>
             </div>
+            <div class="subtemas" id="inteligencia" name="inteligencia_Fiscal">
+                <!-- franquicias o sucursales-->
+                <div id="contabilidad" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+                            <strong>inteligencia fiscal</strong>
+                            </br>
+                            <i>y contabilidad</i>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_contabilidad"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+            </div>
+
+            <!-- Importacion/Exportacion-->
             <div class="# servicio serv_impoexpo">
-                <object type="image/svg+xml" data="Iconos/importacion.svg">Imágen de circulo</object>
-                <!-- Importacion/Exportacion-->
+                <a class="svg" id="colocacion_Productos">
+                    <object type="image/svg+xml" data="Iconos/importacion.svg">Imágen de circulo</object>
+                </a>
             </div>
+            <div class="subtemas" id="colocacion" name="colocacion_Productos">
+                <!-- franquicias o sucursales-->
+                <div id="importacion" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+                            <strong>importación/exportación</strong>
+                            </br>
+                            <i>y colocación de productos</i>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_importacion"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+            </div>
+
+
+            <!-- Cursos y diplomados-->
             <div class="# servicio serv_cursos">
-                <object type="image/svg+xml" data="Iconos/cursos.svg">Imágen de circulo</object>
-                <!-- Cursos y diplomados-->
+                <a class="svg" id="diplomados_Emprendedores">
+                    <object type="image/svg+xml" data="Iconos/cursos.svg">Imágen de circulo</object>
+                </a>
             </div>
+            <div class="subtemas" id="diplomados" name="diplomados_Emprendedores">
+                <!-- franquicias o sucursales-->
+                <div id="cursos" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+                            <strong>cursos</strong>
+                            </br>
+                            <i>para pymes</i>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_cursos"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+
+                <div id="emprendedores" class="modelos">
+                    <div class="titulo_subtema">
+                        <p>
+                            <strong>diplomados</strong>
+                            </br>
+                            <i>para emprendedores o pymes</i>
+                        </p>
+                    </div>
+                    <div class="servicio_desc" id="modelos_emprendedores"></div>
+                    <button type="button" name="leer_mas" class="subtema_leer">Leer más</button>
+                </div>
+            </div>
+
+
             <div class="# servicio serv_incubacion">
-                <object type="image/svg+xml" data="Iconos/incubacion.svg">Imágen de circulo</object>
+                <a class="svg" id="incubacion_Empresas">
+                    <object type="image/svg+xml" data="Iconos/incubacion.svg">Imágen de circulo</object>
+                </a>
                 <!-- Incubacion y financiamiento-->
+                <div class="incubacion_Empresas servicio_desc" id="slide_servicio"></div>
             </div>
+
         </div>
         <div class="title-container">
             <p class="title center"> conoce <strong>nuestro equipo</strong> </p>
@@ -341,25 +805,45 @@
                                     <div class="mutliSelect">
                                         <ul>
                                             <li>
-                                                <label><input type="checkbox" value="Desarrollo de Modelos de Negocio" name="typeService[]" />Desarrollo de Modelos de Negocio</label></li>
+                                                <label>
+                                                    <input type="checkbox" value="Desarrollo de Modelos de Negocio" name="typeService[]" />Desarrollo de Modelos de Negocio</label>
+                                            </li>
                                             <li>
-                                                <label><input type="checkbox" value="Desarrollo de Modelos de Franquicia, Licenciamiento o Sucursales" name="typeService[]" />Desarrollo de Modelos de Franquicia, Licenciamiento o Sucursales </label></li>
+                                                <label>
+                                                    <input type="checkbox" value="Desarrollo de Modelos de Franquicia, Licenciamiento o Sucursales" name="typeService[]" />Desarrollo de Modelos de Franquicia, Licenciamiento o Sucursales </label>
+                                            </li>
                                             <li>
-                                                <label><input type="checkbox" value="Marketing Digital: Redes Sociales, Google Tools y HotSpot" name="typeService[]" />Marketing Digital: Redes Sociales, Google Tools y HotSpot </label></li>
+                                                <label>
+                                                    <input type="checkbox" value="Marketing Digital: Redes Sociales, Google Tools y HotSpot" name="typeService[]" />Marketing Digital: Redes Sociales, Google Tools y HotSpot </label>
+                                            </li>
                                             <li>
-                                                <label><input type="checkbox" value="Diseño Gráfico y Maquetación Web" name="typeService[]" />Diseño Gráfico y Maquetación Web </label></li>
+                                                <label>
+                                                    <input type="checkbox" value="Diseño Gráfico y Maquetación Web" name="typeService[]" />Diseño Gráfico y Maquetación Web </label>
+                                            </li>
                                             <li>
-                                                <label><input type="checkbox" value="Fotografía y Producción de Videos Comerciales" name="typeService[]" />Fotografía y Producción de Videos Comerciales </label></li>
+                                                <label>
+                                                    <input type="checkbox" value="Fotografía y Producción de Videos Comerciales" name="typeService[]" />Fotografía y Producción de Videos Comerciales </label>
+                                            </li>
                                             <li>
-                                                <label><input type="checkbox" value="Desarrollo y Creación de Aplicaciones (APPs)" name="typeService[]" />Desarrollo y Creación de Aplicaciones (APPs) </label></li>
+                                                <label>
+                                                    <input type="checkbox" value="Desarrollo y Creación de Aplicaciones (APPs)" name="typeService[]" />Desarrollo y Creación de Aplicaciones (APPs) </label>
+                                            </li>
                                             <li>
-                                                <label><input type="checkbox" value="Contabilidad e Inteligencia Fiscal" name="typeService[]" />Contabilidad e Inteligencia Fiscal </label></li>
+                                                <label>
+                                                    <input type="checkbox" value="Contabilidad e Inteligencia Fiscal" name="typeService[]" />Contabilidad e Inteligencia Fiscal </label>
+                                            </li>
                                             <li>
-                                                <label><input type="checkbox" value="Importación/Exportación y Colocación de Productos." name="typeService[]" />Importación/Exportación y Colocación de Productos. </label></li>
+                                                <label>
+                                                    <input type="checkbox" value="Importación/Exportación y Colocación de Productos." name="typeService[]" />Importación/Exportación y Colocación de Productos. </label>
+                                            </li>
                                             <li>
-                                                <label><input type="checkbox" value="Cursos y Diplomados para Emprendedores o PYMES" name="typeService[]" />Cursos y Diplomados para Emprendedores o PYMES </label></li>
+                                                <label>
+                                                    <input type="checkbox" value="Cursos y Diplomados para Emprendedores o PYMES" name="typeService[]" />Cursos y Diplomados para Emprendedores o PYMES </label>
+                                            </li>
                                             <li>
-                                                <label><input type="checkbox" value="Incubación y Financiamiento de Empresas" name="typeService[]" />Incubación y Financiamiento de Empresas </label></li>
+                                                <label>
+                                                    <input type="checkbox" value="Incubación y Financiamiento de Empresas" name="typeService[]" />Incubación y Financiamiento de Empresas </label>
+                                            </li>
                                         </ul>
                                     </div>
                                 </dd>

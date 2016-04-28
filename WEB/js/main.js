@@ -19,6 +19,9 @@ $(document).ready(function() {
     $(function() {
         $("#navbar").load("navbar.html");
     });
+    // $(function() {
+    //     $("#servicios").load("testservicios.html");
+    // });
     loadPage();
     /*
      **SERVICIOS**
