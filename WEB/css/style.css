@@ -2178,6 +2178,9 @@ svg.grafico_incubacion .st35 {
   #phone:hover rect {
     fill: #2d2d2d; }
 
+#diplomados,
+#colocacion,
+#inteligencia,
 #BTL,
 #Franquicia,
 #appVR,
@@ -2225,7 +2228,8 @@ svg.grafico_incubacion .st35 {
     display: inline-block; }
     .modelos .brackets p {
       font-size: 1.3rem;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      text-align: center; }
   .modelos .grid img {
     max-width: 45%;
     display: inline-block;
