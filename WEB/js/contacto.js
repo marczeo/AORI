@@ -1,15 +1,10 @@
 function valida() {	
-	//Valida que se seleccione al menos un servicio
-	var checkboxes = document.getElementById("contact-form").typeService;
-	var cont = 0; 
+	//Valida que se seleccione al menos un servicio	
 	var result="";
-	for (var x=0; x < checkboxes.length; x++) {
-
-		if (checkboxes[x].checked) {
-			cont = cont + 1;
-		}
-	}
-	if(cont==0){
+	var checkboxesCantidad = 0;
+	checkboxesCantidad = $("#contact-form input[name='typeService[]']:checked").length;	
+	
+	if(checkboxesCantidad==0){
 		result += "Debe seleccionar al menos un servicio <br>";
 	}
 	//Fin validación servicios
