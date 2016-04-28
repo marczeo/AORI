@@ -7,7 +7,7 @@
             <tspan x="325.4" y="107.1" class="st2 st1">O PYMES</tspan>
         </text>
         <text transform="matrix(1 0 0 1 563.2847 311.8462)" class="st3 st4">Si eres empresario, emprendedor o emprendedora, tenemos el diplomado perfecto para ti.</text>
-        <g id="phone" style="cursor: pointer;" onclick="window.parent.slide_Servicios('diplomados_Emprendedores');">
+        <g id="phone" style="cursor: pointer;" onclick="window.parent.slide_Subservicios('diplomados');">
             <rect x="948.9" y="335.6" class="st5" width="71.2" height="19.2" />
             <text transform="matrix(1 0 0 1 956.7461 349.1917)" class="st3 st6">LEER MÁS</text>
         </g>
