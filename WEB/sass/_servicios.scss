@@ -33,12 +33,18 @@
 }
 .modelos {
     min-height : 160px;
-    width      : 48%;
+    width: 98%;
     margin     : 1%;
     font-family: 'Aspira';
     padding    : 1px;
-    background : $gris1_aori_25;
     box-sizing : border-box;
+    background : $gris1_aori_25;
+    @media screen and (min-width: $max_mediaquery){
+      width      : 48%;
+      &:nth-child(odd),&:nth-child(even){
+        float: none;
+      }
+    }
     .titulo_subtema > p {
         font-size     : 1.6rem;
         text-transform: uppercase;

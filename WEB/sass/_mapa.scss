@@ -3,11 +3,6 @@
     margin     : auto;
     display    : block;
     font-family: 'Aspira';
-    @media screen and (min-width: $ipad_mediaquery) {
-        width  : 48%;
-        margin : 1%;
-        display: inline-block;
-    }
     #gmap_canvas,
     .mapas_desc {
         margin: 0 0 20px;
@@ -23,7 +18,7 @@
         }
     }
     .mapas_desc {
-        text-align: left;
+        text-align: center;
         font-size : 0.8rem;
         color     : #2c3e50;
         width     : 100%;

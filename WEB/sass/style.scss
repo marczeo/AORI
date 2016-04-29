@@ -17,6 +17,7 @@
 @import "servicios";
 @import "nosotros";
 @import "mapa";
+@import "unete";
 body {
     margin   : 0;
     padding  : 0;
@@ -29,7 +30,6 @@ body {
 .quienes,
 .servicios_title,
 .socios_com,
-.ubicacion,
 .valores {
     width    : 100%;
     max-width: $max_mediaquery;

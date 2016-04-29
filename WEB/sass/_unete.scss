@@ -1,0 +1,30 @@
+#unete{
+  font-family: 'Aspira';
+  text-align: center;
+  p{
+    width: 98%;
+    margin: 40px auto;
+    max-width: $ipad_mediaquery;
+  }
+  .unete_bgtitle{
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+   img {
+    width: 100%;
+    max-width: 900px;
+}
+.logo_sm{
+width: 100px;
+margin: 0 auto;
+}
+  .unetetxt{
+    font-weight: 400;
+    font-size: .7rem;
+  }
+  .unete_title{
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+}
