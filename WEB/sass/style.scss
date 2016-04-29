@@ -91,12 +91,15 @@ p.title.telefono {
 p.title.center {
     text-align: center;
 }
+
 div.title-container {
     width     : 100%;
-    background: black;
     position  : relative;
     margin    : 50px 0;
     padding: 10px 0;
+     img {
+            width: 100%;
+        }
     @media screen and (min-width: $ipad_mediaquery){
       padding: 0;
     }
