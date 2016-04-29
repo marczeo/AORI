@@ -2110,10 +2110,10 @@ svg.grafico_incubacion .st35 {
       left: 0;
       padding: 2px 15px 2px 5px;
       position: absolute;
-      top: 2px;
+      top: -10px;
       width: 97%;
       list-style: none;
-      height: 100px;
+      height: 150px;
       overflow: auto; }
       .contacto .contact-dropdown-services dd ul li a {
         padding: 5px;
@@ -2444,13 +2444,23 @@ p.title.center {
 
 div.title-container {
   width: 100%;
+  background: black;
   position: relative;
   margin: 50px 0;
   padding: 10px 0; }
-  div.title-container img {
-    width: 100%; }
   @media screen and (min-width: 768px) {
     div.title-container {
+      padding: 0; } }
+
+div.title-container-image {
+  width: 100%;
+  position: relative;
+  margin: 50px 0;
+  padding: 10px 0; }
+  div.title-container-image img {
+    width: 100%; }
+  @media screen and (min-width: 768px) {
+    div.title-container-image {
       padding: 0; } }
 
 .quienes .imagen,
