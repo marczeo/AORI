@@ -111,6 +111,6 @@ function slide_Subservicios(servicio) {
         $("#" + servicio).slideUp("fast");
     } else {
         $(".subtemas").not(servicio).slideUp("fast");
-        $("#" + servicio).slideToggle("fast");
+        $("#" + servicio).slideDown("fast");
     }
 }

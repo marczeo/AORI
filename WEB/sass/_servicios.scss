@@ -27,15 +27,9 @@
         fill: $gris1_aori_100;
     }
 }
-#diplomados,
-#colocacion,
-#inteligencia,
-#BTL,
-#Franquicia,
-#appVR,
-#disenoWeb,
-#modelos {
+.subtemas {
     display: none;
+    overflow: auto;
 }
 .modelos {
     min-height : 160px;
@@ -101,6 +95,19 @@
             display  : inline-block;
         }
     }
+    a.pdf_descarga{
+      text-align: center;
+      display: block;
+      text-align: center;
+      font-size: 1.6rem;
+      &,&:visited,&:hover,&:active{
+        color: black;
+        text-decoration: none;
+      }
+      img{
+        margin: 0 auto;
+      }
+    }
     .brackets:after,
     .brackets:before {
         border  : 2px solid black;
@@ -126,7 +133,7 @@
     }
     .foto
     {
-         
+
     }
 }
 .infographic {
