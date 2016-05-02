@@ -2270,12 +2270,15 @@ svg.grafico_incubacion .st35 {
 
 .infographic {
   min-height: 160px;
-  width: 48%;
+  width: 98%;
   margin: 1%;
   font-family: 'Aspira';
   padding: 1px;
   box-sizing: border-box;
   float: right; }
+  @media screen and (min-width: 1150px) {
+    .infographic {
+      width: 48%; } }
   .infographic .brackets:after,
   .infographic .brackets:before {
     border: 2px solid black;
@@ -2298,6 +2301,8 @@ svg.grafico_incubacion .st35 {
   .infographic .brackets:before {
     border-right: none;
     left: 0; }
+  .infographic img {
+    max-width: 100%; }
 
 .nosotros {
   font-family: 'Aspira'; }
