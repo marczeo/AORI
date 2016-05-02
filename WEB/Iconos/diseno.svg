@@ -12,7 +12,7 @@
           <tspan x="0" y="0" class="st3 st4">Haz que tus esfuerzos publicitarios se conviertan en resultados positivos y</tspan>
           <tspan x="0" y="13.6" class="st3 st4">tangibles.</tspan>
       </text>
-     <g id="phone" style="cursor: pointer;" onclick="window.parent.slide_Subservicios('disenoWeb');">
+     <g id="phone" style="cursor: pointer;" onclick="window.parent.slide_Subservicios('disenoW');">
       <rect x="80.9" y="319.6" class="st5" width="71.2" height="19.2"/>
       <text transform="matrix(1 0 0 1 88.7866 333.1815)" class="st3 st6">LEER MÁS</text>
     </g>

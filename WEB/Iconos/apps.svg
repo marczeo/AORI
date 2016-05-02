@@ -8,7 +8,7 @@
           <tspan x="94.9" y="0" class="st2 st1">DEVELOPMENT</tspan>
       </text>
       <text transform="matrix(1 0 0 1 635.4575 269.2627)" class="st3 st4">Dale un alcance masivo y bien estructurado a tu negocio con una APP móvil.</text>
-     <g id="phone" style="cursor: pointer;" onclick="window.parent.slide_Subservicios('appVR');">
+     <g id="phone" style="cursor: pointer;" onclick="window.parent.slide_Subservicios('app');">
       <rect x="948.9" y="298.6" class="st5" width="71.2" height="19.2"/>
       <text transform="matrix(1 0 0 1 956.7461 312.1683)" class="st3 st6">LEER MÁS</text>
     </g>
