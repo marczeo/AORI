@@ -44,8 +44,8 @@ $(document).ready(function() {
             var elem = $("a[name='"+ anchor +"']");
             $('html, body').animate({
               scrollTop: elem.offset().top
-      }, 'slow' );
-        } else {
+            }, 'slow' );
+            } else {
             $('.modelos').not(this).hide();
             $('.modelos button').html('Leer Menos');
             $(this).children('.servicio_desc').slideDown('slow');
