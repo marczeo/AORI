@@ -108,7 +108,16 @@ function loadPage() {
 
 function slide_Subservicios(servicio) {
     if ($('#' + servicio).is(':visible')) {
+        /*if ($(this).children('.servicio_desc').is(':visible')) {
+            
+            $(this).children('.servicio_desc').slideUp('fast');
+        }*/
+
+        alert($('#' + servicio + '> div:eq(1)').attr('class'));
+        
+
         $("#" + servicio).slideUp("fast");
+
     } else {
         $(".subtemas").not(servicio).slideUp("fast");
         $("#" + servicio).slideDown("fast");
