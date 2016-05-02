@@ -38,11 +38,17 @@ $(document).ready(function() {
         if ($(this).children('.servicio_desc').is(':visible')) {
             $('.modelos').show();
             $('.modelos button').html('Leer Más');
-            $(this).children('.servicio_desc').slideUp('fast');
+            $(this).children('.servicio_desc').slideUp('slow');
+            var anchor;
+            anchor = $(this).parent().attr('name').replace("_","");
+            var elem = $("a[name='"+ anchor +"']");
+            $('html, body').animate({
+              scrollTop: elem.offset().top
+      }, 'slow' );
         } else {
             $('.modelos').not(this).hide();
             $('.modelos button').html('Leer Menos');
-            $(this).children('.servicio_desc').slideDown('fast');
+            $(this).children('.servicio_desc').slideDown('slow');
         }
     });
 });
@@ -108,18 +114,19 @@ function loadPage() {
 
 function slide_Subservicios(servicio) {
     if ($('#' + servicio).is(':visible')) {
-        /*if ($(this).children('.servicio_desc').is(':visible')) {
-            
-            $(this).children('.servicio_desc').slideUp('fast');
-        }*/
-
-        alert($('#' + servicio + '> div:eq(1)').attr('class'));
-        
-
         $("#" + servicio).slideUp("fast");
-
     } else {
+        slide_Check();
         $(".subtemas").not(servicio).slideUp("fast");
         $("#" + servicio).slideDown("fast");
     }
+}
+
+function slide_Check()
+{
+    $('.servicio_desc').each(function()
+    { 
+            $(this).slideUp();
+            $('.modelos').show();
+    });
 }
