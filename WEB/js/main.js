@@ -35,19 +35,26 @@ $(document).ready(function() {
         }
     });
     $('.modelos').click(function() {
+        var anchor,elem;
+        
         if ($(this).children('.servicio_desc').is(':visible')) {
             $('.modelos').show();
             $('.modelos button').html('Leer Más');
             $(this).children('.servicio_desc').slideUp('slow');
-            var anchor;
+            
             anchor = $(this).parent().attr('name').replace("_","");
-            var elem = $("a[name='"+ anchor +"']");
+            elem = $("a[name='"+ anchor +"']");
             $('html, body').animate({
               scrollTop: elem.offset().top
             }, 'slow' );
             } else {
             $('.modelos').not(this).hide();
             $('.modelos button').html('Leer Menos');
+            
+            elem = $(this);
+            $('html, body').animate({
+              scrollTop: elem.offset().top
+            }, 'slow' );
             $(this).children('.servicio_desc').slideDown('slow');
         }
     });
