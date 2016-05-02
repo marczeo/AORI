@@ -102,6 +102,84 @@
 body{
    font-family: 'Aspira';
 }
+.site{
+  margin:0px;
+}
+.site-inner{
+  max-width: 100%;
+}
+.site-header{
+  background: url("images/banner blog.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-bottom: 50px;
+}
+.site-branding .site-title a{
+  color: white;
+  font-size: 5em;
+  font-family: "Aspira";
+  font-style: italic;
+  border-bottom: 3px solid white;
+}
+.site-description{
+  font-family: "Aspira";
+  font-style: italic;
+  font-size: 3em;
+  color: white;
+}
+.sub-header{
+	text-align: center;	
+}
+.sub-header span{
+	font-size: 5em;
+}
+.widget{
+	border-top: 0px;
+}
+.widget .widget-title{
+	background-color: rgba(45, 45, 45, .75);
+	color: white;
+	text-align: center;
+	font-style: italic;
+	font-family: "Aspira";
+	font-weight: 100;
+	padding: 5px;
+}
+.recent-comments { 
+	padding: 20px;
+	list-style: none;	
+	color: #485358;
+}
+.recent-comments h3{
+	text-align: center;
+	font-family: "Aspira";
+	font-weight: 200;
+	font-size: 3em;
+	margin-bottom: 0;
+}
+.recent-comments h3 strong{
+	font-style: bold;
+	
+}
+.recent-comments li { 
+	overflow: hidden;
+	padding: 20px 0; 
+	border-top: 1px dotted #DADEE1; 
+}
+.recent-comments li:first-child { 
+	border: 0 none; 
+}
+.recent-comments img { 
+	float: left; 
+	margin-right: 8px; } 
+.recent-comments a { display: block;
+	margin-top: 10px; 
+	padding-top: 10px; 
+	text-transform: uppercase;
+}
+
 #archive-container #archive-content .entry-title{
   text-transform: uppercase;
 }
@@ -213,10 +291,20 @@ body{
   width: 98%;
   margin: 0 auto;
 }
+.grid .grid-item{
+	top:10px;	
+	border-top: 5px;
+	border-bottom: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	border-style: solid;
+	border-color: rgba(45, 45, 45, .75);
+}
 .grid .grid-item,
 .grid .grid-sizer {
     width: 100%;
     margin: 0 auto;
+    padding: 20px;
 }
 .grid article .overlay {
     top: 0;
@@ -261,21 +349,25 @@ body{
   }
   .widget-area{
     display: block;
-    position: fixed;
-    right: 40px;
-    top: 80px;
+    top:-30px;
+    right: 40px;    
     height: 80%;
     overflow-y:scroll; 
+  }
+  .widget-area ul{
+  	list-style: none;
+  }
+  .widget-area ul li{
+  	text-align: center;  	
+  }
+  .widget-area ul li a{
+  	color: black;  	
+  	text-transform: capitalize;
   }
 }
 @media screen and (max-width: 915px) {
   .widget-area{
     display: none;
-    position: fixed;
-    right: 40px;
-    top: 80px;
-    height: 80%;
-    overflow-y:scroll;
   }
 
 }

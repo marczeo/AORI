@@ -38,15 +38,15 @@
 						<li><a href="http://aori.mx/inicio">Inicio</a></li>
             			<li><a href="http://aori.mx/inicio#servicios">Nuestros servicios</a>
                 			<ul class="sub-menu">
-                    			<li><a href="http://aori.mx/modelos_Negocio">Desarrollo de Modelos de Negocio</a></li>
-                    			<li><a href="http://aori.mx/modelos_Franquicia">Desarrollo Franquicias o Sucursales</a></li>
-                    			<li><a href="http://aori.mx/marketing_BTL">Marketing BTL: redes sociales, google tools y pr</a></li>
-                    			<li><a href="http://aori.mx/app_VR">App development</a></li>
-                    			<li><a href="http://aori.mx/diseno_Web">Diseño gráfico y web design</a></li>
-                    			<li><a href="http://aori.mx/inteligencia_Fiscal">Inteligencia fiscal y contabilidad</a></li>
-                    			<li><a href="http://aori.mx/colocacion_Productos">Importacion/Exportacion y colocación de productos</a></li>
-                    			<li><a href="http://aori.mx/diplomados_Emprendedores">Cursos y diplomados para emprendedores o PYMES</a></li>
-                    			<li><a href="http://aori.mx/incubacion_Empresas">Incubacion y financiamiento de empresas</a></li>
+                    			<li><a href="http://aori.mx/inicio#modelosNegocio">Desarrollo de Modelos de Negocio</a></li>
+                    			<li><a href="http://aori.mx/inicio#modelosFranquicia">Desarrollo Franquicias o Sucursales</a></li>
+                    			<li><a href="http://aori.mx/inicio#redes">Marketing BTL: redes sociales, google tools y pr</a></li>
+                    			<li><a href="http://aori.mx/inicio#apps">App development</a></li>
+                    			<li><a href="http://aori.mx/inicio#webDesign">Diseño gráfico y web design</a></li>
+                    			<li><a href="http://aori.mx/inicio#inteligenciaFiscal">Inteligencia fiscal y contabilidad</a></li>
+                    			<li><a href="http://aori.mx/inicio#importacionExportacion">Importacion/Exportacion y colocación de productos</a></li>
+                    			<li><a href="http://aori.mx/inicio#diplomadosCursos">Cursos y diplomados para emprendedores o PYMES</a></li>
+                    			<li><a href="http://aori.mx/inicio#incubacionEmpresas">Incubacion y financiamiento de empresas</a></li>
                 			</ul>
             			</li>
             			<li><a href="http://aori.mx/unete">únete al equipo</a></li>
@@ -129,5 +129,7 @@
 				</div><!-- .header-image -->
 			<?php endif; // End header image check. ?>
 		</header><!-- .site-header -->
-
+		<div class="sub-header">
+			<span class="flechita"><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+		</div>
 		<div id="content" class="site-content">
