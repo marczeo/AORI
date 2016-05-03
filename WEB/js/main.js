@@ -26,7 +26,7 @@ $(document).ready(function() {
     /*
      **SERVICIOS**
      */
-     /*Click dentro de franquicia que tiene un infografico*/
+    /*Click dentro de franquicia que tiene un infografico*/
     $('#Franquicia .modelos').click(function() {
         if ($('.infographic').is(':visible')) {
             $('.infographic').hide();
@@ -34,27 +34,31 @@ $(document).ready(function() {
             $('.infographic').show();
         }
     });
+
+    var widthTmp = 0;
     $('.modelos').click(function() {
-        var anchor,elem;
-        
+        var anchor, elem;
         if ($(this).children('.servicio_desc').is(':visible')) {
             $('.modelos').show();
             $('.modelos button').html('Leer Más');
             $(this).children('.servicio_desc').slideUp('slow');
-            
-            anchor = $(this).parent().attr('name').replace("_","");
-            elem = $("a[name='"+ anchor +"']");
+            $('.modelos').width(widthTmp);
+            anchor = $(this).parent().attr('name').replace("_", "");
+            elem = $("a[name='" + anchor + "']");
             $('html, body').animate({
-              scrollTop: elem.offset().top
-            }, 'slow' );
-            } else {
+                scrollTop: elem.offset().top
+            }, 'slow');
+        } else {
+
+           widthTmp = $(this).width();
             $('.modelos').not(this).hide();
-            $('.modelos button').html('Leer Menos');
-            
+            $('.modelos button').html('Cerrar');
+            $(this).width('98%');
+            $(this).attr("margin","1%");
             elem = $(this);
             $('html, body').animate({
-              scrollTop: elem.offset().top
-            }, 'slow' );
+                scrollTop: elem.offset().top
+            }, 'slow');
             $(this).children('.servicio_desc').slideDown('slow');
         }
     });
@@ -129,11 +133,9 @@ function slide_Subservicios(servicio) {
     }
 }
 
-function slide_Check()
-{
-    $('.servicio_desc').each(function()
-    { 
-            $(this).slideUp();
-            $('.modelos').show();
+function slide_Check() {
+    $('.servicio_desc').each(function() {
+        $(this).slideUp();
+        $('.modelos').show();
     });
 }
