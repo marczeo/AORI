@@ -157,7 +157,6 @@
 }
 .infographic {
     min-height : 160px;
-<<<<<<< HEAD
     width: 98%;
     margin     : 1%;
     font-family: 'Aspira';
@@ -167,15 +166,6 @@
     @media screen and (min-width: $max_mediaquery){
       width      : 48%;
     }
-    
-=======
-    width      : 48%;
-    margin     : 1% 26%;
-    font-family: 'Aspira';
-    padding    : 1px;
-    box-sizing : border-box;
-    float      : none;
->>>>>>> ebd8ec659a7835640c07d9da053cc23fddca4489
     .brackets:after,
     .brackets:before {
         border  : 2px solid black;

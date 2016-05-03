@@ -212,7 +212,7 @@
   color: #ffffff;
   text-decoration: none; }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .element {
     display: none;
     top: 0;
@@ -492,7 +492,7 @@ svg.valores .st4,
 svg.valores .st5,
 svg.valores .st6 {
   display: none; }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
     svg.valores .st0,
     svg.valores .st1,
     svg.valores .st2,
@@ -1758,7 +1758,7 @@ svg.grafico_incubacion .st35 {
   margin: 2.5%;
   float: none;
   font-family: Aspira; }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
     .porque p.descripcion {
       width: 48%;
       margin: 0 1%;
@@ -2003,7 +2003,7 @@ svg.grafico_incubacion .st35 {
       color: white;
       font-size: 5.7vw;
       margin: 0; }
-      @media screen and (min-width: 768px) {
+      @media screen and (min-width: 769px) {
         .mision .mision-center .mision-title {
           font-size: 4.5vw; } }
       @media screen and (min-width: 1150px) {
@@ -2023,7 +2023,7 @@ svg.grafico_incubacion .st35 {
   font-family: Aspira;
   text-align: center;
   display: block; }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
     .valores .texto_valores {
       display: none; } }
 .valores p.valores-title {
@@ -2043,7 +2043,7 @@ svg.grafico_incubacion .st35 {
     transition: 0.5s;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%); }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 769px) {
       .clientes .clientes_img img {
         width: 16.3%; } }
     .clientes .clientes_img img:hover {
@@ -2150,7 +2150,7 @@ svg.grafico_incubacion .st35 {
     float: right;
     text-align: center;
     width: 100%; }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 769px) {
       .contacto button {
         width: auto; } }
 
@@ -2183,21 +2183,40 @@ svg.grafico_incubacion .st35 {
   overflow: auto; }
 
 .modelos {
-  min-height: 160px;
   width: 98%;
   margin: 1%;
   font-family: 'Aspira';
   padding: 1px;
   box-sizing: border-box;
-  background: rgba(45, 45, 45, 0.1); }
-  @media screen and (min-width: 1150px) {
+  background: rgba(45, 45, 45, 0.1);
+  border-left: solid 30px #1d4498; }
+  @media screen and (min-width: 540px) {
     .modelos {
-      width: 48%; }
-      .modelos:nth-child(odd), .modelos:nth-child(even) {
-        float: none; } }
+      width: 520px;
+      margin: 1% auto; } }
+  @media screen and (min-width: 769px) {
+    .modelos {
+      width: 48%;
+      margin: 1%;
+      min-height: 160px; }
+      .modelos:nth-child(odd) {
+        border-right: solid 30px #1d4498;
+        border-left: none;
+        text-align: right;
+        float: left; }
+      .modelos:nth-child(even) {
+        border-left: solid 30px #1d4498;
+        text-align: left;
+        float: right; } }
   .modelos .titulo_subtema > p {
-    font-size: 1.6rem;
+    font-size: 1rem;
     text-transform: uppercase; }
+    @media screen and (min-width: 769px) {
+      .modelos .titulo_subtema > p {
+        font-size: 2vw; } }
+    @media screen and (min-width: 1150px) {
+      .modelos .titulo_subtema > p {
+        font-size: 1.6rem; } }
   .modelos ul {
     list-style-position: inside;
     float: right; }
@@ -2213,14 +2232,6 @@ svg.grafico_incubacion .st35 {
     text-transform: uppercase;
     font-family: 'Aspira';
     margin: 10px 25px; }
-  .modelos:nth-child(odd) {
-    border-right: solid 30px #1d4498;
-    text-align: right;
-    float: left; }
-  .modelos:nth-child(even) {
-    border-left: solid 30px #1d4498;
-    text-align: left;
-    float: right; }
   .modelos .brackets {
     padding: 5px;
     position: relative;
@@ -2241,7 +2252,7 @@ svg.grafico_incubacion .st35 {
     display: block;
     text-align: center;
     font-size: 1.6rem; }
-    .modelos a.pdf_descarga, .modelos a.pdf_descarga:visited, .modelos a.pdf_descarga:hover, .modelos a.pdf_descarga:active {
+    .modelos a.pdf_descarga, .modelos a.pdf_descarga:active, .modelos a.pdf_descarga:hover, .modelos a.pdf_descarga:visited {
       color: black;
       text-decoration: none; }
     .modelos a.pdf_descarga img {
@@ -2362,7 +2373,7 @@ svg.grafico_incubacion .st35 {
   .mapas #gmap_canvas {
     width: 100%;
     height: 440px; }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 769px) {
       .mapas #gmap_canvas {
         height: 260px; } }
   .mapas .mapas_desc {
@@ -2388,13 +2399,16 @@ svg.grafico_incubacion .st35 {
   #unete p {
     width: 98%;
     margin: 40px auto;
-    max-width: 768px; }
+    max-width: 769px; }
   #unete .unete_bgtitle {
     font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase; }
   #unete img.icono {
     width: 100%;
+    max-width: 900px; }
+  #unete img.icono_rocket {
+    width: 25%;
     max-width: 900px; }
   #unete .subtitle_sm {
     font-size: .7rem;
@@ -2450,7 +2464,7 @@ p.title {
   p.title span {
     font-weight: 700;
     font-style: normal; }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
     p.title {
       font-size: 4.5vw; } }
   @media screen and (min-width: 1150px) {
@@ -2464,7 +2478,7 @@ p.title.telefono {
     font-size: 1.2rem; }
     p.title.telefono span.title-social i {
       font-size: 1rem; }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
     p.title.telefono {
       font-size: 3.1vw; }
       p.title.telefono span.title-social {
@@ -2485,7 +2499,7 @@ div.title-container {
   position: relative;
   margin: 50px 0;
   padding: 10px 0; }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
     div.title-container {
       padding: 0; } }
 
@@ -2496,7 +2510,7 @@ div.title-container-image {
   padding: 10px 0; }
   div.title-container-image img {
     width: 100%; }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
     div.title-container-image {
       padding: 0; } }
 
