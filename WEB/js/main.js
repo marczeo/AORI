@@ -46,7 +46,7 @@ $(document).ready(function() {
             anchor = $(this).parent().attr('name').replace("_", "");
             elem = $("a[name='" + anchor + "']");
             $('html, body').animate({
-                scrollTop: elem.offset().top
+                scrollTop: elem.offset().top-100
             }, 'slow');
         } else {
 
@@ -57,7 +57,7 @@ $(document).ready(function() {
             $(this).attr("margin","1%");
             elem = $(this);
             $('html, body').animate({
-                scrollTop: elem.offset().top
+                scrollTop: elem.offset().top-100
             }, 'slow');
             $(this).children('.servicio_desc').slideDown('slow');
         }
