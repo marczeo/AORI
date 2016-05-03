@@ -11,6 +11,13 @@
 ?>
 
 		</div><!-- .site-content -->
+		<div class="widget recent-comments">
+			<h3><strong>COMENTARIOS</strong> <i>RECIENTES</i></h3>
+			<div class="sub-header">
+				<span class="flechita"><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+			</div>
+    		<?php bg_recent_comments(); ?>
+		</div>
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<?php if ( has_nav_menu( 'primary' ) ) : ?>
