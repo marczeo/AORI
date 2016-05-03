@@ -66,6 +66,7 @@
     position: absolute;
     /*top: 0;*/
     left: 0;
+    text-align: left;
     background: #ffffff;
 }
 /* Mostrar segundo nivel */
@@ -168,6 +169,7 @@
         top: 0;
         left: 0;
         width: 100%;
+        text-align: right;
     }
     .menu li span{
         display: inline-block;
