@@ -42,8 +42,8 @@ $(document).ready(function() {
             $('.modelos').show();
             $('.modelos button').html('Leer Más');
             $(this).children('.servicio_desc').slideUp('slow');
-            /*$('.modelos').width(widthTmp);
-            anchor = $(this).parent().attr('name').replace("_", "");*/
+            /*$('.modelos').width(widthTmp);*/
+            anchor = $(this).parent().attr('name').replace("_", "");
             elem = $("a[name='" + anchor + "']");
             $('html, body').animate({
                 scrollTop: elem.offset().top-100
