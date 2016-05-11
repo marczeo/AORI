@@ -2081,13 +2081,16 @@ svg.grafico_incubacion .st35 {
   font-family: 'Aspira';
   display: block;
   max-width: 550px;
-  vertical-align: top; }
+  vertical-align: top;
+  /*Estilo de placeholder*/ }
   .contacto ul {
     list-style-type: none;
     padding: 0; }
   .contacto input,
   .contacto textarea {
-    background: #dce4e8; }
+    background: rgba(220, 228, 232, 0.5); }
+  .contacto .contact-dropdown-services dt a {
+    text-transform: uppercase; }
   .contacto .contact-dropdown-services dt a,
   .contacto input,
   .contacto textarea {
@@ -2095,7 +2098,8 @@ svg.grafico_incubacion .st35 {
     padding: 10px;
     margin: 10px 0;
     border: 0;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    text-align: center; }
   .contacto .contact-dropdown-services dd,
   .contacto .contact-dropdown-services dt {
     margin: 0;
@@ -2105,7 +2109,7 @@ svg.grafico_incubacion .st35 {
   .contacto .contact-dropdown-services dd {
     position: relative; }
     .contacto .contact-dropdown-services dd ul {
-      background-color: #1d4498;
+      background-color: #2d2d2d;
       border: 0;
       color: #fff;
       display: none;
@@ -2126,7 +2130,7 @@ svg.grafico_incubacion .st35 {
       width: 10%;
       box-sizing: border-box; }
   .contacto .contact-dropdown-services dt a {
-    background-color: #1d4498;
+    background-color: #2d2d2d;
     display: block;
     padding: 8px 20px 5px 10px;
     min-height: 25px;
@@ -2146,7 +2150,7 @@ svg.grafico_incubacion .st35 {
     display: none; }
   .contacto button {
     padding: 10px 20px;
-    background: #1d4498;
+    background: #2d2d2d;
     border: none;
     color: white;
     float: right;
@@ -2154,7 +2158,30 @@ svg.grafico_incubacion .st35 {
     width: 100%; }
     @media screen and (min-width: 769px) {
       .contacto button {
-        width: auto; } }
+        width: 30%;
+        margin: 0 35%; } }
+  .contacto ::-webkit-input-placeholder {
+    color: black;
+    text-align: center;
+    text-transform: uppercase; }
+  .contacto :-moz-placeholder {
+    /* Firefox 18- */
+    color: black;
+    text-align: center;
+    text-transform: uppercase; }
+  .contacto ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: black;
+    text-align: center;
+    text-transform: uppercase; }
+  .contacto :-ms-input-placeholder {
+    color: black;
+    text-align: center;
+    text-transform: uppercase; }
+  .contacto input[placeholder], .contacto [placeholder], .contacto *[placeholder] {
+    color: black;
+    text-align: center;
+    text-transform: uppercase; }
 
 .servicio {
   width: 100%; }

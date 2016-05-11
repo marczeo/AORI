@@ -17,7 +17,10 @@
     }
     input,
     textarea {
-        background: $gris3_aori_100;
+        background: $gris3_aori_50;
+    }
+    .contact-dropdown-services dt a{
+        text-transform: uppercase;
     }
     .contact-dropdown-services dt a,
     input,
@@ -27,6 +30,7 @@
         margin    : 10px 0;
         border    : 0;
         box-sizing: border-box;
+        text-align: center;
     }
     .contact-dropdown-services {
         dd,
@@ -40,7 +44,7 @@
         dd {
             position: relative;
             ul {
-                background-color: $azul2_aori_100;
+                background-color: $gris1_aori_100;
                 border          : 0;
                 color           : #fff;
                 display         : none;
@@ -66,7 +70,7 @@
             }
         }
         dt a {
-            background-color: $azul2_aori_100;
+            background-color: $gris1_aori_100;
             display         : block;
             padding         : 8px 20px 5px 10px;
             min-height      : 25px;
@@ -94,14 +98,42 @@
     }
     button {
         padding   : 10px 20px;
-        background: $azul2_aori_100;
+        background: $gris1_aori_100;
         border    : none;
         color     : white;
         float     : right;
         text-align: center;
         width     : 100%;
         @media screen and (min-width: $ipad_mediaquery) {
-            width: auto;
+            width: 30%;
+            margin: 0 35%;
+
         }
+    }
+    /*Estilo de placeholder*/
+    ::-webkit-input-placeholder {
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    :-moz-placeholder { /* Firefox 18- */
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    ::-moz-placeholder {  /* Firefox 19+ */
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    :-ms-input-placeholder {  
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    input[placeholder], [placeholder], *[placeholder] {
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
     }
 }
