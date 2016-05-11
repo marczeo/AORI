@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "CP850";
 /*
   HERO BANNER
 */
@@ -19,86 +19,103 @@
   src: url("fonts/Aspira-Medium-Italic.otf");
   font-weight: 500;
   font-style: italic; }
+
 @font-face {
   font-family: Aspira;
   src: url("fonts/Aspira-Demi-Italic.otf");
   font-weight: 600;
   font-style: italic; }
+
 @font-face {
   font-family: Aspira;
   src: url("fonts/Aspira-Light-Italic.otf");
   font-weight: 300;
   font-style: italic; }
+
 @font-face {
   font-family: Aspira;
   src: url("fonts/Aspira-Bold-Italic.otf");
   font-weight: 700;
   font-style: italic; }
+
 @font-face {
   font-family: Aspira;
   src: url("fonts/Aspira-Black-Italic.otf");
   font-weight: 800;
   font-style: italic; }
+
 @font-face {
   font-family: Aspira;
   src: url("fonts/Aspira-Demi.otf");
   font-weight: 600;
   font-style: normal; }
+
 @font-face {
   font-family: Aspira;
   src: url("fonts/Aspira-Medium.otf");
   font-weight: 500;
   font-style: normal; }
+
 @font-face {
   font-family: Aspira;
   src: url("fonts/Aspira-Bold.otf");
   font-weight: 700;
   font-style: normal; }
+
 @font-face {
   font-family: Aspira2;
   src: url("fonts/Aspira-Italic-2.otf");
   font-weight: 400;
   font-style: italic; }
+
 @font-face {
   font-family: Aspira;
   src: url("fonts/Aspira-Italic.otf");
   font-weight: 400;
   font-style: italic; }
+
 @font-face {
   font-family: Aspira;
   src: url("fonts/Aspira-Regular.otf");
   font-weight: 400;
   font-style: normal; }
+
 @font-face {
   font-family: Aspira;
   src: url("fonts/Aspira-Light.otf");
   font-weight: 300;
   font-style: normal; }
+
 @font-face {
   font-family: Aspira;
   src: url("fonts/Aspira-Heavy.otf");
   font-weight: 800;
   font-style: normal; }
+
 @font-face {
   font-family: Aspira;
   src: url("fonts/Aspira-Black.otf");
   font-weight: 900;
   font-style: normal; }
+
 @font-face {
   font-family: Aspira;
   src: url("fonts/Aspira-Thin.otf");
   font-weight: 200;
   font-style: normal; }
+
 @font-face {
   font-family: Aspira;
   src: url("fonts/Aspira-Thin-Italic.otf");
   font-weight: 200;
   font-style: italic; }
+
 @font-face {
   font-family: Prototype;
   src: url("fonts/Prototype.ttf");
   font-weight: 400;
   font-style: normal; }
+
 .f-navbar {
   z-index: 9999;
   position: fixed !important;
@@ -120,7 +137,7 @@
   text-transform: uppercase;
   text-decoration: none; }
 
-/*versi├│n de escritorio*/
+/*versión de escritorio*/
 .menu {
   display: block;
   text-align: right;
@@ -1778,19 +1795,25 @@ svg.grafico_incubacion .st35 {
   0% {
     transform: translateX(-150px);
     opacity: 0; }
+
   100% {
     opacity: 1; } }
+
 @-webkit-keyframes fadeHorizontalInv {
   0% {
     transform: translateX(150px);
     opacity: 0; }
+
   100% {
     opacity: 1; } }
+
 @-webkit-keyframes fadeLineaHorizontal {
   0% {
     transform: translateX(-150px); }
+
   100% {
     opacity: 1; } }
+
 /*
 	Animacion para los pilares que caen de forma vertical
 	35% es cuando los pilares se vuelven visibles y comienzan a caer, decrementar este valor para que se vean antes 
@@ -1800,41 +1823,55 @@ svg.grafico_incubacion .st35 {
 @-webkit-keyframes fadeVertical {
   0% {
     transform: translateY(-250px); }
+
   35% {
     opacity: 0; }
+
   100% {
     opacity: 0.75; } }
+
 @-webkit-keyframes fade {
   100% {
     opacity: 1; } }
+
 /*----------------------------*/
 @-moz-keyframes fadeHorizontal {
   0% {
     transform: translateX(-150px);
     opacity: 0; }
+
   100% {
     opacity: 1; } }
+
 @-moz-keyframes fadeHorizontalInv {
   0% {
     transform: translateX(150px);
     opacity: 0; }
+
   100% {
     opacity: 1; } }
+
 @-moz-keyframes fadeLineaHorizontal {
   0% {
     transform: translateX(-150px); }
+
   100% {
     opacity: 1; } }
+
 @-moz-keyframes fadeVertical {
   0% {
     transform: translateY(-150px); }
+
   55% {
     opacity: 0; }
+
   100% {
     opacity: 0.75; } }
+
 @-moz-keyframes fade {
   100% {
     opacity: 1; } }
+
 .Animate-Draw {
   fill-opacity: 0;
   animation-timing-function: ease-in-out;
@@ -1926,66 +1963,89 @@ svg.grafico_incubacion .st35 {
 @-moz-keyframes FadeStroke {
   to {
     stroke-opacity: 0; } }
+
 @-webkit-keyframes FillIn {
   from {
     fill-opacity: 0; }
+
   to {
     fill-opacity: 1; } }
+
 @-ms-keyframes FadeStroke {
   to {
     stroke-opacity: 0; } }
+
 @-ms-keyframes FillIn {
   from {
     fill-opacity: 0; }
+
   to {
     fill-opacity: 1; } }
+
 @-ms-keyframes FadeStroke {
   to {
     stroke-opacity: 0; } }
+
 @-webkit-keyframes FadeStroke {
   to {
     stroke-opacity: 0; } }
+
 @-moz-keyframes FillIn {
   from {
     fill-opacity: 0; }
+
   to {
     fill-opacity: 1; } }
+
 @-moz-keyframes DrawLine {
   to {
     stroke-dashOffset: 0; } }
+
 @-webkit-keyframes DrawLine {
   to {
     stroke-dashOffset: 0; } }
+
 @-ms-keyframes fadeHorizontal {
   0% {
     transform: translateX(-150px);
     opacity: 0; }
+
   100% {
     opacity: 1; } }
+
 @-ms-keyframes fadeHorizontalInv {
   0% {
     transform: translateX(150px);
     opacity: 0; }
+
   100% {
     opacity: 1; } }
+
 @-ms-keyframes fadeLineaHorizontal {
   0% {
     transform: translateX(-150px); }
+
   100% {
     opacity: 1; } }
+
 @-ms-keyframes fadeVertical {
   0% {
     transform: translateY(-150px); }
+
   55% {
     opacity: 0; }
+
   100% {
     opacity: 0.75; } }
+
 @-ms-keyframes fade {
   100% {
     opacity: 1; } }
+
 @-ms-keyframes DrawLine {
   to {
     stroke-dashOffset: 0; } }
+
 .mision {
   width: 100%;
   background: #1d4498; }
@@ -2212,14 +2272,13 @@ svg.grafico_incubacion .st35 {
   overflow: auto; }
 
 .modelos {
-  width: 100%;
+  width: 98%;
   margin: 1%;
   font-family: 'Aspira';
   padding: 1px;
   box-sizing: border-box;
   background: rgba(45, 45, 45, 0.1);
-  border-left: solid 30px #1d4498;
-  vertical-align: 50%; }
+  border-left: solid 30px #1d4498; }
   @media screen and (min-width: 540px) {
     .modelos {
       width: 520px;
@@ -2231,7 +2290,8 @@ svg.grafico_incubacion .st35 {
       min-height: 160px; } }
   .modelos .titulo_subtema > p {
     font-size: 1rem;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    vertical-align: 50%; }
     @media screen and (min-width: 769px) {
       .modelos .titulo_subtema > p {
         font-size: 2vw; } }
@@ -2261,7 +2321,8 @@ svg.grafico_incubacion .st35 {
       font-size: 1.3rem;
       text-transform: uppercase;
       text-align: center;
-      font-weight: bold; }
+      font-weight: bold;
+      font-family: 'Prototype'; }
   .modelos .grid img {
     max-width: 45%;
     display: inline-block;
@@ -2549,5 +2610,3 @@ div.title-container-image {
   .quienes .imagen img,
   .valores .imagen img {
     width: 100%; }
-
-/*# sourceMappingURL=style.css.map */

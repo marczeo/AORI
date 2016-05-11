@@ -37,14 +37,13 @@
 }
 
 .modelos {
-    width      : 100%;
+    width      : 98%;
     margin     : 1%;
     font-family: 'Aspira';
     padding    : 1px;
     box-sizing : border-box;
     background : $gris1_aori_25;
     border-left: solid 30px $azul2_aori_100;
-    vertical-align: 50%;
     @media screen and ( min-width: 540px) {
         width : 520px;
         margin: 1% auto;
@@ -57,6 +56,7 @@
     .titulo_subtema > p {
         font-size     : 1rem;
         text-transform: uppercase;
+        vertical-align: 50%;
         @media screen and (min-width: $ipad_mediaquery) {
             font-size: 2vw;
         }
@@ -93,6 +93,7 @@
             text-transform: uppercase;
             text-align    : center;
             font-weight: bold;
+            font-family   : 'Prototype';
         }
     }
     .grid {
