@@ -1,7 +1,7 @@
 /*
 	Animacion para los pilares que entran de forma horizontal, se le aplica una translacion en el eje X apra dar este efecto
 	Junto con un cambio de opacidad, de igual forma para la vertical pero en el eje Y.
-	
+
 */
 @-webkit-keyframes fadeHorizontal {
     0% {transform: translateX(-150px);opacity: 0;}
@@ -19,9 +19,9 @@
 }
 /*
 	Animacion para los pilares que caen de forma vertical
-	35% es cuando los pilares se vuelven visibles y comienzan a caer, decrementar este valor para que se vean antes 
+	35% es cuando los pilares se vuelven visibles y comienzan a caer, decrementar este valor para que se vean antes
 	e incrementar para que se vean despues
-	
+
 */
 @-webkit-keyframes fadeVertical {
     0% {transform: translateY(-250px);}
@@ -65,58 +65,58 @@
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
   animation-iteration: 1;
-  
+
   animation-name: DrawLine;
   animation-duration: 4s;
   animation-delay: 0;
 }
 
-  
-#Draw-Frame1 { 
+
+#Draw-Frame1 {
   animation-delay: $initial_time;
-  animation-duration: $interval_time; 
+  animation-duration: $interval_time;
   stroke-dashArray: 1500;
   stroke-dashoffset: 1500;
 }
-#Draw-Frame2 { 
+#Draw-Frame2 {
   animation-delay: $initial_time + $aditional_time;
-  animation-duration: $interval_time; 
+  animation-duration: $interval_time;
   stroke-dashArray: 1500;
   stroke-dashoffset: 1500;
 }
-#Draw-Frame3 { 
+#Draw-Frame3 {
   animation-delay: $initial_time + ($aditional_time*2);
-  animation-duration: $interval_time; 
+  animation-duration: $interval_time;
   stroke-dashArray: 1500;
   stroke-dashoffset: 1500;
 }
-#Draw-Frame4 { 
+#Draw-Frame4 {
   animation-delay: $initial_time + ($aditional_time * 3);
-  animation-duration: $interval_time; 
+  animation-duration: $interval_time;
   stroke-dashArray: 1500;
   stroke-dashoffset: 1500;
 }
-#Draw-Frame5 { 
+#Draw-Frame5 {
   animation-delay: $initial_time + ($aditional_time * 4);
-  animation-duration: $interval_time; 
+  animation-duration: $interval_time;
   stroke-dashArray: 1500;
   stroke-dashoffset: 1500;
 }
-#Draw-Frame6 { 
+#Draw-Frame6 {
   animation-delay: $initial_time + ($aditional_time * 5);
-  animation-duration: $interval_time; 
+  animation-duration: $interval_time;
   stroke-dashArray: 1500;
   stroke-dashoffset: 1500;
 }
-#Draw-Frame7 { 
+#Draw-Frame7 {
   animation-delay: $initial_time +($aditional_time * 6);
-  animation-duration: $interval_time; 
+  animation-duration: $interval_time;
   stroke-dashArray: 1500;
   stroke-dashoffset: 1500;
 }
-#Draw-Frame8 { 
+#Draw-Frame8 {
   animation-delay: $initial_time + ($aditional_time * 7);
-  animation-duration: $interval_time;  
+  animation-duration: $interval_time;
   stroke-dashArray: 1500;
   stroke-dashoffset: 1500;
 }
@@ -126,7 +126,7 @@
   position: absolute;
   top: 0; right: -25%; bottom: 0; left: -25%;
   margin: auto;
-  display:block; 
+  display:block;
   fill: #aa7f3d;
   fill: url("#MyGradient");
   stroke: #EEBE7B;
@@ -135,19 +135,19 @@
 
 #Draw-Mark {
   stroke-dashArray: 1100;
-  stroke-dashoffset: 1100; 
+  stroke-dashoffset: 1100;
 }
 
-#Draw-Frame { 
+#Draw-Frame {
   animation-delay: .5s, 3.5s, 3.5s;
-  animation-duration: 3.5s, 1s, 1s; 
+  animation-duration: 3.5s, 1s, 1s;
   stroke-dashArray: 1500;
   stroke-dashoffset: 1500;
 }
 
-#Draw-Text { 
-  animation-delay: 2s, 3.5s, 3.5s; 
-  animation-duration: 2s, 1s, 1s; 
+#Draw-Text {
+  animation-delay: 2s, 3.5s, 3.5s;
+  animation-duration: 2s, 1s, 1s;
   stroke-dashArray: 300;
   stroke-dashoffset: 300;
   //animation-duration: 4s;
