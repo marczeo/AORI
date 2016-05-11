@@ -40,25 +40,15 @@
     box-sizing : border-box;
     background : $gris1_aori_25;
     border-left: solid 30px $azul2_aori_100;
+    vertical-align: 50%;
     @media screen and ( min-width: 540px) {
         width : 520px;
         margin: 1% auto;
     }
     @media screen and (min-width: $ipad_mediaquery) {
-        width : 48%;
-        margin: 1%;
-        min-height : 160px;
-        &:nth-child(odd) {
-            border-right: solid 30px $azul2_aori_100;
-            border-left : none;
-            text-align  : right;
-            float       : left;
-        }
-        &:nth-child(even) {
-            border-left: solid 30px $azul2_aori_100;
-            text-align : left;
-            float      : right;
-        }
+        width : 80%;
+        margin: 1% auto;
+        min-height: 160px;
     }
     .titulo_subtema > p {
         font-size     : 1rem;
@@ -98,6 +88,7 @@
             font-size     : 1.3rem;
             text-transform: uppercase;
             text-align    : center;
+            font-weight: bold;
         }
     }
     .grid {
@@ -111,6 +102,14 @@
         img {
             max-width: 30%;
             display  : inline-block;
+            margin   : 7px;
+        }
+    }
+    .grid3 {
+        img {
+            max-width: 20%;
+            display  : inline-block;
+            margin   : 5px;
         }
     }
     a.pdf_descarga {
