@@ -1,25 +1,9 @@
-
-.circulo,
-.imagen {
-    float: left;
-}
-.circulo {
-    width: 100%;
-    padding: 10px;
-    float: none;
-    background: $azul2_aori_100;
-    box-sizing: border-box;
-    .info {
-        box-sizing: border-box;
-        color: white;
-        padding: 10px;
-        font-family: Aspira;
-        font-size: 1rem;
-        font-weight: 200;
-        display: block;
-        margin: 0 auto;
-        width: 100%;
-        max-width: $max_mediaquery;
-        text-align: center;
-    }
+#quienes{
+  font-family: 'Aspira';
+  font-weight: 200;
+  font-size: 1.3rem;
+  padding: 60px 0;
+  .item{
+    font-size: 1.5rem;
+  }
 }
