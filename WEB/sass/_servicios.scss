@@ -86,13 +86,12 @@
     }
     .brackets {
         padding : 5px;
-        position: relative;
-        display : inline-block;
+        display : inline;
         p {
             font-size     : 1.3rem;
             text-transform: uppercase;
             text-align    : center;
-            font-weight: bold;
+            font-weight   : bold;
             font-family   : 'Prototype';
         }
     }
