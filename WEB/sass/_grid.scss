@@ -1,0 +1,73 @@
+@mixin col($width,$margin,$media_query) {
+     @media screen and (min-width: $media_query){
+        float   : left;
+        display : inline-block;
+        width   : $width;
+        margin  : $margin;
+        overflow: auto;
+        &:first-child {
+            margin-left: 0;
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+.col1_ch {
+    width : 98%;
+    margin: 0 1%;
+}
+.col2_ch {
+    @include col(48%,0 1%,0);
+}
+.col3_ch {
+    @include col(32.333%,0 1%,0);
+}
+.col4_ch {
+    @include col(23.5%,0 1%,0);
+}
+.col1_md {
+    @media screen and (min-width: $mobile_mediaquery) {
+        width : 98%;
+        margin: 0 1%;
+    }
+}
+.col2_md {
+    @include col(48%,0 1%,$mobile_mediaquery);
+}
+.col3_md {
+    @include col(32.333%,0 1%,$mobile_mediaquery);
+}
+.col4_md {
+    @include col(23.5%,0 1%,$mobile_mediaquery);
+}
+.col1_gd {
+    @media screen and (min-width: $ipad_mediaquery) {
+        width : 98%;
+        margin: 0 1%;
+    }
+}
+.col2_gd {
+    @include col(48%,0 1%,$ipad_mediaquery);
+}
+.col3_gd {
+    @include col(32.333%,0 1%,$ipad_mediaquery);
+}
+.col4_gd {
+    @include col(23.5%,0 1%,$ipad_mediaquery);
+}
+.col1_xg {
+    @media screen and (min-width: $max_mediaquery) {
+        width : 98%;
+        margin: 0 1%;
+    }
+}
+.col2_xg {
+    @include col(48%,0 1%,$max_mediaquery);
+}
+.col3_xg {
+    @include col(32.333%,0 1%,$max_mediaquery);
+}
+.col4_xg {
+    @include col(23.5%,0 1%,$max_mediaquery);
+}

@@ -18,10 +18,38 @@
 @import "nosotros";
 @import "mapa";
 @import "unete";
+@import "grid";
 body {
     margin   : 0;
     padding  : 0;
     font-size: 16px;
+}
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing   : border-box;
+    box-sizing        : border-box;
+}
+img {
+    max-width: 100%;
+}
+.seccion {
+    width : 100%;
+    position: relative;
+    overflow: auto;
+    &:nth-child(odd) {
+        background        : $gris2_aori_25;
+        -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.25);
+        -moz-box-shadow   : 0 0 10px 0 rgba(0,0,0,0.25);
+        box-shadow        : 0 0 10px 0 rgba(0,0,0,0.25);
+    }
+    &:nth-child(even) {}
+}
+#quienes{
+  font-family: 'Aspira';
+  font-weight: 200;
+  font-size: 1.3rem;
 }
 .clientes,
 .mision-center,
@@ -36,18 +64,23 @@ body {
     margin   : 20px auto;
     overflow : auto;
 }
+p.center{
+  text-align: center;
+}
+p.uppercase{
+  text-transform: uppercase;
+}
+p.cuerpo{
+  font-size: 1rem;
+  max-width: $ipad_mediaquery;
+  margin: 10px auto ;
+}
 p.title {
-    margin        : 0;
-    position      : absolute;
-    top           : 50%;
-    left          : 50%;
-    transform     : translate(-50%,-50%);
+    margin: 10px auto;
     font-size     : 5.7vw;
     box-sizing    : border-box;
     font-family   : Prototype;
     font-weight   : 200;
-    font-style    : italic;
-    text-transform: uppercase;
     width         : 100%;
     max-width     : $max_mediaquery;
     color         : black;
@@ -64,6 +97,16 @@ p.title {
     @media screen and (min-width: $max_mediaquery) {
         font-size: 3.5rem;
     }
+}
+.italic{
+  font-style: italic;
+}
+.bold{
+  font-weight: 700;
+}
+.underlined{
+  border-bottom: solid 2px $gris1_aori_50;
+padding: 5px 0;
 }
 p.title.telefono {
     font-size: 1.5rem;
