@@ -1,19 +1,23 @@
 .mision{
-  padding-top: 10px;
+  width: 100%;
+  background: $azul2_aori_100;
   .mision-center {
+      padding: 10px;
       text-align: center;
+      box-sizing: border-box;
       object,
       .mision-title {
           vertical-align: middle;
-          margin   : 20px auto;
+          display: inline-block;
       }
       .mision-title {
-          font-family: 'Aspira';
+          font-family: Aspira;
           font-weight: 200;
           font-style: italic;
           text-transform: uppercase;
-          color: black;
+          color: white;
           font-size: 5.7vw;
+          margin: 0;
           @media screen and (min-width:$ipad_mediaquery) {
               font-size: 4.5vw;
           }
@@ -22,13 +26,15 @@
           }
       }
       p.descripcion{
-        width: 70%;
-        font-weight: 200;
-        margin: 5% 15% 10% 15%;
+        width: 95%;
+        margin: 2.5%;
         float: none;
         font-family: Aspira;
-        color: black;
-        font-size: 1rem;
+        color: white;
+      }
+      object {
+          width: 6%;
+          margin: 1% 0;
       }
   }
 
