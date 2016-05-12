@@ -1,14 +1,14 @@
 .porque {
-    p.descripcion {
-        width      : 95%;
-        margin     : 2.5%;
-        float      : none;
-        font-family: Aspira;
-        @media screen and (min-width: $ipad_mediaquery) {
-            width : 48%;
-            margin: 0 1%;
-            float : left;
-        }
+    
+
+        font-family: 'Aspira';
+        text-transform: uppercase;
+        font-weight: 200;
+        margin-bottom:  0  0 10% 0;
+        font-size: 1rem;
+    p.descripcion
+    {
+        padding-bottom: 2%;
     }
     object {
         width : 95%;
