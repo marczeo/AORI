@@ -19,6 +19,7 @@
 @import "mapa";
 @import "unete";
 @import "grid";
+@import "footer";
 body {
     margin   : 0;
     padding  : 0;
@@ -109,18 +110,24 @@ padding: 5px 0;
 }
 p.title.telefono {
     font-size: 1.5rem;
+    i{
+        color: $azul2_aori_100;
+    }
     span.title-social {
-        font-weight: 200;
+        font-family: 'Aspira';
+        font-weight: 600;
         font-size  : 1.2rem;
         i {
+            padding: 10px;
             font-size: 1rem;
+            color: $azul2_aori_100;
         }
     }
     @media screen and (min-width:$ipad_mediaquery) {
         font-size: 3.1vw;
         span.title-social {
-            font-weight: 200;
-            font-size  : 2.5vw;
+            font-weight: 600;
+            font-size  : 1vw;
             i {
                 font-size: 2vw;
             }

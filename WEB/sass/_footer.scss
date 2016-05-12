@@ -1,0 +1,17 @@
+.footer{
+	z-index: 9999;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	font-family: 'Aspira';
+	text-transform: uppercase;
+	padding: 5px;
+	border-top: 10px;
+}
+.footer p{
+	text-align: center;
+	font-weight: 200;
+	font-size: 0.8rem;
+}
