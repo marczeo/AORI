@@ -1,3 +1,13 @@
+#socios_com{
+  font-family: 'Aspira';
+  font-weight: 200;
+  font-size: 1.3rem;
+  padding: 60px 0;
+  .item{
+    font-size: 1.5rem;
+  }
+}
+
 .socios_com {
     .socios_iconos {
         width: 98%;
@@ -5,17 +15,16 @@
         text-align: center;
     }
     object {
-        width: 25%;
-        display: inline-block;
+        width: 25%;        
         vertical-align: top;
     }
     .socios_pequeno {
-        display: inline-block;
+        margin: auto;
         width: 71%;
         vertical-align: middle;
         img {
             display: inline-block;
-            width: 24%;
+            width: 25%;
             margin: 0;
         }
     }
