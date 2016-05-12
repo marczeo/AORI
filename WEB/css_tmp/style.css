@@ -1,0 +1,287 @@
+/*
+    **AZULES**
+*/
+/* Primer Azul */
+/* Segundo Azul */
+/* Tercer Azul */
+/*
+  **GRISES**
+*/
+/* Primer Gris */
+/* Segundo Gris */
+/* Tercer Gris */
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Medium-Italic.otf");
+  font-weight: 500;
+  font-style: italic; }
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Demi-Italic.otf");
+  font-weight: 600;
+  font-style: italic; }
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Light-Italic.otf");
+  font-weight: 300;
+  font-style: italic; }
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Bold-Italic.otf");
+  font-weight: 700;
+  font-style: italic; }
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Black-Italic.otf");
+  font-weight: 800;
+  font-style: italic; }
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Demi.otf");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Medium.otf");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Bold.otf");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: Aspira2;
+  src: url("fonts/Aspira-Italic-2.otf");
+  font-weight: 400;
+  font-style: italic; }
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Italic.otf");
+  font-weight: 400;
+  font-style: italic; }
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Regular.otf");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Light.otf");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Heavy.otf");
+  font-weight: 800;
+  font-style: normal; }
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Black.otf");
+  font-weight: 900;
+  font-style: normal; }
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Thin.otf");
+  font-weight: 200;
+  font-style: normal; }
+@font-face {
+  font-family: Aspira;
+  src: url("fonts/Aspira-Thin-Italic.otf");
+  font-weight: 200;
+  font-style: italic; }
+@font-face {
+  font-family: Prototype;
+  src: url("fonts/Prototype.ttf");
+  font-weight: 400;
+  font-style: normal; }
+.col1_ch {
+  width: 98%;
+  margin: 0 1%; }
+
+@media screen and (min-width: 0) {
+  .col2_ch {
+    float: left;
+    display: inline-block;
+    width: 48%;
+    margin: 0 1%;
+    overflow: auto; }
+    .col2_ch:first-child {
+      margin-left: 0; }
+    .col2_ch:last-child {
+      margin-right: 0; } }
+
+@media screen and (min-width: 0) {
+  .col3_ch {
+    float: left;
+    display: inline-block;
+    width: 32.333%;
+    margin: 0 1%;
+    overflow: auto; }
+    .col3_ch:first-child {
+      margin-left: 0; }
+    .col3_ch:last-child {
+      margin-right: 0; } }
+
+@media screen and (min-width: 0) {
+  .col4_ch {
+    float: left;
+    display: inline-block;
+    width: 23.5%;
+    margin: 0 1%;
+    overflow: auto; }
+    .col4_ch:first-child {
+      margin-left: 0; }
+    .col4_ch:last-child {
+      margin-right: 0; } }
+
+@media screen and (min-width: 426px) {
+  .col1_md {
+    width: 98%;
+    margin: 0 1%; } }
+
+@media screen and (min-width: 426px) {
+  .col2_md {
+    float: left;
+    display: inline-block;
+    width: 48%;
+    margin: 0 1%;
+    overflow: auto; }
+    .col2_md:first-child {
+      margin-left: 0; }
+    .col2_md:last-child {
+      margin-right: 0; } }
+
+@media screen and (min-width: 426px) {
+  .col3_md {
+    float: left;
+    display: inline-block;
+    width: 32.333%;
+    margin: 0 1%;
+    overflow: auto; }
+    .col3_md:first-child {
+      margin-left: 0; }
+    .col3_md:last-child {
+      margin-right: 0; } }
+
+@media screen and (min-width: 426px) {
+  .col4_md {
+    float: left;
+    display: inline-block;
+    width: 23.5%;
+    margin: 0 1%;
+    overflow: auto; }
+    .col4_md:first-child {
+      margin-left: 0; }
+    .col4_md:last-child {
+      margin-right: 0; } }
+
+@media screen and (min-width: 769px) {
+  .col1_gd {
+    width: 98%;
+    margin: 0 1%; } }
+
+@media screen and (min-width: 769px) {
+  .col2_gd {
+    float: left;
+    display: inline-block;
+    width: 48%;
+    margin: 0 1%;
+    overflow: auto; }
+    .col2_gd:first-child {
+      margin-left: 0; }
+    .col2_gd:last-child {
+      margin-right: 0; } }
+
+@media screen and (min-width: 769px) {
+  .col3_gd {
+    float: left;
+    display: inline-block;
+    width: 32.333%;
+    margin: 0 1%;
+    overflow: auto; }
+    .col3_gd:first-child {
+      margin-left: 0; }
+    .col3_gd:last-child {
+      margin-right: 0; } }
+
+@media screen and (min-width: 769px) {
+  .col4_gd {
+    float: left;
+    display: inline-block;
+    width: 23.5%;
+    margin: 0 1%;
+    overflow: auto; }
+    .col4_gd:first-child {
+      margin-left: 0; }
+    .col4_gd:last-child {
+      margin-right: 0; } }
+
+@media screen and (min-width: 1150px) {
+  .col1_xg {
+    width: 98%;
+    margin: 0 1%; } }
+
+@media screen and (min-width: 1150px) {
+  .col2_xg {
+    float: left;
+    display: inline-block;
+    width: 48%;
+    margin: 0 1%;
+    overflow: auto; }
+    .col2_xg:first-child {
+      margin-left: 0; }
+    .col2_xg:last-child {
+      margin-right: 0; } }
+
+@media screen and (min-width: 1150px) {
+  .col3_xg {
+    float: left;
+    display: inline-block;
+    width: 32.333%;
+    margin: 0 1%;
+    overflow: auto; }
+    .col3_xg:first-child {
+      margin-left: 0; }
+    .col3_xg:last-child {
+      margin-right: 0; } }
+
+@media screen and (min-width: 1150px) {
+  .col4_xg {
+    float: left;
+    display: inline-block;
+    width: 23.5%;
+    margin: 0 1%;
+    overflow: auto; }
+    .col4_xg:first-child {
+      margin-left: 0; }
+    .col4_xg:last-child {
+      margin-right: 0; } }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+p {
+  margin: 0; }
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%; }
+
+.seccion {
+  width: 100%;
+  height: 500px; }
+  .seccion:nth-child(odd) {
+    background: rgba(183, 191, 199, 0.25);
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25); }
+
+/*# sourceMappingURL=style.css.map */

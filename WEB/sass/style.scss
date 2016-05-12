@@ -75,18 +75,18 @@ p.title.telefono {
         }
     }
     @media screen and (min-width:$ipad_mediaquery) {
-          font-size: 3.1vw;
-          span.title-social {
-              font-weight: 200;
-              font-size  : 2.5vw;
-              i {
-                  font-size: 2vw;
-              }
-          }
-      }
-      @media screen and (min-width: $max_mediaquery) {
-          font-size: 2.1rem;
-      }
+        font-size: 3.1vw;
+        span.title-social {
+            font-weight: 200;
+            font-size  : 2.5vw;
+            i {
+                font-size: 2vw;
+            }
+        }
+    }
+    @media screen and (min-width: $max_mediaquery) {
+        font-size: 2.1rem;
+    }
 }
 p.title.center {
     text-align: center;
@@ -95,21 +95,21 @@ div.title-container {
     width     : 100%;
     position  : relative;
     margin    : 50px 0;
-    padding: 10px 0;
-    @media screen and (min-width: $ipad_mediaquery){
-      padding: 0;
+    padding   : 10px 0;
+    @media screen and (min-width: $ipad_mediaquery) {
+        padding: 0;
     }
 }
 div.title-container-image {
-    width     : 100%;
-    position  : relative;
-    margin    : 50px 0;
-    padding: 10px 0;
-     img {
-            width: 100%;
-        }
-    @media screen and (min-width: $ipad_mediaquery){
-      padding: 0;
+    width   : 100%;
+    position: relative;
+    margin  : 50px 0;
+    padding : 10px 0;
+    img {
+        width: 100%;
+    }
+    @media screen and (min-width: $ipad_mediaquery) {
+        padding: 0;
     }
 }
 .quienes,

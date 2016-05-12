@@ -1,0 +1,50 @@
+// $gris_aori: rgba(104, 104, 104, 1);
+// $gris_aori-75: rgba(104, 104, 104, .75);
+// $gris_aori-50: rgba(104, 104, 104, .50);
+// $gris_aori-25: rgba(104, 104, 104, .25);
+// $azul_aori: #1c4499;
+// $azul_alternativo_light: #9CA3DA;
+// $azul_alternativo_solid: #3E4156;
+// $gris_alternativo:#797979;
+/*
+    **AZULES**
+*/
+/* Primer Azul */
+$azul1_aori_100   : rgba(22, 58, 122, 1);
+$azul1_aori_75    : rgba(22, 58, 122, .75);
+$azul1_aori_50    : rgba(22, 58, 122, .50);
+$azul1_aori_25    : rgba(22, 58, 122, .25);
+/* Segundo Azul */
+$azul2_aori_100   : rgba(29, 68, 152, 1);
+$azul2_aori_75    : rgba(29, 68, 152, .75);
+$azul2_aori_50    : rgba(29, 68, 152, .50);
+$azul2_aori_25    : rgba(29, 68, 152, .25);
+/* Tercer Azul */
+$azul3_aori_100   : rgba(0, 92, 255, 1);
+$azul3_aori_75    : rgba(0, 92, 255, .75);
+$azul3_aori_50    : rgba(0, 92, 255, .50);
+$azul3_aori_25    : rgba(0, 92, 255, .25);
+/*
+  **GRISES**
+*/
+/* Primer Gris */
+$gris1_aori_100   : rgba(45, 45, 45, 1);
+$gris1_aori_75    : rgba(45, 45, 45, .75);
+$gris1_aori_50    : rgba(45, 45, 45, .50);
+$gris1_aori_25    : rgba(45, 45, 45, .10);
+/* Segundo Gris */
+$gris2_aori_100   : rgba(183, 191, 199, 1);
+$gris2_aori_75    : rgba(183, 191, 199, .75);
+$gris2_aori_50    : rgba(183, 191, 199, .50);
+$gris2_aori_25    : rgba(183, 191, 199, .25);
+/* Tercer Gris */
+$gris3_aori_100   : rgba(220, 228, 232, 1);
+$gris3_aori_75    : rgba(220, 228, 232, .75);
+$gris3_aori_50    : rgba(220, 228, 232, .50);
+$gris3_aori_25    : rgba(220, 228, 232, .25);
+$max_mediaquery   : 1150px;
+$ipad_mediaquery  : 769px;
+$mobile_mediaquery: 426px;
+$initial_time     : 2.5s;
+$interval_time    : 1.5s;
+$aditional_time   : 1s;
