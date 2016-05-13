@@ -12,11 +12,26 @@
             -webkit-filter: grayscale(100%);
             filter: grayscale(100%);
             @media screen and (min-width: $ipad_mediaquery) {
-                width: 16.3%;
+                width: 14%;
+                border-bottom: solid;
             }
             &:hover {
                 -webkit-filter: none;
                 filter: none;
+            }
+        }
+        img.top{
+                border-bottom: none;
+        }
+        hr.vertical {
+            border : 0;
+            display: none;
+            vertical-align: middle;
+            background-image: -webkit-linear-gradient(top, #000000, #000000, #000000);
+            @media screen and (min-width: $ipad_mediaquery) {
+                display: inline-block;
+                height : 140px;
+                width : 3px;
             }
         }
     }
