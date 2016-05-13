@@ -1,11 +1,76 @@
 #valores {
+  padding: 20px 0;
+  .title{
+    font-family: 'Prototype';
+    font-size: 1.5rem;
+  }
+  .descripcion{
+    font-family: 'Aspira';
+    max-width: 152px;
+    margin: 0 auto;
+    font-weight: 200;
+    font-size: .9rem;
+  }
+img{
+  max-width: 143px;
+}
     .valores_grid {
-        .item {
-            float: left;
-            &:first-child,
-            &:nth-child(2) {
-              width: 33.33%;
-              padding: 5px;
+        .mitad,
+        .primera_fila,
+        .ultima_fila {
+            width   : 100%;
+            margin  : 0;
+            display : block;
+            overflow: auto;
+            .item {
+                text-align: center;
+                width   : 98%;
+                margin  : 5px 1%;
+                float     : left;
+            }
+        }
+        @media screen and (min-width: $mobile_mediaquery) {
+            .primera_fila,
+            .ultima_fila {
+                .item {
+                    width : 48%;
+                    margin: 5px 1%;
+
+                }
+            }
+            .mitad {
+                .item {
+                    width : 48%;
+                    margin: 5px 26%;
+                }
+            }
+        }
+        @media screen and (min-width: $ipad_mediaquery) {
+            .primera_fila {
+                width: 50%;
+                margin: 0 25%;
+                max-width: $max_mediaquery / 2;
+            }
+            .mitad {
+                width: 33.33%;
+                .item{
+                  width: 98%;
+                  margin: 5px 1%;
+                }
+            }
+            .ultima_fila {
+                width: 66.66%;
+            }
+            .mitad,
+            .ultima_fila {
+                float: left;
+            }
+            .segunda_fila{
+              width: 100%;
+              max-width: $max_mediaquery;
+              display: block;
+              margin: 0 auto;
+              overflow: auto;
             }
         }
     }

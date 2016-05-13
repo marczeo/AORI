@@ -67,7 +67,7 @@ img {
 p.center{
   text-align: center;
 }
-p.uppercase{
+.uppercase{
   text-transform: uppercase;
 }
 p.cuerpo{
@@ -104,9 +104,13 @@ p.title {
 .bold{
   font-weight: 700;
 }
-.underlined{
+.underlined::after{
   border-bottom: solid 2px $gris1_aori_50;
 padding: 5px 0;
+content: '';
+display: block;
+width: 69px;
+margin: 0 auto;
 }
 p.title.telefono {
     font-size: 1.5rem;
