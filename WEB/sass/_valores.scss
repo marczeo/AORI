@@ -1,9 +1,5 @@
 #valores {
   padding: 20px 0;
-  .title{
-    font-family: 'Prototype';
-    font-size: 1.5rem;
-  }
   .descripcion{
     font-family: 'Aspira';
     max-width: 152px;
@@ -15,6 +11,10 @@ img{
   max-width: 143px;
 }
     .valores_grid {
+        .title{
+            font-family: 'Prototype';
+            font-size: 1.5rem;
+        }
         .mitad,
         .primera_fila,
         .ultima_fila {
