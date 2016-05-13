@@ -38,6 +38,7 @@ img {
 .seccion {
     width : 100%;
     position: relative;
+    padding-bottom: 20px;
     overflow: auto;
     &:nth-child(odd) {
         background        : $gris2_aori_25;

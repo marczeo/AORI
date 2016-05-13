@@ -4,6 +4,9 @@
     margin : 70px 0;
     overflow: auto;
 }
+.msg-left{
+    text-align: center;
+}
 .contacto {
     width         : 98%;
     margin        : 10px auto;
@@ -75,13 +78,20 @@
             padding         : 8px 20px 5px 10px;
             min-height      : 25px;
             line-height     : 24px;
-            overflow        : hidden;
+            overflow        : hidden;            
             .mutliSelect span,
             span {
+                width: 95%;
+                text-align: center;
                 cursor : pointer;
                 display: inline-block;
                 padding: 0 3px 2px 0;
             }
+            i{
+                cursor: pointer;
+                font-size: 2em;
+            }
+
         }
         a {
             &,
@@ -110,6 +120,13 @@
 
         }
     }
+    li>p{
+        text-align: center;
+        font-size: 0.6em;
+    }
+    li > span{
+        font-size: 0.6em;
+    }
     /*Estilo de placeholder*/
     ::-webkit-input-placeholder {
         color: black;
@@ -136,4 +153,13 @@
         text-align: center;
         text-transform: uppercase;
     }
+    [placeholder]:focus::-webkit-input-placeholder {
+        transition: 0s; 
+        opacity: 0;
+    }
+}
+.contacto-fuente{
+    font-family: 'Aspira';
+    color: $gris1_aori_50;
+    font-weight: 600;
 }
