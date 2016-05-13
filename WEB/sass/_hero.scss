@@ -7,9 +7,9 @@
         width  : 100%;
         margin : auto;
         opacity: 80%;
-        display: block;
-        @media screen and (max-width: $ipad_mediaquery) {
-            display: none;
+        display: none;
+        @media screen and (min-width: $ipad_mediaquery) {
+            display: block;
         }
     }
     img {
