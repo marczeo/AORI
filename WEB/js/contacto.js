@@ -23,7 +23,6 @@ function valida() {
 
 
 $(document).ready(function() {
-	$("#contact-error").hide();
 	//Combo con checkbox
 	$(".contact-dropdown-services dt a").on('click', function() {
 		$(".contact-dropdown-services dd ul").slideToggle('fast');
@@ -51,20 +50,18 @@ $(document).ready(function() {
 					if(data=="true")
            			{
            				alert("Se envio ");
-           				document.getElementById("contact-error").innerHTML = "";
+           				document.getElementById("contact-error").innerHTML = '[DEBE LLENAR TODOS LOS CAMPOS PARA PODER DAR CLICK EN "ENVIAR"]';
            				document.getElementById("contact-form").reset();
            				$(".contact-dropdown-services dd ul").hide();
 					}
 					else
 					{
-						$("#contact-error").show();
 						document.getElementById("contact-error").innerHTML ="Completa todos los campos";
 					}
 				}
          	});
 		}
 		else{
-			$("#contact-error").show();
 			document.getElementById("contact-error").innerHTML =validacion;
 		}
 		return false;
