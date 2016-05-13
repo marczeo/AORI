@@ -1,15 +1,12 @@
-.valores {
-  .texto_valores{
-    font-family: Aspira;
-    text-align: center;
-    display: block;
-    @media screen and (min-width: $ipad_mediaquery){
-      display: none;
+#valores {
+    .valores_grid {
+        .item {
+            float: left;
+            &:first-child,
+            &:nth-child(2) {
+              width: 33.33%;
+              padding: 5px;
+            }
+        }
     }
-  }
-  p.valores-title{
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    font-weight: 500;
-  }
 }
