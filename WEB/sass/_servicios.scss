@@ -7,7 +7,7 @@
     &:nth-child(odd) {
         background: $gris2_aori_25;
     }
-     
+    
     .banner_servicio
     {
         position: relative;
@@ -17,21 +17,83 @@
         display  : block;
         margin   : auto;
     }
-    button {
-        position: absolute;
-        bottom: 18%;
-        left: 13%;
-        padding: 5px 10px;
-        border: solid 3px #000000;
-        background: transparent;
-        text-transform: uppercase;
-        font-weight: 400;
-        font-family: 'Aspira';
-        font-size: 1.6vw;
-        margin: 10px 25px;
-        width: 12%;
-        height: 8%
+    
+    .button
+    {
+            position: absolute;
+            bottom: 18%;
+            left: 14%;
+            padding: 5px 10px;
+            border: solid 3px #000000;
+            background: transparent;
+            text-transform: uppercase;
+            font-weight: 300;
+            font-family: 'Aspira';
+            font-size: 1.6vw;
+            width: 10%;
+            height: 8%;
     }
+    .right_button
+    {
+            position: absolute;
+            bottom: 18%;
+            right: 10%;
+            padding: 5px 10px;
+            border: solid 3px $gris2_aori_100;
+            background: transparent;
+            text-transform: uppercase;
+            font-weight: 300;
+            font-family: 'Aspira';
+            font-size: 1.6vw;
+            width: 10%;
+            height: 8%;
+    }
+
+.texto
+    {
+        .titulo
+        {
+            
+            font-family: 'Aspira';
+            left: 14%;
+            bottom: 27.5%;
+            position: absolute;
+            font-size     : 3.6vw;
+            font-weight: 200;
+            }
+        .titulo_right
+        {
+            font-family: 'Aspira';
+            right: 10%;
+            text-align:  right;
+            bottom: 27.5%;
+            position: absolute;
+            font-size     : 3.6vw;
+            font-weight: 200;
+        }
+        .descripcion
+        {
+                font-family: 'Aspira';
+                 left: 14%;
+                bottom: 28%;
+                position: absolute;
+                font-size     : 1vw;
+                font-weight: 300;
+            
+            
+            }
+        .descripcion_right
+        {
+                font-family: 'Aspira';
+                 right: 10%;
+                bottom: 28%;
+                position: absolute;
+                font-size     : 1vw;
+                font-weight: 300;
+                text-align: right;
+        }
+        }
+       
     }
 }
 .servicio_desc {
