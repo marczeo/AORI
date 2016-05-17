@@ -146,6 +146,7 @@
 }
 
 .modelos {
+    position: relative;
     width      : 98%;
     margin     : 1%;
     font-family: 'Aspira';
@@ -276,7 +277,6 @@
     font-family: 'Aspira';
     padding    : 1px;
     box-sizing : border-box;
-    float      : right;
     @media screen and (min-width: $max_mediaquery){
       width      : 48%;
     }
@@ -310,4 +310,29 @@
     img {
         max-width: 100%;
     }
+}
+
+.encargados{
+    text-align: center;
+    max-width: 600px;
+    position: relative;
+    .descripcion{
+
+        text-align: center;
+        text-transform: uppercase;
+        position: absolute;
+        font-family: 'Aspira';
+        left: 60%;
+        top: 20%;
+    
+        img{
+            margin-bottom: 20px;
+        }
+    }
+    
+}
+
+.encargados>img{
+    position: absolute;
+    left: 40%;
 }
