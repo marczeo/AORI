@@ -23,30 +23,42 @@
             position: absolute;
             bottom: 18%;
             left: 14%;
-            padding: 5px 10px;
             border: solid 3px #000000;
             background: transparent;
             text-transform: uppercase;
-            font-weight: 300;
-            font-family: 'Aspira';
-            font-size: 1.6vw;
             width: 10%;
             height: 8%;
+            .texto_boton{
+                font-weight: 300;
+                font-family: 'Aspira';
+                font-size: 3vmin;
+                white-space: nowrap;
+                @media screen and (max-width: $ipad_mediaquery) {
+            font-size: 1vmin;
+    }
+            }
     }
     .right_button
     {
             position: absolute;
             bottom: 18%;
             right: 10%;
-            padding: 5px 10px;
             border: solid 3px $gris2_aori_100;
             background: transparent;
             text-transform: uppercase;
-            font-weight: 300;
-            font-family: 'Aspira';
-            font-size: 1.6vw;
             width: 10%;
             height: 8%;
+
+            .texto_boton{
+                font-weight: 300;
+                font-family: 'Aspira';
+                font-size: 3vmin;
+                white-space: nowrap;
+                @media screen and (max-width: $ipad_mediaquery) {
+            font-size: 1vmin;
+    }
+                
+            }
     }
 
 .texto
@@ -58,8 +70,12 @@
             left: 14%;
             bottom: 27.5%;
             position: absolute;
-            font-size     : 3.6vw;
+            font-size     : 6vh;
             font-weight: 200;
+
+            @media screen and (max-width: $ipad_mediaquery) {
+            font-size: 3vmin;
+    }
             }
         .titulo_right
         {
@@ -68,8 +84,12 @@
             text-align:  right;
             bottom: 27.5%;
             position: absolute;
-            font-size     : 3.6vw;
+            font-size     : 6vh;
             font-weight: 200;
+
+            @media screen and (max-width: $ipad_mediaquery) {
+            font-size: 3vmin;
+    }
         }
         .descripcion
         {
@@ -77,9 +97,12 @@
                  left: 14%;
                 bottom: 28%;
                 position: absolute;
-                font-size     : 1vw;
+                font-size     : 2vh;
                 font-weight: 300;
                 margin-bottom: 0px;
+                @media screen and (max-width: $ipad_mediaquery) {
+            font-size: 1vmin;
+    }
             
             }
         .descripcion_right
@@ -88,9 +111,12 @@
                  right: 10%;
                 bottom: 28%;
                 position: absolute;
-                font-size     : 1vw;
+                font-size     : 2vh;
                 font-weight: 300;
                 text-align: right;
+                @media screen and (max-width: $ipad_mediaquery) {
+            font-size: 1vmin;
+    }
         }
         }
        
@@ -244,6 +270,7 @@
 }
 .infographic {
     min-height : 160px;
+    position: relative;
     width: 98%;
     margin     : 1%;
     font-family: 'Aspira';
