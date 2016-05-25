@@ -11,6 +11,7 @@ img{
   max-width: 143px;
 }
     .valores_grid {
+      text-align: center;
         .title{
             font-family: 'Prototype';
             font-size: 1.5rem;
@@ -47,6 +48,7 @@ img{
         }
         @media screen and (min-width: $ipad_mediaquery) {
             .primera_fila {
+              display: inline-block;
                 width: 50%;
                 margin: 0 25%;
                 max-width: $max_mediaquery / 2;

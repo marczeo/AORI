@@ -1,0 +1,25 @@
+/*
+Errno::ENOENT: No such file or directory @ rb_sysopen - sass
+
+Backtrace:
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:482:in `read'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:482:in `update_stylesheet'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:293:in `watch'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/plugin.rb:109:in `method_missing'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:383:in `watch_or_update'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/exec/base.rb:52:in `parse'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/exec/base.rb:19:in `parse!'
+/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/bin/sass:13:in `<top (required)>'
+/Users/Sekai/.rvm/gems/ruby-2.2-head/bin/sass:23:in `load'
+/Users/Sekai/.rvm/gems/ruby-2.2-head/bin/sass:23:in `<main>'
+/Users/Sekai/.rvm/gems/ruby-2.2-head/bin/ruby_executable_hooks:15:in `eval'
+/Users/Sekai/.rvm/gems/ruby-2.2-head/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - sass"; }
