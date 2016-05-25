@@ -1,20 +1,20 @@
 #valores {
-  padding: 20px 0;
-  .descripcion{
-    font-family: 'Aspira';
-    max-width: 152px;
-    margin: 0 auto;
-    font-weight: 200;
-    font-size: .9rem;
-  }
-img{
-  max-width: 143px;
-}
+    padding: 20px 0;
+    .descripcion {
+        font-family: 'Aspira';
+        max-width  : 152px;
+        margin     : 0 auto;
+        font-weight: 200;
+        font-size  : 0.9rem;
+    }
+    img {
+        max-width: 143px;
+    }
     .valores_grid {
-      text-align: center;
-        .title{
+        text-align: center;
+        .title {
             font-family: 'Prototype';
-            font-size: 1.5rem;
+            font-size  : 1.5rem;
         }
         .mitad,
         .primera_fila,
@@ -25,8 +25,8 @@ img{
             overflow: auto;
             .item {
                 text-align: center;
-                width   : 98%;
-                margin  : 5px 1%;
+                width     : 98%;
+                margin    : 5px 1%;
                 float     : left;
             }
         }
@@ -36,7 +36,6 @@ img{
                 .item {
                     width : 48%;
                     margin: 5px 1%;
-
                 }
             }
             .mitad {
@@ -48,16 +47,16 @@ img{
         }
         @media screen and (min-width: $ipad_mediaquery) {
             .primera_fila {
-              display: inline-block;
-                width: 50%;
-                margin: 0 25%;
+                display  : inline-block;
+                width    : 50%;
+                margin   : 0 25%;
                 max-width: $max_mediaquery / 2;
             }
             .mitad {
                 width: 33.33%;
-                .item{
-                  width: 98%;
-                  margin: 5px 1%;
+                .item {
+                    width : 98%;
+                    margin: 5px 1%;
                 }
             }
             .ultima_fila {
@@ -67,12 +66,12 @@ img{
             .ultima_fila {
                 float: left;
             }
-            .segunda_fila{
-              width: 100%;
-              max-width: $max_mediaquery;
-              display: block;
-              margin: 0 auto;
-              overflow: auto;
+            .segunda_fila {
+                width    : 100%;
+                max-width: $max_mediaquery;
+                display  : block;
+                margin   : 0 auto;
+                overflow : auto;
             }
         }
     }
