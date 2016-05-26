@@ -22,7 +22,7 @@
     }
     input,
     textarea {
-        background: $gris3_aori_50;
+        background: #FFFFFF;
     }
     .contact-dropdown-services dt a{
         text-transform: uppercase;
@@ -38,7 +38,8 @@
         text-align: center;
     }
     input[type=date]{
-        width: 40%;
+        width: 25%;
+        padding: 0px;
     }
     .contact-dropdown-services {
         dd,
@@ -122,11 +123,10 @@
         @media screen and (min-width: $ipad_mediaquery) {
             width: 30%;
             margin: 0 35%;
-
         }
     }
     .label{
-        background-color: $gris3_aori_50;
+        background-color: #FFFFFF;
         font-size: 0.8em;
         text-align: center;
     }

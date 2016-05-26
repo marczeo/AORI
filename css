@@ -2,22 +2,20 @@
 Errno::ENOENT: No such file or directory @ rb_sysopen - sass
 
 Backtrace:
-/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:482:in `read'
-/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:482:in `update_stylesheet'
-/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `each'
-/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:293:in `watch'
-/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/plugin.rb:109:in `method_missing'
-/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:383:in `watch_or_update'
-/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:51:in `process_result'
-/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/exec/base.rb:52:in `parse'
-/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/lib/sass/exec/base.rb:19:in `parse!'
-/Users/Sekai/.rvm/gems/ruby-2.2-head@global/gems/sass-3.4.21/bin/sass:13:in `<top (required)>'
-/Users/Sekai/.rvm/gems/ruby-2.2-head/bin/sass:23:in `load'
-/Users/Sekai/.rvm/gems/ruby-2.2-head/bin/sass:23:in `<main>'
-/Users/Sekai/.rvm/gems/ruby-2.2-head/bin/ruby_executable_hooks:15:in `eval'
-/Users/Sekai/.rvm/gems/ruby-2.2-head/bin/ruby_executable_hooks:15:in `<main>'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.2.9/lib/sass/plugin/compiler.rb:360:in `read'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.2.9/lib/sass/plugin/compiler.rb:360:in `update_stylesheet'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.2.9/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.2.9/lib/sass/plugin/compiler.rb:201:in `each'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.2.9/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.2.9/lib/sass/plugin/compiler.rb:235:in `watch'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.2.9/lib/sass/plugin.rb:107:in `method_missing'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.2.9/lib/sass/exec.rb:452:in `watch_or_update'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.2.9/lib/sass/exec.rb:315:in `process_result'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.2.9/lib/sass/exec.rb:41:in `parse'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.2.9/lib/sass/exec.rb:21:in `parse!'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.2.9/bin/sass:9:in `<top (required)>'
+C:/Ruby23/bin/sass:23:in `load'
+C:/Ruby23/bin/sass:23:in `<main>'
 */
 body:before {
   white-space: pre;
