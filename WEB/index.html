@@ -1,4 +1,3 @@
-wbutton
 <!DOCTYPE html>
 <html>
 
@@ -28,13 +27,13 @@ wbutton
         </div>
         <div id="navbar"></div>
         <div class="seccion" id="quienes">
-
-            <p class="title uppercase center">
-                ¿Quiénes somos?
-                <br>
-                <!--Flecha-->
-                <img src="images/flecha.png" alt="" />
-            </p>
+            <div class="title-container">
+                <p class="title uppercase center">
+                    ¿Quiénes somos?
+                    <br>
+                    <img src="images/flecha.png" alt="" />
+                </p>
+            </div>
             <p class="cuerpo center">
                 SOMOS UNA FIRMA DE CONSULTORÍA EMPRESARIAL ENFOCADA A BRINDARLE UNA SOLUCIÓN INTEGRAL A LAS PYMES MEXICANAS A TRAVÉS DE RESULTADOS ECONÓMICAMENTE SUSTENTABLES.
             </p>
@@ -80,7 +79,8 @@ wbutton
         <div class="seccion" id="porque">
             <div class="title-container">
                 <p class="title uppercase center"> ¿Por qué </br>Arquitectura empresarial?
-                    <br><img src="images/flecha.png" alt="" /></p>
+                    <br><img src="images/flecha.png" alt="" />
+                </p>
             </div>
             <div class="porque">
                 <p class="cuerpo center upppercase descripcion"> La <strong><i>Arquitectura Empresarial</i></strong> es una metodología de mejora continua a mediano plazo basada en una visión integral, que permite mantener actualizada la estructura de información organizacional alineando procesos, datos,
@@ -97,13 +97,16 @@ wbutton
             </div>
         </div>
 
-        <div class=" seccion" id="mision">
+        <div class="seccion" id="mision">
             <div class="mision">
                 <div class="mision-center">
-                    <p class="title uppercase center"> Nuestra misión
-                        <br><img src="images/flecha.png" alt="" /></p>
-                    <p class="descripcion "> Nivelar las oportunidades de las PYMES ante las corporaciones o empresas extranjeras para que, a través de nuestro apoyo, reduzcan su riesgo, maximicen sus resultados, se vuelvan más competitivos y juntos logremos romper con la estadística
-                        del INEGI que indica que 8 de cada 10 empresas mexicanas cierran antes de los 2 años desde su apertura porque no logran consolidarse económicamente. </p>
+
+                    <div class="title-container">
+                        <p class="title uppercase center"> Nuestra misión
+                            <br><img src="images/flecha.png" alt="" />
+                        </p>
+                    </div>
+                    <p class="descripcion "> Nivelar las oportunidades de las PYMES ante las corporaciones o empresas extranjeras para que, a través de nuestro apoyo, reduzcan su riesgo, maximicen sus resultados, se vuelvan más competitivos y juntos logremos romper con la estadística del INEGI que indica que 8 de cada 10 empresas mexicanas cierran antes de los 2 años desde su apertura porque no logran consolidarse económicamente. </p>
                 </div>
             </div>
         </div>
@@ -1059,23 +1062,28 @@ wbutton
                 <div class="mapas">
                     <div class="mapas_desc" style="float:right;">
                         <div class="something" name="headquarters">
-                            <p class="nombre"> AORI Headquarters </p>
+                            <p><span class="nombre"> AORI </span> Headquarters </p>
                             <p>
                                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                             </p>
                             <p class="direccion"> CALLE VALPARAÍSO #2466 COLONIA PROVIDENCIA. GUADALAJARA, JAL. CP: 44630. (A ESPALDAS DE PUNTO SAO PAULO) </p>
-                            <p class="telefono"> <i class="fa fa-phone" aria-hidden="true"></i> 33 1816 9960. </p>
+                            <p>
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                            </p>
+                            <p class="telefono"> 33 1816 9960. </p>
                         </div>
                         <div class="something" name="comerciales">
-                            <p class="nombre"> AORI Oficinas Comerciales </p>
+                            <p><span class="nombre"> AORI </span> Oficinas Comerciales </p>
                             <p>
                                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                             </p>
-                            <p class="direccion"> CALLE VICTORIANO SALGADO ALVAREZ LOCAL # 2. COLONIA LADRÓN DE GUEVARA. GUADALAJARA, JAL </p>
-                            <p class="telefono"> <i class="fa fa-phone" aria-hidden="true"></i> 33 1520 7371. </p>
+                            <p class="direccion"> CALLE VICTORIANO SALGADO ALVAREZ LOCAL # 2. COLONIA LADRÓN DE GUEVARA. GUADALAJARA, JAL <p>
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                            </p>
+                            <p class="telefono"> 33 1520 7371. </p></p>
                         </div>
                         <div class="something" name="zacatecas">
-                            <p class="nombre"> AORI Zacatecas </p>
+                            <p><span class="nombre"> AORI </span> Zacatecas </p>
                             <p>
                                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                             </p>
@@ -1109,9 +1117,9 @@ wbutton
                             <input type="email" name="email-contact" placeholder="Correo Electrónico" required> </li>
                         <li>
                             <dl class="contact-dropdown-services"> <dt>
-                      <a >
+                    <a >
                         <i class="fa fa-caret-down" aria-hidden="true"></i><span>¿En qué servicios estás interesado? </span>
-                      </a>
+                    </a>
                     </dt>
                                 <dd>
                                     <div class="mutliSelect">
@@ -1167,6 +1175,7 @@ wbutton
                         </li>
                         <li>
                             <p class="label">
+<!-- <<<<<<< HEAD
                                 ¿CUÁNDO TE GUSTARÍA CONTAR CON ÉSTE TRABAJO?
                                 <input type="date" name="contact-date" placeholder="¿Cuando te gustaría contar con éste trabajo? DIA/MES/AÑO" required>
                             </p>
@@ -1174,9 +1183,12 @@ wbutton
                         <li>
                             <p class="sub-label"><span class="required" id="contact-error">[DEBE LLENAR TODOS LOS CAMPOS PARA PODER DAR CLICK EN "ENVIAR"]</span>
                                 <p>
+======= -->
+                            ¿CUÁNDO TE GUSTARÍA CONTAR CON ESTE TRABAJO?
+                            <input type="date" name="contact-date" placeholder="¿Cuando te gustaría contar con éste trabajo? DIA/MES/AÑO" required></p>
                         </li>
                         <li>
-                            <button type="submit">Enviar</button>
+                            <center><button type="submit">ENVIAR</button></center>
                         </li>
                     </ul>
                 </form>

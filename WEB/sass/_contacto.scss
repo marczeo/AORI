@@ -114,9 +114,9 @@
         background: $gris1_aori_100;
         border    : none;
         color     : white;
-        float     : right;
         text-align: center;
-        width     : 100%;
+        font-style: italic;
+        font-weight: bold;
         @media screen and (min-width: $ipad_mediaquery) {
             width: 30%;
             margin: 0 35%;
