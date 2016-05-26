@@ -1,6 +1,6 @@
 .mapas {
     width      : 98%;
-    max-width  : 550px; 
+    max-width  : 550px;
     margin     : auto;
     display    : block;
     font-family: 'Aspira';
@@ -13,9 +13,13 @@
     }
     #gmap_canvas {
         width : 100%;
-        height: 440px;
+        height: 200px;
         @media screen and (min-width: $ipad_mediaquery) {
             height: 260px;
+        }
+        @media screen and (min-width: $max_mediaquery) {
+
+          height: 440px;
         }
     }
     .mapas_desc {
