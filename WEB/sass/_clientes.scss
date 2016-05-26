@@ -14,7 +14,8 @@
             filter: grayscale(100%);
             @media screen and (min-width: $ipad_mediaquery) {
                 width: 14%;
-                border-bottom: solid;
+                border-bottom: 1px solid;
+                line-height: 10px;
             }
             &:hover {
                 -webkit-filter: none;

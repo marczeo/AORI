@@ -12,6 +12,7 @@ var seccion_aspect_ratio = .43;
 */
 $(document).ready(function() {
     $hero_video.height($hero_video.width() * aspect_ratio);
+    $(".vertical").height(($(".clientes_img img").height())*0.90);
     // if ($(window).width() < 1150) {
     //     $(".title-container").height($(".title-container").width() * title_aspect_ratio);
     // } else {
@@ -107,6 +108,7 @@ window.onload = function() {
 
 $(window).resize(function() {
     $hero_video.height($hero_video.width() * aspect_ratio);
+    $(".vertical").height(($(".clientes_img img").height())*0.90);
     // if ($(this).width() < 1150) {
     //     $(".title-container").height($(".title-container").width() * title_aspect_ratio);
     // } else {
