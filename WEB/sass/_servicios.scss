@@ -1,126 +1,121 @@
 .servicio {
-  display: block;
-  overflow: auto;
-    width: 100%;
+    display : block;
+    overflow: auto;
+    width   : 100%;
     &:nth-child(even) {
         background: white;
     }
     &:nth-child(odd) {
         background: $gris2_aori_25;
     }
-
-    .banner_servicio
-    {
+    .banner_servicio {
         position: relative;
-        img,object {
-        width    : 100%;
-        max-width: 1100px;
-        display  : block;
-        margin   : auto;
-    }
-
-    .button
-    {
-            position: absolute;
-            bottom: 18%;
-            left: 14%;
+        #seccion_1 {
+            background-image: url('../images/seccion_servicios/seccion1.png');
+        }
+        #seccion_2 {
+            background-image: url('../images/seccion_servicios/seccion2.png');
+        }
+        #seccion_3 {
+            background-image: url('../images/seccion_servicios/seccion3.png');
+        }
+        #seccion_4 {
+            background-image: url('../images/seccion_servicios/seccion4.png');
+        }
+        #seccion_5 {
+            background-image: url('../images/seccion_servicios/seccion5.png');
+        }
+        #seccion_6 {
+            background-image: url('../images/seccion_servicios/seccion6.png');
+        }
+        #seccion_7 {
+            background-image: url('../images/seccion_servicios/seccion7.png');
+        }
+        #seccion_8 {
+            background-image: url('../images/seccion_servicios/seccion8.png');
+        }
+        #seccion_9 {
+            background-image: url('../images/seccion_servicios/seccion9.png');
+        }
+        .seccion_img {
+            width          : 100%;
+            max-width      : 1100px;
+            margin         : 0 auto;
+            background-size: 100%;
+            position       : relative;
+        }
+        img,
+        object {
+            width    : 100%;
+            max-width: 1100px;
+            display  : block;
+            margin   : 0 auto;
+        }
+        .button {
+            position      : absolute;
+            bottom        : 18%;
+            background    : transparent;
+            text-transform: uppercase;
+            width         : 10%;
+            height        : 8%;
+            .texto_boton {
+                font-weight: 300;
+                font-family: 'Aspira';
+                font-size  : 1.8vw;
+                white-space: nowrap;
+                @media screen and (max-width: $ipad_mediaquery) {
+                    font-size: 1vmin;
+                }
+                @media screen and (min-width: $max_mediaquery) {
+                    font-size: 20px;
+                }
+            }
+        }
+        .left_button {
+            left  : 14%;
             border: solid 3px #000000;
-            background: transparent;
-            text-transform: uppercase;
-            width: 10%;
-            height: 8%;
-            .texto_boton{
-                font-weight: 300;
-                font-family: 'Aspira';
-                font-size: 3vmin;
-                white-space: nowrap;
-                @media screen and (max-width: $ipad_mediaquery) {
-            font-size: 1vmin;
-    }
-            }
-    }
-    .right_button
-    {
-            position: absolute;
-            bottom: 18%;
-            right: 10%;
+        }
+        .right_button {
+            right : 10%;
             border: solid 3px $gris2_aori_100;
-            background: transparent;
-            text-transform: uppercase;
-            width: 10%;
-            height: 8%;
-
-            .texto_boton{
-                font-weight: 300;
-                font-family: 'Aspira';
-                font-size: 3vmin;
-                white-space: nowrap;
-                @media screen and (max-width: $ipad_mediaquery) {
-            font-size: 1vmin;
-    }
-
-            }
-    }
-
-.texto
-    {
-        .titulo
-        {
-
-            font-family: 'Aspira';
-            left: 14%;
-            bottom: 27.5%;
-            position: absolute;
-            font-size     : 6vh;
-            font-weight: 200;
-
-            @media screen and (max-width: $ipad_mediaquery) {
-            font-size: 3vmin;
-    }
-            }
-        .titulo_right
-        {
-            font-family: 'Aspira';
-            right: 10%;
-            text-align:  right;
-            bottom: 27.5%;
-            position: absolute;
-            font-size     : 6vh;
-            font-weight: 200;
-
-            @media screen and (max-width: $ipad_mediaquery) {
-            font-size: 3vmin;
-    }
         }
-        .descripcion
-        {
-                font-family: 'Aspira';
-                 left: 14%;
-                bottom: 28%;
-                position: absolute;
-                font-size     : 2vh;
-                font-weight: 300;
-                margin-bottom: 0px;
+        .texto {
+            position   : absolute;
+            left       : 12.7%;
+            top        : 23%;
+            width      : 80%;
+            display    : block;
+            font-family: 'Aspira';
+            overflow   : auto;
+            .titulo {
+                font-size  : 3vw;
+                font-weight: 200;
+                margin     : 0 0 10px;
                 @media screen and (max-width: $ipad_mediaquery) {
-            font-size: 1vmin;
-    }
-
+                    font-size: 3vmin;
+                }
+                @media screen and (min-width: $max_mediaquery) {
+                    font-size: 33.3px;
+                }
             }
-        .descripcion_right
-        {
-                font-family: 'Aspira';
-                 right: 10%;
-                bottom: 28%;
-                position: absolute;
-                font-size     : 2vh;
-                font-weight: 300;
+            .titulo_right {
                 text-align: right;
+            }
+            .descripcion {
+                font-size    : 1.2vw;
+                font-weight  : 300;
+                margin-bottom: 0;
                 @media screen and (max-width: $ipad_mediaquery) {
-            font-size: 1vmin;
-    }
+                    font-size: 1vmin;
+                }
+                @media screen and (min-width: $max_mediaquery) {
+                    font-size: 13.32px;
+                }
+            }
+            .descripcion_right {
+                text-align: right;
+            }
         }
-        }
-
     }
 }
 .servicio_desc {
@@ -130,10 +125,6 @@
     img {
         margin: 5px 0;
     }
-}
-#phone
-{
-
 }
 #phone:hover {
     fill: $gris3_aori_100;
@@ -145,9 +136,8 @@
     display : none;
     overflow: auto;
 }
-
 .modelos {
-    position: relative;
+    position   : relative;
     width      : 98%;
     margin     : 1%;
     font-family: 'Aspira';
@@ -160,8 +150,8 @@
         margin: 1% auto;
     }
     @media screen and (min-width: $ipad_mediaquery) {
-        width : 80%;
-        margin: 1% auto;
+        width     : 80%;
+        margin    : 1% auto;
         min-height: 160px;
     }
     .titulo_subtema > p {
@@ -175,7 +165,6 @@
             font-size: 1.6rem;
         }
     }
-
     ul {
         list-style-position: inside;
         float              : right;
@@ -196,8 +185,8 @@
         margin        : 10px 25px;
     }
     .brackets {
-        padding : 5px;
-        display : inline;
+        padding: 5px;
+        display: inline;
         p {
             font-size     : 1.3rem;
             text-transform: uppercase;
@@ -272,14 +261,14 @@
 }
 .infographic {
     min-height : 160px;
-    position: relative;
-    width: 98%;
+    position   : relative;
+    width      : 98%;
     margin     : 1%;
     font-family: 'Aspira';
     padding    : 1px;
     box-sizing : border-box;
-    @media screen and (min-width: $max_mediaquery){
-      width      : 48%;
+    @media screen and (min-width: $max_mediaquery) {
+        width: 48%;
     }
     .brackets:after,
     .brackets:before {
@@ -312,28 +301,23 @@
         max-width: 100%;
     }
 }
-
-.encargados{
+.encargados {
     text-align: center;
-    max-width: 600px;
-    position: relative;
-    .descripcion{
-
-        text-align: center;
+    max-width : 600px;
+    position  : relative;
+    .descripcion {
+        text-align    : center;
         text-transform: uppercase;
-        position: absolute;
-        font-family: 'Aspira';
-        left: 60%;
-        top: 20%;
-
-        img{
+        position      : absolute;
+        font-family   : 'Aspira';
+        left          : 60%;
+        top           : 20%;
+        img {
             margin-bottom: 20px;
         }
     }
-
 }
-
-.encargados>img{
+.encargados > img {
     position: absolute;
-    left: 40%;
+    left    : 40%;
 }

@@ -4,6 +4,8 @@ var title_aspect_ratio = 0.2;
 var $hero_video = $(".hero");
 var $window = $(window);
 var $servicios_flag = 0;
+var seccion_aspect_ratio = .43;
+
 /*
   Cosas a cargar cuando la pagina esta lista
   para elementos que no se necesitan cargar antes de llamar la función.
@@ -62,6 +64,13 @@ $(document).ready(function() {
             $(this).children('.servicio_desc').slideDown('slow');
         }
     });
+    /*
+    |-----------------------
+    |Seccion Banner
+    |-----------------------
+    */
+      $('.seccion_img').height($(".seccion_img").width() * seccion_aspect_ratio);
+
 });
 
 /*
@@ -103,6 +112,13 @@ $(window).resize(function() {
     } else {
         $(".title-container").height(227);
     }
+
+    /*
+    |-----------------------
+    |Seccion Banner
+    |-----------------------
+    */
+      $('.seccion_img').height($(".seccion_img").width() * seccion_aspect_ratio);
 });
 
 function loadPage() {
