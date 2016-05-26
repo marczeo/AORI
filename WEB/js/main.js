@@ -12,11 +12,11 @@ var seccion_aspect_ratio = .43;
 */
 $(document).ready(function() {
     $hero_video.height($hero_video.width() * aspect_ratio);
-    if ($(window).width() < 1150) {
-        $(".title-container").height($(".title-container").width() * title_aspect_ratio);
-    } else {
-        $(".title-container").height(227);
-    }
+    // if ($(window).width() < 1150) {
+    //     $(".title-container").height($(".title-container").width() * title_aspect_ratio);
+    // } else {
+    //     $(".title-container").height(227);
+    // }
     //Incluir navbar
     $(function() {
         $("#navbar").load("navbar.html");
@@ -107,11 +107,11 @@ window.onload = function() {
 
 $(window).resize(function() {
     $hero_video.height($hero_video.width() * aspect_ratio);
-    if ($(this).width() < 1150) {
-        $(".title-container").height($(".title-container").width() * title_aspect_ratio);
-    } else {
-        $(".title-container").height(227);
-    }
+    // if ($(this).width() < 1150) {
+    //     $(".title-container").height($(".title-container").width() * title_aspect_ratio);
+    // } else {
+    //     $(".title-container").height(227);
+    // }
 
     /*
     |-----------------------
