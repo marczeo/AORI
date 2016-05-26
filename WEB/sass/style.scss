@@ -20,6 +20,7 @@
 @import "unete";
 @import "grid";
 @import "footer";
+@import "cita";
 body {
     margin   : 0;
     padding  : 0;
@@ -38,7 +39,7 @@ img {
 .seccion {
     width : 100%;
     position: relative;
-    padding-bottom: 20px;
+    //padding-bottom: 20px;
     overflow: auto;
     &:nth-child(odd) {
         background        : $gris2_aori_25;
@@ -113,20 +114,29 @@ display: block;
 width: 69px;
 margin: 0 auto;
 }
+.icon-circle{
+    
+    
+}
 p.title.telefono {
     font-size: 1.5rem;
     i{
-        color: $azul2_aori_100;
+        background-color: $azul2_aori_100;            
+        color: white;
+        padding: 5px;
     }
     span.title-social {
         font-family: 'Aspira';
         font-weight: 600;
         font-size  : 1.2rem;
         font-style: italic;
-        i {
-            padding: 10px;
+        i {            
             font-size: 1rem;
-            color: $azul2_aori_100;
+            
+            width: 1.5rem;
+            height: 1.5rem;
+            border: 1px solid #909090;
+            border-radius: 100%;
         }
     }
     @media screen and (min-width:$ipad_mediaquery) {
@@ -136,17 +146,37 @@ p.title.telefono {
             font-size  : 2.5vw;
             i {
                 font-size: 2.5vw;
+                
+                width: 3.1vw;
+                height: 3.1vw;
+                border: 1px solid #909090;
+                border-radius: 100%;
             }
         }
     }
     @media screen and (min-width: $max_mediaquery) {
         font-size: 2.1rem;
+        i{
+            width: 2.6rem;
+            height: 2.6rem;
+            border: 1px solid #909090;
+            border-radius: 100%;
+        }
     }
 }
 p.title.center {
     text-align: center;
 }
 div.title-container {
+    width     : 100%;
+    position  : relative;
+    padding   : 10px 0;
+    @media screen and (min-width: $ipad_mediaquery) {
+        padding: 0;
+        padding-top: 75px;
+    }
+}
+div.title-container-socios {
     width     : 100%;
     position  : relative;
     padding   : 10px 0;
