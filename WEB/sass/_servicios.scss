@@ -195,12 +195,18 @@
             font-family   : 'Prototype';
         }
     }
+    .row{
+            width: 50%;
+            display: inline-block;
+        }
     .grid {
+        width: 100%;
         img {
-            max-width: 45%;
+            max-width: 40%;
             display  : inline-block;
             margin   : 10px;
         }
+
     }
     .grid2 {
         img {
