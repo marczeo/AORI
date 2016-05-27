@@ -45,7 +45,6 @@ $(document).ready(function() {
             $('.modelos').show();
             $('.modelos button').html('Leer Más');
             $(this).children('.servicio_desc').slideUp('slow');
-            /*$('.modelos').width(widthTmp);*/
             anchor = $(this).parent().attr('name').replace("_", "");
             elem = $("a[name='" + anchor + "']");
             $('html, body').animate({
@@ -56,8 +55,6 @@ $(document).ready(function() {
            widthTmp = $(this).width();
             $('.modelos').not(this).hide();
             $('.modelos button').html('Cerrar');
-           /* $(this).width('98%');
-            $(this).attr("margin","1%");*/
             elem = $(this);
             $('html, body').animate({
                 scrollTop: elem.offset().top-100

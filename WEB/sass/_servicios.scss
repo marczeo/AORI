@@ -307,7 +307,25 @@
     }
 }
 .encargados {
-    text-align: center;
+    margin : 25px;  
+     position   : relative;
+    width      : 98%;
+    min-height: 268px;
+    .foto{
+        position: absolute;
+        left: 18%;
+    }
+    .descripcion{
+        position: absolute;
+        text-align    : center;
+        text-transform: uppercase;
+        position      : absolute;
+        font-family   : 'Aspira';
+        font-size: 1.3rem;
+        left: 40%;
+        top: 23%;
+    }
+    /*text-align: center;
     max-width : 600px;
     position  : relative;
     .descripcion {
@@ -320,9 +338,9 @@
         img {
             margin-bottom: 20px;
         }
-    }
+    }*/
 }
-.encargados > img {
+/*.encargados > img {
     position: absolute;
     left    : 40%;
-}
+}*/
