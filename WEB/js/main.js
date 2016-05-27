@@ -54,7 +54,7 @@ $(document).ready(function() {
 
            widthTmp = $(this).width();
             $('.modelos').not(this).hide();
-            $('.modelos button').html('Cerrar');
+            $('.modelos button').html('Leer Menos');
             elem = $(this);
             $('html, body').animate({
                 scrollTop: elem.offset().top-100

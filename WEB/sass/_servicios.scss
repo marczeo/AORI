@@ -136,6 +136,17 @@
     display : none;
     overflow: auto;
 }
+p.subfooter{
+    text-align    : center;
+    font-size     : 1.9vw;
+    text-transform: uppercase;
+    box-sizing    : border-box;
+    font-family   : Prototype;
+    font-weight   : 200;
+    width         : 100%;
+    max-width     : $max_mediaquery;
+    color         : black;
+}
 .modelos {
     position   : relative;
     width      : 98%;
