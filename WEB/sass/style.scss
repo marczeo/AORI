@@ -72,6 +72,9 @@ p.center{
 .uppercase{
   text-transform: uppercase;
 }
+.capitalize{
+    text-transform: capitalize;
+}
 p.cuerpo{
   font-size: 1rem;
   max-width: $ipad_mediaquery;
