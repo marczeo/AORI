@@ -1,43 +1,45 @@
-#unete{
-  font-family: 'Aspira';
-  text-align: center;
-  p{
-    width: 98%;
-    margin: 40px auto;
-    max-width: $ipad_mediaquery;
-  }
-  .unete_bgtitle{
-    font-size: 2rem;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-   img.icono {
-    width: 100%;
-    max-width: 900px;
-  }
-  img.icono_rocket {
-    width: 25%;
-    max-width: 900px;
-  }
-  .subtitle_sm{
-    font-size: .7rem;
-    font-weight: 200;
-    text-transform: none;
-
-  }
-.logo_sm{
-width: 100px;
-margin: 0 auto;
-}
-  .unetetxt{
-    font-weight: 400;
-    font-size: .7rem;
-  }
-  .unete_title{
-    font-weight: 700;
-    font-size: 1.2rem;
-  }
-  .title-container-image{
-    margin: 0 auto 40px;
-  }
+#unete {
+    font-family: 'Aspira';
+    text-align : center;
+    p {
+        width    : 98%;
+        margin   : 40px auto;
+        max-width: $ipad_mediaquery;
+    }
+    .unete_bgtitle {
+        font-size     : 3rem;
+        font-weight   : 200;
+        font-style    : italic;
+        text-transform: uppercase;
+    }
+    img.icono {
+        width    : 96%;
+        margin   : 2%;
+        max-width: 700px;
+    }
+    img.icono_rocket {
+        width    : 96%;
+        margin   : 2%;
+        max-width: 700px;
+    }
+    .subtitle_sm {
+        font-size     : 0.7rem;
+        text-transform: none;
+    }
+    .logo_sm {
+        width : 100px;
+        margin: 0 auto;
+    }
+    .unetetxt {
+        font-weight: 400;
+        font-size  : 0.7rem;
+    }
+    .unete_title {
+        font-weight: 400;
+        font-size  : 1.2rem;
+        font-family: 'Prototype';
+    }
+    .title-container-image {
+        margin: 0 auto 40px;
+    }
 }
