@@ -1,6 +1,6 @@
 .nosotros {
     padding-bottom: 55px;
-    font-family: 'Aspira';
+    font-family   : 'Aspira';
     .nosotros_img {
         display   : inline-block;
         text-align: center;
@@ -12,41 +12,79 @@
             left    : 0;
         }
         .integrante {
-            width   : 200px;
-            height  : 280px;
-            display : inline-block;
-            margin  : 13px;
-            overflow: hidden;
-            position: relative;
-            
+            margin  : 2%;
+            overflow: auto;
+            width   : 96%;
+            display : block;
+            overflow: auto;
+            img {
+                width   : 50%;
+                float   : left;
+                display : block;
+                position: relative;
+            }
             .integrante_descripcion {
-                position          : absolute;
-                top               : 200px;
-                left              : 0;
-                background        : white;
-                width             : 100%;
-                box-sizing        : border-box;
-                text-align        : center;
-                font-size         : 0.9rem;
-                text-transform    : uppercase;
-                font-weight       : 700;
-                height            : 100%;
-                padding           : 10px;
-                -webkit-transition: all 1s ease-in-out;
-                -moz-transition   : all 1s ease-in-out;
-                -o-transition     : all 1s ease-in-out;
-                transition        : all 1s ease-in-out;
+                position      : relative;
+                width         : 50%;
+                top           : 0;
+                box-sizing    : border-box;
+                text-align    : center;
+                font-size     : 0.9rem;
+                text-transform: uppercase;
+                font-weight   : 700;
+                height        : 100%;
+                padding       : 10px;
+                display       : block;
+                float         : left;
+                p.puesto::after {
+                    content: '';
+                    display: block;
+                    background: black;
+                    width: 43px;
+                    height: 2px;
+                    margin: 6px auto;
+                }
                 p.quote {
                     margin-top    : 50px;
                     text-transform: none;
-                    color         : $gris2_aori_100;
                     font-style    : italic;
                     font-weight   : 200;
                 }
             }
-            &:hover {
+            @media screen and (min-width: 425px) {
+                width   : 200px;
+                height  : 280px;
+                display : inline-block;
+                margin  : 13px;
+                overflow: hidden;
+                position: relative;
+                img {
+                    position: absolute;
+                    width: 100%;
+                    float: none;
+                }
                 .integrante_descripcion {
-                    top: 0;
+                    position          : absolute;
+                    top               : 200px;
+                    left              : 0;
+                    background        : white;
+                    width             : 100%;
+                    -webkit-transition: all 1s ease-in-out;
+                    -moz-transition   : all 1s ease-in-out;
+                    -o-transition     : all 1s ease-in-out;
+                    transition        : all 1s ease-in-out;
+                    p.puesto::after {
+                      display: none;
+                    }
+                    p.quote{
+
+                      color         : $gris2_aori_100;
+                    }
+                }
+                &:hover {
+                    .integrante_descripcion {
+                        top: 0;
+                    }
                 }
             }
         }
