@@ -74,10 +74,12 @@
         .left_button {
             left  : 14%;
             border: solid 1px #000000;
+            cursor: pointer;
         }
         .right_button {
             right : 10%;
             border: solid 1px $gris2_aori_100;
+            cursor: pointer;
         }
         .texto {
             position   : absolute;
@@ -136,9 +138,9 @@
     display : none;
     overflow: auto;
 }
-p.subfooter{
+.subfooter{
     text-align    : center;
-    font-size     : 1.9vw;
+    font-size     : 1.6vw;
     text-transform: uppercase;
     box-sizing    : border-box;
     font-family   : Prototype;
@@ -146,6 +148,13 @@ p.subfooter{
     width         : 100%;
     max-width     : $max_mediaquery;
     color         : black;
+}
+.contenedor_2
+{
+    .item{
+        float: left;
+        width: 48%;
+    }
 }
 .modelos {
     position   : relative;
@@ -194,6 +203,7 @@ p.subfooter{
         text-transform: uppercase;
         font-family   : 'Aspira';
         margin        : 10px 25px;
+        cursor: pointer;
     }
     .brackets {
         padding: 5px;
@@ -266,7 +276,7 @@ p.subfooter{
         left        : 0;
     }
     .googleImg {
-        width         : 20%;
+        width         : 10%;
         display       : inline-block;
         vertical-align: middle;
     }

@@ -5,7 +5,7 @@ var $hero_video = $(".hero");
 var $window = $(window);
 var $servicios_flag = 0;
 var seccion_aspect_ratio = .43;
-
+ var anchor, elem;
 /*
   Cosas a cargar cuando la pagina esta lista
   para elementos que no se necesitan cargar antes de llamar la función.
@@ -39,13 +39,13 @@ $(document).ready(function() {
     });
 
     var widthTmp = 0;
-    $('.modelos').click(function() {
-        var anchor, elem;
-        if ($(this).children('.servicio_desc').is(':visible')) {
+    $('.subtema_leer').click(function() {
+        parent = $(this).parent();
+        if ($(this).siblings('.servicio_desc').is(':visible')) {
             $('.modelos').show();
             $('.modelos button').html('Leer Más');
-            $(this).children('.servicio_desc').slideUp('slow');
-            anchor = $(this).parent().attr('name').replace("_", "");
+           $(this).siblings('.servicio_desc').slideUp('slow');
+           anchor = $(this).parent().attr('name').replace("_", "");
             elem = $("a[name='" + anchor + "']");
             $('html, body').animate({
                 scrollTop: elem.offset().top-100
@@ -53,13 +53,13 @@ $(document).ready(function() {
         } else {
 
            widthTmp = $(this).width();
-            $('.modelos').not(this).hide();
+            $('.modelos').not(parent).hide();
             $('.modelos button').html('Leer Menos');
             elem = $(this);
             $('html, body').animate({
                 scrollTop: elem.offset().top-100
             }, 'slow');
-            $(this).children('.servicio_desc').slideDown('slow');
+            $(this).siblings('.servicio_desc').slideDown('slow');
         }
     });
     /*
