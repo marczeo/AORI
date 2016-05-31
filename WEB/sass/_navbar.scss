@@ -62,7 +62,6 @@
     padding: 0;
     width: 250px;
     position: absolute;
-    /*top: 0;*/
     left: 0;
     text-align: left;
     background: #ffffff;
@@ -115,16 +114,22 @@
 }
 @media (max-width: $ipad_mediaquery) {
     .element{
-        display: none;
+        display: block;
         top:0;
-        height: 250px;
+        height: 400px;
         overflow-y: scroll;
+        width: 70%;
     }
     .navbar ul.menu object {
         display: none;
     }
     .menu {
         display: none;
+        width: 100%;
+        padding: 0;
+        display: block;
+        text-align: center;
+        margin: 0;
     }
     .mobile-menu {
         display: block;
@@ -139,7 +144,7 @@
         text-transform: uppercase;
         text-decoration: none;
 
-        }
+    }
     .navbar {
         margin: 0;
         background: none;
@@ -149,32 +154,39 @@
         margin: 0;
     }
     .menu li a {
-        background: #ffffff;
+        background: black;
         color: $gris3_aori_100;
-        border-top: 1px solid #e0e0e0;
-        border-left: 3px solid #ffffff;
+        border-top: 0px solid #e0e0e0;
+        border-left: 3px solid $gris2_aori_100;
     }
     .menu li a:hover,
-    .menu li:hover > a {
-        background: #f0f0f0;
+    .menu li:hover > a {        
         color: gris3_aori_100;
-        border-left: 3px solid $gris2_aori_100;
+        border-left: 3px solid #ffffff;
     }
     /*level 2 and 3 - make same width as all items*/
     .menu ul {
+        background: black;
         display: block;
         position: relative;
         top: 0;
         left: 0;
         width: 100%;
-        text-align: right;
+        text-align: center;
     }
     .menu li span{
         display: inline-block;
         padding-right: 5px;
     }
-    .menu ul ul {
-        left: 0;
+    .menu ul li a{
+        background: black;
+        color: white;
+        border-left: 3px solid $azul3_aori_50;
+    }
+    .menu ul li a:hover{
+        background: $gris1_aori_100;
+        border-left: 3px solid #ffffff;
+        color: $gris3_aori_100;
     }
 }
 /*end media queries*/
@@ -186,5 +198,6 @@ nav.navbar {
         width: 16.1%;
         max-width: 176px;
         top: -1px;
+        z-index: 9999;
     }
 }
