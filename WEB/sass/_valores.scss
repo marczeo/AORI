@@ -1,5 +1,5 @@
 #valores {
-    
+
     padding-bottom: 95px;
     .descripcion {
         font-family: 'Aspira';
@@ -76,4 +76,20 @@
             }
         }
     }
+}
+.valores {
+    .imagen {
+        width : 50%;
+        float : none;
+        margin: 0 auto;
+        img {
+            width: 100%;
+        }
+    }
+}
+.prueba1
+{
+    padding-top: 10%;
+
+    padding-bottom: 10%;
 }
