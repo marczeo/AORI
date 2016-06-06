@@ -21,10 +21,11 @@
 }
 /*versión de escritorio*/
 .menu {
-  display: block;
- text-align: right;
- margin: 0 7% 0 10%;
-
+    display: block;
+    text-align: right;
+    margin: 0 7% 0 10%;
+    height: 70px;
+    padding-top: 10px;
 }
 .menu li {
     display: inline-block;
@@ -34,7 +35,7 @@
 .menu li a {
     font-weight: 200;
     text-decoration: none;
-    padding: 11px;
+    padding: 17px;
     display: block;
     color: #ffffff;
     -webkit-transition: all 0.2s ease-in-out 0s;
@@ -60,7 +61,7 @@
     display: none;
     margin: 0;
     padding: 0;
-    width: 250px;
+    width: 350px;
     position: absolute;
     left: 0;
     text-align: left;
@@ -78,7 +79,7 @@
     padding: 0;
 }
 .menu ul li a {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: normal;
     display: block;
     color: $gris1_aori_100;
@@ -114,7 +115,7 @@
 }
 @media (max-width: $ipad_mediaquery) {
     .element{
-        display: block;
+        display: none;
         top:0;
         height: 400px;
         overflow-y: scroll;
@@ -127,7 +128,6 @@
         display: none;
         width: 100%;
         padding: 0;
-        display: block;
         text-align: center;
         margin: 0;
     }
@@ -193,7 +193,7 @@ nav.navbar {
         float: left;
         margin: 0;
         width: 16.1%;
-        max-width: 176px;
+        max-width: 200px;
         top: -1px;
         z-index: 9999;
     }
