@@ -14,7 +14,7 @@
             filter: grayscale(100%);
             @media screen and (min-width: $ipad_mediaquery) {
                 width: 14%;
-                border-bottom: 1px solid;
+                //border-bottom: 1px solid;
                 line-height: 10px;
             }
             &:hover {
@@ -25,7 +25,7 @@
         img.top{
                 border-bottom: none;
         }
-        hr.vertical {
+        /*hr.vertical {
             border : 0;
             display: none;
             vertical-align: middle;
@@ -35,6 +35,6 @@
                 height : 140px;
                 width : 1px;
             }
-        }
+        }*/
     }
 }
