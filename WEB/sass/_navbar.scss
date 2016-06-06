@@ -151,6 +151,7 @@
         margin: 0;
     }
     .menu li a {
+        font-size: 15px;
         background: black;
         color: $gris3_aori_100;
         border-top: 0px solid #e0e0e0;
@@ -176,11 +177,13 @@
         padding-right: 5px;
     }
     .menu ul li a{
+        font-size: 12px;
         background: black;
         color: white;
         border-left: 3px solid $azul3_aori_50;
     }
     .menu ul li a:hover{
+        font-size: 12px;
         background: $gris1_aori_100;
         border-left: 3px solid #ffffff;
         color: $gris3_aori_100;
