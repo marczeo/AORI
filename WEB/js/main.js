@@ -150,3 +150,8 @@ function slide_Check() {
         $('.modelos').show();
     });
 }
+
+function valores_show(contenedor)
+{
+    $("."+ contenedor).parent().slideToggle();   
+}
