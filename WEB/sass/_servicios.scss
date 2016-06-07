@@ -126,7 +126,6 @@
                     @media screen and (min-width: $max_mediaquery) {
                         font-size: 13.32px;
                     }
-                }
                 .descripcion_right {
                     text-align: right;
                 }
@@ -215,11 +214,20 @@
         margin : 0;
     }
     img.centered {
+<<<<<<< HEAD
         width       : 80%;
         display     : block;
         margin-left : auto;
         margin-right: auto;
         padding     : 20px;
+=======
+            width: 80%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding : 20px;
+
+>>>>>>> origin/master
     }
     button {
         padding       : 5px 10px;
