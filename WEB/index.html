@@ -43,7 +43,7 @@
             <div class="col1_ch contenedor">
                 <div class="item col4_gd col2_md col2_ch">
                     <p class="center uppercase">
-                        <img src="images/quienes/analisis.png" alt="" />
+                        <img src="images/quienes/analisis.png" alt="" class="tilt"/>
                         <br>
                         <br>
                         <span class="italic underlined">Análisis</span>
@@ -51,7 +51,7 @@
                 </div>
                 <div class="item col4_gd col2_md col2_ch">
                     <p class="center uppercase">
-                        <img src="images/quienes/optimizacion.png" alt="" />
+                        <img src="images/quienes/optimizacion.png" alt="" class="tilt"/>
                         <br>
                         <br>
                         <span class="italic underlined">Optimización</span>
@@ -59,7 +59,7 @@
                 </div>
                 <div class="item col4_gd col2_md col2_ch">
                     <p class="center uppercase">
-                        <img src="images/quienes/resolucion.png" alt="" />
+                        <img src="images/quienes/resolucion.png" alt=""  class="tilt"  />
                         <br>
                         <br>
                         <span class="italic underlined">Resolución</span>
@@ -67,7 +67,7 @@
                 </div>
                 <div class="item col4_gd col2_md col2_ch">
                     <p class="center uppercase">
-                        <img src="images/quienes/integracion.png" alt="" />
+                        <img src="images/quienes/integracion.png" alt="" class="tilt"/>
                         <br>
                         <br>
                         <span class="italic underlined">Integración</span>
@@ -112,10 +112,12 @@
         </div>
 
         <div class="seccion" id="valores">
+
             <div class="title-container">
-                <p class="title uppercase center"> Nuestros Valores
-                    <br><img src="images/flecha.png" alt="" /></p>
+                <p class="title uppercase center pointer" onclick="valores_show('valores_grid');"> Nuestros Valores
+                    <br><img src="images/flecha.png" alt="" class="pointer"/></p>
             </div>
+            <div class="hidden_contenedor">
             <div class="valores_grid">
                 <div class="primera_fila">
                     <div class="item">
@@ -170,6 +172,9 @@
                         </div>
                     </div>
                 </div>
+            </div>
+
+
             </div>
         </div>
 
@@ -954,171 +959,173 @@
 
         <div class="seccion" id="equipo">
             <div class="title-container">
-                <p class="title uppercase center"> Conoce nuestro equipo
-                    <br><img src="images/flecha.png" alt="" /></p>
+                <p class="title uppercase center pointer" onclick="valores_show('nosotros');"> Conoce nuestro equipo
+                    <br><img src="images/flecha.png" alt="" class="pointer"/></p>
             </div>
-            <div class="nosotros">
-                <div class="nosotros_img">
-                    <div class="integrante"> <img src="images/integrantes/1.jpg" alt="" />
-                        <div class="integrante_descripcion">
-                            <p class="puesto"> Dirección general </p>
-                            <p class="quote"> “El que vive para servir, sirve para vivir.” </p>
+            <div class="hidden_contenedor">
+                <div class="nosotros">
+                    <div class="nosotros_img">
+                        <div class="integrante"> <img src="images/integrantes/1.jpg" alt="" />
+                            <div class="integrante_descripcion">
+                                <p class="puesto"> Dirección general </p>
+                                <p class="quote"> “El que vive para servir, sirve para vivir.” </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="integrante"> <img src="images/integrantes/2.jpg" alt="" />
-                        <div class="integrante_descripcion">
-                            <p class="puesto"> Dirección comercial y de comercio exterior </p>
-                            <p class="quote"> </p>
+                        <div class="integrante"> <img src="images/integrantes/2.jpg" alt="" />
+                            <div class="integrante_descripcion">
+                                <p class="puesto"> Dirección comercial y de comercio exterior </p>
+                                <p class="quote"> </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="integrante"> <img src="images/integrantes/3.jpg" alt="" />
-                        <div class="integrante_descripcion">
-                            <p class="puesto"> Dirección de procesos y logística </p>
-                            <p class="quote"> </p>
+                        <div class="integrante"> <img src="images/integrantes/3.jpg" alt="" />
+                            <div class="integrante_descripcion">
+                                <p class="puesto"> Dirección de procesos y logística </p>
+                                <p class="quote"> </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="integrante"> <img src="images/integrantes/4.jpg" alt="" />
-                        <div class="integrante_descripcion">
-                            <p class="puesto"> Dirección de marketing </p>
-                            <p class="quote"> "Pasión por hacer que las cosas sucedan."</p>
+                        <div class="integrante"> <img src="images/integrantes/4.jpg" alt="" />
+                            <div class="integrante_descripcion">
+                                <p class="puesto"> Dirección de marketing </p>
+                                <p class="quote"> "Pasión por hacer que las cosas sucedan."</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="integrante"> <img src="images/integrantes/5.jpg" alt="" />
-                        <div class="integrante_descripcion">
-                            <p class="puesto"> Dirección de diplomados y proyectos especiales </p>
-                            <p class="quote"> </p>
+                        <div class="integrante"> <img src="images/integrantes/5.jpg" alt="" />
+                            <div class="integrante_descripcion">
+                                <p class="puesto"> Dirección de diplomados y proyectos especiales </p>
+                                <p class="quote"> </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="integrante"> <img src="images/integrantes/6.jpg" alt="" />
-                        <div class="integrante_descripcion">
-                            <p class="puesto"> Capacitación de personal </p>
-                            <p class="quote"> "Si crees que el entrenamiento es caro, imagina el costo de la ignorancia"</p>
+                        <div class="integrante"> <img src="images/integrantes/6.jpg" alt="" />
+                            <div class="integrante_descripcion">
+                                <p class="puesto"> Capacitación de personal </p>
+                                <p class="quote"> "Si crees que el entrenamiento es caro, imagina el costo de la ignorancia"</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="integrante"> <img src="images/integrantes/7.jpg" alt="" />
-                        <div class="integrante_descripcion">
-                            <p class="puesto"> Dirección de finanzas </p>
-                            <p class="quote"> </p>
+                        <div class="integrante"> <img src="images/integrantes/7.jpg" alt="" />
+                            <div class="integrante_descripcion">
+                                <p class="puesto"> Dirección de finanzas </p>
+                                <p class="quote"> </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="integrante"> <img src="images/integrantes/8.jpg" alt="" />
-                        <div class="integrante_descripcion">
-                            <p class="puesto"> Dirección de relaciones publicas </p>
-                            <p class="quote"> </p>
+                        <div class="integrante"> <img src="images/integrantes/8.jpg" alt="" />
+                            <div class="integrante_descripcion">
+                                <p class="puesto"> Dirección de relaciones publicas </p>
+                                <p class="quote"> </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="integrante"> <img src="images/integrantes/9.jpg" alt="" />
-                        <div class="integrante_descripcion">
-                            <p class="puesto"> Dirección de convenios y enlaces </p>
-                            <p class="quote"> "You think big, you become big"</p>
+                        <div class="integrante"> <img src="images/integrantes/9.jpg" alt="" />
+                            <div class="integrante_descripcion">
+                                <p class="puesto"> Dirección de convenios y enlaces </p>
+                                <p class="quote"> "You think big, you become big"</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="integrante"> <img src="images/integrantes/10.jpg" alt="" />
-                        <div class="integrante_descripcion">
-                            <p class="puesto"> Dirección de diseño gráfico y maquetación web </p>
-                            <p class="quote">“Intelligence is the new sexy” </p>
+                        <div class="integrante"> <img src="images/integrantes/10.jpg" alt="" />
+                            <div class="integrante_descripcion">
+                                <p class="puesto"> Dirección de diseño gráfico y maquetación web </p>
+                                <p class="quote">“Intelligence is the new sexy” </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="integrante"> <img src="images/integrantes/11.jpg" alt="" />
-                        <div class="integrante_descripcion">
-                            <p class="puesto"> Lead graphic designer </p>
-                            <p class="quote">"El chiste es ponerle color a las cosas" </p>
+                        <div class="integrante"> <img src="images/integrantes/11.jpg" alt="" />
+                            <div class="integrante_descripcion">
+                                <p class="puesto"> Lead graphic designer </p>
+                                <p class="quote">"El chiste es ponerle color a las cosas" </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="integrante"> <img src="images/integrantes/12.jpg" alt="" />
-                        <div class="integrante_descripcion">
-                            <p class="puesto"> Integración de proyectos </p>
-                            <p class="quote"> "Si quieres ir rápido, ve solo. Si quieres llegar lejos, ve acompañado"</p>
+                        <div class="integrante"> <img src="images/integrantes/12.jpg" alt="" />
+                            <div class="integrante_descripcion">
+                                <p class="puesto"> Integración de proyectos </p>
+                                <p class="quote"> "Si quieres ir rápido, ve solo. Si quieres llegar lejos, ve acompañado"</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="integrante"> <img src="images/integrantes/13.jpg" alt="" />
-                        <div class="integrante_descripcion">
-                            <p class="puesto"> Administración general y cobranza </p>
-                            <p class="quote"> </p>
+                        <div class="integrante"> <img src="images/integrantes/13.jpg" alt="" />
+                            <div class="integrante_descripcion">
+                                <p class="puesto"> Administración general y cobranza </p>
+                                <p class="quote"> </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="integrante"> <img src="images/integrantes/14.jpg" alt="" />
-                        <div class="integrante_descripcion">
-                            <p class="puesto"> Lead Community manager </p>
-                            <p class="quote"> "Hasta la victoria siempre"</p>
+                        <div class="integrante"> <img src="images/integrantes/14.jpg" alt="" />
+                            <div class="integrante_descripcion">
+                                <p class="puesto"> Lead Community manager </p>
+                                <p class="quote"> "Hasta la victoria siempre"</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="integrante"> <img src="images/integrantes/15.jpg" alt="" />
-                        <div class="integrante_descripcion">
-                            <p class="puesto"> Hotspot manager </p>
-                            <p class="quote">"You only fail when you stop trying " </p>
+                        <div class="integrante"> <img src="images/integrantes/15.jpg" alt="" />
+                            <div class="integrante_descripcion">
+                                <p class="puesto"> Hotspot manager </p>
+                                <p class="quote">"You only fail when you stop trying " </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="integrante"> <img src="images/integrantes/16.jpg" alt="" />
-                        <div class="integrante_descripcion">
-                            <p class="puesto"> Dirección de propiedad intelectual </p>
-                            <p class="quote"> </p>
+                        <div class="integrante"> <img src="images/integrantes/16.jpg" alt="" />
+                            <div class="integrante_descripcion">
+                                <p class="puesto"> Dirección de propiedad intelectual </p>
+                                <p class="quote"> </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="integrante"> <img src="images/integrantes/17.jpg" alt="" />
-                        <div class="integrante_descripcion">
-                            <p class="puesto"> Dirección fiscal </p>
-                            <p class="quote"> </p>
+                        <div class="integrante"> <img src="images/integrantes/17.jpg" alt="" />
+                            <div class="integrante_descripcion">
+                                <p class="puesto"> Dirección fiscal </p>
+                                <p class="quote"> </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="integrante"> <img src="images/integrantes/18.jpg" alt="" />
-                        <div class="integrante_descripcion">
-                            <p class="puesto"> Dirección contable </p>
-                            <p class="quote"> </p>
+                        <div class="integrante"> <img src="images/integrantes/18.jpg" alt="" />
+                            <div class="integrante_descripcion">
+                                <p class="puesto"> Dirección contable </p>
+                                <p class="quote"> </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="integrante"> <img src="images/integrantes/19.jpg" alt="" />
-                        <div class="integrante_descripcion">
-                            <p class="puesto"> Dirección de desarrollo de aplicaciones </p>
-                            <p class="quote"> </p>
+                        <div class="integrante"> <img src="images/integrantes/19.jpg" alt="" />
+                            <div class="integrante_descripcion">
+                                <p class="puesto"> Dirección de desarrollo de aplicaciones </p>
+                                <p class="quote"> </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="integrante"> <img src="images/integrantes/20.jpg" alt="" />
-                        <div class="integrante_descripcion">
-                            <p class="puesto"> Dirección de proyectos gastronómicos </p>
-                            <p class="quote"> </p>
+                        <div class="integrante"> <img src="images/integrantes/20.jpg" alt="" />
+                            <div class="integrante_descripcion">
+                                <p class="puesto"> Dirección de proyectos gastronómicos </p>
+                                <p class="quote"> </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="integrante"> <img src="images/integrantes/21.jpg" alt="" />
-                        <div class="integrante_descripcion">
-                            <p class="puesto"> Dirección de fotografía</p>
-                            <p class="quote"> </p>
+                        <div class="integrante"> <img src="images/integrantes/21.jpg" alt="" />
+                            <div class="integrante_descripcion">
+                                <p class="puesto"> Dirección de fotografía</p>
+                                <p class="quote"> </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="integrante"> <img src="images/integrantes/22.jpg" alt="" />
-                        <div class="integrante_descripcion">
-                            <p class="puesto"> Dirección de producción y video</p>
-                            <p class="quote"> </p>
+                        <div class="integrante"> <img src="images/integrantes/22.jpg" alt="" />
+                            <div class="integrante_descripcion">
+                                <p class="puesto"> Dirección de producción y video</p>
+                                <p class="quote"> </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="integrante"> <img src="images/integrantes/23.jpg" alt="" />
-                        <div class="integrante_descripcion">
-                            <p class="puesto"> Lead Database Programmer</p>
-                            <p class="quote"> "La victoria no lo es todo: ¡es lo único!" - Vince Lombardi.</p>
+                        <div class="integrante"> <img src="images/integrantes/23.jpg" alt="" />
+                            <div class="integrante_descripcion">
+                                <p class="puesto"> Lead Database Programmer</p>
+                                <p class="quote"> "La victoria no lo es todo: ¡es lo único!" - Vince Lombardi.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="integrante"> <img src="images/integrantes/24.jpg" alt="" />
-                        <div class="integrante_descripcion">
-                            <p class="puesto"> Lead Web Programmer</p>
-                            <p class="quote">"La vida se trata de seguir aprendiendo" </p>
+                        <div class="integrante"> <img src="images/integrantes/24.jpg" alt="" />
+                            <div class="integrante_descripcion">
+                                <p class="puesto"> Lead Web Programmer</p>
+                                <p class="quote">"La vida se trata de seguir aprendiendo" </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="integrante"> <img src="images/integrantes/25.jpg" alt="" />
-                        <div class="integrante_descripcion">
-                            <p class="puesto"> Lead Backend Programmer</p>
-                            <p class="quote">"Lo único imposible es aquello que no intentas" </p>
+                        <div class="integrante"> <img src="images/integrantes/25.jpg" alt="" />
+                            <div class="integrante_descripcion">
+                                <p class="puesto"> Lead Backend Programmer</p>
+                                <p class="quote">"Lo único imposible es aquello que no intentas" </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="integrante"> <img src="images/integrantes/26.jpg" alt="" />
-                        <div class="integrante_descripcion">
-                            <p class="puesto"> Branding e identidad Corporativa </p>
-                            <p class="quote">"la mejor manera de predecir el futuro, es crearlo"</p>
+                        <div class="integrante"> <img src="images/integrantes/26.jpg" alt="" />
+                            <div class="integrante_descripcion">
+                                <p class="puesto"> Branding e identidad Corporativa </p>
+                                <p class="quote">"la mejor manera de predecir el futuro, es crearlo"</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="integrante"> <img src="images/integrantes/27.jpg" alt="" />
-                        <div class="integrante_descripcion">
-                            <p class="puesto"> Programación Web </p>
-                            <p class="quote">"La adquisición de cualquier conocimiento es siempre útil al intelecto, que sabrá descartar lo malo y conservar lo bueno". Leonardo Da Vinci.</p>
+                        <div class="integrante"> <img src="images/integrantes/27.jpg" alt="" />
+                            <div class="integrante_descripcion">
+                                <p class="puesto"> Programación Web </p>
+                                <p class="quote">"La adquisición de cualquier conocimiento es siempre útil al intelecto, que sabrá descartar lo malo y conservar lo bueno". Leonardo Da Vinci.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1160,19 +1167,21 @@
         </div>
         <div class="seccion" id="socios_com">
             <div class="title-container-socios">
-                <p class="title uppercase center"> Socios Comerciales
-                    <br><img src="images/flecha.png" alt="" /></p>
+                <p class="title uppercase center pointer" onclick="valores_show('socios_com');"> Socios Comerciales
+                    <br><img src="images/flecha.png" alt="" class="pointer"/></p>
             </div>
-            <div class="socios_com">
-                <div class="socios_iconos">
-                    <object class="prueba3" id="3" type="image/svg+xml" data="Iconos/3k.svg">Imágen de circulo</object>
-                    <div class="socios_pequeno">
-                        <img src="images/socios/1.png" alt="" />
-                        <img src="images/socios/2.png" alt="" />
-                        <img src="images/socios/3.png" alt="" />
-                        <img src="images/socios/4.png" alt="" />
-                        <img src="images/socios/5.png" alt="" />
-                        <img src="images/socios/6.png" alt="" />
+            <div class="hidden_contenedor">
+                <div class="socios_com">
+                    <div class="socios_iconos">
+                        <object class="prueba3" id="3" type="image/svg+xml" data="Iconos/3k.svg">Imágen de circulo</object>
+                        <div class="socios_pequeno">
+                            <img src="images/socios/1.png" alt="" />
+                            <img src="images/socios/2.png" alt="" />
+                            <img src="images/socios/3.png" alt="" />
+                            <img src="images/socios/4.png" alt="" />
+                            <img src="images/socios/5.png" alt="" />
+                            <img src="images/socios/6.png" alt="" />
+                        </div>
                     </div>
                 </div>
             </div>
