@@ -2,47 +2,51 @@
     display : block;
     overflow: auto;
     width   : 100%;
-    &:nth-child(even) {
-        background: white;
-    }
     &:nth-child(odd) {
         background: $gris2_aori_25;
     }
+    &:nth-child(even) {
+        background: white;
+    }
     .banner_servicio {
         position: relative;
-        #seccion_1 {
-            background-image: url('../images/seccion_servicios/seccion1.png');
-        }
-        #seccion_2 {
-            background-image: url('../images/seccion_servicios/seccion2.png');
-        }
-        #seccion_3 {
-            background-image: url('../images/seccion_servicios/seccion3.png');
-        }
-        #seccion_4 {
-            background-image: url('../images/seccion_servicios/seccion4.png');
-        }
-        #seccion_5 {
-            background-image: url('../images/seccion_servicios/seccion5.png');
-        }
-        #seccion_6 {
-            background-image: url('../images/seccion_servicios/seccion6.png');
-        }
-        #seccion_7 {
-            background-image: url('../images/seccion_servicios/seccion7.png');
-        }
-        #seccion_8 {
-            background-image: url('../images/seccion_servicios/seccion8.png');
-        }
-        #seccion_9 {
-            background-image: url('../images/seccion_servicios/seccion9.png');
-        }
         .seccion_img {
-            width          : 100%;
-            max-width      : 1100px;
-            margin         : 0 auto;
-            background-size: 100%;
-            position       : relative;
+          height: auto;
+            width           : 100%;
+            max-width       : 1100px;
+            margin          : 0 auto;
+            background-size : 100%;
+            position        : relative;
+            background-image: none;
+        }
+        @media screen and ( min-width: $ipad_mediaquery ) {
+            #seccion_1 {
+                background-image: url('../images/seccion_servicios/seccion1.png');
+            }
+            #seccion_2 {
+                background-image: url('../images/seccion_servicios/seccion2.png');
+            }
+            #seccion_3 {
+                background-image: url('../images/seccion_servicios/seccion3.png');
+            }
+            #seccion_4 {
+                background-image: url('../images/seccion_servicios/seccion4.png');
+            }
+            #seccion_5 {
+                background-image: url('../images/seccion_servicios/seccion5.png');
+            }
+            #seccion_6 {
+                background-image: url('../images/seccion_servicios/seccion6.png');
+            }
+            #seccion_7 {
+                background-image: url('../images/seccion_servicios/seccion7.png');
+            }
+            #seccion_8 {
+                background-image: url('../images/seccion_servicios/seccion8.png');
+            }
+            #seccion_9 {
+                background-image: url('../images/seccion_servicios/seccion9.png');
+            }
         }
         img,
         object {
@@ -52,23 +56,31 @@
             margin   : 0 auto;
         }
         .button {
-            position      : absolute;
-            bottom        : 18%;
             background    : transparent;
             text-transform: uppercase;
-            width         : 10%;
-            height        : 8%;
+            background    : transparent;
+            text-transform: uppercase;
+            display       : block;
+            text-align    : center;
+            margin        : 10px auto;
+            width         : 90px;
+            @media screen and ( min-width: $ipad_mediaquery) {
+                position: absolute;
+                bottom  : 18%;
+                width   : 10%;
+                height  : 8%;
+                .texto_boton {
+                    font-size: 1.8vw;
+                    @media screen and (min-width: $max_mediaquery) {
+                        font-size: 20px;
+                    }
+                }
+            }
             .texto_boton {
                 font-weight: 300;
+                font-size  : 1rem;
                 font-family: 'Aspira';
-                font-size  : 1.8vw;
                 white-space: nowrap;
-                @media screen and (max-width: $ipad_mediaquery) {
-                    font-size: 1vmin;
-                }
-                @media screen and (min-width: $max_mediaquery) {
-                    font-size: 20px;
-                }
             }
         }
         .left_button {
@@ -82,40 +94,42 @@
             cursor: pointer;
         }
         .texto {
-            position   : absolute;
-            left       : 12.7%;
-            top        : 23%;
-            width      : 80%;
-            display    : block;
             font-family: 'Aspira';
-            overflow   : auto;
+            font-size  : 1rem;
+            text-align : center;
             .titulo {
-                font-size  : 3vw;
-                font-weight: 200;
-                margin     : 0 0 10px;
-                @media screen and (max-width: $ipad_mediaquery) {
-                    font-size: 3vmin;
-                }
-                @media screen and (min-width: $max_mediaquery) {
-                    font-size: 33.3px;
-                }
+                font-size: 2rem;
             }
-            .titulo_right {
-                text-align: right;
-            }
-            .descripcion {
-                font-size    : 1.2vw;
-                font-weight  : 300;
-                margin-bottom: 0;
-                @media screen and (max-width: $ipad_mediaquery) {
-                    font-size: 1vmin;
+            @media screen and ( min-width: $ipad_mediaquery ) {
+                text-align: left;
+                position  : absolute;
+                left      : 12.7%;
+                top       : 23%;
+                width     : 80%;
+                display   : block;
+                overflow  : auto;
+                .titulo {
+                    font-size  : 3vw;
+                    font-weight: 200;
+                    margin     : 0 0 10px;
+                    @media screen and (min-width: $max_mediaquery) {
+                        font-size: 33.3px;
+                    }
                 }
-                @media screen and (min-width: $max_mediaquery) {
-                    font-size: 13.32px;
+                .titulo_right {
+                    text-align: right;
                 }
-            }
-            .descripcion_right {
-                text-align: right;
+                .descripcion {
+                    font-size    : 1.2vw;
+                    font-weight  : 300;
+                    margin-bottom: 0;
+                    @media screen and (min-width: $max_mediaquery) {
+                        font-size: 13.32px;
+                    }
+                }
+                .descripcion_right {
+                    text-align: right;
+                }
             }
         }
     }
@@ -156,11 +170,10 @@
 }
 .contenedor_2_min {
     .item {
-        float: left;
-        width: 38%;
+        float     : left;
+        width     : 38%;
         text-align: center;
     }
-
 }
 .modelos {
     position   : relative;
@@ -202,12 +215,11 @@
         margin : 0;
     }
     img.centered {
-            width: 80%;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            padding : 20px;
-        
+        width       : 80%;
+        display     : block;
+        margin-left : auto;
+        margin-right: auto;
+        padding     : 20px;
     }
     button {
         padding       : 5px 10px;
@@ -234,10 +246,10 @@
         display: inline-block;
     }
     .grid {
-        position: relative;
-            display: table;
-            margin-left: auto;
-            margin-right: auto;
+        position    : relative;
+        display     : table;
+        margin-left : auto;
+        margin-right: auto;
         img {
             max-width: 47%;
             display  : inline-block;
@@ -245,10 +257,10 @@
         }
     }
     .grid2 {
-            position: relative;
-            display: table;
-            margin-left: auto;
-            margin-right: auto;
+        position    : relative;
+        display     : table;
+        margin-left : auto;
+        margin-right: auto;
         img {
             max-width: 30%;
             display  : inline-block;
