@@ -126,6 +126,7 @@
                     @media screen and (min-width: $max_mediaquery) {
                         font-size: 13.32px;
                     }
+                }
                 .descripcion_right {
                     text-align: right;
                 }
@@ -133,6 +134,8 @@
         }
     }
 }
+
+
 .servicio_desc {
     display : none;
     overflow: auto;
