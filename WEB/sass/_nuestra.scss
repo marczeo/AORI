@@ -1,38 +1,39 @@
-.mision{
-  padding-top: 10px;
-  .mision-center {
-      text-align: center;
-      object,
-      .mision-title {
-          vertical-align: middle;
-          margin   : 20px auto;
-      }
-      .mision-title {
-          font-family: 'Aspira';
-          font-weight: 200;
-          font-style: italic;
-          text-transform: uppercase;
-          color: black;
-          font-size: 5.7vw;
-          @media screen and (min-width:$ipad_mediaquery) {
-              font-size: 4.5vw;
-          }
-          @media screen and (min-width: $max_mediaquery) {
-            font-size: 3.5rem;
-          }
-      }
-      p.descripcion{
-        width: 70%;
-        font-weight: 200;
-        margin: 5% 15% 10% 15%;
-        float: none;
-        font-family: Aspira;
-        color: black;
-        font-size: 1.3rem;
-        strong{
-            font-size: 1.4rem;
+.mision {
+    padding-top: 10px;
+    max-width  : 1100px;
+    margin     : 0 auto;
+    .mision-center {
+        text-align: center;
+        .mision-title,
+        object {
+            vertical-align: middle;
+            margin        : 20px auto;
         }
-      }
-  }
-
+        .mision-title {
+            font-family   : 'Aspira';
+            font-weight   : 200;
+            font-style    : italic;
+            text-transform: uppercase;
+            color         : black;
+            font-size     : 5.7vw;
+            @media screen and (min-width:$ipad_mediaquery) {
+                font-size: 4.5vw;
+            }
+            @media screen and (min-width: $max_mediaquery) {
+                font-size: 3.5rem;
+            }
+        }
+        p.descripcion {
+            width      : 70%;
+            font-weight: 200;
+            margin     : 5% 15% 10%;
+            float      : none;
+            font-family: Aspira;
+            color      : black;
+            font-size  : 1.3rem;
+            strong {
+                font-size: 1.4rem;
+            }
+        }
+    }
 }
