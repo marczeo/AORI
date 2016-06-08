@@ -147,6 +147,7 @@ function slide_Subservicios(servicio) {
 }
 
 function slide_Check() {
+    //sleep(1100);
     $('.servicio_desc').each(function() {
         $(this).slideUp();
         $('.modelos').show();
