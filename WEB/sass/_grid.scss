@@ -41,6 +41,9 @@
 .col4_md {
     @include col(23.5%,0 1%,$mobile_mediaquery);
 }
+.col6_md {
+    @include col(64.666%,0 1%,$mobile_mediaquery);
+}
 .col1_gd {
     @media screen and (min-width: $ipad_mediaquery) {
         width : 98%;
