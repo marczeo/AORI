@@ -46,10 +46,10 @@ $(document).ready(function() {
            widthTmp = $(this).width();
             $('.modelos').not(parent).hide();
             $('.modelos button').html('Leer Menos');
-            elem = $(this);
+            elem = $(this).parent();
             $('html, body').animate({
-                scrollTop: elem.offset().top-100
-            }, 'slow');
+                scrollTop: elem.offset().top-130
+            }, 'fast');
             $(this).siblings('.servicio_desc').slideDown('slow');
         }
     });
@@ -92,7 +92,7 @@ window.onload = function() {
             map.setCenter(new google.maps.LatLng(23.095497, -103.6113519));
         }
     });
-    init_map();
+    
 };
 
 $(window).resize(function() {
@@ -139,7 +139,7 @@ function slide_Subservicios(servicio) {
         $("#" + servicio).slideUp("fast");
     } else {
         slide_Check();
-        $(".subtemas").not(servicio).slideUp("fast");
+        $(".subtemas").not(servicio).slideUp("fast");  
         $("#" + servicio).slideDown("fast");
     }
 }
@@ -153,5 +153,7 @@ function slide_Check() {
 
 function valores_show(contenedor)
 {
-    $("."+ contenedor).parent().slideToggle();   
+    $("."+ contenedor).parent().slideToggle();
+    if(contenedor == "mapas_desc")
+        init_map();   
 }
