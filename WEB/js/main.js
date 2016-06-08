@@ -137,7 +137,9 @@ function loadPage() {
 function slide_Subservicios(servicio) {
     if ($('#' + servicio).is(':visible')) {
         $("#" + servicio).slideUp("fast");
+        $(".banner_servicio").removeClass("imagen_animacion");
     } else {
+        $(".banner_servicio").addClass("imagen_animacion");
         slide_Check();
         $(".subtemas").not(servicio).slideUp("fast");  
         $("#" + servicio).slideDown("fast");
@@ -145,6 +147,7 @@ function slide_Subservicios(servicio) {
 }
 
 function slide_Check() {
+    //sleep(1100);
     $('.servicio_desc').each(function() {
         $(this).slideUp();
         $('.modelos').show();
@@ -156,4 +159,13 @@ function valores_show(contenedor)
     $("."+ contenedor).parent().slideToggle();
     if(contenedor == "ubicacion")
         init_map();   
+}
+
+function sleep(milliseconds) {
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if ((new Date().getTime() - start) > milliseconds){
+      break;
+    }
+  }
 }
