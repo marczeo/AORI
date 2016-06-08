@@ -178,10 +178,28 @@ p.italico{
     color: $gris1_aori_50;
     font-weight: 600;
 }
-.domicilios{
-    width      : 98%;
-    max-width  : 550px;
+.direcciones{
+    
     margin     : auto;
-    display    : block;
     font-family: 'Aspira';
+    text-align: center;
+    font-size : 0.8rem;
+    color     : #2c3e50;
+    width     : 100%;
+    cursor    : pointer;
+    .something {
+        text-transform: uppercase;
+        padding       : 1px 10px;
+        i {
+            color: $azul2_aori_100;
+            font-size: 1.6rem;
+        }
+        .nombre {
+            font-weight: 700;
+        }
+        .direccion,
+        .telefono {
+            font-weight: 200;
+        }
+    }
 }
