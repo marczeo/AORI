@@ -33,6 +33,24 @@ $(document).ready(function() {
 	});
 	//Fin slide
 	
+	//Servcios seleccionados
+	$("#contact-form input[name='typeService[]']").on('click',function(){
+		if($("#contact-form input[name='typeService[]']:checked").length > 0){
+			document.getElementsByClassName("selected-services")[0].innerHTML = "Servicios seleccionados:";
+			document.getElementsByClassName("selected-services")[0].innerHTML += "<ul>";
+			for(var i=0; i<$("#contact-form input[name='typeService[]']:checked").length; i++){			
+				document.getElementsByClassName("selected-services")[0].innerHTML += ("<li>" + $("#contact-form input[name='typeService[]']")[i].value + "</li>");
+			}
+			document.getElementsByClassName("selected-services")[0].innerHTML += "</ul>";
+		}
+		else{
+			document.getElementsByClassName("selected-services")[0].innerHTML = "";
+		}
+		
+	});
+	//Fin servicios seleccionados
+
+
 	//Validacion formulario contacto
 	$("#contact-form").submit(function(e) {
 		var ret=true;
