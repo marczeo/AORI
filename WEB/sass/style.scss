@@ -128,15 +128,12 @@ margin: 0 auto;
 p.title.telefono {
     font-size: 1.5rem;
     i{
-        background-color: $azul2_aori_100;
-        color: white;
         padding: 5px;
     }
     span.title-social {
         font-family: 'Aspira';
         font-weight: 600;
         font-size  : 1.2rem;
-        //font-style: italic;
         i {
             font-size: 1rem;
 
@@ -144,6 +141,9 @@ p.title.telefono {
             height: 1.5rem;
             border: 1px solid;
             border-radius: 100%;
+        }
+        img {
+            width: 10%;
         }
     }
     @media screen and (min-width:$ipad_mediaquery) {

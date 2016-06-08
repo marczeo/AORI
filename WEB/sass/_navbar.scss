@@ -23,9 +23,9 @@
 .menu {
     display: block;
     text-align: right;
-    margin: 0 7% 0 10%;
-    height: 70px;
-    padding-top: 10px;
+    margin: 0 4% 0 10%;
+    
+    padding-top: 10px 0;
 }
 .menu li {
     display: inline-block;
@@ -101,11 +101,10 @@
 .mobile-menu {
     display: none;
     width: 100%;
-    padding: 11px;
+    padding: 15px;
     background: #000;
     color: #ffffff;
     text-transform: uppercase;
-    box-sizing: border-box;
     font-weight: 600;
 }
 .mobile-menu:hover {
@@ -119,7 +118,7 @@
         top:0;
         height: 400px;
         overflow-y: scroll;
-        width: 70%;
+        width: 100%;
     }
     .navbar ul.menu object {
         display: none;
@@ -148,13 +147,13 @@
     }
     .menu li {
         display: block;
-        margin: 0;
+        margin: -2px;
     }
     .menu li a {
         font-size: 15px;
         background: black;
         color: $gris3_aori_100;
-        border-top: 0px solid #e0e0e0;
+        
         border-left: 3px solid $gris2_aori_100;
     }
     .menu li a:hover,
@@ -171,6 +170,10 @@
         left: 0;
         width: 100%;
         text-align: center;
+    }
+    .menu ul li{
+        margin-top: -1px;
+
     }
     .menu li span{
         display: inline-block;
@@ -195,7 +198,7 @@ nav.navbar {
         position: absolute;
         float: left;
         margin: 0;
-        width: 16.1%;
+        width: 16.5%;
         max-width: 200px;
         top: -1px;
         z-index: 9999;

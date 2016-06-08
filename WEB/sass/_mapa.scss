@@ -2,6 +2,7 @@
     width      : 98%;
     max-width  : 550px;
     margin     : auto;
+    padding-top: 15px;
     display    : block;
     font-family: 'Aspira';
     #gmap_canvas,
@@ -20,28 +21,6 @@
         @media screen and (min-width: $max_mediaquery) {
 
           height: 440px;
-        }
-    }
-    .mapas_desc {
-        text-align: center;
-        font-size : 0.8rem;
-        color     : #2c3e50;
-        width     : 100%;
-        cursor    : pointer;
-        .something {
-            text-transform: uppercase;
-            padding       : 1px 10px;
-            i {
-                color: $azul2_aori_100;
-                font-size: 1.6rem;
-            }
-            .nombre {
-                font-weight: 700;
-            }
-            .direccion,
-            .telefono {
-                font-weight: 200;
-            }
         }
     }
 }

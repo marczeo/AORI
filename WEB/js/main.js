@@ -157,7 +157,7 @@ function slide_Check() {
 function valores_show(contenedor)
 {
     $("."+ contenedor).parent().slideToggle();
-    if(contenedor == "mapas_desc")
+    if(contenedor == "ubicacion")
         init_map();   
 }
 

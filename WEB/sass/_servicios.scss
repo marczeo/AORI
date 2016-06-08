@@ -282,7 +282,13 @@
             max-width: 30%;
             display  : inline-block;
             margin   : 7px;
+            @media screen and (max-width: $max_mediaquery) {
+                 max-width: 80%;
+             }
         }
+        .centered{
+             text-align: center;
+          }
     }
     .grid3 {
         img {
