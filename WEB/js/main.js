@@ -142,6 +142,7 @@ function slide_Subservicios(servicio) {
         $(".banner_servicio").addClass("imagen_animacion");
         slide_Check();
         $(".subtemas").not(servicio).slideUp("slow");  
+        $("#" + servicio).slideDown(1500);
     }
 }
 
