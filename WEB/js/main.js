@@ -141,8 +141,7 @@ function slide_Subservicios(servicio) {
     } else {
         $(".banner_servicio").addClass("imagen_animacion");
         slide_Check();
-        $(".subtemas").not(servicio).slideUp("fast");  
-        $("#" + servicio).slideDown("fast");
+        $(".subtemas").not(servicio).slideUp("slow");  
     }
 }
 
