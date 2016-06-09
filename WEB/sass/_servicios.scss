@@ -262,6 +262,10 @@
         width  : 50%;
         display: inline-block;
     }
+    .fullwidth {
+        width  : 98%;
+        display: inline-block;
+    }
     .grid {
         position    : relative;
         display     : table;
@@ -271,6 +275,9 @@
             max-width: 45%;
             display  : inline-block;
             margin   : 10px;
+            @media screen and (max-width: $mobile_mediaquery) {
+                 max-width: 80%;
+             }
         }
     }
     .grid2 {
