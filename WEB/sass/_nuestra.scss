@@ -1,4 +1,17 @@
-.mision {
+#mision{ 
+    &:hover .zoom{
+        
+	      
+                        transform : scale(1.1);
+                        -moz-transform : scale(1.1); /* Firefox */
+                        -webkit-transform : scale(1.1); /* Chrome - Safari */
+                        -o-transform : scale(1.1); /* Opera */
+                        -ms-transform : scale(1.1); /* IE9 */
+                        display:inline-block;
+	                   
+        
+    }
+    .mision {
     padding-top: 10px;
     max-width  : 1100px;
     margin     : 0 auto;
@@ -34,6 +47,20 @@
             strong {
                 font-size: 1.4rem;
             }
+            
+            .zoom{
+                    transition: .5s;
+                    -moz-transition: .5s; /* Firefox */
+                    -webkit-transition: .5s ease; /* Chrome - Safari */
+                    -o-transition: .5s ease; /* Opera */
+                    display: inline-block
+	           }
+           
         }
+        
+       
     }
 }
+}
+  //Propuesta para 2.- Grafico "Nuestra mision" tenga efecto
+            
