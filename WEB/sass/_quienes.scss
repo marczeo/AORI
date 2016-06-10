@@ -7,21 +7,19 @@
     font-size: 1.3rem;
   }
   .tilt {
-  	transform-style: preserve-3d;
-  	 perspective: 1000px;
+  	 transform-style: preserve-3d;
+  	     perspective: 1000px;
   -webkit-transition: all .5s ease-in-out;
      -moz-transition: all .5s ease-in-out;
        -o-transition: all .5s ease-in-out;
       -ms-transition: all .5s ease-in-out;
           transition: all .5s ease-in-out;
-}
- 
-.tilt:hover {
-	
-  -webkit-transform: rotateY(-180deg);
-     -moz-transform: rotateY(-180deg);
-       -o-transform: rotateY(-180deg);
-      -ms-transform: rotateY(-180deg);
-          transform: rotateY(-180deg);
-}
+  }
+  .tilt:hover {
+    -webkit-transform: rotateY(-180deg);
+       -moz-transform: rotateY(-180deg);
+         -o-transform: rotateY(-180deg);
+        -ms-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+  }
 }
