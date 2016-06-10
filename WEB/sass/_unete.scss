@@ -17,11 +17,6 @@
         margin   : 2%;
         max-width: 700px;
     }
-    img.icono_rocket {
-        width    : 96%;
-        margin   : 2%;
-        max-width: 700px;
-    }
     .subtitle_sm {
         font-size     : 1rem;
         text-transform: none;
@@ -44,15 +39,25 @@
     }
 
     .morph {
-    
-  /*-webkit-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
      -moz-transition: all 1s ease-in-out;
        -o-transition: all 1s ease-in-out;
       -ms-transition: all 1s ease-in-out;
-          transition: all 1s ease-in-out;*/
-}
- 
-.morph:hover {
-    /*border-radius: 80%;*/
-}
+          transition: all 1s ease-in-out;
+        border-radius: 80%;
+        &:hover {
+            border-radius: 0%;
+        }
+    }
+    .bw {
+      -webkit-transition: all 1s ease;
+         -moz-transition: all 1s ease;
+           -o-transition: all 1s ease;
+          -ms-transition: all 1s ease;
+              transition: all 1s ease;
+      -webkit-filter: grayscale(100%);
+        &:hover {
+          -webkit-filter: grayscale(0%);
+        }
+    }
 }
