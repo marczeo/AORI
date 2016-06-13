@@ -36,10 +36,9 @@ $(document).ready(function() {
             $('.modelos').show();
             $('.modelos button').html('Leer Más');
            $(this).siblings('.servicio_desc').slideUp('slow');
-           anchor = $(this).parent().attr('name').replace("_", "");
-            elem = $("a[name='" + anchor + "']");
+            elem = $(this).parent();
             $('html, body').animate({
-                scrollTop: elem.offset().top-100
+                scrollTop: elem.offset().top-130    
             }, 'slow');
         } else {
 
