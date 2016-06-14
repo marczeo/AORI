@@ -8,6 +8,11 @@
                         -o-transform : scale(1.1); /* Opera */
                         -ms-transform : scale(1.1); /* IE9 */
                         display:inline-block;
+        
+        
+      /*  @media screen and (min-width: $mobile_mediaquery) {
+                   padding-right: 20px;
+        }*/
 	                   
         
     }
@@ -53,7 +58,8 @@
                     -moz-transition: .5s; /* Firefox */
                     -webkit-transition: .5s ease; /* Chrome - Safari */
                     -o-transition: .5s ease; /* Opera */
-                    display: inline-block
+                    display: inline-block;
+                        
 	           }
            
         }

@@ -36,9 +36,8 @@ $(document).ready(function() {
             $('.modelos').show();
             $('.modelos button').html('Leer Más');
            $(this).siblings('.servicio_desc').slideUp('slow');
-            elem = $(this).parent();
             $('html, body').animate({
-                scrollTop: elem.offset().top-130    
+                scrollTop: elem.offset().top-130
             }, 'slow');
         } else {
 
@@ -124,14 +123,14 @@ function loadPage() {
     }
 }
 
-// function slide_Servicios(servicio) {
-//     if ($('#' + servicio).is(':visible')) {
-//         $("#" + servicio).slideUp("fast");
-//     } else {
-//         $(".servicio_desc").not(servicio).slideUp("fast");
-//         $("#" + servicio).slideToggle("fast");
-//     }
-// }
+ /*function slide_Servicios(servicio) {
+     if ($('#' + servicio).is(':visible')) {
+         $("#" + servicio).slideUp("fast");
+     } else {
+         $(".servicio_desc").not(servicio).slideUp("fast");
+         $("#" + servicio).slideToggle("fast");
+     }
+ }*/
 
 function slide_Subservicios(servicio) {
     if ($('#' + servicio).is(':visible')) {
