@@ -10,6 +10,10 @@
         <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
         <script src="js/jquery-2.2.3.min.js" charset="utf-8"></script>
         <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+        <!-- DATEPICKER-->
+         <link href="js/Datepicker/jquery-ui.css" rel="stylesheet">
+         
+         <script src="js/Datepicker/jquery-ui.js"></script>
         <script src="js/main.js" charset="utf-8"></script>
         <script src="js/navbar.js" charset="utf-8"></script>
         <script src="js/maps.js" charset="utf-8"></script>
@@ -1041,7 +1045,7 @@
                         <div class="integrante"> <img src="images/integrantes/5.jpg" alt="" />
                             <div class="integrante_descripcion">
                                 <p class="puesto"> Dirección de diplomados y proyectos especiales </p>
-                                <p class="quote"> </p>
+                                <p class="quote">"Ama y haz lo que quieras"<br>-San Agustín-</p>
                             </div>
                         </div>
                         <div class="integrante"> <img src="images/integrantes/6.jpg" alt="" />
@@ -1412,7 +1416,8 @@
                         </li>
                         <li>
                             <p class="label"> ¿CUÁNDO LE GUSTARÍA CONTAR CON ESTE TRABAJO?
-                            <input type="date" name="contact-date" placeholder="¿Cuando te gustaría contar con éste trabajo? DD-MM-AAAA" required></p>
+                            <input type="date" id="contact-date" name="contact-date" placeholder="DD-MM-AAAA" required>
+                          </p>
                         </li>
                         <li><p class="sub-label"><span class="required" id="contact-error">[DEBE LLENAR TODOS LOS CAMPOS PARA PODER DAR CLICK EN "ENVIAR"]</span><p> </li>
                         <li>

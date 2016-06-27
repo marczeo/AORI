@@ -1,16 +1,16 @@
-function valida() {	
-	//Valida que se seleccione al menos un servicio	
+function valida() {
+	//Valida que se seleccione al menos un servicio
 	var result="";
 	var checkboxesCantidad = 0;
-	checkboxesCantidad = $("#contact-form input[name='typeService[]']:checked").length;	
-	
+	checkboxesCantidad = $("#contact-form input[name='typeService[]']:checked").length;
+
 	if(checkboxesCantidad==0){
 		result += "Debe seleccionar al menos un servicio <br>";
 	}
 	//Fin validación servicios
 
 	//Valida formato del teléfono
-	var regExTelefono = new RegExp("[0123456789 -]"); 
+	var regExTelefono = new RegExp("[0123456789 -]");
 	var telefono = document.getElementById("contact-phone").value;
 	if (!telefono.match(regExTelefono) && telefono.length<8)
 	{
@@ -32,13 +32,13 @@ $(document).ready(function() {
 		$(".contact-dropdown-services dd ul").hide();
 	});
 	//Fin slide
-	
+
 	//Servcios seleccionados
 	$("#contact-form input[name='typeService[]']").on('click',function(){
 		if($("#contact-form input[name='typeService[]']:checked").length > 0){
 			document.getElementsByClassName("selected-services")[0].innerHTML = "Servicios seleccionados:";
 			document.getElementsByClassName("selected-services")[0].innerHTML += "<ul>";
-			for(var i=0; i<$("#contact-form input[name='typeService[]']:checked").length; i++){			
+			for(var i=0; i<$("#contact-form input[name='typeService[]']:checked").length; i++){
 				document.getElementsByClassName("selected-services")[0].innerHTML += ("<li>" + $("#contact-form input[name='typeService[]']")[i].value + "</li>");
 			}
 			document.getElementsByClassName("selected-services")[0].innerHTML += "</ul>";
@@ -46,7 +46,7 @@ $(document).ready(function() {
 		else{
 			document.getElementsByClassName("selected-services")[0].innerHTML = "";
 		}
-		
+
 	});
 	//Fin servicios seleccionados
 
@@ -55,7 +55,7 @@ $(document).ready(function() {
 	$("#contact-form").submit(function(e) {
 		var ret=true;
 		var url = "php/sendmail.php";
-		var regExTelefono = new RegExp("[0123456789 -]"); 
+		var regExTelefono = new RegExp("[0123456789 -]");
 		var telefono = document.getElementById("contact-phone").value;
 		var validacion= valida();
 		if (validacion==""){
@@ -84,6 +84,10 @@ $(document).ready(function() {
 		}
 		return false;
 	});
-	
+	//Datepicker
+	var typeDate = document.getElementById("contact-date").type;
+	if (typeDate!="date"){
+			$fecha=$('#contact-date');
+			$fecha.datepicker();
+		}
 });
-

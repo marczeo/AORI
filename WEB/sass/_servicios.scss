@@ -66,7 +66,7 @@
             width         : 90px;
             @media screen and ( min-width: $ipad_mediaquery) {
                 position: absolute;
-                bottom  : 18%;
+                bottom  : 16%;
                 width   : 10%;
                 height  : 8%;
                 .texto_boton {
@@ -276,8 +276,8 @@
         display     : table;
         margin-left : auto;
         margin-right: auto;
-     
-        
+
+
     }
     .grid {
         position    : relative;

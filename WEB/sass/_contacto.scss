@@ -40,7 +40,7 @@ p.italico{
         box-sizing: border-box;
         text-align: center;
     }
-    input[type=date]{
+    input[type="date"]{
         width: 25%;
         padding: 0px;
     }
@@ -87,7 +87,7 @@ p.italico{
             padding         : 8px 20px 5px 10px;
             min-height      : 25px;
             line-height     : 24px;
-            overflow        : hidden;            
+            overflow        : hidden;
             .mutliSelect span,
             span {
                 width: 95%;
@@ -168,7 +168,7 @@ p.italico{
         text-transform: uppercase;
     }
     [placeholder]:focus::-webkit-input-placeholder {
-        transition: 0s; 
+        transition: 0s;
         opacity: 0;
     }
 }
@@ -179,7 +179,7 @@ p.italico{
     font-weight: 600;
 }
 .direcciones{
-    
+
     margin     : auto;
     font-family: 'Aspira';
     text-align: center;
