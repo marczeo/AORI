@@ -1,0 +1,91 @@
+
+  .imgRobot{
+    margin:110px 20px 0 25%;
+    //display:block;
+    float:left;
+    @media screen and (  max-width: $max_mediaquery){
+      margin: 58px 34.1% 0;
+      width: 34%;
+    }
+    @media screen and (max-width:362px){
+      margin: 58px 27% 0; // 97.2px
+      width: 46%;
+    }
+  }
+  .logo{
+    margin:107px 0 0 20px;
+    //float:left;
+    @media screen and ( max-width: $max_mediaquery) {
+      margin:42px 35% 60px;
+      width: 30%;
+    }
+  }
+  .text_tittle{
+    font-size: 94px;
+    color: $gris1_aori_75;
+    font-family: 'Aspira';
+    font-weight: 600;
+    font-style : normal;
+    margin:110px 0 -7px 0;//Apartado 1
+    //float:left;
+    @media screen and ( max-width: $max_mediaquery){
+      font-size: 106px;
+      margin:42px 0 0;
+      text-align: center;
+      padding: 1%;
+    }
+    @media screen and (max-width:362px){
+      font-size: 69px;
+      margin:16px 0 0;
+      text-align: center;
+      padding: 1%;
+    }
+    }
+
+  .text_under{
+    font-size: 33px;
+    font-family: 'Aspira';
+    color: $gris1_aori_75;
+    font-weight: 600;
+    font-style : normal;
+    margin: 0 0 15px 0;
+  //  float:left;
+    @media screen and ( max-width: $max_mediaquery) {
+      font-size: 38px;
+      margin: -13px 0 42px;
+      text-align: center;
+      padding: 1%;
+    }
+    @media screen and (max-width:362px){
+      font-size: 18px;
+      margin: -4px 0 33px;
+      text-align: center;
+      padding: 1%;
+    }
+
+  }
+  .text_under2{
+    //float:left;
+    font-family: 'Aspira';
+    font-weight: 600;
+    font-style : normal;
+    font-size: 20px;
+    margin:0;
+    @media screen and ( max-width: $max_mediaquery) {
+      margin:50px 0;
+      font-size: 35px;
+      text-align: center;
+      margin: 1% 20%;
+    }
+    @media screen and (max-width:362px){
+      margin:50px 0;
+      font-size: 16px;
+      text-align: center;
+      margin: 1% 20%;
+    }
+  }
+
+// 1.-Bajamos de 30px a 15px para ajustarnos a las espesificaciones propuestas
+//$max_mediaquery   : 1150px;
+//$ipad_mediaquery  : 769px;
+//$mobile_mediaquery: 321px;
