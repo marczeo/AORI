@@ -1,8 +1,12 @@
 jQuery(document).ready(function(){
 	var touch 	= jQuery('#touch-menu');
 	var menu 	= jQuery('.menu');
-	var nav = jQuery(".navbar");    
+	var nav = jQuery(".navbar");
 	var ele = jQuery(".element");
+
+	var divHeight;
+	var obj = document.getElementById('limit');
+
 	jQuery(touch).on('click', function(e) {
 		e.preventDefault();
 		ele.slideToggle();
@@ -16,10 +20,10 @@ jQuery(document).ready(function(){
 		}
 	});	*/
 
-	
+
     jQuery(window).scroll(function () {
-        if (jQuery(this).scrollTop() > 615) {
-            nav.addClass("f-navbar");            
+        if (jQuery(this).scrollTop() > obj.offsetHeight) {
+            nav.addClass("f-navbar");
         } else {
             nav.removeClass("f-navbar");
         }

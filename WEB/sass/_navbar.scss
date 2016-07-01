@@ -24,7 +24,7 @@
     display: block;
     text-align: right;
     margin: 0 4% 0 10%;
-    
+
     padding-top: 10px 0;
 }
 .menu li {
@@ -153,11 +153,11 @@
         font-size: 15px;
         background: black;
         color: $gris3_aori_100;
-        
+
         border-left: 3px solid $gris2_aori_100;
     }
     .menu li a:hover,
-    .menu li:hover > a {        
+    .menu li:hover > a {
         color: gris3_aori_100;
         border-left: 3px solid #ffffff;
     }
