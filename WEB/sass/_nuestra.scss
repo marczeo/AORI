@@ -1,20 +1,25 @@
-#mision{ 
+#mision{
     &:hover .zoom{
-        
-	      
+
+
                         transform : scale(1.1);
                         -moz-transform : scale(1.1); /* Firefox */
                         -webkit-transform : scale(1.1); /* Chrome - Safari */
                         -o-transform : scale(1.1); /* Opera */
                         -ms-transform : scale(1.1); /* IE9 */
                         display:inline-block;
-        
-        
-      /*  @media screen and (min-width: $mobile_mediaquery) {
-                   padding-right: 20px;
-        }*/
-	                   
-        
+                        padding:0 8px;
+                        @media screen and (max-width:$ipad_mediaquery){
+                        padding:0;
+                        }
+    }
+    &:hover .zoom_ipad{
+      @media screen and (max-width:$ipad_mediaquery){
+      padding-right: 8px;
+      }
+      @media screen and (max-width:$max_mediaquery){
+      padding:0 8px 0 0;
+      }
     }
     .mision {
     padding-top: 10px;
@@ -47,26 +52,22 @@
             margin     : 5% 15% 10%;
             float      : none;
             font-family: Aspira;
+            font-style: italic;
             color      : black;
             font-size  : 1.3rem;
             strong {
                 font-size: 1.4rem;
             }
-            
             .zoom{
                     transition: .5s;
                     -moz-transition: .5s; /* Firefox */
                     -webkit-transition: .5s ease; /* Chrome - Safari */
                     -o-transition: .5s ease; /* Opera */
                     display: inline-block;
-                        
 	           }
-           
+
         }
-        
-       
     }
 }
 }
   //Propuesta para 2.- Grafico "Nuestra mision" tenga efecto
-            

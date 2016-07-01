@@ -128,6 +128,9 @@ p.italico{
             width: 30%;
             margin: 0 35%;
         }
+        @media screen and (max-width:$mobile_mediaquery) {
+          margin: 0 115px;
+        }
     }
     .label{
         background-color: #FFFFFF;
