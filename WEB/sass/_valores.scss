@@ -10,17 +10,17 @@
         max-width: 143px;
     }
 }
-    .valores_grid {
-        text-align: center;
-        padding-bottom: 95px;
-        .title {
-            font-family: 'Prototype';
-            font-size  : 1.5rem;
-        }
-        .col1_ch
-        {
-            display: table;
-        }
+.valores_grid {
+    text-align: center;
+    padding-bottom: 95px;
+    .title {
+        font-family: 'Prototype';
+        font-size  : 1.5rem;
+    }
+    .col1_ch
+    {
+        display: table;
+    }
         /*.mitad,
         .primera_fila,
         .ultima_fila {
@@ -78,22 +78,22 @@
                 margin   : 0 auto;
                 overflow : auto;
             }
-        }*/
-    }
-
-.valores {
-    .imagen {
-        width : 50%;
-        float : none;
-        margin: 0 auto;
-        img {
-            width: 100%;
+            }*/
         }
-    }
-}
-.prueba1
-{
-    padding-top: 10%;
 
-    padding-bottom: 10%;
-}
+        .valores {
+            .imagen {
+                width : 50%;
+                float : none;
+                margin: 0 auto;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        .prueba1
+        {
+            padding-top: 10%;
+
+            padding-bottom: 10%;
+        }

@@ -1,28 +1,28 @@
 /*
   HERO BANNER
-*/
-@import "var";
-@import "fonts";
-@import "navbar";
-@import "hero";
-@import "quienes";
-@import "custom_svg";
-@import "porque";
-@import "animacion";
-@import "nuestra";
-@import "valores";
-@import "clientes";
-@import "socios";
-@import "contacto";
-@import "servicios";
-@import "nosotros";
-@import "mapa";
-@import "unete";
-@import "grid";
-@import "footer";
-@import "cita";
-@import "robot";
-body {
+  */
+  @import "var";
+  @import "fonts";
+  @import "navbar";
+  @import "hero";
+  @import "quienes";
+  @import "custom_svg";
+  @import "porque";
+  @import "animacion";
+  @import "nuestra";
+  @import "valores";
+  @import "clientes";
+  @import "socios";
+  @import "contacto";
+  @import "servicios";
+  @import "nosotros";
+  @import "mapa";
+  @import "unete";
+  @import "grid";
+  @import "footer";
+  @import "cita";
+  @import "robot";
+  body {
     margin   : 0;
     padding  : 0;
     font-size: 16px;
@@ -136,11 +136,11 @@ p.title{
 }
 .underlined::after{
   border-bottom: solid 2px $gris1_aori_50;
-padding: 5px 0;
-content: '';
-display: block;
-width: 69px;
-margin: 0 auto;
+  padding: 5px 0;
+  content: '';
+  display: block;
+  width: 69px;
+  margin: 0 auto;
 }
 p.title.telefono {
     font-style: blink;
@@ -235,6 +235,6 @@ div.title-container-image {
      -moz-transform: rotateY(-360deg);
        -o-transform: rotateY(-360deg);
       -ms-transform: rotateY(-360deg);
-          transform: rotateY(-360deg);*/
+      transform: rotateY(-360deg);*/
 
-}
+  }

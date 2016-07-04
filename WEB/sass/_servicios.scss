@@ -12,127 +12,127 @@
         position: relative;
         .seccion_img {
           height: auto;
-            width           : 100%;
-            max-width       : 1100px;
-            margin          : 0 auto;
-            background-size : 100%;
-            position        : relative;
-            background-image: none;
+          width           : 100%;
+          max-width       : 1100px;
+          margin          : 0 auto;
+          background-size : 100%;
+          position        : relative;
+          background-image: none;
+      }
+      @media screen and ( min-width: $ipad_mediaquery ) {
+        #seccion_1 {
+            background-image: url('../images/seccion_servicios/seccion1.png');
+        }
+        #seccion_2 {
+            background-image: url('../images/seccion_servicios/seccion2.png');
+        }
+        #seccion_3 {
+            background-image: url('../images/seccion_servicios/seccion3.png');
+        }
+        #seccion_4 {
+            background-image: url('../images/seccion_servicios/seccion4.png');
+        }
+        #seccion_5 {
+            background-image: url('../images/seccion_servicios/seccion5.png');
+        }
+        #seccion_6 {
+            background-image: url('../images/seccion_servicios/seccion6.png');
+        }
+        #seccion_7 {
+            background-image: url('../images/seccion_servicios/seccion7.png');
+        }
+        #seccion_8 {
+            background-image: url('../images/seccion_servicios/seccion8.png');
+        }
+        #seccion_9 {
+            background-image: url('../images/seccion_servicios/seccion9.png');
+        }
+    }
+    img,
+    object {
+        width    : 100%;
+        max-width: 1100px;
+        display  : block;
+        margin   : 0 auto;
+    }
+    .button {
+        background    : transparent;
+        text-transform: uppercase;
+        background    : transparent;
+        text-transform: uppercase;
+        display       : block;
+        text-align    : center;
+        margin        : 10px auto;
+        width         : 90px;
+        @media screen and ( min-width: $ipad_mediaquery) {
+            position: absolute;
+            bottom  : 16%;
+            width   : 10%;
+            height  : 8%;
+            .texto_boton {
+                font-size: 1.8vw;
+                @media screen and (min-width: $max_mediaquery) {
+                    font-size: 20px;
+                }
+            }
+        }
+        .texto_boton {
+            font-weight: 300;
+            font-size  : 1rem;
+            font-family: 'Aspira';
+            white-space: nowrap;
+        }
+    }
+    .left_button {
+        left  : 14%;
+        border: solid 1px #000000;
+        cursor: pointer;
+    }
+    .right_button {
+        right : 10%;
+        border: solid 1px $gris2_aori_100;
+        cursor: pointer;
+    }
+    .texto {
+        font-family: 'Aspira';
+        font-size  : 1rem;
+        text-align : center;
+        .titulo {
+            font-size: 2rem;
         }
         @media screen and ( min-width: $ipad_mediaquery ) {
-            #seccion_1 {
-                background-image: url('../images/seccion_servicios/seccion1.png');
-            }
-            #seccion_2 {
-                background-image: url('../images/seccion_servicios/seccion2.png');
-            }
-            #seccion_3 {
-                background-image: url('../images/seccion_servicios/seccion3.png');
-            }
-            #seccion_4 {
-                background-image: url('../images/seccion_servicios/seccion4.png');
-            }
-            #seccion_5 {
-                background-image: url('../images/seccion_servicios/seccion5.png');
-            }
-            #seccion_6 {
-                background-image: url('../images/seccion_servicios/seccion6.png');
-            }
-            #seccion_7 {
-                background-image: url('../images/seccion_servicios/seccion7.png');
-            }
-            #seccion_8 {
-                background-image: url('../images/seccion_servicios/seccion8.png');
-            }
-            #seccion_9 {
-                background-image: url('../images/seccion_servicios/seccion9.png');
-            }
-        }
-        img,
-        object {
-            width    : 100%;
-            max-width: 1100px;
-            display  : block;
-            margin   : 0 auto;
-        }
-        .button {
-            background    : transparent;
-            text-transform: uppercase;
-            background    : transparent;
-            text-transform: uppercase;
-            display       : block;
-            text-align    : center;
-            margin        : 10px auto;
-            width         : 90px;
-            @media screen and ( min-width: $ipad_mediaquery) {
-                position: absolute;
-                bottom  : 16%;
-                width   : 10%;
-                height  : 8%;
-                .texto_boton {
-                    font-size: 1.8vw;
-                    @media screen and (min-width: $max_mediaquery) {
-                        font-size: 20px;
-                    }
-                }
-            }
-            .texto_boton {
-                font-weight: 300;
-                font-size  : 1rem;
-                font-family: 'Aspira';
-                white-space: nowrap;
-            }
-        }
-        .left_button {
-            left  : 14%;
-            border: solid 1px #000000;
-            cursor: pointer;
-        }
-        .right_button {
-            right : 10%;
-            border: solid 1px $gris2_aori_100;
-            cursor: pointer;
-        }
-        .texto {
-            font-family: 'Aspira';
-            font-size  : 1rem;
-            text-align : center;
+            text-align: left;
+            position  : absolute;
+            left      : 12.7%;
+            top       : 23%;
+            width     : 80%;
+            display   : block;
+            overflow  : auto;
             .titulo {
-                font-size: 2rem;
+                font-size  : 3vw;
+                font-weight: 200;
+                margin     : 0 0 10px;
+                @media screen and (min-width: $max_mediaquery) {
+                    font-size: 33.3px;
+                }
             }
-            @media screen and ( min-width: $ipad_mediaquery ) {
-                text-align: left;
-                position  : absolute;
-                left      : 12.7%;
-                top       : 23%;
-                width     : 80%;
-                display   : block;
-                overflow  : auto;
-                .titulo {
-                    font-size  : 3vw;
-                    font-weight: 200;
-                    margin     : 0 0 10px;
-                    @media screen and (min-width: $max_mediaquery) {
-                        font-size: 33.3px;
-                    }
+            .titulo_right {
+                text-align: right;
+            }
+            .descripcion {
+                font-size    : 1.2vw;
+                font-weight  : 300;
+                margin-bottom: 0;
+                @media screen and (min-width: $max_mediaquery) {
+                    font-size: 13.32px;
                 }
-                .titulo_right {
-                    text-align: right;
-                }
-                .descripcion {
-                    font-size    : 1.2vw;
-                    font-weight  : 300;
-                    margin-bottom: 0;
-                    @media screen and (min-width: $max_mediaquery) {
-                        font-size: 13.32px;
-                    }
-                }
-                .descripcion_right {
-                    text-align: right;
-                }
+            }
+            .descripcion_right {
+                text-align: right;
             }
         }
     }
+}
 }
 
 
@@ -141,15 +141,15 @@
     overflow: auto;
     padding : 10px;
     .valores_grind_ModNeg{
-       width: 100%;
-        img{
-            width: 90%;
-            margin: 10px 5% 0;
+     width: 100%;
+     img{
+        width: 90%;
+        margin: 10px 5% 0;
     }
 }
-    img {
-        margin: 5px 0;
-    }
+img {
+    margin: 5px 0;
+}
 }
 #phone:hover {
     fill: $gris3_aori_100;
@@ -274,93 +274,93 @@
         display: inline-block;
     }
     .App_RealAument img{
-           position    : relative;
-        display     : table;
-        margin-left : auto;
-        margin-right: auto;
+     position    : relative;
+     display     : table;
+     margin-left : auto;
+     margin-right: auto;
 
 
+ }
+ .grid {
+    position    : relative;
+    display     : table;
+    margin-left : auto;
+    margin-right: auto;
+    img {
+        max-width: 45%;
+        display  : inline-block;
+        margin   : 10px;
+        @media screen and (max-width: $mobile_mediaquery) {
+           max-width: 80%;
+       }
+   }
+}
+.grid2 {
+    position    : relative;
+    display     : table;
+    margin-left : auto;
+    margin-right: auto;
+    img {
+        max-width: 30%;
+        display  : inline-block;
+        margin   : 7px;
+        @media screen and (max-width: $max_mediaquery) {
+           max-width: 80%;
+       }
+   }
+   .centered{
+       text-align: center;
+   }
+}
+.grid3 {
+    img {
+        max-width: 20%;
+        display  : inline-block;
+        margin   : 5px;
     }
-    .grid {
-        position    : relative;
-        display     : table;
-        margin-left : auto;
-        margin-right: auto;
-        img {
-            max-width: 45%;
-            display  : inline-block;
-            margin   : 10px;
-            @media screen and (max-width: $mobile_mediaquery) {
-                 max-width: 80%;
-             }
-        }
+}
+a.pdf_descarga {
+    text-align: center;
+    display   : block;
+    text-align: center;
+    font-size : 1.6rem;
+    &,
+    &:active,
+    &:hover,
+    &:visited {
+        color          : black;
+        text-decoration: none;
     }
-    .grid2 {
-        position    : relative;
-        display     : table;
-        margin-left : auto;
-        margin-right: auto;
-        img {
-            max-width: 30%;
-            display  : inline-block;
-            margin   : 7px;
-            @media screen and (max-width: $max_mediaquery) {
-                 max-width: 80%;
-             }
-        }
-        .centered{
-             text-align: center;
-          }
+    img {
+        margin: 0 auto;
     }
-    .grid3 {
-        img {
-            max-width: 20%;
-            display  : inline-block;
-            margin   : 5px;
-        }
-    }
-    a.pdf_descarga {
-        text-align: center;
-        display   : block;
-        text-align: center;
-        font-size : 1.6rem;
-        &,
-        &:active,
-        &:hover,
-        &:visited {
-            color          : black;
-            text-decoration: none;
-        }
-        img {
-            margin: 0 auto;
-        }
-    }
-    .brackets:after,
-    .brackets:before {
-        border  : 2px solid black;
-        bottom  : 0;
-        content : '';
-        position: absolute;
-        top     : 0;
-        width   : 10%;
-    }
-    .brackets:after {
-        border-left: none;
-        right      : 0;
-    }
-    .brackets:before {
-        border-right: none;
-        left        : 0;
-    }
-    .googleImg {
-        width         : 10%;
-        display       : inline-block;
-        vertical-align: middle;
-    }
-    .foto {
-        display: block;
-        margin : 0 auto;
-    }
+}
+.brackets:after,
+.brackets:before {
+    border  : 2px solid black;
+    bottom  : 0;
+    content : '';
+    position: absolute;
+    top     : 0;
+    width   : 10%;
+}
+.brackets:after {
+    border-left: none;
+    right      : 0;
+}
+.brackets:before {
+    border-right: none;
+    left        : 0;
+}
+.googleImg {
+    width         : 10%;
+    display       : inline-block;
+    vertical-align: middle;
+}
+.foto {
+    display: block;
+    margin : 0 auto;
+}
 }
 .infographic {
     min-height : 160px;

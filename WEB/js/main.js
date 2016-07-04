@@ -5,12 +5,12 @@ var $hero_video = $(".hero");
 var $window = $(window);
 var $servicios_flag = 0;
 var seccion_aspect_ratio = .43;
- var anchor, elem;
+var anchor, elem;
 /*
   Cosas a cargar cuando la pagina esta lista
   para elementos que no se necesitan cargar antes de llamar la función.
-*/
-$(document).ready(function() {
+  */
+  $(document).ready(function() {
     $hero_video.height($hero_video.width() * aspect_ratio);
     $(".vertical").height(($(".clientes_img img").height())*0.90);
     $(function() {
@@ -20,8 +20,8 @@ $(document).ready(function() {
     /*
      **SERVICIOS**
      */
-    /*Click dentro de franquicia que tiene un infografico*/
-    $('#Franquicia .modelos').click(function() {
+     /*Click dentro de franquicia que tiene un infografico*/
+     $('#Franquicia .modelos').click(function() {
         if ($('.infographic').is(':visible')) {
             $('.infographic').hide();
         } else {
@@ -29,43 +29,43 @@ $(document).ready(function() {
         }
     });
 
-    var widthTmp = 0;
-    $('.subtema_leer').click(function() {
+     var widthTmp = 0;
+     $('.subtema_leer').click(function() {
         parent = $(this).parent();
         if ($(this).siblings('.servicio_desc').is(':visible')) {
             $('.modelos').show();
             $('.modelos button').html('Leer Más');
-           $(this).siblings('.servicio_desc').slideUp('slow');
+            $(this).siblings('.servicio_desc').slideUp('slow');
             $('html, body').animate({
                 scrollTop: elem.offset().top-130
             }, 'slow');
         } else {
 
-           widthTmp = $(this).width();
-            $('.modelos').not(parent).hide();
-            $('.modelos button').html('Leer Menos');
-            elem = $(this).parent();
-            $('html, body').animate({
-                scrollTop: elem.offset().top-130
-            }, 'fast');
-            $(this).siblings('.servicio_desc').slideDown('slow');
-        }
-    });
+         widthTmp = $(this).width();
+         $('.modelos').not(parent).hide();
+         $('.modelos button').html('Leer Menos');
+         elem = $(this).parent();
+         $('html, body').animate({
+            scrollTop: elem.offset().top-130
+        }, 'fast');
+         $(this).siblings('.servicio_desc').slideDown('slow');
+     }
+ });
     /*
     |-----------------------
     |Seccion Banner
     |-----------------------
     */
-      if ($(window).width() > 769) {
+    if ($(window).width() > 769) {
         $('.seccion_img').height($(".seccion_img").width() * seccion_aspect_ratio);
-      }
+    }
 });
 
 /*
   Cosas a cargar cuando la pagina hacer Load
   para elementos que necesitan cargar antes de llamar eventos o funciones.
-*/
-window.onload = function() {
+  */
+  window.onload = function() {
     $page_elements = $('.subtemas').children("div");
     $page_elements.each(function() {
         $("#" + $(this).attr('class') + "_" + $(this).attr('id')).load($(this).parent().attr('name') + ".html " + "." + $(this).attr('id'));
@@ -109,9 +109,9 @@ $(window).resize(function() {
     */
     if ($(window).width() > 769) {
       $('.seccion_img').height($(".seccion_img").width() * seccion_aspect_ratio);
-    }else{
+  }else{
       $('.seccion_img').height("auto");
-    }
+  }
 });
 
 function loadPage() {
@@ -132,7 +132,7 @@ function loadPage() {
      }
  }*/
 
-function slide_Subservicios(servicio,anchor,boton) {
+ function slide_Subservicios(servicio,anchor,boton) {
     $flag = 0;
     if ($('#' + servicio).is(':visible')) {
         $("#" + servicio).slideUp("fast");
@@ -146,14 +146,14 @@ function slide_Subservicios(servicio,anchor,boton) {
             $flag++;
         });
         $flag++;    
-            while($flag < 9)
-            {
+        while($flag < 9)
+        {
 
-            }
-            $("#" + servicio).slideDown(800, function() {
-                $("html, body").animate({ scrollTop: $("a[name='"+ anchor +"']").offset().top-90 }, 500);
-            });
-            
+        }
+        $("#" + servicio).slideDown(800, function() {
+            $("html, body").animate({ scrollTop: $("a[name='"+ anchor +"']").offset().top-90 }, 500);
+        });
+        
     }
 }
 
@@ -177,6 +177,6 @@ function sleep(milliseconds) {
   for (var i = 0; i < 1e7; i++) {
     if ((new Date().getTime() - start) > milliseconds){
       break;
-    }
   }
+}
 }
