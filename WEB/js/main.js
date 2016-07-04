@@ -132,13 +132,15 @@ function loadPage() {
      }
  }*/
 
-function slide_Subservicios(servicio,anchor) {
+function slide_Subservicios(servicio,anchor,boton) {
     $flag = 0;
     if ($('#' + servicio).is(':visible')) {
         $("#" + servicio).slideUp("fast");
         $(".banner_servicio").removeClass("imagen_animacion");
+        $(boton).children().html('Leer Más')
     } else {
         $(".banner_servicio").addClass("imagen_animacion");
+        $(boton).children().html('Cerrar')
         slide_Check();
         $(".subtemas").not(servicio).slideUp("fast", function() {
             $flag++;
