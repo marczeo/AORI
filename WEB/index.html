@@ -33,12 +33,14 @@
         <div id="navbar"></div>
         <div class="seccion" id="quienes">
             <div class="title-container">
-                <p class="title uppercase center">
+                <p class="title uppercase center pointer" onclick="valores_show('somos');">
                     ¿Quiénes somos?
                     <br>
                     <img src="images/flecha.png" alt="" />
                 </p>
             </div>
+            <div class="hidden_contenedor">
+            <div class="somos">
             <p class="cuerpo center">
                 SOMOS UNA FIRMA DE CONSULTORÍA EMPRESARIAL ENFOCADA A BRINDARLE UNA SOLUCIÓN INTEGRAL A LAS PYMES MEXICANAS A TRAVÉS DE RESULTADOS ECONÓMICAMENTE SUSTENTABLES.
             </p>
@@ -79,14 +81,17 @@
                     </p>
                 </div>
             </div>
+            </div>
+            </div>
         </div>
 
         <div class="seccion" id="porque">
             <div class="title-container">
-                <p class="title uppercase center"> ¿Por qué </br>Arquitectura empresarial?
+                <p class="title uppercase center pointer" onclick="valores_show('porque');"> ¿Por qué </br>Arquitectura empresarial?
                     <br><img src="images/flecha.png" alt="" />
                 </p>
             </div>
+            <div class="hidden_contenedor">
             <div class="porque">
                 <p class="cuerpo center upppercase descripcion">
                     La <strong><i>Arquitectura Empresarial</i></strong> es una metodología de mejora continua a mediano plazo basada en una visión integral de los ángulos de la empresa, que permite mantener actualizada la estructura organizacional alineando lo siguiente:<strong><i> comercialización, marketing, administración/gestión y operación.<br></i></strong>
@@ -99,6 +104,7 @@
                     <object class="objeto" id="graph" type="image/svg+xml" data="Iconos/piramide.svg">Imágen de circulo</object>
                 </div>
             </div>
+            </div>
         </div>
 
         <div class="seccion" id="mision">
@@ -106,11 +112,15 @@
                 <div class="mision-center">
 
                     <div class="title-container">
-                        <p class="title uppercase center"> Nuestra misión
+                        <p class="title uppercase center pointer" onclick="valores_show('nuestra');"> Nuestra misión
                             <br><img src="images/flecha.png" alt="" />
                         </p>
                     </div>
+                    <div class="hidden_contenedor">
+                    <div class="nuestra">
                     <p class="descripcion "> <span class="zoom"><strong>Nivelar las oportunidades de las PYMES ante las corporaciones o empresas extranjeras</strong></span> para que, a través de nuestro apoyo, <span class="zoom"><strong>reduzcan su riesgo,</strong></span> <span class="zoom zoom_ipad"><strong>maximicen sus resultados,</strong></span> se vuelvan más competitivos y juntos logremos romper con la estadística del INEGI que indica que 8 de cada 10 empresas mexicanas cierran antes de los 2 años desde su apertura porque no logran consolidarse económicamente. </p>
+                    </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -236,9 +246,10 @@
         <div class="seccion" id="servicios">
             <a name="servicios"></a>
             <div class="title-container">
-                <p class="title uppercase center"> ¿Qué servicios ofrecemos?
+                <p class="title uppercase center pointer" onclick="valores_show('servicios');"> ¿Qué servicios ofrecemos?
                     <br><img src="images/flecha.png" alt="" /></p>
             </div>
+            <div class="hidden_contenedor">
             <div class="# servicios" id="servicios">
 
                 <!--                       **MODELOS DE NEGOCIO**                       -->
@@ -1190,12 +1201,14 @@
                     </div>
                 </div>
             </div>
+            </div>
         </div>
         <div class="seccion" id="nuestros_clientes">
             <div class="title-container">
-                <p class="title uppercase center"> Algunos de nuestros clientes
+                <p class="title uppercase center pointer" onclick="valores_show('clientes');"> Algunos de nuestros clientes
                     <br><img src="images/flecha.png" alt="" /></p>
             </div>
+            <div class="hidden_contenedor">
             <div class="clientes">
                 <div class="clientes_img">
                     <img src="images/clientes/1.png" alt="" />
@@ -1225,6 +1238,7 @@
                     <img src="images/clientes/26.png" alt="" />
                     <img src="images/clientes/27.png" alt="" />
                 </div>
+            </div>
             </div>
         </div>
         <div class="seccion" id="socios_com">
@@ -1260,11 +1274,12 @@
 
         <div class="seccion" id="haz_cita">
             <div class="title-container">
-                <p class="title uppercase center"> HAZ TU CITA YA:
+                <p class="title uppercase center pointer " onclick="valores_show('cita');"> HAZ TU CITA YA:
                     <br/><img src="images/flecha.png" alt="" />
                     <br/>
                 </p>
             </div>
+            <div class="hidden_contenedor">
             <div class="cita">
                 <p class="title center telefono">
                     <span class="title-social">
@@ -1272,6 +1287,7 @@
                         <a href="tel:+523318169960">1816&nbsp;&nbsp;9960 </a></br>
                     </span>
                 </p>
+            </div>
             </div>
         </div>
 
@@ -1341,9 +1357,10 @@
 
         <div class="seccion" id="escribenos">
             <div class="title-container">
-                <p class="title uppercase center"> Escríbenos
+                <p class="title uppercase center pointer" onclick="valores_show('contacto');"> Escríbenos
                     <br><img src="images/flecha.png" alt="" /></p>
             </div>
+            <div class="hidden_contenedor">
             <div class="contacto">
                 <form method="post" name="contact-form" id="contact-form">
                     <ul>
@@ -1432,6 +1449,7 @@
                         </li>
                     </ul>
                 </form>
+            </div>
             </div>
         </div>
         </div>
