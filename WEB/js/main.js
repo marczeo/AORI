@@ -132,22 +132,33 @@ function loadPage() {
      }
  }*/
 
-function slide_Subservicios(servicio) {
+function slide_Subservicios(servicio,anchor) {
+    $flag = 0;
     if ($('#' + servicio).is(':visible')) {
         $("#" + servicio).slideUp("fast");
         $(".banner_servicio").removeClass("imagen_animacion");
     } else {
         $(".banner_servicio").addClass("imagen_animacion");
         slide_Check();
-        $(".subtemas").not(servicio).slideUp("slow");  
-        $("#" + servicio).slideDown(1500);
+        $(".subtemas").not(servicio).slideUp("fast", function() {
+            $flag++;
+        });
+        $flag++;    
+            while($flag < 9)
+            {
+
+            }
+            $("#" + servicio).slideDown(800, function() {
+                $("html, body").animate({ scrollTop: $("a[name='"+ anchor +"']").offset().top-90 }, 500);
+            });
+            
     }
 }
 
 function slide_Check() {
     //sleep(1100);
     $('.servicio_desc').each(function() {
-        $(this).slideUp();
+        $(this).hide();
         $('.modelos').show();
     });
 }
