@@ -165,8 +165,10 @@ function slide_Check() {
     });
 }
 
-function valores_show(contenedor)
+function valores_show(contenedor,element)
 {
+    $(element).children(".fa").toggleClass("fa-angle-double-up");
+    $(element).children(".fa").toggleClass("fa-angle-double-down");
     $("."+ contenedor).parent().slideToggle();
     if(contenedor == "ubicacion")
         init_map();   
