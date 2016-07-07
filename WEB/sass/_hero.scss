@@ -15,7 +15,8 @@
     img {
         width  : 100%;
         margin : auto;
-        display: block;
+        display: block; 
+        max-height: 1024px;       
         @media screen and (min-width: $ipad_mediaquery) {
             display: none;
         }
