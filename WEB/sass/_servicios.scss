@@ -190,7 +190,7 @@ img {
 }
 .modelos {
     position   : relative;
-    width      : 98%;
+    width      : 85%;
     margin     : 1%;
     max-width  : $max_mediaquery;
     margin     : 0 auto;
@@ -200,11 +200,10 @@ img {
     background : $gris1_aori_25;
     border-left: solid 30px $azul2_aori_100;
     @media screen and ( min-width: 540px) {
-        width : 520px;
         margin: 1% auto;
     }
     @media screen and (min-width: $ipad_mediaquery) {
-        width     : 80%;
+        width     : 98%;
         margin    : 1% auto;
         min-height: 160px;
     }
