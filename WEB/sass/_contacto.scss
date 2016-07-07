@@ -124,12 +124,13 @@ p.italico{
         text-align: center;
         font-style: italic;
         font-weight: bold;
-        @media screen and (min-width: $ipad_mediaquery) {
+        @media screen and (max-width: $ipad_mediaquery) {
             width: 30%;
             margin: 0 35%;
         }
         @media screen and (max-width:$mobile_mediaquery) {
           margin: 0 115px;
+
         }
     }
     .label{
