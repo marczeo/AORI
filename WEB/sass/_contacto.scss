@@ -25,7 +25,7 @@ p.italico{
     }
     input,
     textarea {
-        background: #FFFFFF;
+        background: $gris1_aori_25;
     }
     .contact-dropdown-services dt a{
         text-transform: uppercase;
@@ -120,16 +120,18 @@ p.italico{
         padding   : 10px 20px;
         background: $gris1_aori_100;
         border    : none;
-        color     : white;
-        text-align: center;
+        color     : white;        
         font-style: italic;
         font-weight: bold;
+        width: 30%;
+        margin: 0 35%;
         @media screen and (max-width: $ipad_mediaquery) {
             width: 30%;
             margin: 0 35%;
         }
         @media screen and (max-width:$mobile_mediaquery) {
-          margin: 0 115px;
+            width: 30%;
+            margin: 0 115px;
 
         }
     }
