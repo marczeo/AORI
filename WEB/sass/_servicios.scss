@@ -1,13 +1,20 @@
+.odd{
+    background: $gris2_aori_25;
+}
+.eve{
+    background: white;
+}
+
 .servicio {
     display : block;
     overflow: auto;
     width   : 100%;
-    &:nth-child(odd) {
+    /*&:nth-child(odd) {
         background: $gris2_aori_25;
     }
     &:nth-child(even) {
         background: white;
-    }
+    }*/
     .banner_servicio {
         position: relative;
         .seccion_img {
