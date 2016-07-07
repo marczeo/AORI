@@ -21,6 +21,30 @@
       padding:0 8px 0 0;
       }
     }
+    //Animacion Misión
+    .on{
+      position:absolute;
+      border:none;
+      top:32px;
+    }
+    #back{
+      position: relative;
+    }
+    //background level 1
+    .Bgl_1{
+
+    }
+    .pf1{
+      z-index: 40;
+      height: 81%;
+      width: 29%;
+    }
+    .pf2{
+      z-index: 30;
+      height: 81%;
+      width: 29%;
+    }
+    ///
     .mision {
     padding-top: 10px;
     max-width  : 1100px;
