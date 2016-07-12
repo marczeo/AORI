@@ -4,15 +4,120 @@
 <?xml-stylesheet type="text/css" media="screen" href="../css/style.css"?>
 <svg class="MH" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="1036px" height="340px" viewBox="0 0 1036 340" enable-background="new 0 0 1036 340" xml:space="preserve">
+<style type="text/css">
+        .st0 {
+            fill-rule: evenodd;
+            clip-rule: evenodd;
+            fill: #3C3C3B;
 
-	<g class="arrow_H" opacity=".2">
-			<path class="path" d="M548.932,165.999c-4.469,0-8.758-1.773-11.924-4.939l-68.875-68.873L312.906,244.632
+        }
+        .st1 {
+           fill: #3C3C3B;
+
+
+        }
+		.Logo {
+  width: 150%;
+  height: 100%;
+  position: absolute;
+  top: 0; right: -25%; bottom: 0; left: -25%;
+  margin: auto;
+  display:block;
+  fill: url("#MyGradient");
+  stroke: #3C3C3B;
+  stroke-miterlimit: 5;
+}
+
+.Animate-Draw {
+  fill-opacity: 0;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration: 1;
+
+  animation-name: DrawLine, FadeStroke, FillIn;
+  animation-duration: 4s, 1s, 1s;
+  animation-delay: 0, 3.5s, 3.5s;
+}
+.Animate-Draw2 {
+  fill-opacity: 0;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration: 1;
+
+  animation-name: DrawLine, FadeStroke, FillIn;
+  animation-duration: 4s, 1s, 1s;
+  animation-delay: 4, 3.5s, 3.5s;
+}
+.Animate-Draw3 {
+  fill-opacity: 0;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration: 1;
+
+  animation-name: DrawLine, FadeStroke, FillIn,Rotacion;
+  animation-duration: 4s, 1s, 1s;
+  animation-delay: 4, 3.5s, 3.5s,8s;
+}
+#Draw-Mark {
+animation-delay: 3.5s, 3.5s, 3.5s;
+  stroke-dashArray: 1100;
+  stroke-dashoffset: 1100;
+}
+
+#Draw-Frame {
+  animation-delay: .5s, 3.5s, 3.5s;
+  animation-duration: 3.5s, 1s, 1s;
+  stroke-dashArray: 1500;
+  stroke-dashoffset: 1500;
+}
+#Draw-Frame2 {
+  animation-delay: 3.5s, 4.5s, 4.5s;
+  animation-duration: 3.5s, 1s, 1s;
+  stroke-dashArray: 1500;
+  stroke-dashoffset: 1500;
+}
+#Draw-Frame3 {
+  animation-delay: 3.5s, 4.5s, 4.5s;
+  animation-duration: 3.5s, 1s, 1s;
+  stroke-dashArray: 1500;
+  stroke-dashoffset: 1500;
+}
+#Draw-Text {
+  animation-delay: 2s, 3.5s, 3.5s;
+  animation-duration: 2s, 1s, 1s;
+  stroke-dashArray: 300;
+  stroke-dashoffset: 300;
+  //animation-duration: 4s;
+}
+.Movimiento{
+    -webkit-animation:spin 1s linear forwards;
+    -moz-animation:spin 1s linear forwards;
+    animation:spin 1s linear forwards;
+}
+@-moz-keyframes spin { 50% { -moz-transform-origin: 7 7;-moz-transform: rotate(25 7 7); } }
+@-webkit-keyframes spin { 50% { -webkit-transform-origin: 7 7;-webkit-transform: rotate(25 7 7); } }
+@keyframes spin { 50% { -webkit-transform-origin: 7 7;-webkit-transform: rotate(25 7 7); transform:rotate(25 7 7); } }
+
+@keyframes DrawLine {
+  to { stroke-dashOffset: 0; fill-opacity : 1;}
+}
+@keyframes FadeStroke {
+  to { stroke-opacity: 0;fill-opacity : 1; }
+}
+
+@keyframes FillIn {
+  from { fill-opacity: 0; }
+  to { fill-opacity: .8; }
+}
+    </style>
+	<g class="arrow_H Logo Animate-Draw2" id="Draw-Mark">
+			<path class="path st1"  d="M548.932,165.999c-4.469,0-8.758-1.773-11.924-4.939l-68.875-68.873L312.906,244.632
 				c-6.725,6.449-17.393,6.225-23.845-0.494c-6.443-6.723-6.223-17.396,0.496-23.842L456.706,56.417
 				c6.619-6.354,17.111-6.24,23.599,0.242l68.268,68.275l55.148 -58.51c6.389-6.779,17.061-7.092,23.838-0.707
 				c6.775,6.391,7.092,17.061,0.705,23.836l-67.059,71.15c-3.129,3.314-7.467,5.227-12.021,5.295
 				C549.1,165.999,549.016,165.999,548.932,165.999z"/>
 
-			<path d="M631.531,116.522c-4.539,0-8.963-1.836-12.188-5.211l-35.168-36.805
+			<path class="path st1" d="M631.531,116.522c-4.539,0-8.963-1.836-12.188-5.211l-35.168-36.805
 				c-4.053-4.238-5.611-10.277-4.113-15.949c1.496-5.668,5.828-10.154,11.447-11.846l46.205-13.902
 				c5.713-1.719,11.922-0.285,16.307,3.77s6.297,10.129,5.025,15.965l-11.037,50.705c-1.326,6.092-5.91,10.955-11.912,12.645
 				C634.594,116.315,633.057,116.522,631.531,116.522z"/>
