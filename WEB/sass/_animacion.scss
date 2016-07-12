@@ -34,6 +34,20 @@
 }
 /*----------------------------*/
 
+//Animation for the Mision
+@-webkit-keyframes OutVertical {
+  0%   {opacity: 1;}
+	35%  {transform: translateY(-40px)}
+  50% {opacity:0;}
+  100%{opacity: 0;}
+}
+
+@keyframes dash {
+  to {stroke-dashoffset: 0;}
+}
+
+//--------------------------------
+
 @-moz-keyframes fadeHorizontal {
     0% {transform: translateX(-150px);opacity: 0;}
     100%  {opacity:1;}

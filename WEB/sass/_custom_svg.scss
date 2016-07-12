@@ -10,6 +10,46 @@ svg.circle_shape {
         fill: $azul2_aori_100;
     }
 }
+//--------------------------------------------------
+svg.MH{
+    .arrow_H{
+      opacity: .2;
+      fill:#345CFA;
+    }
+    .path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 5s linear forwards;
+    animation-delay: 0s;
+  }
+  
+  .house_bg_4{
+    animation-name: OutVertical;
+    animation-duration : 1s;
+    animation-delay    : 0.5s;
+    animation-fill-mode: forwards;
+  }
+  .house_bg_3{
+    animation-name: OutVertical;
+    animation-duration : 2s;
+    animation-delay    : 1.5s;
+    animation-fill-mode: forwards;
+  }
+  .house_bg_2{
+    animation-name: OutVertical;
+    animation-duration : 2s;
+    animation-delay    : 2.5s;
+    animation-fill-mode: forwards;
+  }
+  .house_bg_1{
+    animation-name: OutVertical;
+    animation-duration : 1s;
+    animation-delay    : 3.5s;
+    animation-fill-mode: forwards;
+  }
+}
+//--------------------------------------------------
+
 svg.logo_principal {
     .st0 {
         fill: white;
