@@ -17,12 +17,17 @@ svg.MH{
       fill:#345CFA;
     }
     .path {
-    stroke-dasharray: 1000;
-    stroke-dashoffset: 1000;
-    animation: dash 5s linear forwards;
-    animation-delay: 0s;
+    stroke-dasharray: 1100;
+    stroke-dashoffset: 1100;
+    animation: dash 3s linear forwards;
+    animation-delay: 4s;
   }
-  
+  .followme{
+    stroke-dasharray: 1100;
+    stroke-dashoffset: 1100;
+    animation: dash 3s linear forwards;
+    animation-delay: 4s;
+  }
   .house_bg_4{
     animation-name: OutVertical;
     animation-duration : 1s;
