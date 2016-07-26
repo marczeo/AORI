@@ -34,15 +34,16 @@ svg.MH{
     animation-delay    : 0.5s;
     animation-fill-mode: forwards;
   }
+
   .house_bg_3{
     animation-name: OutVertical;
-    animation-duration : 2s;
+    animation-duration : 1s;
     animation-delay    : 1.5s;
     animation-fill-mode: forwards;
   }
   .house_bg_2{
     animation-name: OutVertical;
-    animation-duration : 2s;
+    animation-duration : 1s;
     animation-delay    : 2.5s;
     animation-fill-mode: forwards;
   }
@@ -52,6 +53,31 @@ svg.MH{
     animation-delay    : 3.5s;
     animation-fill-mode: forwards;
   }
+   .bar_1{
+     animation-name: street;
+     animation-duration : 1.5s;
+     animation-delay    : 0.5s;
+     animation-fill-mode: forwards;
+   }
+   .bar_2{
+     animation-name: street;
+     animation-duration : 1.5s;
+     animation-delay    : 1.5s;
+     animation-fill-mode: forwards;
+   }
+   .bar_3{
+     animation-name: street;
+     animation-duration : 1.5s;
+     animation-delay    : 2.5s;
+     animation-fill-mode: forwards;
+   }
+   .bar_4{
+     animation-name: street;
+     animation-duration : 1.5s;
+     animation-delay    : 3.5s;
+     animation-fill-mode: forwards;
+   }
+   .bar_5{}
 }
 //--------------------------------------------------
 
