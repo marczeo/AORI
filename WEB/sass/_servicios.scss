@@ -176,8 +176,8 @@ img {
     text-align : center;
     font-size  : 1.3vw;
     box-sizing : border-box;
-    font-family: Prototype;
-    font-weight: 200;
+    font-family: Aspira;
+    font-weight: 600;
     width      : 100%;
     max-width  : $max_mediaquery;
     color      : black;
@@ -222,12 +222,15 @@ img {
     .descripcion{
         font-size: 1.1rem;
         font-family: 'Aspira';
-        font-style: italic;
+            text-align: center;
+    padding-left: 13%;
+    padding-right: 13%;
     }
     .titulo_subtema > p {
         font-size     : 1rem;
         text-transform: uppercase;
         vertical-align: 50%;
+        padding-right: 40%;
         @media screen and (min-width: $ipad_mediaquery) {
             font-size: 2vw;
         }
@@ -287,11 +290,20 @@ img {
 
 
  }
+ .grid_centrado{
+    text-align: center;
+    img {
+        max-width: 45%;
+        display  : inline-block;
+        margin   : 10px;
+        @media screen and (max-width: $mobile_mediaquery) {
+           max-width: 80%;
+       }
+ }
+ }
  .grid {
     position    : relative;
     display     : table;
-    margin-left : auto;
-    margin-right: auto;
     img {
         max-width: 45%;
         display  : inline-block;
@@ -304,18 +316,13 @@ img {
 .grid2 {
     position    : relative;
     display     : table;
-    margin-left : auto;
-    margin-right: auto;
     img {
         max-width: 30%;
         display  : inline-block;
-        margin   : 7px;
+        margin   : 16px;
         @media screen and (max-width: $max_mediaquery) {
            max-width: 80%;
        }
-   }
-   .centered{
-       text-align: center;
    }
 }
 .grid3 {
