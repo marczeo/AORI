@@ -7,15 +7,23 @@
         max-width: $ipad_mediaquery;
     }
     .unete_bgtitle {
-        font-size     : 3rem;
+        font-size     : 1.6rem;
         font-weight   : 200;
         font-style    : italic;
         text-transform: uppercase;
+        b{
+          font-style: normal;
+        }
     }
     img.icono {
         width    : 96%;
         margin   : 2%;
         max-width: 700px;
+    }
+    img.logo{
+      width: 60%;
+      margin: 0 20%;
+      max-width: 700px;
     }
     .subtitle_sm {
         font-size     : 1rem;
@@ -37,7 +45,13 @@
     .title-container-image {
         margin: 0 auto 40px;
     }
-
+    .text-footer{
+      padding-top: 50px;
+    }
+    .unete-footer{
+      font-weight: 400;
+      font-size: 1.3rem;
+    }
     .morph {
       -webkit-transition: all 1s ease-in-out;
       -moz-transition: all 1s ease-in-out;
