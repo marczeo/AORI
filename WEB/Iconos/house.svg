@@ -33,6 +33,7 @@
     @keyframes DrawLine {
       to { stroke-dashOffset:110; fill-opacity : 1;}
     }
+		
 
 </style>
 <g class="arrow_H Animate-Draw">

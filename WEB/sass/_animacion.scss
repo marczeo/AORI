@@ -55,7 +55,9 @@
   50%  {opacity: 0;}
   100% {opacity: 0;}
 }
-
+@keyframes turn {
+  to {rotate:90deg;}
+}
 //--------------------------------
 
 @-moz-keyframes fadeHorizontal {

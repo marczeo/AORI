@@ -77,9 +77,14 @@ svg.MH{
      animation-delay    : 3.5s;
      animation-fill-mode: forwards;
    }
-   .bar_5{}
 }
 //--------------------------------------------------
+.arrow_1{
+  animation-name: turn;
+  animation-duration : 1.5s;
+  animation-delay    : 3.5s;
+  animation-fill-mode: forwards;
+}
 
 svg.logo_principal {
     .st0 {
