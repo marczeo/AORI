@@ -219,10 +219,10 @@ p.italico{
     .box{
         margin: 50px 25%;
         padding: 20px 0;
-        box-shadow        : 6px 6px 11px 2px $gris1_aori_100;
-        -webkit-box-shadow: 6px 6px 11px 2px $gris1_aori_100;
-        -moz-box-shadow   : 6px 6px 11px 2px $gris1_aori_100;
-        box-shadow        : 6px 6px 11px 2px $gris1_aori_100;
+        box-shadow        : 6px 6px 11px 2px rgba(0, 0, 0, 0.18);
+        -webkit-box-shadow: 6px 6px 11px 2px rgba(0, 0, 0, 0.18);
+        -moz-box-shadow   : 6px 6px 11px 2px rgba(0, 0, 0, 0.18);
+        box-shadow        : 6px 6px 11px 2px rgba(0, 0, 0, 0.18);
         @media screen and (max-width: $ipad_mediaquery - 1px) {
             margin: 50px 0%;
         }
