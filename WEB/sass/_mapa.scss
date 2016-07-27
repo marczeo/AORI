@@ -19,8 +19,10 @@
             height: 260px;
         }
         @media screen and (min-width: $max_mediaquery) {
-
-          height: 440px;
+            height: 440px;
         }
     }
+    @media screen and (min-width: $ipad_mediaquery) {
+        max-width: $max_mediaquery;
+    }    
 }

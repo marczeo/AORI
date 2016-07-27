@@ -60,7 +60,7 @@ function init_map() {
         }]
     }];
     var myOptions = {
-        zoom: 6,
+        zoom: 14,
         scrollwheel: false,
         //draggable: false,
         center: new google.maps.LatLng(20.7018007, -103.3808581),
@@ -84,16 +84,7 @@ function init_map() {
     });
     infowindow2 = new google.maps.InfoWindow({
         content: '<strong>Aori Oficinas Comerciales</strong><br>Guadalajara,Jalisco<br>'
-    });
-
-    marker3 = new google.maps.Marker({
-        map: map,
-        position: new google.maps.LatLng(23.095497, -103.6113519),
-        icon: 'images/icono2.png'
-    });
-    infowindow3 = new google.maps.InfoWindow({
-        content: '<strong>Aori Zacatecas</strong><br>Próximamente<br>'
-    });
+    });   
 
     google.maps.event.addListener(marker, 'click', function() {
         infowindow.open(map, marker);
@@ -104,11 +95,6 @@ function init_map() {
         infowindow2.open(map, marker2);
     });
     infowindow2.open(map, marker2);
-    google.maps.event.addListener(marker3, 'click', function() {
-        infowindow3.open(map, marker3);
-    });
-    infowindow3.open(map, marker3);
-
 }
 google.maps.event.addDomListener(window, 'load', init_map);
 function showInfo(something) {
