@@ -2,67 +2,121 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <?xml-stylesheet type="text/css" media="screen" href="../css/style.css"?>
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="400px" y="400"
+<svg style="width:100%; height:100%;" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="761.013px" height="680.921px" viewBox="0 0 861.013 780.921" enable-background="new 0 0 881.013 800.921"
 	 xml:space="preserve">
 	 <style type="text/css">
 
-		.spin{
-		 		0%   {-webkit-transform:rotate(0deg);transform:rotate(0deg);transform-origin:50% 50%;}
-				100% {-webkit-transform:rotate(359deg);transform:rotate(359deg);transform-origin:50% 50%;}
-			}
-		@keyframes spin{
-				0%  {-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);transform-origin:50% 50%;}
-				100%{-webkit-transform:rotate(359deg);-ms-transform:rotate(359deg);transform:rotate(359deg);transform-origin:50% 50%;}
-			}
-			.faa-parent
-			.animated-hover:hover>
-			.faa-spin,.faa-spin.animated,.faa-spin
-			.animated-hover:hover{-webkit-animation:spin 1.5s linear infinite;animation:spin 1.5s linear infinite}
-			.faa-parent.animated-hover:hover>.faa-spin.faa-fast,.faa-spin.animated-hover.faa-fast:hover,.faa-spin.animated.faa-fast{-webkit-animation:spin .7s linear infinite;animation:spin .7s linear}.faa-parent.animated-hover:hover>.faa-spin.faa-slow,.faa-spin.animated-hover.faa-slow:hover,.faa-spin.animated.faa-slow{-webkit-animation:spin 2.2s linear;animation:spin 2.2s linear infinite}@-webkit-keyframes
 
+	 /* SPIN */
+	 @keyframes spin {
+	   0% {
+	     -webkit-transform: rotate(0deg);
+	     -ms-transform: rotate(0deg);
+	     transform: rotate(0deg);
+			 transform-origin: 440px 410px;
+
+	   }
+	   100% {
+	     -webkit-transform: rotate(359deg);
+	     -ms-transform: rotate(359deg);
+	     transform: rotate(359deg);
+			 transform-origin: 440px 410px;
+	   }
+	 }
+
+	 @keyframes spinn {
+		 0% {
+			 -webkit-transform: rotate(0deg);
+			 -ms-transform: rotate(0deg);
+			 transform: rotate(0deg);
+			 transform-origin: 440px 410px;
+
+		 }
+		 100% {
+			 -webkit-transform: rotate(-359deg);
+			 -ms-transform: rotate(-359deg);
+			 transform: rotate(-359deg);
+			 transform-origin: 440px 410px;
+		 }
+	 }
+
+	 .animated_1 {
+	 	-webkit-animation: spin 1.6s linear;
+	 	animation: spin 1.6s linear;
+	 }
+	 .animated_3 {
+	 	-webkit-animation: spin 1.2s linear;
+	 	animation: spin 1.2s linear;
+	 }
+	 .animated_4 {
+		-webkit-animation: spin 2.4s linear;
+		animation: spin 2.4s linear;
+	 }
+	 .animated_5 {
+	 -webkit-animation: spin 1.7s linear;
+	 animation: spin 1.7s linear;
+	 }
+	 .animated_6 {
+	   -webkit-animation: spin 2s linear;
+	   animation: spin 2s linear;
+	 }
+	 .animated_2 {
+	 	-webkit-animation: spinn 2.2s linear;
+	 	animation: spinn 2.2s linear;
+	 }
+	 .animated_7 {
+	 	-webkit-animation: spinn 1.2s linear;
+	 	animation: spinn 1.2s linear;
+	 }
+	 .animated_8 {
+	 -webkit-animation: spin 2.2s linear;
+	 animation: spin 2.2s linear;
+	 }
+//380.5065  340.4605
 	</style>
 //--------------------------------------Flechas--------------------
-<g>
+
+<g id="arrow_1" class="animated_1">
 	<path fill="#D9E4E8" d="M745.529,385.466c-0.715,0-1.311-0.559-1.35-1.28c-2.887-53.723-19.961-105.877-49.379-150.827
 		c-28.717-43.878-68.42-79.889-114.818-104.137c-0.662-0.346-0.92-1.163-0.572-1.826c0.346-0.661,1.168-0.917,1.826-0.571
 		c46.807,24.461,86.859,60.788,115.83,105.053c29.678,45.348,46.904,97.966,49.816,152.163c0.039,0.746-0.533,1.384-1.279,1.424
 		C745.578,385.465,745.554,385.466,745.529,385.466z"/>
 	<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#D9E4E8" points="747.269,402.236 758.248,380.337 732.273,382.505"/>
 </g>
-<g id="arrow_2">
+<g id="arrow_2" class="animated_2">
 	<path opacity="0.75" fill="#005CFF" d="M725.287,468.908l-8.215-23.381l-17.17,17.464l11.301,2.634
 		c-14.266,60.354-48.906,115.075-97.572,154.114c-24.35,19.531-51.531,34.748-80.791,45.223
 		c-30.273,10.84-62.082,16.336-94.537,16.336c-16.42,0-32.881-1.432-48.926-4.254c-0.742-0.127-1.436,0.363-1.568,1.098
 		c-0.129,0.736,0.363,1.439,1.1,1.568c16.197,2.85,32.816,4.293,49.395,4.293c32.768,0,64.883-5.549,95.451-16.494
 		c29.541-10.576,56.986-25.938,81.57-45.658c49.137-39.416,84.111-94.67,98.514-155.611L725.287,468.908z"/>
 </g>
-<g id="arrow_3" class="faa-spin animated">
+<g id="arrow_3" class="animated_3">
 	<path fill="#00429B" d="M282.245,241.368c-0.353,0-0.706-0.138-0.972-0.411c-0.52-0.536-0.507-1.393,0.03-1.914
 		c42.295-41.038,98.052-63.64,156.999-63.64c31.225,0,61.457,6.263,89.857,18.615c0.684,0.298,0.998,1.096,0.699,1.782
 		c-0.297,0.685-1.092,0.998-1.781,0.7c-28.055-12.203-57.924-18.392-88.775-18.392c-58.24,0-113.328,22.33-155.115,62.877
 		C282.925,241.241,282.584,241.368,282.245,241.368z"/>
 	<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#00429B" points="531.226,187.707 520.351,201.056 538.021,204.027 		"/>
 </g>
-<g id="arrow_4" >
+<g id="arrow_4" class="animated_4">
 	<path fill="#00429B" d="M139.304,262.451c-0.178,0-0.358-0.035-0.533-0.11c-0.686-0.294-1.004-1.09-0.709-1.777
 		c26.856-62.616,74.998-114.409,135.555-145.838c0.665-0.345,1.48-0.085,1.825,0.577c0.345,0.664,0.085,1.48-0.577,1.825
 		c-60.004,31.142-107.704,82.46-134.316,144.504C140.329,262.144,139.83,262.451,139.304,262.451z"/>
 	<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#00429B" points="270.186,108.34 278.33,123.512 287.865,108.34 		"/>
 </g>
-<g id="arrow_5" >
+<g id="arrow_5" class="animated_5">
 	<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#00429B" points="123.411,586.357 138.274,577.666 122.765,568.691 		"/>
 	<path fill="#00429B" d="M287.092,725.918c-0.192,0-0.387-0.041-0.573-0.127c-65.637-30.715-119.889-79.963-156.892-142.422
 		c-0.382-0.643-0.169-1.473,0.475-1.854c0.641-0.381,1.473-0.168,1.854,0.475c36.725,61.988,90.569,110.865,155.712,141.35
 		c0.677,0.316,0.969,1.121,0.651,1.799C288.089,725.629,287.602,725.918,287.092,725.918z"/>
 </g>
-<g id="arrow_6" class="faa-spin animated">
+<g id="arrow_6" class="animated_6">
 	<path fill="#292929" d="M634.318,666.459c-0.441,0-0.873-0.215-1.133-0.611c-0.41-0.625-0.234-1.465,0.391-1.873
 		c56.574-37.014,98.877-92.863,119.121-157.266c0.225-0.711,0.979-1.109,1.697-0.885c0.711,0.225,1.107,0.984,0.885,1.697
 		c-20.432,64.996-63.127,121.363-120.221,158.717C634.83,666.389,634.574,666.459,634.318,666.459z"/>
 	<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#292929" points="639.113,672.246 629.484,657.971 621.523,674.021 		"/>
 </g>
-<g id="arrow_7">
+<g id="arrow_7" class="animated_7">
 	<path fill="#D9E4E8" d="M184.75,402.236c-0.747,0-1.354-0.606-1.354-1.354c0-14.677,1.259-29.394,3.74-43.741
 		c10.108-58.452,40.707-111.922,86.161-150.561c45.976-39.082,104.575-60.605,165.005-60.605
 		c59.076,0,116.66,20.673,162.145,58.209c0.576,0.476,0.658,1.327,0.182,1.905c-0.475,0.574-1.326,0.657-1.904,0.182
@@ -70,7 +124,7 @@
 		c-2.455,14.196-3.7,28.758-3.7,43.28C186.103,401.629,185.497,402.236,184.75,402.236z"/>
 	<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#D9E4E8" points="173.97,403.062 185.771,420.56 195.529,400.884 		"/>
 </g>
-<g id="arrow_8">
+<g id="arrow_8" class="animated_8">
 	<path opacity="0.75" fill-rule="evenodd" clip-rule="evenodd" fill="#005CFF" d="M422.927,702.789
 		c-66.333-3.324-128.282-27.707-179.147-70.514c-49.501-41.658-84.894-99.057-99.677-161.643l9.444-2.172l-15.625-17.008
 		l-6.005,21.981l9.548-2.194c14.914,63.155,50.625,121.073,100.571,163.106c51.322,43.191,113.826,67.793,180.756,71.145
