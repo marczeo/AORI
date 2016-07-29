@@ -63,14 +63,14 @@ function init_map() {
         zoom: 14,
         scrollwheel: false,
         //draggable: false,
-        center: new google.maps.LatLng(20.7018007, -103.3808581),
+        center: new google.maps.LatLng(20.7017957, -103.37866940000004),
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         styles: styles
     };
     map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
     marker = new google.maps.Marker({
         map: map,
-        position: new google.maps.LatLng(20.7018007, -103.3808581),
+        position: new google.maps.LatLng(20.7017957, -103.37866940000004),
         icon: 'images/icono2.png'
     });
     infowindow = new google.maps.InfoWindow({
@@ -79,7 +79,7 @@ function init_map() {
 
     marker2 = new google.maps.Marker({
         map: map,
-        position: new google.maps.LatLng(20.6814282, -103.3821035),
+        position: new google.maps.LatLng(20.679709, -103.381338),
         icon: 'images/icono2.png'
     });
     infowindow2 = new google.maps.InfoWindow({
