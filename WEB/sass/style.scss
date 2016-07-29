@@ -161,8 +161,8 @@ p.title.telefono {
             border-radius: 100%;
         }
         img {
-            width: 3%;
-            top: 5px;
+            width: 40%;
+            top: 15px;
             position: relative;
         }
     }
@@ -179,6 +179,11 @@ p.title.telefono {
                 border: 1px solid;
                 border-radius: 100%;
             }
+            img{
+              width: 25%;
+              top: 15px;
+              position: relative;
+            }
         }
     }
     @media screen and (min-width: $max_mediaquery) {
@@ -188,6 +193,11 @@ p.title.telefono {
             height: 2.6rem;
             border: 1px solid ;
             border-radius: 100%;
+        }
+        img{
+          width: 25%;
+          top: 35px;
+          position: relative;
         }
     }
 }
