@@ -63,7 +63,7 @@ function init_map() {
         zoom: 14,
         scrollwheel: false,
         //draggable: false,
-        center: new google.maps.LatLng(20.693378,-103.382142),
+        center: new google.maps.LatLng(20.679709, -103.381338),
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         styles: styles
     };
