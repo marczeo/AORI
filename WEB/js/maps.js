@@ -63,7 +63,7 @@ function init_map() {
         zoom: 14,
         scrollwheel: false,
         //draggable: false,
-        center: new google.maps.LatLng(20.7017957, -103.37866940000004),
+        center: new google.maps.LatLng(20.693378,-103.382142),
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         styles: styles
     };
@@ -95,6 +95,15 @@ function init_map() {
         infowindow2.open(map, marker2);
     });
     infowindow2.open(map, marker2);
+
+    var bounds = new google.maps.LatLngBounds();
+    bounds.extend(marker.getPosition());
+    bounds.extend(marker2.getPosition());
+    map.fitBounds(bounds);
+
+    google.maps.event.addDomListener(window, 'resize', function() {
+        map.fitBounds(bounds);
+    });
 }
 google.maps.event.addDomListener(window, 'load', init_map);
 function showInfo(something) {

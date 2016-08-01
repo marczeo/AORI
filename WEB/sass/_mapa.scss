@@ -15,7 +15,7 @@
     #gmap_canvas {
         width : 100%;
         height: 200px;
-        @media screen and (min-width: $ipad_mediaquery) {
+        @media screen and (min-width: $ipad_mediaquery_real) {
             height: 260px;
         }
         @media screen and (min-width: $max_mediaquery) {
