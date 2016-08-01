@@ -185,14 +185,13 @@ p.italico{
     font-weight: 600;
 }
 .direcciones{
-
+    
     margin     : auto;
     font-family: 'Aspira';
     text-align: center;
     font-size : 0.8rem;
     color     : #2c3e50;
-    width     : 100%;
-    cursor    : pointer;
+    width     : 100%;    
     .something {
         text-transform: uppercase;
         padding       : 1px 10px;
@@ -214,6 +213,7 @@ p.italico{
         .telefono {
             font-weight: 200;
             color: black;
+            cursor    : pointer;
         }
     }
     .box{

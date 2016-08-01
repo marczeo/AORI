@@ -74,7 +74,7 @@ var anchor, elem;
     $window.on('scroll', check_if_in_view);
     $window.on('scroll resize', check_if_in_view);
     $window.trigger('scroll');
-    $('.something').click(function() {
+    $('.direccion').click(function() {
         if ($(this).attr("name") == "headquarters") {
             map.setZoom(16);
             map.setCenter(new google.maps.LatLng(20.7018007, -103.3808581));
