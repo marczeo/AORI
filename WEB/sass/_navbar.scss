@@ -198,9 +198,19 @@ nav.navbar {
         position: absolute;
         float: left;
         margin: 0;
-        width: 16.5%;
-        max-width: 200px;
+        width: 100%;
+        max-width: 40%;
         top: 0px;
-        z-index: 9999;
+        z-index: 9999;        
+    }
+    @media screen and (min-width:$ipad_mediaquery_real) {
+        .menu_logo{
+            max-width:30%;
+        }
+    }
+    @media screen and (min-width: $max_mediaquery) {
+        .menu_logo{
+            max-width: 20%;
+        }
     }
 }
