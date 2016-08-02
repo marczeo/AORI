@@ -89,6 +89,11 @@
             font-family: 'Aspira';
             white-space: nowrap;
         }
+        &:hover {
+            background-color: black;
+            color: white;
+            font-style: italic;
+        }
     }
     .left_button {
         left  : 14%;
