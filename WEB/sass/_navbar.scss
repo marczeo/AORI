@@ -27,6 +27,7 @@
 
     padding-top: 10px 0;
 }
+
 .menu li {
     display: inline-block;
     position: relative;
@@ -190,6 +191,11 @@
         background: $gris1_aori_100;
         border-left: 3px solid #ffffff;
         color: $gris3_aori_100;
+    }
+}
+@media(min-width: $max_mediaquery){
+    .element{
+        padding: 10px 0;
     }
 }
 /*end media queries*/
