@@ -205,12 +205,12 @@ nav.navbar {
     }
     @media screen and (min-width:$ipad_mediaquery_real) {
         .menu_logo{
-            max-width:30%;
+            max-width:25%;
         }
     }
     @media screen and (min-width: $max_mediaquery) {
         .menu_logo{
-            max-width: 20%;
+            max-width: 15%;
         }
     }
 }
