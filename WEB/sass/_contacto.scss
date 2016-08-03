@@ -187,8 +187,7 @@ p.italico{
 .direcciones{
     
     margin     : auto;
-    font-family: 'Aspira';
-    text-align: center;
+    font-family: 'Aspira';    
     font-size : 0.8rem;
     color     : #2c3e50;
     width     : 100%;    
@@ -197,7 +196,7 @@ p.italico{
         padding       : 1px 10px;
         i {
             color: $azul2_aori_100;
-            font-size: 3.6rem;
+            font-size: 2.5rem;
         }
         i.telefono-icon{
             font-size: 2.5rem;
@@ -214,11 +213,18 @@ p.italico{
             font-weight: 200;
             color: black;
             cursor    : pointer;
+            display: table;
+            border-collapse: separate;
+            border-spacing: 5px;
+            span{
+                display: table-cell;
+                vertical-align: middle;
+            }
         }
     }
     .box{
         margin: 50px 25%;
-        padding: 20px 0;
+        padding: 20px 20px;
         box-shadow        : 6px 6px 11px 2px rgba(0, 0, 0, 0.18);
         -webkit-box-shadow: 6px 6px 11px 2px rgba(0, 0, 0, 0.18);
         -moz-box-shadow   : 6px 6px 11px 2px rgba(0, 0, 0, 0.18);
