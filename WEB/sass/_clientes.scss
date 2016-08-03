@@ -6,17 +6,18 @@
         display: inline-block;
         text-align: center;
         img {
-            width: 30%;
+            width: 152px;
+            margin: 10px;
             display: inline-block;
             vertical-align: middle;
             transition: 0.5s;
             -webkit-filter: grayscale(100%);
             filter: grayscale(100%);
-            @media screen and (min-width: $ipad_mediaquery) {
-                width: 14%;
-                //border-bottom: 1px solid;
-                line-height: 10px;
-            }
+            // @media screen and (min-width: $ipad_mediaquery) {
+            //     width: 14%;
+            //     //border-bottom: 1px solid;
+            //     line-height: 10px;
+            // }
             &:hover {
                 -webkit-filter: none;
                 filter: none;
