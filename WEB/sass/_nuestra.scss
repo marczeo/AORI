@@ -8,10 +8,6 @@
                         -o-transform : scale(1.1); /* Opera */
                         -ms-transform : scale(1.1); /* IE9 */
                         display:inline-block;
-                        padding:0 8px;
-                        @media screen and (max-width:$ipad_mediaquery){
-                        padding:0;
-                        }
     }
     &:hover .zoom_ipad{
       @media screen and (max-width:$ipad_mediaquery){
