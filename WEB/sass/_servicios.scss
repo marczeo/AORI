@@ -93,6 +93,7 @@
                 color           : white;
                 font-style      : italic;
             }
+            //nlabalbalba
         }
         .left_button {
             left  : 14%;
@@ -272,6 +273,11 @@
         font-family   : 'Aspira';
         margin        : 10px 25px;
         cursor        : pointer;
+        &:hover {
+            background-color: black;
+            color           : white;
+            font-style      : italic;
+        }
     }
     .brackets {
         padding: 5px;
