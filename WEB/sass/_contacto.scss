@@ -120,7 +120,7 @@ p.italico{
         padding   : 10px 20px;
         background: $gris1_aori_100;
         border    : none;
-        color     : white;        
+        color     : white;
         font-style: italic;
         font-weight: bold;
         width: 30%;
@@ -185,12 +185,12 @@ p.italico{
     font-weight: 600;
 }
 .direcciones{
-    
+
     margin     : auto;
-    font-family: 'Aspira';    
+    font-family: 'Aspira';
     font-size : 0.8rem;
     color     : #2c3e50;
-    width     : 100%;    
+    width     : 100%;
     .something {
         text-transform: uppercase;
         padding       : 1px 10px;
@@ -199,8 +199,9 @@ p.italico{
             font-size: 2rem;
         }
         .nombre {
-            font-size: 1.4rem;
+            font-size: 1.5rem;
             color: black;
+            font-weight: 700;
             img{
                 max-width: 40px;
             }
@@ -216,6 +217,7 @@ p.italico{
             span{
                 display: table-cell;
                 vertical-align: middle;
+                font-size: 1rem;
             }
         }
     }
@@ -232,6 +234,26 @@ p.italico{
         a{
             text-decoration: none;
         }
-        
+
     }
+}
+.siguenos_facebook{
+  display: block;
+  margin: auto;
+  text-align: center;
+  p,.facebook{
+    display: inline-block;
+  }
+  .facebook{
+    width: 190px;
+    margin: 0 10px;
+  }
+  img{
+    display: block;
+  }
+  p{
+    font-size: 35pt;
+    font-weight: 700;
+    margin: 0;
+  }
 }
