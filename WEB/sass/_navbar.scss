@@ -134,6 +134,10 @@
     .mobile-menu {
         display: block;
         text-align: right;
+        padding: 10px;
+        @media screen and (min-width:$ipad_mediaquery_real) {
+            padding: 15px;            
+        }
     }
     .mobile-menu a{
         font-family: Aspira;
@@ -204,19 +208,21 @@ nav.navbar {
         position: absolute;
         float: left;
         margin: 0;
-        width: 100%;
-        max-width: 40%;
+        width: 40%;
+        max-width: 128px;
         top: 0px;
         z-index: 9999;        
     }
     @media screen and (min-width:$ipad_mediaquery_real) {
         .menu_logo{
-            max-width:25%;
+            width:25%;
+            max-width: 192px;
         }
     }
     @media screen and (min-width: $max_mediaquery) {
         .menu_logo{
-            max-width: 15%;
+            width: 15%;
+            max-width: 220px;
         }
     }
 }
