@@ -71,7 +71,7 @@ function init_map() {
     marker = new google.maps.Marker({
         map: map,
         position: new google.maps.LatLng(20.7017957, -103.37866940000004),
-        icon: 'images/icono2.png'
+        icon: 'images/map-pin.png'
     });
     infowindow = new google.maps.InfoWindow({
         content: '<strong>Aori Headquarters</strong><br>Guadalajara,Jalisco<br>'
@@ -80,7 +80,7 @@ function init_map() {
     marker2 = new google.maps.Marker({
         map: map,
         position: new google.maps.LatLng(20.679709, -103.381338),
-        icon: 'images/icono2.png'
+        icon: 'images/map-pin.png'
     });
     infowindow2 = new google.maps.InfoWindow({
         content: '<strong>Aori Oficinas Comerciales</strong><br>Guadalajara,Jalisco<br>'
