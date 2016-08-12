@@ -1,3 +1,13 @@
+.align{
+  margin: 5% 0 3% 13%;
+  @media screen and(min-width: 320px){
+    width: 80%;
+  }
+  @media screen and(min-width: 1280px){
+    width: 68%;
+  }
+
+}
 .odd {
     background: $gris2_aori_25;
 }
