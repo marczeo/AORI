@@ -231,6 +231,7 @@ p.italico{
         box-shadow        : 6px 6px 11px 2px rgba(0, 0, 0, 0.18);
         @media screen and (max-width: $ipad_mediaquery - 1px) {
             margin: 50px 0%;
+            padding: 20px 20px;
         }
         a{
             text-decoration: none;
