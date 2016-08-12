@@ -203,6 +203,9 @@
     width      : 100%;
     max-width  : $max_mediaquery;
     color      : black;
+    .flecha-padding{
+        padding-bottom: 25px;
+    }
 }
 .contenedor_2 {
     .item {
