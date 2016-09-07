@@ -32,31 +32,22 @@
 @-webkit-keyframes fade {
     100%  {opacity:1;}
 }
-/*----------------------------*/
-
-//Animation for the Mision
-@-webkit-keyframes OutVertical {
-  0%   {opacity: 1;}
-	35%  {transform: translateY(-40px)}
-  50%  {opacity: 0;}
-  100% {opacity: 0;}
+/*--------ANIMACION DE NUESTRA MISIÓN-----------*/
+@keyframes RedMision{
+  0% {opacity: 0;}
+  100%   {opacity: 1;}
 }
-@-webkit-keyframes contorno {
-  0%   {opacity: 0;}
-	35%  {opacity: 0.01}
-  50%  {opacity: 0.09;}
-  100% {opacity: 0.2;}
+@keyframes TiendaShow{
+  0% {opacity: 0;}
+  100%   {opacity: 1;}
 }
-@keyframes dash {
-  to {stroke-dashoffset: 0;}
+@keyframes GraficaZoom{
+  0% {opacity: 0;}
+  100%   {opacity: 1;}
 }
-@-webkit-keyframes street {
-  0%   {opacity: 1;}
-  50%  {opacity: 0;}
-  100% {opacity: 0;}
-}
-@keyframes turn {
-  to {rotate:90deg;}
+@keyframes DivisasShow{
+  0% {opacity: 0;}
+  100%   {opacity: 1;}
 }
 //--------------------------------
 

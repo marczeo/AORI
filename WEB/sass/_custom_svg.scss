@@ -10,73 +10,35 @@ svg.circle_shape {
         fill: $azul2_aori_100;
     }
 }
-//--------------------------------------------------
-svg.MH{
-    .arrow_H{
-      opacity: .2;
-      fill:#345CFA;
-    }
-    .path {
-    stroke-dasharray: 1100;
-    stroke-dashoffset: 1100;
-    animation: dash 3s linear forwards;
-    animation-delay: 4s;
-  }
-  .punta{
-    stroke-dasharray: 1100;
-    stroke-dashoffset: 1100;
-    animation: dash 2s linear forwards;
-    animation-delay: 5.2s;
-  }
-  .house_bg_4{
-    animation-name: OutVertical;
-    animation-duration : 1s;
-    animation-delay    : 0.5s;
+//--------------ANIMACION NUESTRA MISIÓN--------------------
+svg.MH {
+  #RED{
+    opacity: 0;
+  	animation-name: RedMision;
+  	animation-duration: 1s;
     animation-fill-mode: forwards;
   }
-
-  .house_bg_3{
-    animation-name: OutVertical;
-    animation-duration : 1s;
-    animation-delay    : 1.5s;
+  #DINERO{
+    opacity: 0;
+    animation-name: DivisasShow;
+    animation-delay: 1s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
   }
-  .house_bg_2{
-    animation-name: OutVertical;
-    animation-duration : 1s;
-    animation-delay    : 2.5s;
+  #TIENDA{
+    opacity: 0;
+    animation-name: TiendaShow;
+    animation-delay: 2s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
   }
-  .house_bg_1{
-    animation-name: OutVertical;
-    animation-duration : 1s;
-    animation-delay    : 3.5s;
+  #GRAFICAS{
+    opacity: 0;
+    animation-name: GraficaZoom;
+    animation-delay: 3s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
   }
-   .bar_1{
-     animation-name: street;
-     animation-duration : 1.5s;
-     animation-delay    : 0.5s;
-     animation-fill-mode: forwards;
-   }
-   .bar_2{
-     animation-name: street;
-     animation-duration : 1.5s;
-     animation-delay    : 1.5s;
-     animation-fill-mode: forwards;
-   }
-   .bar_3{
-     animation-name: street;
-     animation-duration : 1.5s;
-     animation-delay    : 2.5s;
-     animation-fill-mode: forwards;
-   }
-   .bar_4{
-     animation-name: street;
-     animation-duration : 1.5s;
-     animation-delay    : 3.5s;
-     animation-fill-mode: forwards;
-   }
 }
 //--------------------------------------------------
 .arrow_1{
