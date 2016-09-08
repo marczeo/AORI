@@ -34,19 +34,24 @@
 }
 /*--------ANIMACION DE NUESTRA MISIÓN-----------*/
 @keyframes RedMision{
-  0% {opacity: 0;}
+  0%     {opacity: 0;}
   100%   {opacity: 1;}
 }
 @keyframes TiendaShow{
-  0% {opacity: 0;}
+  0%     {opacity: 0;}
   100%   {opacity: 1;}
 }
 @keyframes GraficaZoom{
-  0% {opacity: 0;}
-  100%   {opacity: 1;}
+  0%     {opacity: 0;}
+  100%   {
+    opacity: 1;
+    width: 1250px;
+    height: 500px; 
+    border: 1px solid black;
+  }
 }
 @keyframes DivisasShow{
-  0% {opacity: 0;}
+  0%     {opacity: 0;}
   100%   {opacity: 1;}
 }
 //--------------------------------

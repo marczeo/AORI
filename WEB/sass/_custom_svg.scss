@@ -15,28 +15,28 @@ svg.MH {
   #RED{
     opacity: 0;
   	animation-name: RedMision;
-  	animation-duration: 1s;
+  	animation-duration: 1.3s;
     animation-fill-mode: forwards;
   }
   #DINERO{
     opacity: 0;
     animation-name: DivisasShow;
-    animation-delay: 1s;
-    animation-duration: 1s;
+    animation-delay: 1.3s;
+    animation-duration: 1.3s;
     animation-fill-mode: forwards;
   }
   #TIENDA{
     opacity: 0;
     animation-name: TiendaShow;
-    animation-delay: 2s;
-    animation-duration: 1s;
+    animation-delay: 2.6s;
+    animation-duration: 1.3s;
     animation-fill-mode: forwards;
   }
   #GRAFICAS{
     opacity: 0;
     animation-name: GraficaZoom;
-    animation-delay: 3s;
-    animation-duration: 1s;
+    animation-delay: 3.9s;
+    animation-duration: 1.3s;
     animation-fill-mode: forwards;
   }
 }
