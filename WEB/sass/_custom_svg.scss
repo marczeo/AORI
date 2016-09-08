@@ -10,33 +10,33 @@ svg.circle_shape {
         fill: $azul2_aori_100;
     }
 }
-//--------------ANIMACION NUESTRA MISIÓN--------------------
+//--------------ANIMACIÓN NUESTRA MISIÓN--------------------
 svg.MH {
   #RED{
     opacity: 0;
   	animation-name: RedMision;
-  	animation-duration: 1.3s;
+  	animation-duration: 1.5s;
     animation-fill-mode: forwards;
   }
   #DINERO{
     opacity: 0;
     animation-name: DivisasShow;
-    animation-delay: 1.3s;
-    animation-duration: 1.3s;
+    animation-delay: 1.5s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
   }
   #TIENDA{
     opacity: 0;
     animation-name: TiendaShow;
-    animation-delay: 2.6s;
-    animation-duration: 1.3s;
+    animation-delay: 3s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
   }
   #GRAFICAS{
     opacity: 0;
     animation-name: GraficaZoom;
-    animation-delay: 3.9s;
-    animation-duration: 1.3s;
+    animation-delay: 4.5s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
   }
 }
