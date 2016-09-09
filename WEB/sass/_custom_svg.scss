@@ -32,12 +32,45 @@ svg.MH {
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
   }
-  #GRAFICAS{
-    opacity: 0;
-    animation-name: GraficaZoom;
-    animation-delay: 4.5s;
-    animation-duration: 1.5s;
-    animation-fill-mode: forwards;
+}
+.Grafica80{
+  position: absolute;
+  opacity: 0;
+  animation-name: Gra804K;
+  animation-delay: 4.5s;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  @media screen and (max-width: 2560px){
+    animation-name: Gra80_25K;
+  }
+  @media screen and (max-width: 2000px){
+    animation-name: Gra80_2K;
+  }
+  @media screen and (max-width: 1366px){
+    animation-name: Gra80_1366;
+  }
+  @media screen and (max-width: 1280px){
+    animation-name: Gra80_1280;
+  }
+}
+.Grafica20{
+  position: absolute;
+  opacity: 0;
+  animation-name: Gra204K;
+  animation-delay: 4.5s;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  @media screen and (max-width: 2560px){
+    animation-name: Gra20_25K;
+  }
+  @media screen and (max-width: 2000px){
+    animation-name: Gra20_2K;
+  }
+  @media screen and (max-width: 1366px){
+
+  }
+  @media screen and (max-width: 1280px){
+    animation-name: Gra20_1280;
   }
 }
 //--------------------------------------------------
