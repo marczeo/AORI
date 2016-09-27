@@ -199,7 +199,7 @@ p.italico{
             font-size: 2rem;
         }
         .nombre {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             color: black;
             font-weight: 700;
             img{
@@ -217,7 +217,7 @@ p.italico{
             span{
                 display: table-cell;
                 vertical-align: middle;
-                font-size: 1rem;
+                font-size: 0.7rem;
                 padding-right: 10px;
             }
         }
@@ -236,6 +236,7 @@ p.italico{
         a{
             text-decoration: none;
         }
+        p{display: inline;}
 
     }
 }
