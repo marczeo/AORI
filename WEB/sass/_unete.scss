@@ -14,6 +14,13 @@
         b{
           font-style: normal;
         }
+        @media screen and (max-width: $mobile_mediaquery) {
+            font-size: 1.6rem;
+        }
+        @media screen and (max-width: $ipad_mediaquery - 1px) {
+          font-size: 4.6vw;
+        }
+
     }
     img.icono {
         width    : 96%;
@@ -36,11 +43,17 @@
     .unetetxt {
         font-weight: 400;
         font-size  : 1rem;
+        @media screen and (max-width: $mobile_mediaquery) {
+          font-size: 0.8rem;
+        }
     }
     .unete_title {
         font-weight: 400;
         font-size  : 1.6rem;
         font-family: 'Prototype';
+        @media screen and (max-width: $mobile_mediaquery) {
+          font-size: 1rem;
+        }
     }
     .title-container-image {
         margin: 0 auto 40px;
