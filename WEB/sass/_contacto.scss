@@ -223,6 +223,7 @@ p.italico{
         }
     }
     .box{
+        display: flex;
         margin: 50px 25%;
         padding: 20px 55px;
         box-shadow        : 6px 6px 11px 2px rgba(0, 0, 0, 0.18);
@@ -237,6 +238,14 @@ p.italico{
             text-decoration: none;
         }
         p{display: inline;}
+        div{
+            width: 50%;
+            .fotos{
+                float: right;
+                max-width: 75%;
+            }
+            
+        }
 
     }
 }
