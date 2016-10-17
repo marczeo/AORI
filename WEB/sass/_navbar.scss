@@ -100,8 +100,8 @@
 }
 /*Nivel 3 igual que el 2, solo cambia posicion*/
 .menu ul ul {
-    left: 251px;
-    top: 0;
+    left: 350px;
+    top: -10px;
 }
 /*Mobile*/
 .mobile-menu {
@@ -186,6 +186,10 @@
     .menu ul li{
         margin-top: -1px;
 
+    }
+    .menu ul ul {
+        text-align: left;
+        width: 50%;        
     }
     .menu li span{
         display: inline-block;
